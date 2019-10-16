@@ -73,10 +73,14 @@ CREATE TABLE public.schema_migrations (
 
 CREATE TABLE public.users (
     id bigint NOT NULL,
-    name character varying,
-    email character varying,
+    name character varying NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
-    updated_at timestamp(6) without time zone NOT NULL
+    updated_at timestamp(6) without time zone NOT NULL,
+    email character varying DEFAULT ''::character varying NOT NULL,
+    encrypted_password character varying DEFAULT ''::character varying NOT NULL,
+    reset_password_token character varying,
+    reset_password_sent_at timestamp without time zone,
+    remember_created_at timestamp without time zone
 );
 
 
@@ -160,6 +164,20 @@ CREATE INDEX index_friendships_on_requester_id ON public.friendships USING btree
 
 
 --
+-- Name: index_users_on_email; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX index_users_on_email ON public.users USING btree (email);
+
+
+--
+-- Name: index_users_on_reset_password_token; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX index_users_on_reset_password_token ON public.users USING btree (reset_password_token);
+
+
+--
 -- Name: friendships fk_rails_a87446a2d6; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
@@ -183,6 +201,7 @@ SET search_path TO "$user", public;
 
 INSERT INTO "schema_migrations" (version) VALUES
 ('20191014034325'),
-('20191014034422');
+('20191014034422'),
+('20191016165948');
 
 
