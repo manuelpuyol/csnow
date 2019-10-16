@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class Friendship < ApplicationRecord
-  belongs_to :requester
-  belongs_to :receiver
+  belongs_to :requester, class_name: 'Contract'
+  belongs_to :receiver, class_name: 'Contract'
 end
 
 # == Schema Information

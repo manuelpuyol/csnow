@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'node_modules/**/*'
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
