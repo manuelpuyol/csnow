@@ -48,6 +48,8 @@ default: &default
     - .gif
     - .jpeg
     - .jpg
+    - .ts
+    - .tsx
 
 development:
   <<: *default
@@ -74,7 +76,6 @@ development:
       'Access-Control-Allow-Origin': '*'
     watch_options:
       ignored: '**/node_modules/**'
-
 
 test:
   <<: *default

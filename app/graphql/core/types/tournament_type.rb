@@ -13,7 +13,7 @@ module Core
       field :finished, Boolean, null: false
 
       # Relations
-      field :champions, TeamType, null: true
+      field :champions, TeamType, null: truex
       field :rosters, [RosterType], null: false, preload: :rosters
       field :teams, [TeamType], null: false, preload: :teams
     end
