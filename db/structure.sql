@@ -130,6 +130,39 @@ ALTER SEQUENCE public.matches_id_seq OWNED BY public.matches.id;
 
 
 --
+-- Name: player_rankings; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.player_rankings (
+    id bigint NOT NULL,
+    player_id bigint NOT NULL,
+    rank integer NOT NULL,
+    ranked_at timestamp without time zone NOT NULL,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: player_rankings_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.player_rankings_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: player_rankings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.player_rankings_id_seq OWNED BY public.player_rankings.id;
+
+
+--
 -- Name: player_rosters; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -396,6 +429,13 @@ ALTER TABLE ONLY public.matches ALTER COLUMN id SET DEFAULT nextval('public.matc
 
 
 --
+-- Name: player_rankings id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.player_rankings ALTER COLUMN id SET DEFAULT nextval('public.player_rankings_id_seq'::regclass);
+
+
+--
 -- Name: player_rosters id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -474,6 +514,14 @@ ALTER TABLE ONLY public.likes
 
 ALTER TABLE ONLY public.matches
     ADD CONSTRAINT matches_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: player_rankings player_rankings_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.player_rankings
+    ADD CONSTRAINT player_rankings_pkey PRIMARY KEY (id);
 
 
 --
@@ -594,6 +642,13 @@ CREATE INDEX index_matches_on_upper_roster_id ON public.matches USING btree (upp
 --
 
 CREATE INDEX index_matches_on_winner_id ON public.matches USING btree (winner_id);
+
+
+--
+-- Name: index_player_rankings_on_player_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_player_rankings_on_player_id ON public.player_rankings USING btree (player_id);
 
 
 --
@@ -718,6 +773,14 @@ ALTER TABLE ONLY public.friendships
 
 
 --
+-- Name: player_rankings fk_rails_d09ba54706; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.player_rankings
+    ADD CONSTRAINT fk_rails_d09ba54706 FOREIGN KEY (player_id) REFERENCES public.players(id);
+
+
+--
 -- Name: friendships fk_rails_e507fb3bae; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
@@ -758,6 +821,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191017013157'),
 ('20191017014317'),
 ('20191017020201'),
-('20191017021426');
+('20191017021426'),
+('20191017024856');
 
 

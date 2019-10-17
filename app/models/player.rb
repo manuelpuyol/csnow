@@ -1,11 +1,14 @@
 # frozen_string_literal: true
 
 class Player < ApplicationRecord
-  has_many :player_rosters
+  alias_attribute :rankings, :player_rankings
+
+  has_many :player_rosters, dependent: :destroy
   has_many :rosters, through: :player_rosters
   has_many :teams, through: :rosters
   has_many :tournament_placements, through: :rosters
   has_many :tournaments, through: :tournament_placements
+  has_many :player_rankings, dependent: :destroy
 
   validates :name, presence: true
   validates :nationality, presence: true

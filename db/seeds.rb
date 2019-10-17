@@ -168,3 +168,51 @@ TeamLike.create!(
   user: manuel,
   likeable: mibr
 )
+
+PlayerRanking.create!(
+  player: coldzera,
+  rank: 10,
+  ranked_at: Time.zone.parse('31/12/2018')
+)
+
+PlayerRanking.create!(
+  player: coldzera,
+  rank: 1,
+  ranked_at: Time.zone.parse('31/12/2017')
+)
+
+PlayerRanking.create!(
+  player: coldzera,
+  rank: 1,
+  ranked_at: Time.zone.parse('31/12/2016')
+)
+
+PlayerRanking.create!(
+  player: fer,
+  rank: 3,
+  ranked_at: Time.zone.parse('31/12/2017')
+)
+
+PlayerRanking.create!(
+  player: fer,
+  rank: 15,
+  ranked_at: Time.zone.parse('31/12/2016')
+)
+
+PlayerRanking.create!(
+  player: fnx,
+  rank: 19,
+  ranked_at: Time.zone.parse('31/12/2016')
+)
+
+PlayerRanking.create!(
+  player: fallen,
+  rank: 6,
+  ranked_at: Time.zone.parse('31/12/2017')
+)
+
+PlayerRanking.create!(
+  player: fallen,
+  rank: 2,
+  ranked_at: Time.zone.parse('31/12/2016')
+)
