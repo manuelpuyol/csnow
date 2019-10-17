@@ -2,6 +2,8 @@
 
 class Team < ApplicationRecord
   has_many :rosters, dependent: :destroy
+  has_many :tournament_placements, through: :rosters
+  has_many :tournaments, through: :tournament_placements
 
   validates :name, presence: true
   validates :logo, presence: true

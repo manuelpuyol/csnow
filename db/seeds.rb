@@ -48,9 +48,32 @@ lucas1 = Player.create!(
   nationality: :brazilian
 )
 
+coldzera = Player.create!(
+  name: 'Marcelo David',
+  nickname: 'coldzera',
+  nationality: :brazilian
+)
+
+fnx = Player.create!(
+  name: 'Lincoln Lau',
+  nickname: 'fnx',
+  nationality: :brazilian
+)
+
 mibr = Team.create!(
   name: 'MIBR',
-  logo: 'http://ssl.gstatic.com/onebox/media/sports/logos/esports/sTulRxt2BNR0c21I_lQTeQ_64x64.png'
+  logo: 'https://liquipedia.net/counterstrike/File:MIBR_2018.png'
+)
+
+sk = Team.create!(
+  name: 'SK Gaming',
+  logo: 'https://liquipedia.net/counterstrike/File:SK_Gaming.png'
+)
+
+sk2016 = Roster.create!(
+  team: sk,
+  start_at: Time.zone.parse('01/07/2016'),
+  end_at: Time.zone.parse('03/12/2016')
 )
 
 mibr2019 = Roster.create!(
@@ -65,13 +88,38 @@ PlayerRoster.create!(
 )
 
 PlayerRoster.create!(
+  roster: sk2016,
+  player: fer
+)
+
+PlayerRoster.create!(
   roster: mibr2019,
+  player: fallen
+)
+
+PlayerRoster.create!(
+  roster: sk2016,
   player: fallen
 )
 
 PlayerRoster.create!(
   roster: mibr2019,
   player: taco
+)
+
+PlayerRoster.create!(
+  roster: sk2016,
+  player: taco
+)
+
+PlayerRoster.create!(
+  roster: sk2016,
+  player: coldzera
+)
+
+PlayerRoster.create!(
+  roster: sk2016,
+  player: fnx
 )
 
 PlayerRoster.create!(
@@ -82,6 +130,13 @@ PlayerRoster.create!(
 PlayerRoster.create!(
   roster: mibr2019,
   player: lucas1
+)
+
+cologne2016 = Tournament.create!(
+  name: 'ESL One Cologne',
+  start_at: Time.zone.parse('05/07/2016'),
+  end_at: Time.zone.parse('10/07/2016'),
+  location: 'Cologne'
 )
 
 esl = Tournament.create!(
@@ -95,4 +150,11 @@ Match.create!(
   tournament: esl,
   start_at: esl.start_at,
   stage: Match.stages[:groups]
+)
+
+TournamentPlacement.create!(
+  tournament: cologne2016,
+  roster: sk2016,
+  place: 1,
+  prize: 500_000
 )

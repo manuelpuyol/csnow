@@ -4,9 +4,11 @@ class Roster < ApplicationRecord
   belongs_to :team
   has_many :player_rosters
   has_many :players, through: :player_rosters
+  has_many :tournament_placements
+  has_many :tournaments, through: :tournament_placements
 
   validates :start_at, presence: true
-  validates :end_at, after: { attr: start_at, null: true }
+  validates :end_at, after: { attr: :start_at, null: true }
 end
 
 # == Schema Information

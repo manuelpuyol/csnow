@@ -237,6 +237,40 @@ ALTER SEQUENCE public.teams_id_seq OWNED BY public.teams.id;
 
 
 --
+-- Name: tournament_placements; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.tournament_placements (
+    id bigint NOT NULL,
+    tournament_id bigint NOT NULL,
+    roster_id bigint NOT NULL,
+    place integer NOT NULL,
+    prize integer DEFAULT 0 NOT NULL,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: tournament_placements_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.tournament_placements_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: tournament_placements_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.tournament_placements_id_seq OWNED BY public.tournament_placements.id;
+
+
+--
 -- Name: tournaments; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -349,6 +383,13 @@ ALTER TABLE ONLY public.teams ALTER COLUMN id SET DEFAULT nextval('public.teams_
 
 
 --
+-- Name: tournament_placements id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.tournament_placements ALTER COLUMN id SET DEFAULT nextval('public.tournament_placements_id_seq'::regclass);
+
+
+--
 -- Name: tournaments id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -424,6 +465,14 @@ ALTER TABLE ONLY public.schema_migrations
 
 ALTER TABLE ONLY public.teams
     ADD CONSTRAINT teams_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: tournament_placements tournament_placements_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.tournament_placements
+    ADD CONSTRAINT tournament_placements_pkey PRIMARY KEY (id);
 
 
 --
@@ -506,6 +555,20 @@ CREATE INDEX index_rosters_on_team_id ON public.rosters USING btree (team_id);
 
 
 --
+-- Name: index_tournament_placements_on_roster_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_tournament_placements_on_roster_id ON public.tournament_placements USING btree (roster_id);
+
+
+--
+-- Name: index_tournament_placements_on_tournament_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_tournament_placements_on_tournament_id ON public.tournament_placements USING btree (tournament_id);
+
+
+--
 -- Name: index_users_on_email; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -525,6 +588,14 @@ CREATE UNIQUE INDEX index_users_on_reset_password_token ON public.users USING bt
 
 ALTER TABLE ONLY public.matches
     ADD CONSTRAINT fk_rails_2f3503a044 FOREIGN KEY (lower_roster_id) REFERENCES public.rosters(id);
+
+
+--
+-- Name: tournament_placements fk_rails_34eb0347b8; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.tournament_placements
+    ADD CONSTRAINT fk_rails_34eb0347b8 FOREIGN KEY (tournament_id) REFERENCES public.tournaments(id);
 
 
 --
@@ -557,6 +628,14 @@ ALTER TABLE ONLY public.matches
 
 ALTER TABLE ONLY public.matches
     ADD CONSTRAINT fk_rails_9d0deeb219 FOREIGN KEY (winner_id) REFERENCES public.rosters(id);
+
+
+--
+-- Name: tournament_placements fk_rails_a8465af968; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.tournament_placements
+    ADD CONSTRAINT fk_rails_a8465af968 FOREIGN KEY (roster_id) REFERENCES public.rosters(id);
 
 
 --
@@ -606,6 +685,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191017010410'),
 ('20191017012315'),
 ('20191017013157'),
-('20191017014317');
+('20191017014317'),
+('20191017020201');
 
 

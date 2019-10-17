@@ -4,6 +4,8 @@ class Player < ApplicationRecord
   has_many :player_rosters
   has_many :rosters, through: :player_rosters
   has_many :teams, through: :rosters
+  has_many :tournament_placements, through: :rosters
+  has_many :tournaments, through: :tournament_placements
 
   validates :name, presence: true
   validates :nationality, presence: true
