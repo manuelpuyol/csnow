@@ -59,6 +59,43 @@ ALTER SEQUENCE public.friendships_id_seq OWNED BY public.friendships.id;
 
 
 --
+-- Name: matches; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.matches (
+    id bigint NOT NULL,
+    upper_roster_id bigint,
+    lower_roster_id bigint,
+    winner_id bigint,
+    tournament_id bigint NOT NULL,
+    stage character varying NOT NULL,
+    start_at timestamp without time zone,
+    end_at timestamp without time zone,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: matches_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.matches_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: matches_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.matches_id_seq OWNED BY public.matches.id;
+
+
+--
 -- Name: player_rosters; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -277,6 +314,13 @@ ALTER TABLE ONLY public.friendships ALTER COLUMN id SET DEFAULT nextval('public.
 
 
 --
+-- Name: matches id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.matches ALTER COLUMN id SET DEFAULT nextval('public.matches_id_seq'::regclass);
+
+
+--
 -- Name: player_rosters id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -332,6 +376,14 @@ ALTER TABLE ONLY public.ar_internal_metadata
 
 ALTER TABLE ONLY public.friendships
     ADD CONSTRAINT friendships_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: matches matches_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.matches
+    ADD CONSTRAINT matches_pkey PRIMARY KEY (id);
 
 
 --
@@ -405,6 +457,34 @@ CREATE INDEX index_friendships_on_requester_id ON public.friendships USING btree
 
 
 --
+-- Name: index_matches_on_lower_roster_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_matches_on_lower_roster_id ON public.matches USING btree (lower_roster_id);
+
+
+--
+-- Name: index_matches_on_tournament_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_matches_on_tournament_id ON public.matches USING btree (tournament_id);
+
+
+--
+-- Name: index_matches_on_upper_roster_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_matches_on_upper_roster_id ON public.matches USING btree (upper_roster_id);
+
+
+--
+-- Name: index_matches_on_winner_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_matches_on_winner_id ON public.matches USING btree (winner_id);
+
+
+--
 -- Name: index_player_rosters_on_player_id; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -440,6 +520,14 @@ CREATE UNIQUE INDEX index_users_on_reset_password_token ON public.users USING bt
 
 
 --
+-- Name: matches fk_rails_2f3503a044; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.matches
+    ADD CONSTRAINT fk_rails_2f3503a044 FOREIGN KEY (lower_roster_id) REFERENCES public.rosters(id);
+
+
+--
 -- Name: player_rosters fk_rails_55a40a6da3; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
@@ -456,6 +544,22 @@ ALTER TABLE ONLY public.player_rosters
 
 
 --
+-- Name: matches fk_rails_700eaa2935; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.matches
+    ADD CONSTRAINT fk_rails_700eaa2935 FOREIGN KEY (tournament_id) REFERENCES public.tournaments(id);
+
+
+--
+-- Name: matches fk_rails_9d0deeb219; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.matches
+    ADD CONSTRAINT fk_rails_9d0deeb219 FOREIGN KEY (winner_id) REFERENCES public.rosters(id);
+
+
+--
 -- Name: friendships fk_rails_a87446a2d6; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
@@ -469,6 +573,14 @@ ALTER TABLE ONLY public.friendships
 
 ALTER TABLE ONLY public.friendships
     ADD CONSTRAINT fk_rails_e507fb3bae FOREIGN KEY (receiver_id) REFERENCES public.users(id);
+
+
+--
+-- Name: matches fk_rails_f47b6f26a1; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.matches
+    ADD CONSTRAINT fk_rails_f47b6f26a1 FOREIGN KEY (upper_roster_id) REFERENCES public.rosters(id);
 
 
 --
@@ -493,6 +605,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191017010128'),
 ('20191017010410'),
 ('20191017012315'),
-('20191017013157');
+('20191017013157'),
+('20191017014317');
 
 

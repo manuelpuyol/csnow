@@ -84,9 +84,15 @@ PlayerRoster.create!(
   player: lucas1
 )
 
-Tournament.create!(
+esl = Tournament.create!(
   name: 'ESL Pro League Season 10: Finals',
   start_at: Time.zone.parse('03/12/2019'),
   end_at: Time.zone.parse('08/12/2019'),
   location: 'Odense'
+)
+
+Match.create!(
+  tournament: esl,
+  start_at: esl.start_at,
+  stage: Match.stages[:groups]
 )

@@ -6,13 +6,7 @@ class Roster < ApplicationRecord
   has_many :players, through: :player_rosters
 
   validates :start_at, presence: true
-  validate :end_at_must_be_after_start_at
-
-  private
-
-  def end_at_must_be_after_start_at
-    errors.add('End at must be after than start_at') if end_at.present? && end_at > start_at
-  end
+  validates :end_at, after: { attr: start_at, null: true }
 end
 
 # == Schema Information
