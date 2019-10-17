@@ -17,8 +17,8 @@ end
 #
 #  id            :integer          not null, primary key
 #  user_id       :integer          not null
-#  likeable_type :string
-#  likeable_id   :integer
+#  likeable_type :string           not null
+#  likeable_id   :integer          not null
 #  type          :string           not null
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null

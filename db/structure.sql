@@ -99,8 +99,8 @@ ALTER SEQUENCE public.friendships_id_seq OWNED BY public.friendships.id;
 CREATE TABLE public.likes (
     id bigint NOT NULL,
     user_id bigint NOT NULL,
-    likeable_type character varying,
-    likeable_id bigint,
+    likeable_type character varying NOT NULL,
+    likeable_id bigint NOT NULL,
     type character varying NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
