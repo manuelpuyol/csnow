@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
 class Team < ApplicationRecord
+  alias_attribute :rankings, :team_rankings
   has_many :rosters, dependent: :destroy
   has_many :tournament_placements, through: :rosters
   has_many :tournaments, through: :tournament_placements
+  has_many :team_rankings, through: :rosters
 
   validates :name, presence: true
   validates :logo, presence: true

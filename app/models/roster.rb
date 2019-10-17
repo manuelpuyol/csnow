@@ -1,11 +1,14 @@
 # frozen_string_literal: true
 
 class Roster < ApplicationRecord
+  alias_attribute :rankings, :team_rankings
+
   belongs_to :team
-  has_many :player_rosters
+  has_many :player_rosters, dependent: :destroy
   has_many :players, through: :player_rosters
-  has_many :tournament_placements
+  has_many :tournament_placements, dependent: :destroy
   has_many :tournaments, through: :tournament_placements
+  has_many :team_rankings, dependent: :destroy
 
   validates :start_at, presence: true
   validates :end_at, after: { attr: :start_at, null: true }

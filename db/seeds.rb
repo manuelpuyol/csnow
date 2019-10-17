@@ -216,3 +216,17 @@ PlayerRanking.create!(
   rank: 2,
   ranked_at: Time.zone.parse('31/12/2016')
 )
+
+TeamRanking.create!(
+  roster: mibr2019,
+  rank: 12,
+  points: 207,
+  ranked_at: Time.zone.parse('14/10/2019')
+)
+
+TeamRanking.create!(
+  roster: mibr2019,
+  rank: 14,
+  points: 207,
+  ranked_at: Time.zone.parse('07/10/2019')
+)

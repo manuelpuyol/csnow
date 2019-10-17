@@ -271,6 +271,40 @@ CREATE TABLE public.schema_migrations (
 
 
 --
+-- Name: team_rankings; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.team_rankings (
+    id bigint NOT NULL,
+    roster_id bigint NOT NULL,
+    rank integer NOT NULL,
+    ranked_at timestamp without time zone NOT NULL,
+    points integer NOT NULL,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: team_rankings_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.team_rankings_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: team_rankings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.team_rankings_id_seq OWNED BY public.team_rankings.id;
+
+
+--
 -- Name: teams; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -457,6 +491,13 @@ ALTER TABLE ONLY public.rosters ALTER COLUMN id SET DEFAULT nextval('public.rost
 
 
 --
+-- Name: team_rankings id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.team_rankings ALTER COLUMN id SET DEFAULT nextval('public.team_rankings_id_seq'::regclass);
+
+
+--
 -- Name: teams id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -554,6 +595,14 @@ ALTER TABLE ONLY public.rosters
 
 ALTER TABLE ONLY public.schema_migrations
     ADD CONSTRAINT schema_migrations_pkey PRIMARY KEY (version);
+
+
+--
+-- Name: team_rankings team_rankings_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.team_rankings
+    ADD CONSTRAINT team_rankings_pkey PRIMARY KEY (id);
 
 
 --
@@ -673,6 +722,13 @@ CREATE INDEX index_rosters_on_team_id ON public.rosters USING btree (team_id);
 
 
 --
+-- Name: index_team_rankings_on_roster_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_team_rankings_on_roster_id ON public.team_rankings USING btree (roster_id);
+
+
+--
 -- Name: index_tournament_placements_on_roster_id; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -738,6 +794,14 @@ ALTER TABLE ONLY public.player_rosters
 
 ALTER TABLE ONLY public.player_rosters
     ADD CONSTRAINT fk_rails_59e6a88817 FOREIGN KEY (player_id) REFERENCES public.players(id);
+
+
+--
+-- Name: team_rankings fk_rails_6e81a5ced2; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.team_rankings
+    ADD CONSTRAINT fk_rails_6e81a5ced2 FOREIGN KEY (roster_id) REFERENCES public.rosters(id);
 
 
 --
@@ -822,6 +886,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191017014317'),
 ('20191017020201'),
 ('20191017021426'),
-('20191017024856');
+('20191017024856'),
+('20191017025800');
 
 
