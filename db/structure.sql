@@ -59,6 +59,40 @@ ALTER SEQUENCE public.friendships_id_seq OWNED BY public.friendships.id;
 
 
 --
+-- Name: likes; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.likes (
+    id bigint NOT NULL,
+    user_id bigint NOT NULL,
+    likeable_type character varying,
+    likeable_id bigint,
+    type character varying NOT NULL,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: likes_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.likes_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: likes_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.likes_id_seq OWNED BY public.likes.id;
+
+
+--
 -- Name: matches; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -348,6 +382,13 @@ ALTER TABLE ONLY public.friendships ALTER COLUMN id SET DEFAULT nextval('public.
 
 
 --
+-- Name: likes id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.likes ALTER COLUMN id SET DEFAULT nextval('public.likes_id_seq'::regclass);
+
+
+--
 -- Name: matches id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -417,6 +458,14 @@ ALTER TABLE ONLY public.ar_internal_metadata
 
 ALTER TABLE ONLY public.friendships
     ADD CONSTRAINT friendships_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: likes likes_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.likes
+    ADD CONSTRAINT likes_pkey PRIMARY KEY (id);
 
 
 --
@@ -506,6 +555,20 @@ CREATE INDEX index_friendships_on_requester_id ON public.friendships USING btree
 
 
 --
+-- Name: index_likes_on_likeable_type_and_likeable_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_likes_on_likeable_type_and_likeable_id ON public.likes USING btree (likeable_type, likeable_id);
+
+
+--
+-- Name: index_likes_on_user_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_likes_on_user_id ON public.likes USING btree (user_id);
+
+
+--
 -- Name: index_matches_on_lower_roster_id; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -580,6 +643,14 @@ CREATE UNIQUE INDEX index_users_on_email ON public.users USING btree (email);
 --
 
 CREATE UNIQUE INDEX index_users_on_reset_password_token ON public.users USING btree (reset_password_token);
+
+
+--
+-- Name: likes fk_rails_1e09b5dabf; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.likes
+    ADD CONSTRAINT fk_rails_1e09b5dabf FOREIGN KEY (user_id) REFERENCES public.users(id);
 
 
 --
@@ -686,6 +757,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191017012315'),
 ('20191017013157'),
 ('20191017014317'),
-('20191017020201');
+('20191017020201'),
+('20191017021426');
 
 

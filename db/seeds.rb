@@ -158,3 +158,13 @@ TournamentPlacement.create!(
   place: 1,
   prize: 500_000
 )
+
+PlayerLike.create!(
+  user: manuel,
+  likeable: fallen
+)
+
+TeamLike.create!(
+  user: manuel,
+  likeable: mibr
+)

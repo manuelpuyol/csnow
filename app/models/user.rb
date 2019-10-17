@@ -15,6 +15,7 @@ class User < ApplicationRecord
            foreign_key: :receiver_id,
            inverse_of: :receiver,
            dependent: :destroy
+  has_many :likes, dependent: :destroy
 
   validates :name, presence: true
   validates :email, presence: true, uniqueness: true
