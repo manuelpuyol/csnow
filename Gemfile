@@ -7,7 +7,6 @@ ruby '2.6.5'
 
 gem 'bootsnap'
 gem 'devise'
-gem 'graphiql-rails'
 gem 'graphql'
 gem 'jbuilder'
 gem 'pg'
@@ -23,6 +22,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'graphiql-rails'
   gem 'listen'
   gem 'web-console'
 end
