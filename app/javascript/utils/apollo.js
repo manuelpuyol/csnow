@@ -45,5 +45,39 @@ const createLinkWithToken = () =>
         return () => {
           if (handle) handle.unsubscribe();
         };
-      })
+      }),
   );
+
+const logError = error => console.error(error);
+// create error link
+const createErrorLink = () =>
+  onError(({ graphQLErrors, networkError, operation }) => {
+    if (graphQLErrors) {
+      logError('GraphQL - Error', {
+        errors: graphQLErrors,
+        operationName: operation.operationName,
+        variables: operation.variables,
+      });
+    }
+    if (networkError) {
+      logError('GraphQL - NetworkError', networkError);
+    }
+  });
+
+// http link
+const createHttpLink = () =>
+  new HttpLink({
+    uri: '/graphql',
+    credentials: 'include',
+  });
+
+export const createClient = (cache, requestLink) => {
+  return new ApolloClient({
+    link: ApolloLink.from([
+      createErrorLink(),
+      createLinkWithToken(),
+      createHttpLink(),
+    ]),
+    cache,
+  });
+};
