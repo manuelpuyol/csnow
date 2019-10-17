@@ -5,8 +5,16 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
-  has_many :sent_friendship_requests, class_name: 'User', foreign_key: :requester_id, inverse_of: :requester
-  has_many :received_friendship_requests, class_name: 'User', foreign_key: :receiver_id, inverse_of: :receiver
+  has_many :sent_friendship_requests,
+           class_name: 'User',
+           foreign_key: :requester_id,
+           inverse_of: :requester,
+           dependent: :destroy
+  has_many :received_friendship_requests,
+           class_name: 'User',
+           foreign_key: :receiver_id,
+           inverse_of: :receiver,
+           dependent: :destroy
 
   validates :name, presence: true
   validates :email, presence: true, uniqueness: true

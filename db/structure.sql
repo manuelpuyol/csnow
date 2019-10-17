@@ -59,6 +59,39 @@ ALTER SEQUENCE public.friendships_id_seq OWNED BY public.friendships.id;
 
 
 --
+-- Name: iterations; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.iterations (
+    id bigint NOT NULL,
+    start_at timestamp without time zone NOT NULL,
+    end_at timestamp without time zone,
+    team_id bigint NOT NULL,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: iterations_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.iterations_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: iterations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.iterations_id_seq OWNED BY public.iterations.id;
+
+
+--
 -- Name: players; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -176,6 +209,13 @@ ALTER TABLE ONLY public.friendships ALTER COLUMN id SET DEFAULT nextval('public.
 
 
 --
+-- Name: iterations id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.iterations ALTER COLUMN id SET DEFAULT nextval('public.iterations_id_seq'::regclass);
+
+
+--
 -- Name: players id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -210,6 +250,14 @@ ALTER TABLE ONLY public.ar_internal_metadata
 
 ALTER TABLE ONLY public.friendships
     ADD CONSTRAINT friendships_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: iterations iterations_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.iterations
+    ADD CONSTRAINT iterations_pkey PRIMARY KEY (id);
 
 
 --
@@ -259,6 +307,13 @@ CREATE INDEX index_friendships_on_requester_id ON public.friendships USING btree
 
 
 --
+-- Name: index_iterations_on_team_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_iterations_on_team_id ON public.iterations USING btree (team_id);
+
+
+--
 -- Name: index_users_on_email; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -270,6 +325,14 @@ CREATE UNIQUE INDEX index_users_on_email ON public.users USING btree (email);
 --
 
 CREATE UNIQUE INDEX index_users_on_reset_password_token ON public.users USING btree (reset_password_token);
+
+
+--
+-- Name: iterations fk_rails_629d41d294; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.iterations
+    ADD CONSTRAINT fk_rails_629d41d294 FOREIGN KEY (team_id) REFERENCES public.teams(id);
 
 
 --
@@ -299,6 +362,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191014034422'),
 ('20191016165948'),
 ('20191017005605'),
-('20191017010128');
+('20191017010128'),
+('20191017010410');
 
 

@@ -48,7 +48,13 @@ Player.create!(
   nationality: :brazilian
 )
 
-Team.create!(
+mibr = Team.create!(
   name: 'MIBR',
   logo: 'http://ssl.gstatic.com/onebox/media/sports/logos/esports/sTulRxt2BNR0c21I_lQTeQ_64x64.png'
+)
+
+Iteration.create!(
+  team: mibr,
+  start_at: Time.zone.parse('05/09/2019'),
+  end_at: nil
 )

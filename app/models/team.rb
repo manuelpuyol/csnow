@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Team < ApplicationRecord
+  has_many :iterations, dependent: :destroy
   validates :name, presence: true
   validates :logo, presence: true
 end
