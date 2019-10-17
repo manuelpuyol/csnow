@@ -5,6 +5,7 @@ class CreateTeams < ActiveRecord::Migration[6.0]
     create_table :teams do |t|
       t.string :name, null: false
       t.string :logo, null: false
+      t.boolean :active, null: false, default: true
 
       t.timestamps
     end

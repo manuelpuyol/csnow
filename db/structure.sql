@@ -100,6 +100,7 @@ CREATE TABLE public.players (
     name character varying NOT NULL,
     nickname character varying NOT NULL,
     nationality character varying NOT NULL,
+    active boolean DEFAULT true NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
 );
@@ -141,6 +142,7 @@ CREATE TABLE public.teams (
     id bigint NOT NULL,
     name character varying NOT NULL,
     logo character varying NOT NULL,
+    active boolean DEFAULT true NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
 );

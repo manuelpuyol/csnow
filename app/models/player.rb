@@ -14,6 +14,7 @@ end
 #  name        :string           not null
 #  nickname    :string           not null
 #  nationality :string           not null
+#  active      :boolean          default("true"), not null
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #

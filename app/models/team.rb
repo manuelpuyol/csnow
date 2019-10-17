@@ -13,6 +13,7 @@ end
 #  id         :integer          not null, primary key
 #  name       :string           not null
 #  logo       :string           not null
+#  active     :boolean          default("true"), not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
