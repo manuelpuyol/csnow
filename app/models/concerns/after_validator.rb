@@ -6,7 +6,7 @@ class AfterValidator < ActiveModel::EachValidator
     @attribute = attribute
     @attribute_value = attribute_value
 
-    return if attribute_is_after_requested_attribute?
+    return if attribute_value.nil? || attribute_is_after_requested_attribute?
 
     record.errors.add(attribute, "#{attribute} must be after #{requested_attribute}")
   end

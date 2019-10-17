@@ -8,6 +8,8 @@ class Tournament < ApplicationRecord
   has_many :players, through: :rosters
 
   validates :name, presence: true
+  validates :start_at, presence: true
+  validates :end_at, presence: true, after: { attr: :start_at, null: false }
 
   def champions
     tournament_placements.find_by(place: 1)&.team

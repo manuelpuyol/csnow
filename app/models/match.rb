@@ -18,7 +18,7 @@ class Match < ApplicationRecord
   has_many :bets, dependent: :destroy
 
   validates :tournament, presence: true
-  validates :end_at, after: { attr: start_at, null: true }
+  validates :end_at, after: { attr: :start_at, null: true }
   validate :winner_must_be_in_match
 
   private

@@ -17,8 +17,11 @@ gem 'webpacker'
 
 group :development, :test do
   gem 'annotate'
+  gem 'factory_bot_rails'
   gem 'pry-rails'
+  gem 'rspec-rails', '= 4.0.0.beta2'
   gem 'rubocop'
+  gem 'shoulda-matchers'
 end
 
 group :development do
