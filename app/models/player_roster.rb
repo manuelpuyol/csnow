@@ -4,8 +4,8 @@ class PlayerRoster < ApplicationRecord
   belongs_to :roster
   belongs_to :player
 
-  validate :roster, presence: true
-  validate :player, presence: true, uniqueness: { scope: [:roster] }
+  validates :roster, presence: true
+  validates :player, presence: true, uniqueness: { scope: [:roster] }
 end
 
 # == Schema Information

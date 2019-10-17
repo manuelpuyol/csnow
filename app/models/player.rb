@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 class Player < ApplicationRecord
-  has_many :rosters
+  has_many :player_rosters
+  has_many :rosters, through: :player_rosters
+  has_many :teams, through: :rosters
 
   validates :name, presence: true
   validates :nationality, presence: true

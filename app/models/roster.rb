@@ -2,6 +2,8 @@
 
 class Roster < ApplicationRecord
   belongs_to :team
+  has_many :player_rosters
+  has_many :players, through: :player_rosters
 
   validates :start_at, presence: true
   validate :end_at_must_be_after_start_at
