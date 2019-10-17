@@ -5,10 +5,31 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
-  has_many :friendships
+  has_many :sent_friendship_requests, class_name: 'User', foreign_key: :requester_id, inverse_of: :requester
+  has_many :received_friendship_requests, class_name: 'User', foreign_key: :receiver_id, inverse_of: :receiver
 
   validates :name, presence: true
   validates :email, presence: true, uniqueness: true
+
+  scope :friends_with, lambda { |user_id|
+    users = User.arel_table
+    friendships = Friendship.arel_table
+
+    join_table = users.join(friendships, Arel::Nodes::InnerJoin)
+                      .on(
+                        friendships[:receiver_id].eq(user_id)
+                        .or(
+                          friendships[:requester_id].eq(user_id)
+                        )
+                      )
+                      .join_sources
+
+    joins(join_table).where.not(id: user_id).distinct
+  }
+
+  def friends
+    User.friends_with(id)
+  end
 end
 
 # == Schema Information

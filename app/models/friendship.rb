@@ -12,6 +12,13 @@ class Friendship < ApplicationRecord
 
   validates :requester, presence: true
   validates :receiver, presence: true
+  validate :cant_be_friends_with_yourself
+
+  private
+
+  def cant_be_friends_with_yourself
+    errors.add("Can't be friends with yourself") if requester_id == receiver_id
+  end
 end
 
 # == Schema Information
