@@ -5,14 +5,16 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
 
-gem 'bootsnap', '>= 1.4.2', require: false
+gem 'bootsnap'
 gem 'devise'
-gem 'jbuilder', '~> 2.7'
-gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 3.11'
-gem 'rails', '~> 6.0.0'
-gem 'sass-rails', '~> 5'
-gem 'webpacker', '~> 4.0'
+gem 'graphiql-rails'
+gem 'graphql'
+gem 'jbuilder'
+gem 'pg'
+gem 'puma'
+gem 'rails'
+gem 'sass-rails'
+gem 'webpacker'
 
 group :development, :test do
   gem 'annotate'
@@ -21,8 +23,8 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen', '>= 3.0.5', '< 3.2'
-  gem 'web-console', '>= 3.3.0'
+  gem 'listen'
+  gem 'web-console'
 end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
