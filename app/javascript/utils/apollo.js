@@ -1,5 +1,3 @@
-// app/javascript/utils/apollo.js
-
 // client
 import { ApolloClient } from 'apollo-client';
 // cache
