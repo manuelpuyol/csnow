@@ -379,7 +379,7 @@ CREATE TABLE public.tournament_placements (
     id bigint NOT NULL,
     tournament_id bigint NOT NULL,
     roster_id bigint NOT NULL,
-    place integer NOT NULL,
+    place integer,
     prize integer DEFAULT 0 NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
