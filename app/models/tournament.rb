@@ -3,6 +3,9 @@
 class Tournament < ApplicationRecord
   has_many :matches, dependent: :destroy
   has_many :tournament_placements, dependent: :destroy
+  has_many :rosters, through: :tournament_placements
+  has_many :teams, through: :rosters
+  has_many :players, through: :rosters
 
   validates :name, presence: true
 

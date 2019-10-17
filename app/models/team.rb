@@ -2,6 +2,11 @@
 
 class Team < ApplicationRecord
   alias_attribute :rankings, :team_rankings
+
+  def self.graphql_type
+    Core::Types::TeamType
+  end
+
   has_many :rosters, dependent: :destroy
   has_many :tournament_placements, through: :rosters
   has_many :tournaments, through: :tournament_placements

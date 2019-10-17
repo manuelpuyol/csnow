@@ -23,6 +23,10 @@ class Match < ApplicationRecord
 
   private
 
+  def rosters
+    [upper_roster, lower_roster]
+  end
+
   def winner_must_be_in_match
     errors.add('Winner must be in match') if winner != upper_roster && winner != lower_roster
   end

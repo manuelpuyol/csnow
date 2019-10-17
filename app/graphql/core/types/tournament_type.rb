@@ -8,12 +8,14 @@ module Core
       field :id, ID, null: false
       field :name, String, null: false
       field :location, String, null: true
-      field :start_at, ::Types::DateTimeType, null: true
-      field :end_at, ::Types::DateTimeType, null: true
+      field :start_at, ::Types::DateTimeType, null: false
+      field :end_at, ::Types::DateTimeType, null: false
       field :finished, Boolean, null: false
 
       # Relations
       field :champions, TeamType, null: true
+      field :rosters, [RosterType], null: false
+      field :teams, [TeamType], null: false
     end
   end
 end
