@@ -3,6 +3,7 @@
 class TournamentPlacement < ApplicationRecord
   belongs_to :tournament
   belongs_to :roster
+  has_one :team, through: :roster
 
   validates :tournament, presence: true
   validates :roster, presence: true
