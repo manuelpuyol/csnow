@@ -10,8 +10,8 @@ module Core
       field :end_at, ::Types::DateTimeType, null: true
 
       # Relations
-      field :team, TeamType, null: false
-      field :players, [PlayerType], null: false
+      field :team, TeamType, null: false, preload: :team
+      field :players, [PlayerType], null: false, preload: :players
     end
   end
 end

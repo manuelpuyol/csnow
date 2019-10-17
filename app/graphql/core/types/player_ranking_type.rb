@@ -10,7 +10,7 @@ module Core
       field :ranked_at, ::Types::DateTimeType, null: false
 
       # Relations
-      field :player, PlayerType, null: true
+      field :player, PlayerType, null: true, preload: :player
     end
   end
 end

@@ -10,9 +10,9 @@ module Core
       field :prize, Float, null: true
 
       # Relations
-      field :tournament, TournamentType, null: true
-      field :roster, RosterType, null: false
-      field :team, TeamType, null: false
+      field :tournament, TournamentType, null: true, preload: :tournament
+      field :roster, RosterType, null: false, preload: :roster
+      field :team, TeamType, null: false, preload: :team
     end
   end
 end

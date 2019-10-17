@@ -11,9 +11,9 @@ module Core
       field :active, Boolean, null: true
 
       # Relations
-      field :players, [PlayerType], null: false
-      field :rosters, [RosterType], null: false
-      field :rankings, [TeamRankingType], null: false
+      field :players, [PlayerType], null: false, preload: :players
+      field :rosters, [RosterType], null: false, preload: :rosters
+      field :rankings, [TeamRankingType], null: false, preload: :rankings
     end
   end
 end

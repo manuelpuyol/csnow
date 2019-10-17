@@ -11,7 +11,7 @@ module Core
       field :ranked_at, ::Types::DateTimeType, null: false
 
       # Relations
-      field :team, TeamType, null: true
+      field :team, TeamType, null: true, preload: :team
     end
   end
 end

@@ -9,9 +9,9 @@ module Core
       field :placed_at, ::Types::DateTimeType, null: false
 
       # Relations
-      field :match, MatchType, null: false
-      field :winner, RosterType, null: false
-      field :user, UserType, null: false
+      field :match, MatchType, null: false, preload: :match
+      field :winner, RosterType, null: false, preload: :winner
+      field :user, UserType, null: false, preload: :user
     end
   end
 end

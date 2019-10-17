@@ -9,7 +9,7 @@ module Core
 
       # Relations
       field :likeable, LikeableType, null: false
-      field :user, UserType, null: false
+      field :user, UserType, null: false, preload: :user
     end
   end
 end

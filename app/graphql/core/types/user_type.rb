@@ -14,10 +14,10 @@ module Core
 
       # Relations
       field :friends, [UserType], null: false
-      field :likes, [LikeType], null: false
-      field :bets, [BetType], null: false
-      field :liked_teams, [TeamType], null: false
-      field :liked_players, [PlayerType], null: false
+      field :likes, [LikeType], null: false, preload: :likes
+      field :bets, [BetType], null: false, preload: :bets
+      field :liked_teams, [TeamType], null: false, preload: :liked_teams
+      field :liked_players, [PlayerType], null: false, preload: :liked_players
     end
   end
 end
