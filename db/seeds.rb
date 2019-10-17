@@ -18,31 +18,31 @@ Friendship.create!(
   state: Friendship.states[:accepted]
 )
 
-Player.create!(
+fer = Player.create!(
   name: 'Fernando Alvarenga',
   nickname: 'fer',
   nationality: :brazilian
 )
 
-Player.create!(
+fallen = Player.create!(
   name: 'Grabriel Toledo',
   nickname: 'Fallen',
   nationality: :brazilian
 )
 
-Player.create!(
+taco = Player.create!(
   name: 'Epitácio de Melo',
   nickname: 'TACO',
   nationality: :brazilian
 )
 
-Player.create!(
+kngv = Player.create!(
   name: 'Vito Giuseppe',
   nickname: 'kNgV',
   nationality: :brazilian
 )
 
-Player.create!(
+lucas1 = Player.create!(
   name: 'Lucas Teles',
   nickname: 'LUCAS1',
   nationality: :brazilian
@@ -53,8 +53,33 @@ mibr = Team.create!(
   logo: 'http://ssl.gstatic.com/onebox/media/sports/logos/esports/sTulRxt2BNR0c21I_lQTeQ_64x64.png'
 )
 
-Roster.create!(
+mibr2019 = Roster.create!(
   team: mibr,
   start_at: Time.zone.parse('05/09/2019'),
   end_at: nil
+)
+
+PlayerRoster.create!(
+  roster: mibr2019,
+  player: fer
+)
+
+PlayerRoster.create!(
+  roster: mibr2019,
+  player: fallen
+)
+
+PlayerRoster.create!(
+  roster: mibr2019,
+  player: taco
+)
+
+PlayerRoster.create!(
+  roster: mibr2019,
+  player: kngv
+)
+
+PlayerRoster.create!(
+  roster: mibr2019,
+  player: lucas1
 )

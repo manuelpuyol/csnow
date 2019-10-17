@@ -59,6 +59,38 @@ ALTER SEQUENCE public.friendships_id_seq OWNED BY public.friendships.id;
 
 
 --
+-- Name: player_rosters; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.player_rosters (
+    id bigint NOT NULL,
+    roster_id bigint NOT NULL,
+    player_id bigint NOT NULL,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: player_rosters_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.player_rosters_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: player_rosters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.player_rosters_id_seq OWNED BY public.player_rosters.id;
+
+
+--
 -- Name: players; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -211,6 +243,13 @@ ALTER TABLE ONLY public.friendships ALTER COLUMN id SET DEFAULT nextval('public.
 
 
 --
+-- Name: player_rosters id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.player_rosters ALTER COLUMN id SET DEFAULT nextval('public.player_rosters_id_seq'::regclass);
+
+
+--
 -- Name: players id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -252,6 +291,14 @@ ALTER TABLE ONLY public.ar_internal_metadata
 
 ALTER TABLE ONLY public.friendships
     ADD CONSTRAINT friendships_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: player_rosters player_rosters_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.player_rosters
+    ADD CONSTRAINT player_rosters_pkey PRIMARY KEY (id);
 
 
 --
@@ -309,6 +356,20 @@ CREATE INDEX index_friendships_on_requester_id ON public.friendships USING btree
 
 
 --
+-- Name: index_player_rosters_on_player_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_player_rosters_on_player_id ON public.player_rosters USING btree (player_id);
+
+
+--
+-- Name: index_player_rosters_on_roster_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_player_rosters_on_roster_id ON public.player_rosters USING btree (roster_id);
+
+
+--
 -- Name: index_rosters_on_team_id; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -327,6 +388,22 @@ CREATE UNIQUE INDEX index_users_on_email ON public.users USING btree (email);
 --
 
 CREATE UNIQUE INDEX index_users_on_reset_password_token ON public.users USING btree (reset_password_token);
+
+
+--
+-- Name: player_rosters fk_rails_55a40a6da3; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.player_rosters
+    ADD CONSTRAINT fk_rails_55a40a6da3 FOREIGN KEY (roster_id) REFERENCES public.rosters(id);
+
+
+--
+-- Name: player_rosters fk_rails_59e6a88817; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.player_rosters
+    ADD CONSTRAINT fk_rails_59e6a88817 FOREIGN KEY (player_id) REFERENCES public.players(id);
 
 
 --
@@ -365,6 +442,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191016165948'),
 ('20191017005605'),
 ('20191017010128'),
-('20191017010410');
+('20191017010410'),
+('20191017012315');
 
 
