@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Iteration < ApplicationRecord
+class Roster < ApplicationRecord
   belongs_to :team
 
   validates :start_at, presence: true
@@ -15,7 +15,7 @@ end
 
 # == Schema Information
 #
-# Table name: iterations
+# Table name: rosters
 #
 #  id         :integer          not null, primary key
 #  start_at   :datetime         not null
@@ -26,5 +26,5 @@ end
 #
 # Indexes
 #
-#  index_iterations_on_team_id  (team_id)
+#  index_rosters_on_team_id  (team_id)
 #
