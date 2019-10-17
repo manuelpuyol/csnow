@@ -59,6 +59,39 @@ ALTER SEQUENCE public.friendships_id_seq OWNED BY public.friendships.id;
 
 
 --
+-- Name: players; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.players (
+    id bigint NOT NULL,
+    name character varying NOT NULL,
+    nickname character varying NOT NULL,
+    nationality character varying NOT NULL,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: players_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.players_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: players_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.players_id_seq OWNED BY public.players.id;
+
+
+--
 -- Name: schema_migrations; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -111,6 +144,13 @@ ALTER TABLE ONLY public.friendships ALTER COLUMN id SET DEFAULT nextval('public.
 
 
 --
+-- Name: players id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.players ALTER COLUMN id SET DEFAULT nextval('public.players_id_seq'::regclass);
+
+
+--
 -- Name: users id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -131,6 +171,14 @@ ALTER TABLE ONLY public.ar_internal_metadata
 
 ALTER TABLE ONLY public.friendships
     ADD CONSTRAINT friendships_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: players players_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.players
+    ADD CONSTRAINT players_pkey PRIMARY KEY (id);
 
 
 --
@@ -202,6 +250,7 @@ SET search_path TO "$user", public;
 INSERT INTO "schema_migrations" (version) VALUES
 ('20191014034325'),
 ('20191014034422'),
-('20191016165948');
+('20191016165948'),
+('20191017005605');
 
 
