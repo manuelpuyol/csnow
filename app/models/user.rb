@@ -16,6 +16,7 @@ class User < ApplicationRecord
            inverse_of: :receiver,
            dependent: :destroy
   has_many :likes, dependent: :destroy
+  has_many :bets, dependent: :destroy
 
   validates :name, presence: true
   validates :email, presence: true, uniqueness: true

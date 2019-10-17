@@ -26,6 +26,40 @@ CREATE TABLE public.ar_internal_metadata (
 
 
 --
+-- Name: bets; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.bets (
+    id bigint NOT NULL,
+    user_id bigint NOT NULL,
+    winner_id bigint NOT NULL,
+    match_id bigint NOT NULL,
+    placed_at timestamp without time zone NOT NULL,
+    created_at timestamp(6) without time zone NOT NULL,
+    updated_at timestamp(6) without time zone NOT NULL
+);
+
+
+--
+-- Name: bets_id_seq; Type: SEQUENCE; Schema: public; Owner: -
+--
+
+CREATE SEQUENCE public.bets_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+--
+-- Name: bets_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+--
+
+ALTER SEQUENCE public.bets_id_seq OWNED BY public.bets.id;
+
+
+--
 -- Name: friendships; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -442,6 +476,13 @@ ALTER SEQUENCE public.users_id_seq OWNED BY public.users.id;
 
 
 --
+-- Name: bets id; Type: DEFAULT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.bets ALTER COLUMN id SET DEFAULT nextval('public.bets_id_seq'::regclass);
+
+
+--
 -- Name: friendships id; Type: DEFAULT; Schema: public; Owner: -
 --
 
@@ -531,6 +572,14 @@ ALTER TABLE ONLY public.users ALTER COLUMN id SET DEFAULT nextval('public.users_
 
 ALTER TABLE ONLY public.ar_internal_metadata
     ADD CONSTRAINT ar_internal_metadata_pkey PRIMARY KEY (key);
+
+
+--
+-- Name: bets bets_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.bets
+    ADD CONSTRAINT bets_pkey PRIMARY KEY (id);
 
 
 --
@@ -635,6 +684,27 @@ ALTER TABLE ONLY public.tournaments
 
 ALTER TABLE ONLY public.users
     ADD CONSTRAINT users_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: index_bets_on_match_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_bets_on_match_id ON public.bets USING btree (match_id);
+
+
+--
+-- Name: index_bets_on_user_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_bets_on_user_id ON public.bets USING btree (user_id);
+
+
+--
+-- Name: index_bets_on_winner_id; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_bets_on_winner_id ON public.bets USING btree (winner_id);
 
 
 --
@@ -813,6 +883,22 @@ ALTER TABLE ONLY public.matches
 
 
 --
+-- Name: bets fk_rails_87dbfdd206; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.bets
+    ADD CONSTRAINT fk_rails_87dbfdd206 FOREIGN KEY (user_id) REFERENCES public.users(id);
+
+
+--
+-- Name: bets fk_rails_8ec9911289; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.bets
+    ADD CONSTRAINT fk_rails_8ec9911289 FOREIGN KEY (winner_id) REFERENCES public.rosters(id);
+
+
+--
 -- Name: matches fk_rails_9d0deeb219; Type: FK CONSTRAINT; Schema: public; Owner: -
 --
 
@@ -834,6 +920,14 @@ ALTER TABLE ONLY public.tournament_placements
 
 ALTER TABLE ONLY public.friendships
     ADD CONSTRAINT fk_rails_a87446a2d6 FOREIGN KEY (requester_id) REFERENCES public.users(id);
+
+
+--
+-- Name: bets fk_rails_ac8e6fd9cd; Type: FK CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.bets
+    ADD CONSTRAINT fk_rails_ac8e6fd9cd FOREIGN KEY (match_id) REFERENCES public.matches(id);
 
 
 --
@@ -887,6 +981,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191017020201'),
 ('20191017021426'),
 ('20191017024856'),
-('20191017025800');
+('20191017025800'),
+('20191017030456');
 
 

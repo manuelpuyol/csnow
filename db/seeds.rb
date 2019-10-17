@@ -146,8 +146,9 @@ esl = Tournament.create!(
   location: 'Odense'
 )
 
-Match.create!(
+mibr_match = Match.create!(
   tournament: esl,
+  upper_roster: mibr2019,
   start_at: esl.start_at,
   stage: Match.stages[:groups]
 )
@@ -229,4 +230,11 @@ TeamRanking.create!(
   rank: 14,
   points: 207,
   ranked_at: Time.zone.parse('07/10/2019')
+)
+
+Bet.create!(
+  user: manuel,
+  winner: mibr2019,
+  match: mibr_match,
+  placed_at: Time.zone.parse('16/10/2019')
 )

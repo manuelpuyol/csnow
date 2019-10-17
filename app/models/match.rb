@@ -15,6 +15,7 @@ class Match < ApplicationRecord
   belongs_to :lower_roster, class_name: 'Roster', optional: true
   belongs_to :winner, class_name: 'Roster', optional: true
   belongs_to :tournament
+  has_many :bets, dependent: :destroy
 
   validates :tournament, presence: true
   validates :end_at, after: { attr: start_at, null: true }
