@@ -1,8 +1,19 @@
 # frozen_string_literal: true
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
+manuel = ::User.create!(
+  email: 'manuelpuyol@gmail.com',
+  name: 'Manuel Puyol',
+  password: '1234567890'
+)
+
+nathalia = ::User.create!(
+  email: 'nathaliasgomes@gmail.com',
+  name: 'Nathalia Gomes',
+  password: '1234567890'
+)
+
+::Friendship.create!(
+  requester: manuel,
+  receiver: nathalia,
+  state: ::Friendship.states[:accepted]
+)

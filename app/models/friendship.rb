@@ -1,8 +1,17 @@
 # frozen_string_literal: true
 
 class Friendship < ApplicationRecord
-  belongs_to :requester, class_name: 'Contract'
-  belongs_to :receiver, class_name: 'Contract'
+  enum state: {
+    pending: 'pending',
+    rejected: 'rejected',
+    accepted: 'accepted'
+  }
+
+  belongs_to :requester, class_name: 'User'
+  belongs_to :receiver, class_name: 'User'
+
+  validates :requester, presence: true
+  validates :receiver, presence: true
 end
 
 # == Schema Information
@@ -10,7 +19,7 @@ end
 # Table name: friendships
 #
 #  id           :integer          not null, primary key
-#  state        :string
+#  state        :string           not null
 #  requester_id :integer          not null
 #  receiver_id  :integer          not null
 #  created_at   :datetime         not null

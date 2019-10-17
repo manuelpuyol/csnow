@@ -31,7 +31,7 @@ CREATE TABLE public.ar_internal_metadata (
 
 CREATE TABLE public.friendships (
     id bigint NOT NULL,
-    state character varying,
+    state character varying NOT NULL,
     requester_id bigint NOT NULL,
     receiver_id bigint NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
