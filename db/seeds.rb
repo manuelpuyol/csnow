@@ -47,3 +47,8 @@ Player.create!(
   nickname: 'LUCAS1',
   nationality: :brazilian
 )
+
+Team.create!(
+  name: 'MIBR',
+  logo: 'http://ssl.gstatic.com/onebox/media/sports/logos/esports/sTulRxt2BNR0c21I_lQTeQ_64x64.png'
+)
