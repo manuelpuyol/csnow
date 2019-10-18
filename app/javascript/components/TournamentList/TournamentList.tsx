@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import TournamentFragment from '@csnow/schema/TournamentFragment';
+import { TournamentFragment } from '@csnow/schema/TournamentFragment';
 
 interface ITournamentList {
   tournaments: TournamentFragment[];

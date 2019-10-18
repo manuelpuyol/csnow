@@ -1,9 +1,6 @@
 import React, { Fragment } from 'react';
+import Shimmer from '@csgo/components/Shimmer/Shimmer';
 
-interface ITournamentListLoading {}
-
-const TournamentListLoading: React.FC<ITournamentListLoading> = () => (
-  <Fragment></Fragment>
-);
+const TournamentListLoading: React.FC = () => <Fragment></Fragment>;
 
 export default TournamentListLoading;
