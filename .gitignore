@@ -24,3 +24,4 @@ bin/rspec
 .eslintcache
 public/
 node_modules/*
+*.log

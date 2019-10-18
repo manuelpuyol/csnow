@@ -1,0 +1,69 @@
+scalar DateTime
+
+type Mutation {
+  """
+  An example field added by the generator
+  """
+  testField: String!
+}
+
+type Player {
+  active: Boolean
+  id: ID!
+  name: String!
+  nationality: String!
+  nickname: String!
+  presentationName: String!
+  rankings: [PlayerRanking!]!
+  rosters: [Roster!]!
+  teams: [Team!]!
+}
+
+type PlayerRanking {
+  id: ID!
+  player: Player
+  rank: Int!
+  rankedAt: DateTime!
+}
+
+type Query {
+  tournaments: [Tournament!]!
+}
+
+type Roster {
+  endAt: DateTime
+  id: ID!
+  players: [Player!]!
+  startAt: DateTime!
+  team: Team!
+}
+
+type Team {
+  active: Boolean
+  id: ID!
+  logo: String
+  name: String!
+  players: [Player!]!
+  rankings: [TeamRanking!]!
+  rosters: [Roster!]!
+}
+
+type TeamRanking {
+  id: ID!
+  points: Int!
+  rank: Int!
+  rankedAt: DateTime!
+  team: Team
+}
+
+type Tournament {
+  champions: Team
+  endAt: DateTime!
+  finished: Boolean!
+  id: ID!
+  location: String
+  name: String!
+  rosters: [Roster!]!
+  startAt: DateTime!
+  teams: [Team!]!
+}
