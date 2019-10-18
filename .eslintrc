@@ -1,4 +1,5 @@
 {
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "airbnb",
     "prettier",
@@ -6,9 +7,13 @@
   ],
   "plugins": [
     "prettier",
-    "react"
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "import"
   ],
   "parserOptions": {
+    "project": "./tsconfig.json",
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -16,9 +21,19 @@
   },
   "env": {
     "es6": true,
+    "commonjs": true,
     "node": true
   },
   "rules": {
     "prettier/prettier": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@csnow", "./app/javascript"]
+        ]
+      }
+    }
   }
 }
