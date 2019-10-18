@@ -3,6 +3,11 @@
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.6.3",
+    "@graphql-codegen/cli": "^1.8.1",
+    "@graphql-codegen/fragment-matcher": "^1.8.1",
+    "@graphql-codegen/introspection": "^1.8.1",
+    "@graphql-codegen/typescript": "^1.8.1",
+    "@graphql-codegen/typescript-react-apollo": "^1.8.1",
     "@rails/actioncable": "^6.0.0-alpha",
     "@rails/activestorage": "^6.0.0-alpha",
     "@rails/ujs": "^6.0.0-alpha",
@@ -31,13 +36,6 @@
   },
   "version": "0.1.0",
   "devDependencies": {
-    "@graphql-codegen/fragment-matcher": "1.8.1",
-    "@graphql-codegen/introspection": "1.8.1",
-    "@graphql-codegen/typescript": "1.8.1",
-    "@graphql-codegen/typescript-document-nodes": "1.8.1",
-    "@graphql-codegen/typescript-graphql-files-modules": "1.8.1",
-    "@graphql-codegen/typescript-operations": "1.8.1",
-    "@graphql-codegen/typescript-react-apollo": "1.8.1",
     "@types/lodash": "^4.14.144",
     "@types/react": "^16.9.9",
     "@typescript-eslint/eslint-plugin": "^2.4.0",
@@ -60,8 +58,8 @@
     "lint": "npx eslint --cache --ext .js,.ts,.tsx app/javascript",
     "types": "yarn types:backend && yarn types:frontend",
     "types:backend": "bundle exec rake graphql:schema:idl",
-    "types:frontend": "npx concurrently --kill-others-on-fail  \"yarn types:frontend:types\"",
+    "types:frontend": "npx concurrently --kill-others-on-fail  \"yarn types:frontend:types\" \"yarn types:frontend:fragments\"",
     "types:frontend:types": "rm -rf app/javascript/schema && apollo client:codegen app/javascript/schema -c=apollo.config.js --target=typescript --outputFlat",
-    "types:frontend:fragments": "npx graphql-codegen --config codegen.yml"
+    "types:frontend:fragments": "graphql-codegen --config ./codegen.yml"
   }
 }

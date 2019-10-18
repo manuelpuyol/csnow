@@ -5,9 +5,7 @@ import tournamentListQuery from './tournamentListQuery.gql';
 import TournamentListLoading from '../TournamentListLoading';
 import TournamentList from '../TournamentList';
 
-interface ITournamentListWithData {}
-
-const TournamentListWithData: React.FC<ITournamentListWithData> = () => {
+const TournamentListWithData: React.FC = () => {
   const { data, loading } = useQuery<TournamentListQuery, {}>(
     tournamentListQuery,
   );

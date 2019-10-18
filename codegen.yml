@@ -3,6 +3,6 @@ prettify: true
 schema: 'app/graphql/schema.graphql'
 documents: 'app/javascript/**/*.gql.ts'
 generates:
-  app/javascript/Schema/introspection-result.ts:
+  ./app/javascript/schema/IntrospectionResult.ts:
     plugins:
       - fragment-matcher

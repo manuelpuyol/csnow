@@ -1,24 +1,23 @@
-// client
 import { ApolloClient } from 'apollo-client';
-// cache
-import { InMemoryCache } from 'apollo-cache-inmemory';
-// links
+import {
+  InMemoryCache,
+  IntrospectionFragmentMatcher,
+} from 'apollo-cache-inmemory';
 import { HttpLink } from 'apollo-link-http';
 import { onError } from 'apollo-link-error';
 import { ApolloLink, Observable } from 'apollo-link';
+import introspectionResult from '@csnow/schema/IntrospectionResult';
 
-export const createCache = () => {
-  const cache = new InMemoryCache();
-  if (process.env.NODE_ENV === 'development') {
-    window.secretVariableToStoreCache = cache;
-  }
-  return cache;
-};
+const fragmentMatcher = new IntrospectionFragmentMatcher({
+  introspectionQueryResultData: introspectionResult,
+});
+
+export const createCache = () => new InMemoryCache({ fragmentMatcher });
 
 const getToken = () =>
   document.querySelector('meta[name="csrf-token"]').getAttribute('content');
 const token = getToken();
-const setTokenForOperation = async operation =>
+const setTokenForOperation = async (operation: any) =>
   operation.setContext({
     headers: {
       'X-CSRF-Token': token,
@@ -29,7 +28,7 @@ const createLinkWithToken = () =>
   new ApolloLink(
     (operation, forward) =>
       new Observable(observer => {
-        let handle;
+        let handle: any;
         Promise.resolve(operation)
           .then(setTokenForOperation)
           .then(() => {
@@ -46,7 +45,7 @@ const createLinkWithToken = () =>
       }),
   );
 
-const logError = error => console.error(error);
+const logError = (error: any, params: any) => console.error(error, params);
 // create error link
 const createErrorLink = () =>
   onError(({ graphQLErrors, networkError, operation }) => {
@@ -69,7 +68,7 @@ const createHttpLink = () =>
     credentials: 'include',
   });
 
-export const createClient = (cache, requestLink) => {
+export const createClient = (cache: any) => {
   return new ApolloClient({
     link: ApolloLink.from([
       createErrorLink(),

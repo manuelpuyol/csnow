@@ -1,6 +1,6 @@
 import React from 'react';
 import { ApolloProvider } from 'react-apollo';
-import { createCache, createClient } from '../../utils/apollo';
+import { createCache, createClient } from '@csnow/utils/apollo';
 
 interface IApolloProvider {
   children: React.ReactNode;
