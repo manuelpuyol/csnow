@@ -52,7 +52,7 @@ players = players_json['players'].map do |player|
   x
 end
 
-matches_json['matches'].each do |match|
+matches = matches_json['matches'].map do |match|
   next if match['eventHltvId'].nil?
 
   roster_1 = rosters.find{|x| x.team.hltv_id == match['team1HltvId']}
@@ -71,7 +71,7 @@ matches_json['matches'].each do |match|
     start_at: Time.at(match['date'] / 1000),
     winner: winner
   })
-end
+end.compact
 
 users = (1..100).map do |_i|
   name = Faker::Name.name
@@ -103,5 +103,18 @@ end
     requester: users[i],
     receiver: users[i + 1],
     state: Friendship.states.values.sample
+  })
+end
+
+(0..1000).each do |i|
+  match = matches.sample
+
+  binding.pry if match.nil?
+
+  Bet.create({
+    user: users.sample,
+    match: match,
+    winner: match.rosters.sample,
+    placed_at: match.start_at - 1
   })
 end

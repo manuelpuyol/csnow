@@ -11,11 +11,11 @@ class Match < ApplicationRecord
   validates :end_at, after: { attr: :start_at, null: true }
   validate :winner_must_be_in_match
 
-  private
-
   def rosters
     [upper_roster, lower_roster]
   end
+
+  private
 
   def winner_must_be_in_match
     errors.add('Winner must be in match') if winner != upper_roster && winner != lower_roster

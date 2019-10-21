@@ -7,7 +7,7 @@ class Bet < ApplicationRecord
 
   validates :user, presence: true
   validates :winner, presence: true
-  validates :match, presence: true
+  validates :match, presence: true, uniqueness: { scope: :user }
   validates :placed_at, presence: true
   validate :must_bet_on_a_playing_team
   validate :must_place_bet_before_start_of_game
