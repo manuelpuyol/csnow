@@ -34,7 +34,7 @@ rosters = teams.map do |team|
   )
 end
 
-players_json['players'].each do |player|
+players = players_json['players'].map do |player|
   x = Player.create!(
     hltv_id: player['hltvId'],
     name: player['name'],
@@ -48,6 +48,8 @@ players_json['players'].each do |player|
     player: x,
     roster: rosters.find{|x| x.team.hltv_id == player['teamId']}
   )
+
+  x
 end
 
 matches_json['matches'].each do |match|
@@ -68,5 +70,38 @@ matches_json['matches'].each do |match|
     tournament: event,
     start_at: Time.at(match['date'] / 1000),
     winner: winner
+  })
+end
+
+users = (1..100).map do |_i|
+  name = Faker::Name.name
+  user = User.create!({
+    name: name,
+    email: Faker::Internet.free_email(name: name),
+    password: '1234567890'
+  })
+
+  (1..10).each do |_j|
+    PlayerLike.create({
+      user: user,
+      likeable: players.sample
+    })
+  end
+
+  (1..5).each do |_j|
+    TeamLike.create({
+      user: user,
+      likeable: teams.sample
+    })
+  end
+
+  user
+end
+
+(0..98).each do |i|
+  Friendship.create!({
+    requester: users[i],
+    receiver: users[i + 1],
+    state: Friendship.states.values.sample
   })
 end
