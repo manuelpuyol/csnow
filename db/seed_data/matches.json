@@ -1,0 +1,8004 @@
+{
+  "matches": [
+    {
+      "hltvId": 2337106,
+      "team1HltvId": 4991,
+      "team2HltvId": 6211,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571692073000
+    },
+    {
+      "hltvId": 2337179,
+      "team1HltvId": 7533,
+      "team2HltvId": 7532,
+      "eventHltvId": 4924,
+      "result": "0 - 2",
+      "date": 1571690703000
+    },
+    {
+      "hltvId": 2337180,
+      "team1HltvId": 8346,
+      "team2HltvId": 4602,
+      "eventHltvId": 4924,
+      "result": "0 - 2",
+      "date": 1571687154000
+    },
+    {
+      "hltvId": 2337107,
+      "team1HltvId": 9565,
+      "team2HltvId": 7533,
+      "eventHltvId": 4932,
+      "result": "2 - 1",
+      "date": 1571683117000
+    },
+    {
+      "hltvId": 2337176,
+      "team1HltvId": 7020,
+      "team2HltvId": 7144,
+      "eventHltvId": 4736,
+      "result": "16 - 14",
+      "date": 1571682978000
+    },
+    {
+      "hltvId": 2337177,
+      "team1HltvId": 6665,
+      "team2HltvId": 7376,
+      "eventHltvId": 4924,
+      "result": "2 - 0",
+      "date": 1571678118000
+    },
+    {
+      "hltvId": 2337178,
+      "team1HltvId": 5378,
+      "team2HltvId": 6667,
+      "eventHltvId": 4924,
+      "result": "0 - 2",
+      "date": 1571677775000
+    },
+    {
+      "hltvId": 2337104,
+      "team1HltvId": 6211,
+      "team2HltvId": 9215,
+      "eventHltvId": 4932,
+      "result": "2 - 1",
+      "date": 1571670452000
+    },
+    {
+      "hltvId": 2336798,
+      "team1HltvId": 10373,
+      "team2HltvId": 9100,
+      "eventHltvId": 4951,
+      "result": "0 - 2",
+      "date": 1571668166000
+    },
+    {
+      "hltvId": 2336797,
+      "team1HltvId": 10338,
+      "team2HltvId": 8607,
+      "eventHltvId": 4951,
+      "result": "1 - 2",
+      "date": 1571658501000
+    },
+    {
+      "hltvId": 2337044,
+      "team1HltvId": 8738,
+      "team2HltvId": 10375,
+      "eventHltvId": 4738,
+      "result": "22 - 18",
+      "date": 1571657958000
+    },
+    {
+      "hltvId": 2337105,
+      "team1HltvId": 4991,
+      "team2HltvId": 9455,
+      "eventHltvId": 4932,
+      "result": "2 - 0",
+      "date": 1571657022000
+    },
+    {
+      "hltvId": 2337102,
+      "team1HltvId": 4494,
+      "team2HltvId": 7533,
+      "eventHltvId": 4932,
+      "result": "1 - 2",
+      "date": 1571653639000
+    },
+    {
+      "hltvId": 2337173,
+      "team1HltvId": 10339,
+      "team2HltvId": 8738,
+      "eventHltvId": 4738,
+      "result": "12 - 16",
+      "date": 1571652255000
+    },
+    {
+      "hltvId": 2337181,
+      "team1HltvId": 5607,
+      "team2HltvId": 10375,
+      "eventHltvId": 4738,
+      "result": "16 - 11",
+      "date": 1571652029000
+    },
+    {
+      "hltvId": 2337103,
+      "team1HltvId": 9565,
+      "team2HltvId": 7966,
+      "eventHltvId": 4932,
+      "result": "2 - 0",
+      "date": 1571646924000
+    },
+    {
+      "hltvId": 2336796,
+      "team1HltvId": 9906,
+      "team2HltvId": 7480,
+      "eventHltvId": 4951,
+      "result": "0 - 2",
+      "date": 1571643163000
+    },
+    {
+      "hltvId": 2336795,
+      "team1HltvId": 10051,
+      "team2HltvId": 10115,
+      "eventHltvId": 4951,
+      "result": "0 - 2",
+      "date": 1571633298000
+    },
+    {
+      "hltvId": 2337081,
+      "team1HltvId": 5479,
+      "team2HltvId": 7612,
+      "eventHltvId": 4737,
+      "result": "4 - 16",
+      "date": 1571622447000
+    },
+    {
+      "hltvId": 2337174,
+      "team1HltvId": 10429,
+      "team2HltvId": 10384,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1571600362000
+    },
+    {
+      "hltvId": 2336961,
+      "team1HltvId": 7175,
+      "team2HltvId": 10150,
+      "eventHltvId": 4093,
+      "result": "1 - 2",
+      "date": 1571599515000
+    },
+    {
+      "hltvId": 2337175,
+      "team1HltvId": 10428,
+      "team2HltvId": 10427,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1571599474000
+    },
+    {
+      "hltvId": 2337092,
+      "team1HltvId": 7020,
+      "team2HltvId": 10315,
+      "eventHltvId": 4492,
+      "result": "1 - 2",
+      "date": 1571597800000
+    },
+    {
+      "hltvId": 2337167,
+      "team1HltvId": 10427,
+      "team2HltvId": 10384,
+      "eventHltvId": null,
+      "result": "1 - 2",
+      "date": 1571590758000
+    },
+    {
+      "hltvId": 2336960,
+      "team1HltvId": 8120,
+      "team2HltvId": 10150,
+      "eventHltvId": 4093,
+      "result": "1 - 2",
+      "date": 1571583722000
+    },
+    {
+      "hltvId": 2337165,
+      "team1HltvId": 10426,
+      "team2HltvId": 8068,
+      "eventHltvId": 4974,
+      "result": "0 - 2",
+      "date": 1571583004000
+    },
+    {
+      "hltvId": 2337168,
+      "team1HltvId": 10430,
+      "team2HltvId": 10431,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1571579013000
+    },
+    {
+      "hltvId": 2337159,
+      "team1HltvId": 8680,
+      "team2HltvId": 8848,
+      "eventHltvId": 4955,
+      "result": "1 - 2",
+      "date": 1571578197000
+    },
+    {
+      "hltvId": 2337166,
+      "team1HltvId": 10429,
+      "team2HltvId": 10428,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1571575861000
+    },
+    {
+      "hltvId": 2337162,
+      "team1HltvId": 8248,
+      "team2HltvId": 9287,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1571572509000
+    },
+    {
+      "hltvId": 2336959,
+      "team1HltvId": 8135,
+      "team2HltvId": 7175,
+      "eventHltvId": 4093,
+      "result": "1 - 2",
+      "date": 1571569545000
+    },
+    {
+      "hltvId": 2337161,
+      "team1HltvId": 7674,
+      "team2HltvId": 7681,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1571568952000
+    },
+    {
+      "hltvId": 2337164,
+      "team1HltvId": 4863,
+      "team2HltvId": 7024,
+      "eventHltvId": 4962,
+      "result": "2 - 0",
+      "date": 1571568566000
+    },
+    {
+      "hltvId": 2337153,
+      "team1HltvId": 10181,
+      "team2HltvId": 8068,
+      "eventHltvId": 4974,
+      "result": "0 - 2",
+      "date": 1571565807000
+    },
+    {
+      "hltvId": 2337156,
+      "team1HltvId": 8008,
+      "team2HltvId": 8668,
+      "eventHltvId": 4899,
+      "result": "2 - 1",
+      "date": 1571564835000
+    },
+    {
+      "hltvId": 2337158,
+      "team1HltvId": 8848,
+      "team2HltvId": 10419,
+      "eventHltvId": 4955,
+      "result": "2 - 0",
+      "date": 1571563947000
+    },
+    {
+      "hltvId": 2337163,
+      "team1HltvId": 7606,
+      "team2HltvId": 7024,
+      "eventHltvId": 4962,
+      "result": "2 - 1",
+      "date": 1571560293000
+    },
+    {
+      "hltvId": 2337155,
+      "team1HltvId": 6010,
+      "team2HltvId": 8668,
+      "eventHltvId": 4899,
+      "result": "1 - 2",
+      "date": 1571552606000
+    },
+    {
+      "hltvId": 2337157,
+      "team1HltvId": 8262,
+      "team2HltvId": 8680,
+      "eventHltvId": 4955,
+      "result": "0 - 2",
+      "date": 1571552202000
+    },
+    {
+      "hltvId": 2336744,
+      "team1HltvId": 9963,
+      "team2HltvId": 8113,
+      "eventHltvId": 4698,
+      "result": "0 - 2",
+      "date": 1571551443000
+    },
+    {
+      "hltvId": 2337154,
+      "team1HltvId": 8668,
+      "team2HltvId": 5293,
+      "eventHltvId": 4899,
+      "result": "2 - 0",
+      "date": 1571540073000
+    },
+    {
+      "hltvId": 2336743,
+      "team1HltvId": 8902,
+      "team2HltvId": 7653,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1571538277000
+    },
+    {
+      "hltvId": 2337160,
+      "team1HltvId": 8121,
+      "team2HltvId": 9996,
+      "eventHltvId": 4970,
+      "result": "1 - 2",
+      "date": 1571532352000
+    },
+    {
+      "hltvId": 2336727,
+      "team1HltvId": 5310,
+      "team2HltvId": 8513,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571526576000
+    },
+    {
+      "hltvId": 2336958,
+      "team1HltvId": 7865,
+      "team2HltvId": 10150,
+      "eventHltvId": 4093,
+      "result": "1 - 2",
+      "date": 1571518268000
+    },
+    {
+      "hltvId": 2336726,
+      "team1HltvId": 5995,
+      "team2HltvId": 4608,
+      "eventHltvId": 4699,
+      "result": "1 - 2",
+      "date": 1571515994000
+    },
+    {
+      "hltvId": 2337150,
+      "team1HltvId": 8504,
+      "team2HltvId": 10116,
+      "eventHltvId": 4972,
+      "result": "2 - 1",
+      "date": 1571512460000
+    },
+    {
+      "hltvId": 2336957,
+      "team1HltvId": 7175,
+      "team2HltvId": 10421,
+      "eventHltvId": 4093,
+      "result": "2 - 1",
+      "date": 1571506179000
+    },
+    {
+      "hltvId": 2337152,
+      "team1HltvId": 9797,
+      "team2HltvId": 10426,
+      "eventHltvId": 4974,
+      "result": "1 - 2",
+      "date": 1571505824000
+    },
+    {
+      "hltvId": 2337151,
+      "team1HltvId": 4863,
+      "team2HltvId": 10022,
+      "eventHltvId": 4962,
+      "result": "2 - 0",
+      "date": 1571502428000
+    },
+    {
+      "hltvId": 2337146,
+      "team1HltvId": 7681,
+      "team2HltvId": 9287,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1571501691000
+    },
+    {
+      "hltvId": 2337101,
+      "team1HltvId": 10419,
+      "team2HltvId": 10365,
+      "eventHltvId": 4955,
+      "result": "2 - 1",
+      "date": 1571497034000
+    },
+    {
+      "hltvId": 2336929,
+      "team1HltvId": 8848,
+      "team2HltvId": 8680,
+      "eventHltvId": 4694,
+      "result": "0 - 2",
+      "date": 1571495518000
+    },
+    {
+      "hltvId": 2337142,
+      "team1HltvId": 10022,
+      "team2HltvId": 7024,
+      "eventHltvId": 4962,
+      "result": "1 - 2",
+      "date": 1571493249000
+    },
+    {
+      "hltvId": 2337149,
+      "team1HltvId": 10116,
+      "team2HltvId": 9648,
+      "eventHltvId": 4972,
+      "result": "2 - 0",
+      "date": 1571492736000
+    },
+    {
+      "hltvId": 2337145,
+      "team1HltvId": 8248,
+      "team2HltvId": 7674,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1571490032000
+    },
+    {
+      "hltvId": 2337148,
+      "team1HltvId": 8008,
+      "team2HltvId": 6010,
+      "eventHltvId": 4899,
+      "result": "2 - 1",
+      "date": 1571487737000
+    },
+    {
+      "hltvId": 2336956,
+      "team1HltvId": 7299,
+      "team2HltvId": 10150,
+      "eventHltvId": 4093,
+      "result": "0 - 2",
+      "date": 1571487199000
+    },
+    {
+      "hltvId": 2336928,
+      "team1HltvId": 9107,
+      "team2HltvId": 6898,
+      "eventHltvId": 4694,
+      "result": "0 - 2",
+      "date": 1571486215000
+    },
+    {
+      "hltvId": 2337100,
+      "team1HltvId": 8262,
+      "team2HltvId": 9561,
+      "eventHltvId": 4955,
+      "result": "2 - 0",
+      "date": 1571480502000
+    },
+    {
+      "hltvId": 2337144,
+      "team1HltvId": 8504,
+      "team2HltvId": 9648,
+      "eventHltvId": 4972,
+      "result": "2 - 0",
+      "date": 1571478877000
+    },
+    {
+      "hltvId": 2337141,
+      "team1HltvId": 4863,
+      "team2HltvId": 7606,
+      "eventHltvId": 4962,
+      "result": "1 - 2",
+      "date": 1571477932000
+    },
+    {
+      "hltvId": 2336955,
+      "team1HltvId": 9263,
+      "team2HltvId": 10421,
+      "eventHltvId": 4093,
+      "result": "0 - 2",
+      "date": 1571477532000
+    },
+    {
+      "hltvId": 2337099,
+      "team1HltvId": 8680,
+      "team2HltvId": 10047,
+      "eventHltvId": 4955,
+      "result": "2 - 0",
+      "date": 1571473261000
+    },
+    {
+      "hltvId": 2337097,
+      "team1HltvId": 6010,
+      "team2HltvId": 5293,
+      "eventHltvId": 4899,
+      "result": "2 - 1",
+      "date": 1571472124000
+    },
+    {
+      "hltvId": 2336742,
+      "team1HltvId": 7653,
+      "team2HltvId": 8113,
+      "eventHltvId": 4698,
+      "result": "0 - 2",
+      "date": 1571465621000
+    },
+    {
+      "hltvId": 2337098,
+      "team1HltvId": 8848,
+      "team2HltvId": 9659,
+      "eventHltvId": 4955,
+      "result": "2 - 0",
+      "date": 1571463850000
+    },
+    {
+      "hltvId": 2337096,
+      "team1HltvId": 8008,
+      "team2HltvId": 8668,
+      "eventHltvId": 4899,
+      "result": "2 - 0",
+      "date": 1571456857000
+    },
+    {
+      "hltvId": 2336741,
+      "team1HltvId": 8902,
+      "team2HltvId": 9963,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1571452632000
+    },
+    {
+      "hltvId": 2337086,
+      "team1HltvId": 8121,
+      "team2HltvId": 9166,
+      "eventHltvId": 4970,
+      "result": "2 - 0",
+      "date": 1571447159000
+    },
+    {
+      "hltvId": 2337147,
+      "team1HltvId": 6685,
+      "team2HltvId": 10315,
+      "eventHltvId": 4943,
+      "result": "2 - 1",
+      "date": 1571439963000
+    },
+    {
+      "hltvId": 2336725,
+      "team1HltvId": 5995,
+      "team2HltvId": 5310,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571437016000
+    },
+    {
+      "hltvId": 2337085,
+      "team1HltvId": 9996,
+      "team2HltvId": 10387,
+      "eventHltvId": 4970,
+      "result": "2 - 0",
+      "date": 1571435879000
+    },
+    {
+      "hltvId": 2337143,
+      "team1HltvId": 10116,
+      "team2HltvId": 7434,
+      "eventHltvId": 4972,
+      "result": "2 - 1",
+      "date": 1571426637000
+    },
+    {
+      "hltvId": 2337140,
+      "team1HltvId": 10315,
+      "team2HltvId": 10386,
+      "eventHltvId": 4943,
+      "result": "2 - 1",
+      "date": 1571424770000
+    },
+    {
+      "hltvId": 2336724,
+      "team1HltvId": 4608,
+      "team2HltvId": 8513,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571424102000
+    },
+    {
+      "hltvId": 2336954,
+      "team1HltvId": 8135,
+      "team2HltvId": 7865,
+      "eventHltvId": 4093,
+      "result": "16 - 14",
+      "date": 1571423770000
+    },
+    {
+      "hltvId": 2336953,
+      "team1HltvId": 8120,
+      "team2HltvId": 7175,
+      "eventHltvId": 4093,
+      "result": "16 - 14",
+      "date": 1571418174000
+    },
+    {
+      "hltvId": 2336927,
+      "team1HltvId": 8848,
+      "team2HltvId": 9107,
+      "eventHltvId": 4694,
+      "result": "2 - 1",
+      "date": 1571414104000
+    },
+    {
+      "hltvId": 2336947,
+      "team1HltvId": 10150,
+      "team2HltvId": 7865,
+      "eventHltvId": 4093,
+      "result": "13 - 16",
+      "date": 1571410496000
+    },
+    {
+      "hltvId": 2337050,
+      "team1HltvId": 9648,
+      "team2HltvId": 7434,
+      "eventHltvId": 4972,
+      "result": "2 - 0",
+      "date": 1571410223000
+    },
+    {
+      "hltvId": 2337139,
+      "team1HltvId": 6685,
+      "team2HltvId": 7898,
+      "eventHltvId": 4943,
+      "result": "2 - 0",
+      "date": 1571410029000
+    },
+    {
+      "hltvId": 2337088,
+      "team1HltvId": 10188,
+      "team2HltvId": 5412,
+      "eventHltvId": 4973,
+      "result": "0 - 2",
+      "date": 1571405844000
+    },
+    {
+      "hltvId": 2336946,
+      "team1HltvId": 10421,
+      "team2HltvId": 7175,
+      "eventHltvId": 4093,
+      "result": "6 - 16",
+      "date": 1571404888000
+    },
+    {
+      "hltvId": 2336926,
+      "team1HltvId": 8680,
+      "team2HltvId": 6898,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1571400732000
+    },
+    {
+      "hltvId": 2337089,
+      "team1HltvId": 7441,
+      "team2HltvId": 7842,
+      "eventHltvId": 4973,
+      "result": "2 - 0",
+      "date": 1571399808000
+    },
+    {
+      "hltvId": 2336945,
+      "team1HltvId": 8135,
+      "team2HltvId": 7299,
+      "eventHltvId": 4093,
+      "result": "16 - 1",
+      "date": 1571399668000
+    },
+    {
+      "hltvId": 2337049,
+      "team1HltvId": 8504,
+      "team2HltvId": 10116,
+      "eventHltvId": 4972,
+      "result": "2 - 1",
+      "date": 1571399141000
+    },
+    {
+      "hltvId": 2336944,
+      "team1HltvId": 8120,
+      "team2HltvId": 9263,
+      "eventHltvId": 4093,
+      "result": "16 - 2",
+      "date": 1571395294000
+    },
+    {
+      "hltvId": 2336740,
+      "team1HltvId": 7653,
+      "team2HltvId": 9963,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1571379771000
+    },
+    {
+      "hltvId": 2337035,
+      "team1HltvId": 9392,
+      "team2HltvId": 10302,
+      "eventHltvId": 4737,
+      "result": "20 - 22",
+      "date": 1571369887000
+    },
+    {
+      "hltvId": 2337070,
+      "team1HltvId": 6947,
+      "team2HltvId": 7841,
+      "eventHltvId": 4737,
+      "result": "16 - 7",
+      "date": 1571367696000
+    },
+    {
+      "hltvId": 2336739,
+      "team1HltvId": 8902,
+      "team2HltvId": 8113,
+      "eventHltvId": 4698,
+      "result": "0 - 2",
+      "date": 1571366535000
+    },
+    {
+      "hltvId": 2337068,
+      "team1HltvId": 5479,
+      "team2HltvId": 10059,
+      "eventHltvId": 4737,
+      "result": "8 - 16",
+      "date": 1571364771000
+    },
+    {
+      "hltvId": 2336952,
+      "team1HltvId": 10164,
+      "team2HltvId": 9392,
+      "eventHltvId": 4737,
+      "result": "16 - 7",
+      "date": 1571363680000
+    },
+    {
+      "hltvId": 2337069,
+      "team1HltvId": 9785,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "16 - 8",
+      "date": 1571363667000
+    },
+    {
+      "hltvId": 2337058,
+      "team1HltvId": 5752,
+      "team2HltvId": 10399,
+      "eventHltvId": 4919,
+      "result": "0 - 2",
+      "date": 1571352864000
+    },
+    {
+      "hltvId": 2336723,
+      "team1HltvId": 5995,
+      "team2HltvId": 8513,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571350732000
+    },
+    {
+      "hltvId": 2337118,
+      "team1HltvId": 7898,
+      "team2HltvId": 8346,
+      "eventHltvId": 4943,
+      "result": "2 - 1",
+      "date": 1571349962000
+    },
+    {
+      "hltvId": 2337051,
+      "team1HltvId": 7376,
+      "team2HltvId": 4411,
+      "eventHltvId": 4923,
+      "result": "1 - 2",
+      "date": 1571346592000
+    },
+    {
+      "hltvId": 2337091,
+      "team1HltvId": 8346,
+      "team2HltvId": 7718,
+      "eventHltvId": 4943,
+      "result": "16 - 14",
+      "date": 1571336900000
+    },
+    {
+      "hltvId": 2336722,
+      "team1HltvId": 4608,
+      "team2HltvId": 5310,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571336675000
+    },
+    {
+      "hltvId": 2337063,
+      "team1HltvId": 7144,
+      "team2HltvId": 7969,
+      "eventHltvId": 4736,
+      "result": "16 - 14",
+      "date": 1571335794000
+    },
+    {
+      "hltvId": 2336430,
+      "team1HltvId": 9928,
+      "team2HltvId": 5378,
+      "eventHltvId": 4736,
+      "result": "16 - 13",
+      "date": 1571332807000
+    },
+    {
+      "hltvId": 2337090,
+      "team1HltvId": 10386,
+      "team2HltvId": 7898,
+      "eventHltvId": 4943,
+      "result": "16 - 9",
+      "date": 1571331311000
+    },
+    {
+      "hltvId": 2336637,
+      "team1HltvId": 5378,
+      "team2HltvId": 7144,
+      "eventHltvId": 4736,
+      "result": "16 - 13",
+      "date": 1571328846000
+    },
+    {
+      "hltvId": 2337052,
+      "team1HltvId": 7969,
+      "team2HltvId": 8772,
+      "eventHltvId": 4492,
+      "result": "2 - 1",
+      "date": 1571328486000
+    },
+    {
+      "hltvId": 2337028,
+      "team1HltvId": 7898,
+      "team2HltvId": 7718,
+      "eventHltvId": 4943,
+      "result": "16 - 10",
+      "date": 1571327587000
+    },
+    {
+      "hltvId": 2337084,
+      "team1HltvId": 5412,
+      "team2HltvId": 7842,
+      "eventHltvId": 4973,
+      "result": "2 - 0",
+      "date": 1571327422000
+    },
+    {
+      "hltvId": 2336925,
+      "team1HltvId": 8848,
+      "team2HltvId": 6898,
+      "eventHltvId": 4694,
+      "result": "2 - 1",
+      "date": 1571324794000
+    },
+    {
+      "hltvId": 2337027,
+      "team1HltvId": 10386,
+      "team2HltvId": 8346,
+      "eventHltvId": 4943,
+      "result": "19 - 16",
+      "date": 1571323115000
+    },
+    {
+      "hltvId": 2336924,
+      "team1HltvId": 8680,
+      "team2HltvId": 9107,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1571312878000
+    },
+    {
+      "hltvId": 2336780,
+      "team1HltvId": 10425,
+      "team2HltvId": 9747,
+      "eventHltvId": 4770,
+      "result": "3 - 1",
+      "date": 1571312680000
+    },
+    {
+      "hltvId": 2337083,
+      "team1HltvId": 10188,
+      "team2HltvId": 7441,
+      "eventHltvId": 4973,
+      "result": "2 - 0",
+      "date": 1571310675000
+    },
+    {
+      "hltvId": 2337087,
+      "team1HltvId": 7983,
+      "team2HltvId": 8738,
+      "eventHltvId": 4738,
+      "result": "7 - 16",
+      "date": 1571309671000
+    },
+    {
+      "hltvId": 2337061,
+      "team1HltvId": 9750,
+      "team2HltvId": 5607,
+      "eventHltvId": 4738,
+      "result": "19 - 22",
+      "date": 1571309475000
+    },
+    {
+      "hltvId": 2337060,
+      "team1HltvId": 7983,
+      "team2HltvId": 9870,
+      "eventHltvId": 4738,
+      "result": "13 - 16",
+      "date": 1571307121000
+    },
+    {
+      "hltvId": 2336241,
+      "team1HltvId": 9275,
+      "team2HltvId": 8008,
+      "eventHltvId": 4738,
+      "result": "0 - 1",
+      "date": 1571307028000
+    },
+    {
+      "hltvId": 2337059,
+      "team1HltvId": 8536,
+      "team2HltvId": 8008,
+      "eventHltvId": 4738,
+      "result": "0 - 1",
+      "date": 1571304641000
+    },
+    {
+      "hltvId": 2336996,
+      "team1HltvId": 6978,
+      "team2HltvId": 9943,
+      "eventHltvId": 4698,
+      "result": "1 - 2",
+      "date": 1571296329000
+    },
+    {
+      "hltvId": 2336738,
+      "team1HltvId": 5973,
+      "team2HltvId": 6211,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1571279346000
+    },
+    {
+      "hltvId": 2337033,
+      "team1HltvId": 10164,
+      "team2HltvId": 9785,
+      "eventHltvId": 4737,
+      "result": "12 - 16",
+      "date": 1571277949000
+    },
+    {
+      "hltvId": 2336283,
+      "team1HltvId": 5479,
+      "team2HltvId": 7885,
+      "eventHltvId": 4737,
+      "result": "16 - 7",
+      "date": 1571277912000
+    },
+    {
+      "hltvId": 2337037,
+      "team1HltvId": 10399,
+      "team2HltvId": 5005,
+      "eventHltvId": 4919,
+      "result": "2 - 0",
+      "date": 1571268432000
+    },
+    {
+      "hltvId": 2336721,
+      "team1HltvId": 7533,
+      "team2HltvId": 10020,
+      "eventHltvId": 4699,
+      "result": "2 - 1",
+      "date": 1571266004000
+    },
+    {
+      "hltvId": 2337030,
+      "team1HltvId": 7532,
+      "team2HltvId": 4411,
+      "eventHltvId": 4923,
+      "result": "1 - 2",
+      "date": 1571260020000
+    },
+    {
+      "hltvId": 2337067,
+      "team1HltvId": 10315,
+      "team2HltvId": 8772,
+      "eventHltvId": 4943,
+      "result": "2 - 0",
+      "date": 1571258563000
+    },
+    {
+      "hltvId": 2336720,
+      "team1HltvId": 6665,
+      "team2HltvId": 4991,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571251838000
+    },
+    {
+      "hltvId": 2337066,
+      "team1HltvId": 8772,
+      "team2HltvId": 7461,
+      "eventHltvId": 4943,
+      "result": "16 - 10",
+      "date": 1571250329000
+    },
+    {
+      "hltvId": 2336939,
+      "team1HltvId": 7020,
+      "team2HltvId": 10371,
+      "eventHltvId": 4492,
+      "result": "2 - 0",
+      "date": 1571249894000
+    },
+    {
+      "hltvId": 2336875,
+      "team1HltvId": 7969,
+      "team2HltvId": 10150,
+      "eventHltvId": 4736,
+      "result": "14 - 16",
+      "date": 1571249510000
+    },
+    {
+      "hltvId": 2336869,
+      "team1HltvId": 8813,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "16 - 10",
+      "date": 1571249035000
+    },
+    {
+      "hltvId": 2337057,
+      "team1HltvId": 5378,
+      "team2HltvId": 7898,
+      "eventHltvId": 4736,
+      "result": "12 - 16",
+      "date": 1571248975000
+    },
+    {
+      "hltvId": 2336868,
+      "team1HltvId": 8068,
+      "team2HltvId": 10420,
+      "eventHltvId": 4736,
+      "result": "19 - 16",
+      "date": 1571246727000
+    },
+    {
+      "hltvId": 2337065,
+      "team1HltvId": 6685,
+      "team2HltvId": 10315,
+      "eventHltvId": 4943,
+      "result": "16 - 13",
+      "date": 1571245934000
+    },
+    {
+      "hltvId": 2336889,
+      "team1HltvId": 8813,
+      "team2HltvId": 8120,
+      "eventHltvId": 4736,
+      "result": "8 - 16",
+      "date": 1571244922000
+    },
+    {
+      "hltvId": 2336874,
+      "team1HltvId": 10150,
+      "team2HltvId": 4602,
+      "eventHltvId": 4736,
+      "result": "4 - 16",
+      "date": 1571240545000
+    },
+    {
+      "hltvId": 2337029,
+      "team1HltvId": 7461,
+      "team2HltvId": 10315,
+      "eventHltvId": 4943,
+      "result": "12 - 16",
+      "date": 1571240533000
+    },
+    {
+      "hltvId": 2337056,
+      "team1HltvId": 5378,
+      "team2HltvId": 8068,
+      "eventHltvId": 4736,
+      "result": "9 - 16",
+      "date": 1571238877000
+    },
+    {
+      "hltvId": 2337055,
+      "team1HltvId": 8120,
+      "team2HltvId": 9928,
+      "eventHltvId": 4736,
+      "result": "13 - 16",
+      "date": 1571238716000
+    },
+    {
+      "hltvId": 2336923,
+      "team1HltvId": 4863,
+      "team2HltvId": 7606,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1571236555000
+    },
+    {
+      "hltvId": 2337038,
+      "team1HltvId": 6685,
+      "team2HltvId": 8772,
+      "eventHltvId": 4943,
+      "result": "16 - 10",
+      "date": 1571235178000
+    },
+    {
+      "hltvId": 2337054,
+      "team1HltvId": 5378,
+      "team2HltvId": 8346,
+      "eventHltvId": 4736,
+      "result": "16 - 9",
+      "date": 1571234693000
+    },
+    {
+      "hltvId": 2336922,
+      "team1HltvId": 7354,
+      "team2HltvId": 7966,
+      "eventHltvId": 4694,
+      "result": "0 - 2",
+      "date": 1571226845000
+    },
+    {
+      "hltvId": 2337047,
+      "team1HltvId": 10220,
+      "team2HltvId": 7983,
+      "eventHltvId": 4738,
+      "result": "16 - 10",
+      "date": 1571225414000
+    },
+    {
+      "hltvId": 2337045,
+      "team1HltvId": 9275,
+      "team2HltvId": 10220,
+      "eventHltvId": 4738,
+      "result": "23 - 25",
+      "date": 1571222990000
+    },
+    {
+      "hltvId": 2337046,
+      "team1HltvId": 10375,
+      "team2HltvId": 8008,
+      "eventHltvId": 4738,
+      "result": "9 - 16",
+      "date": 1571222907000
+    },
+    {
+      "hltvId": 2337042,
+      "team1HltvId": 9750,
+      "team2HltvId": 7983,
+      "eventHltvId": 4738,
+      "result": "7 - 16",
+      "date": 1571219602000
+    },
+    {
+      "hltvId": 2337005,
+      "team1HltvId": 10339,
+      "team2HltvId": 5607,
+      "eventHltvId": 4738,
+      "result": "4 - 16",
+      "date": 1571219171000
+    },
+    {
+      "hltvId": 2337041,
+      "team1HltvId": 8668,
+      "team2HltvId": 8008,
+      "eventHltvId": 4738,
+      "result": "8 - 16",
+      "date": 1571219087000
+    },
+    {
+      "hltvId": 2337043,
+      "team1HltvId": 10325,
+      "team2HltvId": 10205,
+      "eventHltvId": 4738,
+      "result": "1 - 16",
+      "date": 1571218931000
+    },
+    {
+      "hltvId": 2337040,
+      "team1HltvId": 8668,
+      "team2HltvId": 10220,
+      "eventHltvId": 4738,
+      "result": "16 - 7",
+      "date": 1571215785000
+    },
+    {
+      "hltvId": 2337039,
+      "team1HltvId": 8008,
+      "team2HltvId": 9747,
+      "eventHltvId": 4738,
+      "result": "16 - 4",
+      "date": 1571215256000
+    },
+    {
+      "hltvId": 2337048,
+      "team1HltvId": 10375,
+      "team2HltvId": 10220,
+      "eventHltvId": 4738,
+      "result": "13 - 16",
+      "date": 1571213270000
+    },
+    {
+      "hltvId": 2336751,
+      "team1HltvId": 5973,
+      "team2HltvId": 6978,
+      "eventHltvId": 4698,
+      "result": "2 - 1",
+      "date": 1571209726000
+    },
+    {
+      "hltvId": 2337031,
+      "team1HltvId": 5479,
+      "team2HltvId": 9229,
+      "eventHltvId": 4737,
+      "result": "22 - 25",
+      "date": 1571193746000
+    },
+    {
+      "hltvId": 2337053,
+      "team1HltvId": 10146,
+      "team2HltvId": 6947,
+      "eventHltvId": 4737,
+      "result": "11 - 16",
+      "date": 1571191921000
+    },
+    {
+      "hltvId": 2336750,
+      "team1HltvId": 6211,
+      "team2HltvId": 9943,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1571191679000
+    },
+    {
+      "hltvId": 2337032,
+      "team1HltvId": 10392,
+      "team2HltvId": 10092,
+      "eventHltvId": 4737,
+      "result": "16 - 14",
+      "date": 1571191289000
+    },
+    {
+      "hltvId": 2336951,
+      "team1HltvId": 10164,
+      "team2HltvId": 10059,
+      "eventHltvId": 4737,
+      "result": "16 - 4",
+      "date": 1571187219000
+    },
+    {
+      "hltvId": 2337036,
+      "team1HltvId": 8297,
+      "team2HltvId": 5752,
+      "eventHltvId": 4919,
+      "result": "1 - 2",
+      "date": 1571185406000
+    },
+    {
+      "hltvId": 2336719,
+      "team1HltvId": 6665,
+      "team2HltvId": 7533,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571179506000
+    },
+    {
+      "hltvId": 2337004,
+      "team1HltvId": 8738,
+      "team2HltvId": 8536,
+      "eventHltvId": 4738,
+      "result": "1 - 0",
+      "date": 1571177182000
+    },
+    {
+      "hltvId": 2337026,
+      "team1HltvId": 7376,
+      "team2HltvId": 4602,
+      "eventHltvId": 4923,
+      "result": "2 - 0",
+      "date": 1571169707000
+    },
+    {
+      "hltvId": 2336718,
+      "team1HltvId": 4991,
+      "team2HltvId": 10020,
+      "eventHltvId": 4699,
+      "result": "2 - 1",
+      "date": 1571168335000
+    },
+    {
+      "hltvId": 2336911,
+      "team1HltvId": 8813,
+      "team2HltvId": 8248,
+      "eventHltvId": 4736,
+      "result": "16 - 14",
+      "date": 1571167270000
+    },
+    {
+      "hltvId": 2336938,
+      "team1HltvId": 8135,
+      "team2HltvId": 8772,
+      "eventHltvId": 4492,
+      "result": "1 - 2",
+      "date": 1571165558000
+    },
+    {
+      "hltvId": 2337025,
+      "team1HltvId": 8813,
+      "team2HltvId": 7969,
+      "eventHltvId": 4736,
+      "result": "13 - 16",
+      "date": 1571162622000
+    },
+    {
+      "hltvId": 2337024,
+      "team1HltvId": 10420,
+      "team2HltvId": 7865,
+      "eventHltvId": 4736,
+      "result": "9 - 16",
+      "date": 1571162468000
+    },
+    {
+      "hltvId": 2337021,
+      "team1HltvId": 8120,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "16 - 6",
+      "date": 1571159250000
+    },
+    {
+      "hltvId": 2337023,
+      "team1HltvId": 4602,
+      "team2HltvId": 5378,
+      "eventHltvId": 4736,
+      "result": "16 - 5",
+      "date": 1571158275000
+    },
+    {
+      "hltvId": 2336645,
+      "team1HltvId": 4602,
+      "team2HltvId": 7969,
+      "eventHltvId": 4736,
+      "result": "12 - 16",
+      "date": 1571154781000
+    },
+    {
+      "hltvId": 2336921,
+      "team1HltvId": 4863,
+      "team2HltvId": 7354,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1571152760000
+    },
+    {
+      "hltvId": 2337020,
+      "team1HltvId": 9928,
+      "team2HltvId": 7969,
+      "eventHltvId": 4736,
+      "result": "17 - 19",
+      "date": 1571149666000
+    },
+    {
+      "hltvId": 2335877,
+      "team1HltvId": 7865,
+      "team2HltvId": 5378,
+      "eventHltvId": 4736,
+      "result": "16 - 7",
+      "date": 1571147900000
+    },
+    {
+      "hltvId": 2336920,
+      "team1HltvId": 7606,
+      "team2HltvId": 7966,
+      "eventHltvId": 4694,
+      "result": "0 - 2",
+      "date": 1571142041000
+    },
+    {
+      "hltvId": 2337017,
+      "team1HltvId": 8008,
+      "team2HltvId": 10339,
+      "eventHltvId": 4738,
+      "result": "16 - 6",
+      "date": 1571136180000
+    },
+    {
+      "hltvId": 2337018,
+      "team1HltvId": 10299,
+      "team2HltvId": 9747,
+      "eventHltvId": 4738,
+      "result": "0 - 1",
+      "date": 1571135128000
+    },
+    {
+      "hltvId": 2337016,
+      "team1HltvId": 9747,
+      "team2HltvId": 9870,
+      "eventHltvId": 4738,
+      "result": "14 - 16",
+      "date": 1571134413000
+    },
+    {
+      "hltvId": 2336456,
+      "team1HltvId": 7983,
+      "team2HltvId": 8008,
+      "eventHltvId": 4738,
+      "result": "4 - 16",
+      "date": 1571132826000
+    },
+    {
+      "hltvId": 2336749,
+      "team1HltvId": 6211,
+      "team2HltvId": 6978,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1571119722000
+    },
+    {
+      "hltvId": 2336984,
+      "team1HltvId": 9943,
+      "team2HltvId": 5005,
+      "eventHltvId": 4919,
+      "result": "0 - 2",
+      "date": 1571117902000
+    },
+    {
+      "hltvId": 2336985,
+      "team1HltvId": 10423,
+      "team2HltvId": 10399,
+      "eventHltvId": 4919,
+      "result": "0 - 2",
+      "date": 1571111383000
+    },
+    {
+      "hltvId": 2337015,
+      "team1HltvId": 6947,
+      "team2HltvId": 10092,
+      "eventHltvId": 4737,
+      "result": "16 - 11",
+      "date": 1571104963000
+    },
+    {
+      "hltvId": 2336748,
+      "team1HltvId": 5973,
+      "team2HltvId": 9943,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1571104856000
+    },
+    {
+      "hltvId": 2336983,
+      "team1HltvId": 6619,
+      "team2HltvId": 5752,
+      "eventHltvId": 4919,
+      "result": "1 - 2",
+      "date": 1571104821000
+    },
+    {
+      "hltvId": 2336982,
+      "team1HltvId": 8297,
+      "team2HltvId": 10164,
+      "eventHltvId": 4919,
+      "result": "2 - 1",
+      "date": 1571103095000
+    },
+    {
+      "hltvId": 2336717,
+      "team1HltvId": 4991,
+      "team2HltvId": 7533,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571091734000
+    },
+    {
+      "hltvId": 2336980,
+      "team1HltvId": 6667,
+      "team2HltvId": 7532,
+      "eventHltvId": 4923,
+      "result": "1 - 2",
+      "date": 1571087349000
+    },
+    {
+      "hltvId": 2336987,
+      "team1HltvId": 8346,
+      "team2HltvId": 4411,
+      "eventHltvId": 4923,
+      "result": "1 - 2",
+      "date": 1571087130000
+    },
+    {
+      "hltvId": 2336937,
+      "team1HltvId": 10386,
+      "team2HltvId": 7865,
+      "eventHltvId": 4492,
+      "result": "1 - 2",
+      "date": 1571083144000
+    },
+    {
+      "hltvId": 2336716,
+      "team1HltvId": 6665,
+      "team2HltvId": 10020,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1571078262000
+    },
+    {
+      "hltvId": 2336978,
+      "team1HltvId": 4494,
+      "team2HltvId": 7376,
+      "eventHltvId": 4923,
+      "result": "1 - 2",
+      "date": 1571075354000
+    },
+    {
+      "hltvId": 2336919,
+      "team1HltvId": 4863,
+      "team2HltvId": 7966,
+      "eventHltvId": 4694,
+      "result": "2 - 1",
+      "date": 1571072124000
+    },
+    {
+      "hltvId": 2336979,
+      "team1HltvId": 5378,
+      "team2HltvId": 4602,
+      "eventHltvId": 4923,
+      "result": "0 - 2",
+      "date": 1571071676000
+    },
+    {
+      "hltvId": 2336844,
+      "team1HltvId": 9287,
+      "team2HltvId": 7969,
+      "eventHltvId": 4492,
+      "result": "1 - 2",
+      "date": 1571069186000
+    },
+    {
+      "hltvId": 2337019,
+      "team1HltvId": 7144,
+      "team2HltvId": 10150,
+      "eventHltvId": 4736,
+      "result": "8 - 16",
+      "date": 1571068970000
+    },
+    {
+      "hltvId": 2337012,
+      "team1HltvId": 10371,
+      "team2HltvId": 9183,
+      "eventHltvId": 4940,
+      "result": "0 - 2",
+      "date": 1571063988000
+    },
+    {
+      "hltvId": 2336918,
+      "team1HltvId": 7606,
+      "team2HltvId": 7354,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1571057016000
+    },
+    {
+      "hltvId": 2337006,
+      "team1HltvId": 8738,
+      "team2HltvId": 9275,
+      "eventHltvId": 4738,
+      "result": "14 - 16",
+      "date": 1571055478000
+    },
+    {
+      "hltvId": 2337003,
+      "team1HltvId": 10375,
+      "team2HltvId": 10325,
+      "eventHltvId": 4738,
+      "result": "8 - 16",
+      "date": 1571042672000
+    },
+    {
+      "hltvId": 2336737,
+      "team1HltvId": 5005,
+      "team2HltvId": 7106,
+      "eventHltvId": 4698,
+      "result": "2 - 1",
+      "date": 1571037582000
+    },
+    {
+      "hltvId": 2336736,
+      "team1HltvId": 10399,
+      "team2HltvId": 5752,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1571020866000
+    },
+    {
+      "hltvId": 2337002,
+      "team1HltvId": 9166,
+      "team2HltvId": 8905,
+      "eventHltvId": 4969,
+      "result": "2 - 1",
+      "date": 1571013158000
+    },
+    {
+      "hltvId": 2336715,
+      "team1HltvId": 7175,
+      "team2HltvId": 8637,
+      "eventHltvId": 4699,
+      "result": "2 - 1",
+      "date": 1571008542000
+    },
+    {
+      "hltvId": 2337014,
+      "team1HltvId": 7612,
+      "team2HltvId": 6619,
+      "eventHltvId": 4966,
+      "result": "0 - 2",
+      "date": 1571003691000
+    },
+    {
+      "hltvId": 2337013,
+      "team1HltvId": 10164,
+      "team2HltvId": 9785,
+      "eventHltvId": 4966,
+      "result": "0 - 2",
+      "date": 1571001336000
+    },
+    {
+      "hltvId": 2337001,
+      "team1HltvId": 6799,
+      "team2HltvId": 10387,
+      "eventHltvId": 4969,
+      "result": "0 - 2",
+      "date": 1570997804000
+    },
+    {
+      "hltvId": 2337011,
+      "team1HltvId": 10170,
+      "team2HltvId": 10125,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1570994691000
+    },
+    {
+      "hltvId": 2336998,
+      "team1HltvId": 7106,
+      "team2HltvId": 6619,
+      "eventHltvId": 4966,
+      "result": "1 - 2",
+      "date": 1570994095000
+    },
+    {
+      "hltvId": 2337010,
+      "team1HltvId": 10422,
+      "team2HltvId": 8772,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1570992817000
+    },
+    {
+      "hltvId": 2337007,
+      "team1HltvId": 8515,
+      "team2HltvId": 10192,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1570991974000
+    },
+    {
+      "hltvId": 2336714,
+      "team1HltvId": 9565,
+      "team2HltvId": 4411,
+      "eventHltvId": 4699,
+      "result": "0 - 2",
+      "date": 1570990951000
+    },
+    {
+      "hltvId": 2336999,
+      "team1HltvId": 5005,
+      "team2HltvId": 9785,
+      "eventHltvId": 4966,
+      "result": "0 - 2",
+      "date": 1570990580000
+    },
+    {
+      "hltvId": 2336997,
+      "team1HltvId": 8113,
+      "team2HltvId": 7612,
+      "eventHltvId": 4966,
+      "result": "0 - 2",
+      "date": 1570990465000
+    },
+    {
+      "hltvId": 2337000,
+      "team1HltvId": 9943,
+      "team2HltvId": 10164,
+      "eventHltvId": 4966,
+      "result": "0 - 2",
+      "date": 1570989302000
+    },
+    {
+      "hltvId": 2336991,
+      "team1HltvId": 8346,
+      "team2HltvId": 8813,
+      "eventHltvId": 4940,
+      "result": "2 - 0",
+      "date": 1570988337000
+    },
+    {
+      "hltvId": 2337009,
+      "team1HltvId": 8772,
+      "team2HltvId": 10097,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1570985996000
+    },
+    {
+      "hltvId": 2337008,
+      "team1HltvId": 10422,
+      "team2HltvId": 9183,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1570982910000
+    },
+    {
+      "hltvId": 2336933,
+      "team1HltvId": 10192,
+      "team2HltvId": 9466,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1570982646000
+    },
+    {
+      "hltvId": 2336990,
+      "team1HltvId": 8813,
+      "team2HltvId": 5378,
+      "eventHltvId": 4940,
+      "result": "2 - 1",
+      "date": 1570979277000
+    },
+    {
+      "hltvId": 2336917,
+      "team1HltvId": 7983,
+      "team2HltvId": 10326,
+      "eventHltvId": 4694,
+      "result": "1 - 2",
+      "date": 1570975461000
+    },
+    {
+      "hltvId": 2336989,
+      "team1HltvId": 9397,
+      "team2HltvId": 10033,
+      "eventHltvId": null,
+      "result": "1 - 2",
+      "date": 1570975192000
+    },
+    {
+      "hltvId": 2336963,
+      "team1HltvId": 10097,
+      "team2HltvId": 9183,
+      "eventHltvId": null,
+      "result": "1 - 2",
+      "date": 1570970882000
+    },
+    {
+      "hltvId": 2336962,
+      "team1HltvId": 8772,
+      "team2HltvId": 10422,
+      "eventHltvId": null,
+      "result": "1 - 2",
+      "date": 1570970205000
+    },
+    {
+      "hltvId": 2336932,
+      "team1HltvId": 8515,
+      "team2HltvId": 8717,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1570967659000
+    },
+    {
+      "hltvId": 2336976,
+      "team1HltvId": 10022,
+      "team2HltvId": 7966,
+      "eventHltvId": 4961,
+      "result": "0 - 2",
+      "date": 1570963142000
+    },
+    {
+      "hltvId": 2336916,
+      "team1HltvId": 6010,
+      "team2HltvId": 8668,
+      "eventHltvId": 4694,
+      "result": "1 - 2",
+      "date": 1570961539000
+    },
+    {
+      "hltvId": 2336988,
+      "team1HltvId": 10033,
+      "team2HltvId": 6089,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1570959192000
+    },
+    {
+      "hltvId": 2336975,
+      "team1HltvId": 7606,
+      "team2HltvId": 7024,
+      "eventHltvId": 4961,
+      "result": "0 - 2",
+      "date": 1570954342000
+    },
+    {
+      "hltvId": 2336735,
+      "team1HltvId": 5752,
+      "team2HltvId": 7106,
+      "eventHltvId": 4698,
+      "result": "1 - 2",
+      "date": 1570952690000
+    },
+    {
+      "hltvId": 2336734,
+      "team1HltvId": 10399,
+      "team2HltvId": 5005,
+      "eventHltvId": 4698,
+      "result": "2 - 1",
+      "date": 1570938261000
+    },
+    {
+      "hltvId": 2336995,
+      "team1HltvId": 10059,
+      "team2HltvId": 10164,
+      "eventHltvId": 4968,
+      "result": "10 - 16",
+      "date": 1570932461000
+    },
+    {
+      "hltvId": 2336994,
+      "team1HltvId": 9785,
+      "team2HltvId": 10332,
+      "eventHltvId": 4968,
+      "result": "16 - 7",
+      "date": 1570930488000
+    },
+    {
+      "hltvId": 2336993,
+      "team1HltvId": 7612,
+      "team2HltvId": 10302,
+      "eventHltvId": 4968,
+      "result": "16 - 7",
+      "date": 1570927365000
+    },
+    {
+      "hltvId": 2336992,
+      "team1HltvId": 6619,
+      "team2HltvId": 9963,
+      "eventHltvId": 4968,
+      "result": "16 - 12",
+      "date": 1570927333000
+    },
+    {
+      "hltvId": 2336713,
+      "team1HltvId": 9565,
+      "team2HltvId": 7175,
+      "eventHltvId": 4699,
+      "result": "2 - 1",
+      "date": 1570925505000
+    },
+    {
+      "hltvId": 2336974,
+      "team1HltvId": 10315,
+      "team2HltvId": 8346,
+      "eventHltvId": 4940,
+      "result": "2 - 1",
+      "date": 1570917735000
+    },
+    {
+      "hltvId": 2336986,
+      "team1HltvId": 6089,
+      "team2HltvId": 10424,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1570917087000
+    },
+    {
+      "hltvId": 2336712,
+      "team1HltvId": 4411,
+      "team2HltvId": 8637,
+      "eventHltvId": 4699,
+      "result": "2 - 1",
+      "date": 1570910599000
+    },
+    {
+      "hltvId": 2336977,
+      "team1HltvId": 9397,
+      "team2HltvId": 10033,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1570904505000
+    },
+    {
+      "hltvId": 2336973,
+      "team1HltvId": 9183,
+      "team2HltvId": 8772,
+      "eventHltvId": 4940,
+      "result": "0 - 2",
+      "date": 1570902286000
+    },
+    {
+      "hltvId": 2336969,
+      "team1HltvId": 10315,
+      "team2HltvId": 7865,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1570894908000
+    },
+    {
+      "hltvId": 2336972,
+      "team1HltvId": 10371,
+      "team2HltvId": 5310,
+      "eventHltvId": 4940,
+      "result": "2 - 1",
+      "date": 1570894573000
+    },
+    {
+      "hltvId": 2336967,
+      "team1HltvId": 7966,
+      "team2HltvId": 9618,
+      "eventHltvId": 4961,
+      "result": "2 - 1",
+      "date": 1570893729000
+    },
+    {
+      "hltvId": 2336968,
+      "team1HltvId": 10020,
+      "team2HltvId": 7865,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1570886479000
+    },
+    {
+      "hltvId": 2336966,
+      "team1HltvId": 10022,
+      "team2HltvId": 6634,
+      "eventHltvId": 4961,
+      "result": "2 - 0",
+      "date": 1570882853000
+    },
+    {
+      "hltvId": 2336915,
+      "team1HltvId": 8668,
+      "team2HltvId": 10326,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570878564000
+    },
+    {
+      "hltvId": 2336965,
+      "team1HltvId": 7024,
+      "team2HltvId": 8840,
+      "eventHltvId": 4961,
+      "result": "2 - 0",
+      "date": 1570876351000
+    },
+    {
+      "hltvId": 2336950,
+      "team1HltvId": 8203,
+      "team2HltvId": 7354,
+      "eventHltvId": 4960,
+      "result": "0 - 2",
+      "date": 1570874321000
+    },
+    {
+      "hltvId": 2336914,
+      "team1HltvId": 6010,
+      "team2HltvId": 7983,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570870706000
+    },
+    {
+      "hltvId": 2336964,
+      "team1HltvId": 7606,
+      "team2HltvId": 9868,
+      "eventHltvId": 4961,
+      "result": "2 - 0",
+      "date": 1570866521000
+    },
+    {
+      "hltvId": 2336733,
+      "team1HltvId": 5752,
+      "team2HltvId": 5005,
+      "eventHltvId": 4698,
+      "result": "1 - 2",
+      "date": 1570866442000
+    },
+    {
+      "hltvId": 2336949,
+      "team1HltvId": 10318,
+      "team2HltvId": 7354,
+      "eventHltvId": 4960,
+      "result": "0 - 2",
+      "date": 1570865056000
+    },
+    {
+      "hltvId": 2336948,
+      "team1HltvId": 8203,
+      "team2HltvId": 8200,
+      "eventHltvId": 4960,
+      "result": "2 - 0",
+      "date": 1570856597000
+    },
+    {
+      "hltvId": 2336731,
+      "team1HltvId": 10399,
+      "team2HltvId": 7106,
+      "eventHltvId": 4698,
+      "result": "2 - 1",
+      "date": 1570852194000
+    },
+    {
+      "hltvId": 2336881,
+      "team1HltvId": 5378,
+      "team2HltvId": 10315,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1570833416000
+    },
+    {
+      "hltvId": 2336711,
+      "team1HltvId": 4411,
+      "team2HltvId": 7175,
+      "eventHltvId": 4699,
+      "result": "0 - 2",
+      "date": 1570833390000
+    },
+    {
+      "hltvId": 2336831,
+      "team1HltvId": 9803,
+      "team2HltvId": 9455,
+      "eventHltvId": 4739,
+      "result": "0 - 2",
+      "date": 1570830425000
+    },
+    {
+      "hltvId": 2336710,
+      "team1HltvId": 9565,
+      "team2HltvId": 8637,
+      "eventHltvId": 4699,
+      "result": "2 - 1",
+      "date": 1570824108000
+    },
+    {
+      "hltvId": 2336880,
+      "team1HltvId": 8813,
+      "team2HltvId": 8346,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1570822279000
+    },
+    {
+      "hltvId": 2336971,
+      "team1HltvId": 8248,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "16 - 6",
+      "date": 1570818775000
+    },
+    {
+      "hltvId": 2336943,
+      "team1HltvId": 8813,
+      "team2HltvId": 5378,
+      "eventHltvId": 4942,
+      "result": "1 - 0",
+      "date": 1570815345000
+    },
+    {
+      "hltvId": 2336941,
+      "team1HltvId": 5378,
+      "team2HltvId": 7718,
+      "eventHltvId": 4942,
+      "result": "2 - 1",
+      "date": 1570815277000
+    },
+    {
+      "hltvId": 2336931,
+      "team1HltvId": 7865,
+      "team2HltvId": 10420,
+      "eventHltvId": 4862,
+      "result": "2 - 1",
+      "date": 1570814476000
+    },
+    {
+      "hltvId": 2336879,
+      "team1HltvId": 5310,
+      "team2HltvId": 8772,
+      "eventHltvId": 4940,
+      "result": "0 - 2",
+      "date": 1570803268000
+    },
+    {
+      "hltvId": 2336930,
+      "team1HltvId": 10020,
+      "team2HltvId": 10315,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1570801966000
+    },
+    {
+      "hltvId": 2336913,
+      "team1HltvId": 8668,
+      "team2HltvId": 7983,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570792417000
+    },
+    {
+      "hltvId": 2336912,
+      "team1HltvId": 6010,
+      "team2HltvId": 10326,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570785130000
+    },
+    {
+      "hltvId": 2336747,
+      "team1HltvId": 5991,
+      "team2HltvId": 7726,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1570774714000
+    },
+    {
+      "hltvId": 2336695,
+      "team1HltvId": 8008,
+      "team2HltvId": 5293,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570773683000
+    },
+    {
+      "hltvId": 2336730,
+      "team1HltvId": 9215,
+      "team2HltvId": 8297,
+      "eventHltvId": 4698,
+      "result": "1 - 2",
+      "date": 1570765954000
+    },
+    {
+      "hltvId": 2336807,
+      "team1HltvId": 5479,
+      "team2HltvId": 10080,
+      "eventHltvId": 4737,
+      "result": "1 - 0",
+      "date": 1570765563000
+    },
+    {
+      "hltvId": 2336806,
+      "team1HltvId": 9943,
+      "team2HltvId": 9229,
+      "eventHltvId": 4737,
+      "result": "0 - 1",
+      "date": 1570765475000
+    },
+    {
+      "hltvId": 2336805,
+      "team1HltvId": 10080,
+      "team2HltvId": 10092,
+      "eventHltvId": 4737,
+      "result": "0 - 1",
+      "date": 1570765441000
+    },
+    {
+      "hltvId": 2336803,
+      "team1HltvId": 7885,
+      "team2HltvId": 10059,
+      "eventHltvId": 4737,
+      "result": "16 - 14",
+      "date": 1570763929000
+    },
+    {
+      "hltvId": 2336887,
+      "team1HltvId": 6947,
+      "team2HltvId": 10164,
+      "eventHltvId": 4737,
+      "result": "5 - 16",
+      "date": 1570762618000
+    },
+    {
+      "hltvId": 2336888,
+      "team1HltvId": 10302,
+      "team2HltvId": 10146,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1570759388000
+    },
+    {
+      "hltvId": 2336804,
+      "team1HltvId": 9229,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "8 - 16",
+      "date": 1570758462000
+    },
+    {
+      "hltvId": 2336942,
+      "team1HltvId": 8813,
+      "team2HltvId": 8772,
+      "eventHltvId": 4942,
+      "result": "1 - 0",
+      "date": 1570755380000
+    },
+    {
+      "hltvId": 2336709,
+      "team1HltvId": 7532,
+      "team2HltvId": 6615,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1570746438000
+    },
+    {
+      "hltvId": 2336901,
+      "team1HltvId": 4773,
+      "team2HltvId": 8574,
+      "eventHltvId": 4510,
+      "result": "3 - 0",
+      "date": 1570743456000
+    },
+    {
+      "hltvId": 2336940,
+      "team1HltvId": 8772,
+      "team2HltvId": 8346,
+      "eventHltvId": 4942,
+      "result": "2 - 0",
+      "date": 1570740888000
+    },
+    {
+      "hltvId": 2336871,
+      "team1HltvId": 8120,
+      "team2HltvId": 8248,
+      "eventHltvId": 4736,
+      "result": "16 - 7",
+      "date": 1570737169000
+    },
+    {
+      "hltvId": 2336870,
+      "team1HltvId": 4602,
+      "team2HltvId": 10420,
+      "eventHltvId": 4736,
+      "result": "19 - 16",
+      "date": 1570735697000
+    },
+    {
+      "hltvId": 2336708,
+      "team1HltvId": 6667,
+      "team2HltvId": 4494,
+      "eventHltvId": 4699,
+      "result": "0 - 2",
+      "date": 1570734560000
+    },
+    {
+      "hltvId": 2336936,
+      "team1HltvId": 10386,
+      "team2HltvId": 8346,
+      "eventHltvId": 4942,
+      "result": "2 - 16",
+      "date": 1570730894000
+    },
+    {
+      "hltvId": 2336639,
+      "team1HltvId": 8120,
+      "team2HltvId": 7144,
+      "eventHltvId": 4736,
+      "result": "13 - 16",
+      "date": 1570730851000
+    },
+    {
+      "hltvId": 2336935,
+      "team1HltvId": 8772,
+      "team2HltvId": 7718,
+      "eventHltvId": 4942,
+      "result": "14 - 16",
+      "date": 1570727335000
+    },
+    {
+      "hltvId": 2336872,
+      "team1HltvId": 8813,
+      "team2HltvId": 9928,
+      "eventHltvId": 4736,
+      "result": "5 - 16",
+      "date": 1570726570000
+    },
+    {
+      "hltvId": 2336905,
+      "team1HltvId": 8248,
+      "team2HltvId": 10420,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1570723739000
+    },
+    {
+      "hltvId": 2336906,
+      "team1HltvId": 4602,
+      "team2HltvId": 9183,
+      "eventHltvId": 4492,
+      "result": "0 - 2",
+      "date": 1570723350000
+    },
+    {
+      "hltvId": 2336895,
+      "team1HltvId": 7718,
+      "team2HltvId": 8346,
+      "eventHltvId": 4942,
+      "result": "16 - 12",
+      "date": 1570722052000
+    },
+    {
+      "hltvId": 2336894,
+      "team1HltvId": 8772,
+      "team2HltvId": 10386,
+      "eventHltvId": 4942,
+      "result": "16 - 13",
+      "date": 1570716648000
+    },
+    {
+      "hltvId": 2336904,
+      "team1HltvId": 7865,
+      "team2HltvId": 9287,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1570710924000
+    },
+    {
+      "hltvId": 2336694,
+      "team1HltvId": 5293,
+      "team2HltvId": 8536,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570704920000
+    },
+    {
+      "hltvId": 2336777,
+      "team1HltvId": 7983,
+      "team2HltvId": 9747,
+      "eventHltvId": 4770,
+      "result": "0 - 2",
+      "date": 1570702695000
+    },
+    {
+      "hltvId": 2336897,
+      "team1HltvId": 10325,
+      "team2HltvId": 9275,
+      "eventHltvId": 4738,
+      "result": "7 - 16",
+      "date": 1570702297000
+    },
+    {
+      "hltvId": 2336903,
+      "team1HltvId": 9870,
+      "team2HltvId": 5607,
+      "eventHltvId": 4738,
+      "result": "10 - 16",
+      "date": 1570701278000
+    },
+    {
+      "hltvId": 2336902,
+      "team1HltvId": 10205,
+      "team2HltvId": 6010,
+      "eventHltvId": 4738,
+      "result": "5 - 16",
+      "date": 1570701249000
+    },
+    {
+      "hltvId": 2336693,
+      "team1HltvId": 8008,
+      "team2HltvId": 10220,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570697435000
+    },
+    {
+      "hltvId": 2336728,
+      "team1HltvId": 8297,
+      "team2HltvId": 5991,
+      "eventHltvId": 4698,
+      "result": "1 - 2",
+      "date": 1570692778000
+    },
+    {
+      "hltvId": 2336886,
+      "team1HltvId": 7885,
+      "team2HltvId": 10092,
+      "eventHltvId": 4737,
+      "result": "16 - 14",
+      "date": 1570676808000
+    },
+    {
+      "hltvId": 2336884,
+      "team1HltvId": 9785,
+      "team2HltvId": 6947,
+      "eventHltvId": 4737,
+      "result": "3 - 16",
+      "date": 1570675738000
+    },
+    {
+      "hltvId": 2336746,
+      "team1HltvId": 9215,
+      "team2HltvId": 7726,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1570674562000
+    },
+    {
+      "hltvId": 2336900,
+      "team1HltvId": 7612,
+      "team2HltvId": 10146,
+      "eventHltvId": 4737,
+      "result": "16 - 8",
+      "date": 1570672917000
+    },
+    {
+      "hltvId": 2336910,
+      "team1HltvId": 7841,
+      "team2HltvId": 10092,
+      "eventHltvId": 4737,
+      "result": "16 - 4",
+      "date": 1570671579000
+    },
+    {
+      "hltvId": 2336885,
+      "team1HltvId": 10164,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "16 - 2",
+      "date": 1570671398000
+    },
+    {
+      "hltvId": 2336707,
+      "team1HltvId": 4494,
+      "team2HltvId": 6615,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1570660726000
+    },
+    {
+      "hltvId": 2336909,
+      "team1HltvId": 5378,
+      "team2HltvId": 6685,
+      "eventHltvId": 4942,
+      "result": "2 - 1",
+      "date": 1570659453000
+    },
+    {
+      "hltvId": 2336899,
+      "team1HltvId": 7865,
+      "team2HltvId": 8248,
+      "eventHltvId": 4736,
+      "result": "11 - 16",
+      "date": 1570655461000
+    },
+    {
+      "hltvId": 2336426,
+      "team1HltvId": 8248,
+      "team2HltvId": 9928,
+      "eventHltvId": 4736,
+      "result": "16 - 14",
+      "date": 1570651717000
+    },
+    {
+      "hltvId": 2336882,
+      "team1HltvId": 8346,
+      "team2HltvId": 8669,
+      "eventHltvId": 4492,
+      "result": "1 - 2",
+      "date": 1570651077000
+    },
+    {
+      "hltvId": 2336706,
+      "team1HltvId": 6667,
+      "team2HltvId": 7532,
+      "eventHltvId": 4699,
+      "result": "2 - 1",
+      "date": 1570650832000
+    },
+    {
+      "hltvId": 2336908,
+      "team1HltvId": 6685,
+      "team2HltvId": 10315,
+      "eventHltvId": 4942,
+      "result": "16 - 12",
+      "date": 1570645802000
+    },
+    {
+      "hltvId": 2336855,
+      "team1HltvId": 7461,
+      "team2HltvId": 10420,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1570642759000
+    },
+    {
+      "hltvId": 2336907,
+      "team1HltvId": 8813,
+      "team2HltvId": 5378,
+      "eventHltvId": 4942,
+      "result": "16 - 11",
+      "date": 1570640475000
+    },
+    {
+      "hltvId": 2336893,
+      "team1HltvId": 5378,
+      "team2HltvId": 10315,
+      "eventHltvId": 4942,
+      "result": "16 - 12",
+      "date": 1570635601000
+    },
+    {
+      "hltvId": 2336854,
+      "team1HltvId": 10020,
+      "team2HltvId": 9287,
+      "eventHltvId": 4862,
+      "result": "2 - 1",
+      "date": 1570634907000
+    },
+    {
+      "hltvId": 2336892,
+      "team1HltvId": 6685,
+      "team2HltvId": 8813,
+      "eventHltvId": 4942,
+      "result": "11 - 16",
+      "date": 1570630799000
+    },
+    {
+      "hltvId": 2336692,
+      "team1HltvId": 8008,
+      "team2HltvId": 8536,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570621041000
+    },
+    {
+      "hltvId": 2336898,
+      "team1HltvId": 10375,
+      "team2HltvId": 9750,
+      "eventHltvId": 4738,
+      "result": "14 - 16",
+      "date": 1570618845000
+    },
+    {
+      "hltvId": 2336896,
+      "team1HltvId": 8668,
+      "team2HltvId": 10375,
+      "eventHltvId": 4738,
+      "result": "16 - 10",
+      "date": 1570614904000
+    },
+    {
+      "hltvId": 2336691,
+      "team1HltvId": 5293,
+      "team2HltvId": 10220,
+      "eventHltvId": 4694,
+      "result": "2 - 0",
+      "date": 1570611652000
+    },
+    {
+      "hltvId": 2336745,
+      "team1HltvId": 8297,
+      "team2HltvId": 7726,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1570601996000
+    },
+    {
+      "hltvId": 2336801,
+      "team1HltvId": 6947,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "13 - 16",
+      "date": 1570591140000
+    },
+    {
+      "hltvId": 2336729,
+      "team1HltvId": 9215,
+      "team2HltvId": 5991,
+      "eventHltvId": 4698,
+      "result": "2 - 0",
+      "date": 1570588601000
+    },
+    {
+      "hltvId": 2336800,
+      "team1HltvId": 9229,
+      "team2HltvId": 10302,
+      "eventHltvId": 4737,
+      "result": "8 - 16",
+      "date": 1570586160000
+    },
+    {
+      "hltvId": 2336883,
+      "team1HltvId": 7841,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "6 - 16",
+      "date": 1570585611000
+    },
+    {
+      "hltvId": 2336667,
+      "team1HltvId": 6619,
+      "team2HltvId": 10092,
+      "eventHltvId": 4737,
+      "result": "16 - 3",
+      "date": 1570582245000
+    },
+    {
+      "hltvId": 2336705,
+      "team1HltvId": 6667,
+      "team2HltvId": 6615,
+      "eventHltvId": 4699,
+      "result": "2 - 0",
+      "date": 1570575568000
+    },
+    {
+      "hltvId": 2336856,
+      "team1HltvId": 10020,
+      "team2HltvId": 9183,
+      "eventHltvId": 4492,
+      "result": "2 - 1",
+      "date": 1570571704000
+    },
+    {
+      "hltvId": 2336704,
+      "team1HltvId": 4494,
+      "team2HltvId": 7532,
+      "eventHltvId": 4699,
+      "result": "2 - 1",
+      "date": 1570565995000
+    },
+    {
+      "hltvId": 2336863,
+      "team1HltvId": 7969,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "16 - 9",
+      "date": 1570557883000
+    },
+    {
+      "hltvId": 2336862,
+      "team1HltvId": 7865,
+      "team2HltvId": 8120,
+      "eventHltvId": 4736,
+      "result": "5 - 16",
+      "date": 1570557294000
+    },
+    {
+      "hltvId": 2336861,
+      "team1HltvId": 10420,
+      "team2HltvId": 8813,
+      "eventHltvId": 4736,
+      "result": "4 - 16",
+      "date": 1570553261000
+    },
+    {
+      "hltvId": 2336878,
+      "team1HltvId": 7461,
+      "team2HltvId": 9928,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1570550829000
+    },
+    {
+      "hltvId": 2336853,
+      "team1HltvId": 8248,
+      "team2HltvId": 10315,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1570548539000
+    },
+    {
+      "hltvId": 2336859,
+      "team1HltvId": 10150,
+      "team2HltvId": 8068,
+      "eventHltvId": 4736,
+      "result": "13 - 16",
+      "date": 1570547864000
+    },
+    {
+      "hltvId": 2336860,
+      "team1HltvId": 10420,
+      "team2HltvId": 8120,
+      "eventHltvId": 4736,
+      "result": "7 - 16",
+      "date": 1570546959000
+    },
+    {
+      "hltvId": 2336852,
+      "team1HltvId": 10386,
+      "team2HltvId": 7865,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1570536753000
+    },
+    {
+      "hltvId": 2336851,
+      "team1HltvId": 7983,
+      "team2HltvId": 6010,
+      "eventHltvId": 4738,
+      "result": "2 - 16",
+      "date": 1570535447000
+    },
+    {
+      "hltvId": 2336690,
+      "team1HltvId": 8536,
+      "team2HltvId": 10220,
+      "eventHltvId": 4694,
+      "result": "1 - 2",
+      "date": 1570530548000
+    },
+    {
+      "hltvId": 2336850,
+      "team1HltvId": 5607,
+      "team2HltvId": 10205,
+      "eventHltvId": 4738,
+      "result": "16 - 4",
+      "date": 1570527673000
+    },
+    {
+      "hltvId": 2336849,
+      "team1HltvId": 9870,
+      "team2HltvId": 10299,
+      "eventHltvId": 4738,
+      "result": "1 - 0",
+      "date": 1570526374000
+    },
+    {
+      "hltvId": 2336847,
+      "team1HltvId": 9183,
+      "team2HltvId": 10371,
+      "eventHltvId": 4940,
+      "result": "2 - 0",
+      "date": 1570481967000
+    },
+    {
+      "hltvId": 2336846,
+      "team1HltvId": 8637,
+      "team2HltvId": 10225,
+      "eventHltvId": 4940,
+      "result": "2 - 1",
+      "date": 1570474669000
+    },
+    {
+      "hltvId": 2336843,
+      "team1HltvId": 5310,
+      "team2HltvId": 10315,
+      "eventHltvId": 4492,
+      "result": "0 - 2",
+      "date": 1570466598000
+    },
+    {
+      "hltvId": 2336845,
+      "team1HltvId": 7969,
+      "team2HltvId": 8305,
+      "eventHltvId": 4940,
+      "result": "2 - 1",
+      "date": 1570459946000
+    },
+    {
+      "hltvId": 2336756,
+      "team1HltvId": 7865,
+      "team2HltvId": 10315,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1570452820000
+    },
+    {
+      "hltvId": 2336842,
+      "team1HltvId": 9275,
+      "team2HltvId": 9747,
+      "eventHltvId": 4738,
+      "result": "16 - 19",
+      "date": 1570450737000
+    },
+    {
+      "hltvId": 2336841,
+      "team1HltvId": 10220,
+      "team2HltvId": 10339,
+      "eventHltvId": 4738,
+      "result": "16 - 8",
+      "date": 1570449110000
+    },
+    {
+      "hltvId": 2336840,
+      "team1HltvId": 9747,
+      "team2HltvId": 10220,
+      "eventHltvId": 4738,
+      "result": "14 - 16",
+      "date": 1570446256000
+    },
+    {
+      "hltvId": 2336697,
+      "team1HltvId": 10220,
+      "team2HltvId": 10325,
+      "eventHltvId": 4738,
+      "result": "16 - 13",
+      "date": 1570442614000
+    },
+    {
+      "hltvId": 2336761,
+      "team1HltvId": 10059,
+      "team2HltvId": 6947,
+      "eventHltvId": 4737,
+      "result": "10 - 16",
+      "date": 1570414497000
+    },
+    {
+      "hltvId": 2336832,
+      "team1HltvId": 8121,
+      "team2HltvId": 6799,
+      "eventHltvId": 4784,
+      "result": "2 - 1",
+      "date": 1570414429000
+    },
+    {
+      "hltvId": 2336833,
+      "team1HltvId": 9963,
+      "team2HltvId": 10388,
+      "eventHltvId": 4785,
+      "result": "1 - 0",
+      "date": 1570402743000
+    },
+    {
+      "hltvId": 2336830,
+      "team1HltvId": 4602,
+      "team2HltvId": 10225,
+      "eventHltvId": 4940,
+      "result": "2 - 0",
+      "date": 1570395872000
+    },
+    {
+      "hltvId": 2336829,
+      "team1HltvId": 10020,
+      "team2HltvId": 8637,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1570389597000
+    },
+    {
+      "hltvId": 2336335,
+      "team1HltvId": 4991,
+      "team2HltvId": 9565,
+      "eventHltvId": 4553,
+      "result": "2 - 1",
+      "date": 1570388653000
+    },
+    {
+      "hltvId": 2336823,
+      "team1HltvId": 7175,
+      "team2HltvId": 4602,
+      "eventHltvId": 4931,
+      "result": "2 - 0",
+      "date": 1570388594000
+    },
+    {
+      "hltvId": 2336828,
+      "team1HltvId": 10094,
+      "team2HltvId": 8305,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1570376372000
+    },
+    {
+      "hltvId": 2336839,
+      "team1HltvId": 8680,
+      "team2HltvId": 8220,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1570373099000
+    },
+    {
+      "hltvId": 2336821,
+      "team1HltvId": 10417,
+      "team2HltvId": 10115,
+      "eventHltvId": 4804,
+      "result": "2 - 0",
+      "date": 1570369960000
+    },
+    {
+      "hltvId": 2336755,
+      "team1HltvId": 8248,
+      "team2HltvId": 10386,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1570367624000
+    },
+    {
+      "hltvId": 2336838,
+      "team1HltvId": 10051,
+      "team2HltvId": 10328,
+      "eventHltvId": 4957,
+      "result": "0 - 2",
+      "date": 1570363809000
+    },
+    {
+      "hltvId": 2336781,
+      "team1HltvId": 8220,
+      "team2HltvId": 8262,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1570359205000
+    },
+    {
+      "hltvId": 2336822,
+      "team1HltvId": 10300,
+      "team2HltvId": 6898,
+      "eventHltvId": 4806,
+      "result": "1 - 2",
+      "date": 1570356631000
+    },
+    {
+      "hltvId": 2336835,
+      "team1HltvId": 10328,
+      "team2HltvId": 8607,
+      "eventHltvId": 4957,
+      "result": "2 - 0",
+      "date": 1570356473000
+    },
+    {
+      "hltvId": 2336836,
+      "team1HltvId": 10310,
+      "team2HltvId": 9032,
+      "eventHltvId": 4948,
+      "result": "0 - 2",
+      "date": 1570352045000
+    },
+    {
+      "hltvId": 2336834,
+      "team1HltvId": 10051,
+      "team2HltvId": 9100,
+      "eventHltvId": 4957,
+      "result": "2 - 0",
+      "date": 1570347668000
+    },
+    {
+      "hltvId": 2336837,
+      "team1HltvId": 10394,
+      "team2HltvId": 9107,
+      "eventHltvId": 4947,
+      "result": "0 - 2",
+      "date": 1570346955000
+    },
+    {
+      "hltvId": 2336782,
+      "team1HltvId": 8680,
+      "team2HltvId": 8848,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1570342558000
+    },
+    {
+      "hltvId": 2336827,
+      "team1HltvId": 9107,
+      "team2HltvId": 5258,
+      "eventHltvId": 4947,
+      "result": "2 - 0",
+      "date": 1570339542000
+    },
+    {
+      "hltvId": 2336826,
+      "team1HltvId": 10394,
+      "team2HltvId": 10393,
+      "eventHltvId": 4947,
+      "result": "2 - 0",
+      "date": 1570339491000
+    },
+    {
+      "hltvId": 2336825,
+      "team1HltvId": 9032,
+      "team2HltvId": 5013,
+      "eventHltvId": 4948,
+      "result": "2 - 1",
+      "date": 1570338696000
+    },
+    {
+      "hltvId": 2336824,
+      "team1HltvId": 10310,
+      "team2HltvId": 10301,
+      "eventHltvId": 4948,
+      "result": "2 - 1",
+      "date": 1570338355000
+    },
+    {
+      "hltvId": 2336817,
+      "team1HltvId": 10388,
+      "team2HltvId": 9857,
+      "eventHltvId": 4785,
+      "result": "2 - 0",
+      "date": 1570330900000
+    },
+    {
+      "hltvId": 2336816,
+      "team1HltvId": 6799,
+      "team2HltvId": 10387,
+      "eventHltvId": 4784,
+      "result": "2 - 0",
+      "date": 1570322913000
+    },
+    {
+      "hltvId": 2336815,
+      "team1HltvId": 8637,
+      "team2HltvId": 4602,
+      "eventHltvId": 4931,
+      "result": "1 - 2",
+      "date": 1570311285000
+    },
+    {
+      "hltvId": 2336688,
+      "team1HltvId": 8772,
+      "team2HltvId": 10129,
+      "eventHltvId": 4771,
+      "result": "2 - 0",
+      "date": 1570308270000
+    },
+    {
+      "hltvId": 2336820,
+      "team1HltvId": 9976,
+      "team2HltvId": 7969,
+      "eventHltvId": 4940,
+      "result": "2 - 0",
+      "date": 1570307287000
+    },
+    {
+      "hltvId": 2336334,
+      "team1HltvId": 4608,
+      "team2HltvId": 9565,
+      "eventHltvId": 4553,
+      "result": "1 - 2",
+      "date": 1570304228000
+    },
+    {
+      "hltvId": 2336819,
+      "team1HltvId": 10225,
+      "team2HltvId": 8637,
+      "eventHltvId": 4940,
+      "result": "2 - 1",
+      "date": 1570298642000
+    },
+    {
+      "hltvId": 2336537,
+      "team1HltvId": 8346,
+      "team2HltvId": 7718,
+      "eventHltvId": 2838,
+      "result": "2 - 1",
+      "date": 1570297754000
+    },
+    {
+      "hltvId": 2336808,
+      "team1HltvId": 7175,
+      "team2HltvId": 7898,
+      "eventHltvId": 4931,
+      "result": "2 - 0",
+      "date": 1570294949000
+    },
+    {
+      "hltvId": 2336785,
+      "team1HltvId": 7348,
+      "team2HltvId": 9921,
+      "eventHltvId": 4952,
+      "result": "2 - 1",
+      "date": 1570291577000
+    },
+    {
+      "hltvId": 2336333,
+      "team1HltvId": 6665,
+      "team2HltvId": 4991,
+      "eventHltvId": 4553,
+      "result": "0 - 2",
+      "date": 1570290437000
+    },
+    {
+      "hltvId": 2336818,
+      "team1HltvId": 4602,
+      "team2HltvId": 10020,
+      "eventHltvId": 4940,
+      "result": "2 - 0",
+      "date": 1570284730000
+    },
+    {
+      "hltvId": 2336754,
+      "team1HltvId": 9287,
+      "team2HltvId": 7461,
+      "eventHltvId": 4862,
+      "result": "2 - 1",
+      "date": 1570284532000
+    },
+    {
+      "hltvId": 2336811,
+      "team1HltvId": 4688,
+      "team2HltvId": 10127,
+      "eventHltvId": 4843,
+      "result": "2 - 0",
+      "date": 1570277527000
+    },
+    {
+      "hltvId": 2336813,
+      "team1HltvId": 6898,
+      "team2HltvId": 10402,
+      "eventHltvId": 4806,
+      "result": "2 - 0",
+      "date": 1570275629000
+    },
+    {
+      "hltvId": 2336810,
+      "team1HltvId": 10418,
+      "team2HltvId": 10115,
+      "eventHltvId": 4804,
+      "result": "0 - 2",
+      "date": 1570272303000
+    },
+    {
+      "hltvId": 2336812,
+      "team1HltvId": 6915,
+      "team2HltvId": 10300,
+      "eventHltvId": 4806,
+      "result": "0 - 2",
+      "date": 1570266993000
+    },
+    {
+      "hltvId": 2336771,
+      "team1HltvId": 8848,
+      "team2HltvId": 10367,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1570266935000
+    },
+    {
+      "hltvId": 2336809,
+      "team1HltvId": 10338,
+      "team2HltvId": 10417,
+      "eventHltvId": 4804,
+      "result": "1 - 2",
+      "date": 1570258791000
+    },
+    {
+      "hltvId": 2336770,
+      "team1HltvId": 8262,
+      "team2HltvId": 10047,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1570256424000
+    },
+    {
+      "hltvId": 2336649,
+      "team1HltvId": 9803,
+      "team2HltvId": 9902,
+      "eventHltvId": 4739,
+      "result": "2 - 1",
+      "date": 1570248126000
+    },
+    {
+      "hltvId": 2336794,
+      "team1HltvId": 9963,
+      "team2HltvId": 10388,
+      "eventHltvId": 4785,
+      "result": "2 - 0",
+      "date": 1570243198000
+    },
+    {
+      "hltvId": 2336793,
+      "team1HltvId": 6799,
+      "team2HltvId": 8905,
+      "eventHltvId": 4784,
+      "result": "2 - 0",
+      "date": 1570240444000
+    },
+    {
+      "hltvId": 2336792,
+      "team1HltvId": 8121,
+      "team2HltvId": 10387,
+      "eventHltvId": 4784,
+      "result": "2 - 0",
+      "date": 1570236875000
+    },
+    {
+      "hltvId": 2336681,
+      "team1HltvId": 4602,
+      "team2HltvId": 10020,
+      "eventHltvId": 4931,
+      "result": "2 - 1",
+      "date": 1570230561000
+    },
+    {
+      "hltvId": 2336332,
+      "team1HltvId": 9565,
+      "team2HltvId": 4494,
+      "eventHltvId": 4553,
+      "result": "2 - 1",
+      "date": 1570227149000
+    },
+    {
+      "hltvId": 2336788,
+      "team1HltvId": 7969,
+      "team2HltvId": 10094,
+      "eventHltvId": 4940,
+      "result": "2 - 1",
+      "date": 1570222907000
+    },
+    {
+      "hltvId": 2336814,
+      "team1HltvId": 4949,
+      "team2HltvId": 10020,
+      "eventHltvId": 4941,
+      "result": "1 - 0",
+      "date": 1570220993000
+    },
+    {
+      "hltvId": 2336791,
+      "team1HltvId": 7718,
+      "team2HltvId": 10020,
+      "eventHltvId": 4941,
+      "result": "1 - 2",
+      "date": 1570220702000
+    },
+    {
+      "hltvId": 2336680,
+      "team1HltvId": 7532,
+      "team2HltvId": 8637,
+      "eventHltvId": 4931,
+      "result": "1 - 2",
+      "date": 1570216336000
+    },
+    {
+      "hltvId": 2336330,
+      "team1HltvId": 4991,
+      "team2HltvId": 4411,
+      "eventHltvId": 4553,
+      "result": "2 - 1",
+      "date": 1570210904000
+    },
+    {
+      "hltvId": 2336787,
+      "team1HltvId": 9976,
+      "team2HltvId": 8305,
+      "eventHltvId": 4940,
+      "result": "2 - 0",
+      "date": 1570210510000
+    },
+    {
+      "hltvId": 2336790,
+      "team1HltvId": 6685,
+      "team2HltvId": 4949,
+      "eventHltvId": 4941,
+      "result": "1 - 2",
+      "date": 1570207227000
+    },
+    {
+      "hltvId": 2336764,
+      "team1HltvId": 9287,
+      "team2HltvId": 7898,
+      "eventHltvId": 4940,
+      "result": "2 - 0",
+      "date": 1570197970000
+    },
+    {
+      "hltvId": 2336753,
+      "team1HltvId": 10020,
+      "team2HltvId": 10420,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1570195211000
+    },
+    {
+      "hltvId": 2336799,
+      "team1HltvId": 10290,
+      "team2HltvId": 10206,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1570184805000
+    },
+    {
+      "hltvId": 2336779,
+      "team1HltvId": 10206,
+      "team2HltvId": 9017,
+      "eventHltvId": null,
+      "result": "16 - 10",
+      "date": 1570173787000
+    },
+    {
+      "hltvId": 2336776,
+      "team1HltvId": 10290,
+      "team2HltvId": 10416,
+      "eventHltvId": null,
+      "result": "16 - 13",
+      "date": 1570166615000
+    },
+    {
+      "hltvId": 2336759,
+      "team1HltvId": 7841,
+      "team2HltvId": 10261,
+      "eventHltvId": 4737,
+      "result": "16 - 12",
+      "date": 1570155240000
+    },
+    {
+      "hltvId": 2336760,
+      "team1HltvId": 10164,
+      "team2HltvId": 7885,
+      "eventHltvId": 4737,
+      "result": "16 - 6",
+      "date": 1570154424000
+    },
+    {
+      "hltvId": 2336648,
+      "team1HltvId": 9455,
+      "team2HltvId": 9910,
+      "eventHltvId": 4739,
+      "result": "2 - 0",
+      "date": 1570154066000
+    },
+    {
+      "hltvId": 2336789,
+      "team1HltvId": 9943,
+      "team2HltvId": 10092,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1570153961000
+    },
+    {
+      "hltvId": 2336758,
+      "team1HltvId": 7841,
+      "team2HltvId": 9392,
+      "eventHltvId": 4737,
+      "result": "9 - 16",
+      "date": 1570151109000
+    },
+    {
+      "hltvId": 2336468,
+      "team1HltvId": 9963,
+      "team2HltvId": 9857,
+      "eventHltvId": 4785,
+      "result": "16 - 4",
+      "date": 1570150797000
+    },
+    {
+      "hltvId": 2336467,
+      "team1HltvId": 10387,
+      "team2HltvId": 6799,
+      "eventHltvId": 4784,
+      "result": "16 - 7",
+      "date": 1570150786000
+    },
+    {
+      "hltvId": 2336689,
+      "team1HltvId": 9943,
+      "team2HltvId": 8113,
+      "eventHltvId": 4918,
+      "result": "2 - 0",
+      "date": 1570147296000
+    },
+    {
+      "hltvId": 2336466,
+      "team1HltvId": 8121,
+      "team2HltvId": 8905,
+      "eventHltvId": 4784,
+      "result": "16 - 7",
+      "date": 1570147099000
+    },
+    {
+      "hltvId": 2336786,
+      "team1HltvId": 4949,
+      "team2HltvId": 8504,
+      "eventHltvId": 4941,
+      "result": "2 - 1",
+      "date": 1570142844000
+    },
+    {
+      "hltvId": 2336686,
+      "team1HltvId": 5378,
+      "team2HltvId": 7175,
+      "eventHltvId": 4922,
+      "result": "0 - 2",
+      "date": 1570136525000
+    },
+    {
+      "hltvId": 2336679,
+      "team1HltvId": 8772,
+      "team2HltvId": 7898,
+      "eventHltvId": 4931,
+      "result": "0 - 2",
+      "date": 1570132688000
+    },
+    {
+      "hltvId": 2336328,
+      "team1HltvId": 8008,
+      "team2HltvId": 4494,
+      "eventHltvId": 4553,
+      "result": "1 - 2",
+      "date": 1570132385000
+    },
+    {
+      "hltvId": 2336469,
+      "team1HltvId": 10330,
+      "team2HltvId": 10388,
+      "eventHltvId": 4785,
+      "result": "0 - 1",
+      "date": 1570130120000
+    },
+    {
+      "hltvId": 2336763,
+      "team1HltvId": 9928,
+      "team2HltvId": 8513,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1570128272000
+    },
+    {
+      "hltvId": 2336784,
+      "team1HltvId": 8504,
+      "team2HltvId": 8813,
+      "eventHltvId": 4941,
+      "result": "16 - 14",
+      "date": 1570127735000
+    },
+    {
+      "hltvId": 2336329,
+      "team1HltvId": 4608,
+      "team2HltvId": 4411,
+      "eventHltvId": 4553,
+      "result": "2 - 0",
+      "date": 1570127418000
+    },
+    {
+      "hltvId": 2336610,
+      "team1HltvId": 10225,
+      "team2HltvId": 8769,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1570125503000
+    },
+    {
+      "hltvId": 2336682,
+      "team1HltvId": 7175,
+      "team2HltvId": 7969,
+      "eventHltvId": 4931,
+      "result": "2 - 0",
+      "date": 1570123888000
+    },
+    {
+      "hltvId": 2336783,
+      "team1HltvId": 10020,
+      "team2HltvId": 4949,
+      "eventHltvId": 4941,
+      "result": "16 - 8",
+      "date": 1570121560000
+    },
+    {
+      "hltvId": 2336326,
+      "team1HltvId": 8297,
+      "team2HltvId": 4991,
+      "eventHltvId": 4553,
+      "result": "0 - 2",
+      "date": 1570120643000
+    },
+    {
+      "hltvId": 2336644,
+      "team1HltvId": 8120,
+      "team2HltvId": 7718,
+      "eventHltvId": 4736,
+      "result": "16 - 7",
+      "date": 1570118206000
+    },
+    {
+      "hltvId": 2336677,
+      "team1HltvId": 8813,
+      "team2HltvId": 4949,
+      "eventHltvId": 4941,
+      "result": "14 - 16",
+      "date": 1570116996000
+    },
+    {
+      "hltvId": 2336327,
+      "team1HltvId": 6665,
+      "team2HltvId": 9565,
+      "eventHltvId": 4553,
+      "result": "2 - 0",
+      "date": 1570116650000
+    },
+    {
+      "hltvId": 2336762,
+      "team1HltvId": 7461,
+      "team2HltvId": 10381,
+      "eventHltvId": 4940,
+      "result": "2 - 1",
+      "date": 1570115632000
+    },
+    {
+      "hltvId": 2336775,
+      "team1HltvId": 9921,
+      "team2HltvId": 10368,
+      "eventHltvId": 4952,
+      "result": "16 - 13",
+      "date": 1570115460000
+    },
+    {
+      "hltvId": 2336650,
+      "team1HltvId": 10425,
+      "team2HltvId": 7983,
+      "eventHltvId": 4770,
+      "result": "2 - 1",
+      "date": 1570111867000
+    },
+    {
+      "hltvId": 2336676,
+      "team1HltvId": 10020,
+      "team2HltvId": 8504,
+      "eventHltvId": 4941,
+      "result": "16 - 6",
+      "date": 1570110442000
+    },
+    {
+      "hltvId": 2336701,
+      "team1HltvId": 8738,
+      "team2HltvId": 9750,
+      "eventHltvId": 4738,
+      "result": "19 - 22",
+      "date": 1570109784000
+    },
+    {
+      "hltvId": 2336774,
+      "team1HltvId": 7092,
+      "team2HltvId": 10414,
+      "eventHltvId": 4946,
+      "result": "2 - 0",
+      "date": 1570108616000
+    },
+    {
+      "hltvId": 2336769,
+      "team1HltvId": 8000,
+      "team2HltvId": 10368,
+      "eventHltvId": 4952,
+      "result": "11 - 16",
+      "date": 1570106798000
+    },
+    {
+      "hltvId": 2336325,
+      "team1HltvId": 4494,
+      "team2HltvId": 6615,
+      "eventHltvId": 4553,
+      "result": "2 - 0",
+      "date": 1570105569000
+    },
+    {
+      "hltvId": 2336324,
+      "team1HltvId": 5973,
+      "team2HltvId": 8008,
+      "eventHltvId": 4553,
+      "result": "0 - 2",
+      "date": 1570104981000
+    },
+    {
+      "hltvId": 2336700,
+      "team1HltvId": 8738,
+      "team2HltvId": 10205,
+      "eventHltvId": 4738,
+      "result": "16 - 7",
+      "date": 1570104852000
+    },
+    {
+      "hltvId": 2336699,
+      "team1HltvId": 6010,
+      "team2HltvId": 8668,
+      "eventHltvId": 4738,
+      "result": "16 - 12",
+      "date": 1570103857000
+    },
+    {
+      "hltvId": 2336772,
+      "team1HltvId": 10414,
+      "team2HltvId": 10415,
+      "eventHltvId": 4946,
+      "result": "2 - 0",
+      "date": 1570103076000
+    },
+    {
+      "hltvId": 2336773,
+      "team1HltvId": 9870,
+      "team2HltvId": 9275,
+      "eventHltvId": 4738,
+      "result": "14 - 16",
+      "date": 1570100685000
+    },
+    {
+      "hltvId": 2336698,
+      "team1HltvId": 6010,
+      "team2HltvId": 10220,
+      "eventHltvId": 4738,
+      "result": "16 - 11",
+      "date": 1570100495000
+    },
+    {
+      "hltvId": 2336651,
+      "team1HltvId": 9747,
+      "team2HltvId": 8536,
+      "eventHltvId": 4770,
+      "result": "2 - 0",
+      "date": 1570100373000
+    },
+    {
+      "hltvId": 2336768,
+      "team1HltvId": 7348,
+      "team2HltvId": 9921,
+      "eventHltvId": 4952,
+      "result": "16 - 7",
+      "date": 1570099330000
+    },
+    {
+      "hltvId": 2336766,
+      "team1HltvId": 7092,
+      "team2HltvId": 7024,
+      "eventHltvId": 4946,
+      "result": "2 - 1",
+      "date": 1570096707000
+    },
+    {
+      "hltvId": 2336519,
+      "team1HltvId": 8668,
+      "team2HltvId": 9275,
+      "eventHltvId": 4738,
+      "result": "16 - 8",
+      "date": 1570096600000
+    },
+    {
+      "hltvId": 2336696,
+      "team1HltvId": 10299,
+      "team2HltvId": 5607,
+      "eventHltvId": 4738,
+      "result": "0 - 1",
+      "date": 1570095898000
+    },
+    {
+      "hltvId": 2336767,
+      "team1HltvId": 9921,
+      "team2HltvId": 10368,
+      "eventHltvId": 4952,
+      "result": "19 - 17",
+      "date": 1570092864000
+    },
+    {
+      "hltvId": 2336765,
+      "team1HltvId": 7348,
+      "team2HltvId": 8000,
+      "eventHltvId": 4952,
+      "result": "16 - 0",
+      "date": 1570079376000
+    },
+    {
+      "hltvId": 2336757,
+      "team1HltvId": 6619,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "16 - 8",
+      "date": 1570070830000
+    },
+    {
+      "hltvId": 2336286,
+      "team1HltvId": 10059,
+      "team2HltvId": 9785,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1570069114000
+    },
+    {
+      "hltvId": 2336236,
+      "team1HltvId": 10080,
+      "team2HltvId": 10261,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1570068291000
+    },
+    {
+      "hltvId": 2336668,
+      "team1HltvId": 6619,
+      "team2HltvId": 9229,
+      "eventHltvId": 4737,
+      "result": "16 - 3",
+      "date": 1570066561000
+    },
+    {
+      "hltvId": 2336671,
+      "team1HltvId": 8113,
+      "team2HltvId": 5752,
+      "eventHltvId": 4918,
+      "result": "2 - 1",
+      "date": 1570060659000
+    },
+    {
+      "hltvId": 2335773,
+      "team1HltvId": 4773,
+      "team2HltvId": 8574,
+      "eventHltvId": 4780,
+      "result": "1 - 1",
+      "date": 1570059563000
+    },
+    {
+      "hltvId": 2336732,
+      "team1HltvId": 8772,
+      "team2HltvId": 7718,
+      "eventHltvId": 4941,
+      "result": "1 - 2",
+      "date": 1570052160000
+    },
+    {
+      "hltvId": 2336669,
+      "team1HltvId": 7175,
+      "team2HltvId": 8120,
+      "eventHltvId": 4922,
+      "result": "2 - 0",
+      "date": 1570050526000
+    },
+    {
+      "hltvId": 2336685,
+      "team1HltvId": 7898,
+      "team2HltvId": 8135,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1570049614000
+    },
+    {
+      "hltvId": 2336643,
+      "team1HltvId": 8068,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "8 - 16",
+      "date": 1570040780000
+    },
+    {
+      "hltvId": 2336322,
+      "team1HltvId": 8008,
+      "team2HltvId": 4411,
+      "eventHltvId": 4553,
+      "result": "0 - 2",
+      "date": 1570039709000
+    },
+    {
+      "hltvId": 2336684,
+      "team1HltvId": 8669,
+      "team2HltvId": 9287,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1570039242000
+    },
+    {
+      "hltvId": 2336703,
+      "team1HltvId": 5378,
+      "team2HltvId": 7718,
+      "eventHltvId": 4941,
+      "result": "3 - 16",
+      "date": 1570038968000
+    },
+    {
+      "hltvId": 2336320,
+      "team1HltvId": 5995,
+      "team2HltvId": 4991,
+      "eventHltvId": 4553,
+      "result": "0 - 2",
+      "date": 1570037541000
+    },
+    {
+      "hltvId": 2336702,
+      "team1HltvId": 6685,
+      "team2HltvId": 8772,
+      "eventHltvId": 4941,
+      "result": "16 - 12",
+      "date": 1570034445000
+    },
+    {
+      "hltvId": 2336642,
+      "team1HltvId": 8068,
+      "team2HltvId": 8120,
+      "eventHltvId": 4736,
+      "result": "14 - 16",
+      "date": 1570033114000
+    },
+    {
+      "hltvId": 2336319,
+      "team1HltvId": 8297,
+      "team2HltvId": 4869,
+      "eventHltvId": 4553,
+      "result": "2 - 0",
+      "date": 1570030329000
+    },
+    {
+      "hltvId": 2336666,
+      "team1HltvId": 7718,
+      "team2HltvId": 8772,
+      "eventHltvId": 4941,
+      "result": "9 - 16",
+      "date": 1570029529000
+    },
+    {
+      "hltvId": 2336321,
+      "team1HltvId": 4608,
+      "team2HltvId": 6615,
+      "eventHltvId": 4553,
+      "result": "2 - 0",
+      "date": 1570029262000
+    },
+    {
+      "hltvId": 2336665,
+      "team1HltvId": 5378,
+      "team2HltvId": 6685,
+      "eventHltvId": 4941,
+      "result": "7 - 16",
+      "date": 1570024906000
+    },
+    {
+      "hltvId": 2336683,
+      "team1HltvId": 7461,
+      "team2HltvId": 9928,
+      "eventHltvId": 4940,
+      "result": "0 - 2",
+      "date": 1570024386000
+    },
+    {
+      "hltvId": 2336317,
+      "team1HltvId": 7533,
+      "team2HltvId": 5973,
+      "eventHltvId": 4553,
+      "result": "1 - 2",
+      "date": 1570021038000
+    },
+    {
+      "hltvId": 2336318,
+      "team1HltvId": 10399,
+      "team2HltvId": 4494,
+      "eventHltvId": 4553,
+      "result": "0 - 2",
+      "date": 1570019647000
+    },
+    {
+      "hltvId": 2336673,
+      "team1HltvId": 9750,
+      "team2HltvId": 8668,
+      "eventHltvId": 4738,
+      "result": "7 - 16",
+      "date": 1570014514000
+    },
+    {
+      "hltvId": 2336520,
+      "team1HltvId": 9870,
+      "team2HltvId": 6010,
+      "eventHltvId": 4738,
+      "result": "14 - 16",
+      "date": 1570010746000
+    },
+    {
+      "hltvId": 2336674,
+      "team1HltvId": 10325,
+      "team2HltvId": 8536,
+      "eventHltvId": 4738,
+      "result": "3 - 16",
+      "date": 1570009562000
+    },
+    {
+      "hltvId": 2336687,
+      "team1HltvId": 5479,
+      "team2HltvId": 10302,
+      "eventHltvId": 4737,
+      "result": "12 - 16",
+      "date": 1569981769000
+    },
+    {
+      "hltvId": 2336285,
+      "team1HltvId": 10080,
+      "team2HltvId": 10059,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1569978288000
+    },
+    {
+      "hltvId": 2336670,
+      "team1HltvId": 9215,
+      "team2HltvId": 9943,
+      "eventHltvId": 4918,
+      "result": "1 - 2",
+      "date": 1569975093000
+    },
+    {
+      "hltvId": 2336313,
+      "team1HltvId": 4991,
+      "team2HltvId": 4863,
+      "eventHltvId": 4553,
+      "result": "2 - 1",
+      "date": 1569970515000
+    },
+    {
+      "hltvId": 2336316,
+      "team1HltvId": 4869,
+      "team2HltvId": 9565,
+      "eventHltvId": 4553,
+      "result": "1 - 2",
+      "date": 1569967001000
+    },
+    {
+      "hltvId": 2336661,
+      "team1HltvId": 4602,
+      "team2HltvId": 5378,
+      "eventHltvId": 4922,
+      "result": "0 - 2",
+      "date": 1569960649000
+    },
+    {
+      "hltvId": 2336656,
+      "team1HltvId": 8513,
+      "team2HltvId": 10381,
+      "eventHltvId": 4940,
+      "result": "2 - 0",
+      "date": 1569960129000
+    },
+    {
+      "hltvId": 2336641,
+      "team1HltvId": 7865,
+      "team2HltvId": 7718,
+      "eventHltvId": 4736,
+      "result": "19 - 15",
+      "date": 1569956907000
+    },
+    {
+      "hltvId": 2336312,
+      "team1HltvId": 5991,
+      "team2HltvId": 8297,
+      "eventHltvId": 4553,
+      "result": "1 - 2",
+      "date": 1569956639000
+    },
+    {
+      "hltvId": 2336675,
+      "team1HltvId": 7969,
+      "team2HltvId": 9928,
+      "eventHltvId": 4931,
+      "result": "2 - 1",
+      "date": 1569955872000
+    },
+    {
+      "hltvId": 2336662,
+      "team1HltvId": 8504,
+      "team2HltvId": 8772,
+      "eventHltvId": 2832,
+      "result": "0 - 2",
+      "date": 1569955777000
+    },
+    {
+      "hltvId": 2336655,
+      "team1HltvId": 9287,
+      "team2HltvId": 8135,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1569954589000
+    },
+    {
+      "hltvId": 2336314,
+      "team1HltvId": 6665,
+      "team2HltvId": 5995,
+      "eventHltvId": 4553,
+      "result": "2 - 0",
+      "date": 1569953379000
+    },
+    {
+      "hltvId": 2336432,
+      "team1HltvId": 4602,
+      "team2HltvId": 7718,
+      "eventHltvId": 4736,
+      "result": "16 - 8",
+      "date": 1569952166000
+    },
+    {
+      "hltvId": 2336640,
+      "team1HltvId": 7865,
+      "team2HltvId": 7898,
+      "eventHltvId": 4736,
+      "result": "16 - 9",
+      "date": 1569948864000
+    },
+    {
+      "hltvId": 2336653,
+      "team1HltvId": 4602,
+      "team2HltvId": 8513,
+      "eventHltvId": 4492,
+      "result": "0 - 2",
+      "date": 1569945397000
+    },
+    {
+      "hltvId": 2336654,
+      "team1HltvId": 8669,
+      "team2HltvId": 7898,
+      "eventHltvId": 4940,
+      "result": "1 - 2",
+      "date": 1569943526000
+    },
+    {
+      "hltvId": 2336309,
+      "team1HltvId": 4494,
+      "team2HltvId": 4411,
+      "eventHltvId": 4553,
+      "result": "9 - 16",
+      "date": 1569943482000
+    },
+    {
+      "hltvId": 2336310,
+      "team1HltvId": 10399,
+      "team2HltvId": 8008,
+      "eventHltvId": 4553,
+      "result": "10 - 16",
+      "date": 1569942912000
+    },
+    {
+      "hltvId": 2336664,
+      "team1HltvId": 8504,
+      "team2HltvId": 10022,
+      "eventHltvId": 4917,
+      "result": "2 - 0",
+      "date": 1569940438000
+    },
+    {
+      "hltvId": 2336307,
+      "team1HltvId": 5973,
+      "team2HltvId": 6615,
+      "eventHltvId": 4553,
+      "result": "9 - 16",
+      "date": 1569937577000
+    },
+    {
+      "hltvId": 2336308,
+      "team1HltvId": 4608,
+      "team2HltvId": 7533,
+      "eventHltvId": 4553,
+      "result": "16 - 8",
+      "date": 1569937161000
+    },
+    {
+      "hltvId": 2336660,
+      "team1HltvId": 10390,
+      "team2HltvId": 10413,
+      "eventHltvId": null,
+      "result": "1 - 3",
+      "date": 1569932800000
+    },
+    {
+      "hltvId": 2336663,
+      "team1HltvId": 10022,
+      "team2HltvId": 10386,
+      "eventHltvId": 4917,
+      "result": "2 - 0",
+      "date": 1569932660000
+    },
+    {
+      "hltvId": 2336306,
+      "team1HltvId": 9565,
+      "team2HltvId": 4863,
+      "eventHltvId": 4553,
+      "result": "16 - 7",
+      "date": 1569932449000
+    },
+    {
+      "hltvId": 2336305,
+      "team1HltvId": 4869,
+      "team2HltvId": 4991,
+      "eventHltvId": 4553,
+      "result": "16 - 7",
+      "date": 1569931706000
+    },
+    {
+      "hltvId": 2336659,
+      "team1HltvId": 8536,
+      "team2HltvId": 10339,
+      "eventHltvId": 4738,
+      "result": "16 - 11",
+      "date": 1569930971000
+    },
+    {
+      "hltvId": 2336657,
+      "team1HltvId": 5607,
+      "team2HltvId": 7983,
+      "eventHltvId": 4738,
+      "result": "12 - 16",
+      "date": 1569930937000
+    },
+    {
+      "hltvId": 2336658,
+      "team1HltvId": 9275,
+      "team2HltvId": 7983,
+      "eventHltvId": 4738,
+      "result": "16 - 12",
+      "date": 1569927841000
+    },
+    {
+      "hltvId": 2336299,
+      "team1HltvId": 5995,
+      "team2HltvId": 8297,
+      "eventHltvId": 4553,
+      "result": "16 - 14",
+      "date": 1569927553000
+    },
+    {
+      "hltvId": 2336672,
+      "team1HltvId": 10375,
+      "team2HltvId": 9870,
+      "eventHltvId": 4738,
+      "result": "6 - 16",
+      "date": 1569927127000
+    },
+    {
+      "hltvId": 2336298,
+      "team1HltvId": 6665,
+      "team2HltvId": 5991,
+      "eventHltvId": 4553,
+      "result": "16 - 7",
+      "date": 1569926806000
+    },
+    {
+      "hltvId": 2336509,
+      "team1HltvId": 6978,
+      "team2HltvId": 5752,
+      "eventHltvId": 4918,
+      "result": "1 - 2",
+      "date": 1569902337000
+    },
+    {
+      "hltvId": 2336508,
+      "team1HltvId": 8113,
+      "team2HltvId": 9785,
+      "eventHltvId": 4918,
+      "result": "2 - 0",
+      "date": 1569898628000
+    },
+    {
+      "hltvId": 2335772,
+      "team1HltvId": 8902,
+      "team2HltvId": 6033,
+      "eventHltvId": 4780,
+      "result": "2 - 0",
+      "date": 1569895461000
+    },
+    {
+      "hltvId": 2336507,
+      "team1HltvId": 6619,
+      "team2HltvId": 9943,
+      "eventHltvId": 4918,
+      "result": "0 - 2",
+      "date": 1569888744000
+    },
+    {
+      "hltvId": 2336506,
+      "team1HltvId": 9215,
+      "team2HltvId": 10340,
+      "eventHltvId": 4918,
+      "result": "2 - 0",
+      "date": 1569887014000
+    },
+    {
+      "hltvId": 2335771,
+      "team1HltvId": 7653,
+      "team2HltvId": 7176,
+      "eventHltvId": 4780,
+      "result": "1 - 1",
+      "date": 1569885768000
+    },
+    {
+      "hltvId": 2336513,
+      "team1HltvId": 7376,
+      "team2HltvId": 8120,
+      "eventHltvId": 4922,
+      "result": "1 - 2",
+      "date": 1569878636000
+    },
+    {
+      "hltvId": 2336557,
+      "team1HltvId": 7175,
+      "team2HltvId": 7532,
+      "eventHltvId": 4922,
+      "result": "2 - 0",
+      "date": 1569877209000
+    },
+    {
+      "hltvId": 2336636,
+      "team1HltvId": 8772,
+      "team2HltvId": 8769,
+      "eventHltvId": 2832,
+      "result": "2 - 1",
+      "date": 1569872849000
+    },
+    {
+      "hltvId": 2336510,
+      "team1HltvId": 5378,
+      "team2HltvId": 8669,
+      "eventHltvId": 4922,
+      "result": "2 - 1",
+      "date": 1569866752000
+    },
+    {
+      "hltvId": 2336556,
+      "team1HltvId": 4602,
+      "team2HltvId": 10097,
+      "eventHltvId": 4922,
+      "result": "2 - 0",
+      "date": 1569862637000
+    },
+    {
+      "hltvId": 2336592,
+      "team1HltvId": 7969,
+      "team2HltvId": 8769,
+      "eventHltvId": 2832,
+      "result": "0 - 2",
+      "date": 1569859804000
+    },
+    {
+      "hltvId": 2336633,
+      "team1HltvId": 8504,
+      "team2HltvId": 10022,
+      "eventHltvId": 4917,
+      "result": "2 - 1",
+      "date": 1569858979000
+    },
+    {
+      "hltvId": 2336632,
+      "team1HltvId": 10386,
+      "team2HltvId": 10097,
+      "eventHltvId": 4917,
+      "result": "2 - 1",
+      "date": 1569849657000
+    },
+    {
+      "hltvId": 2336609,
+      "team1HltvId": 9287,
+      "team2HltvId": 8504,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1569848265000
+    },
+    {
+      "hltvId": 2336521,
+      "team1HltvId": 9275,
+      "team2HltvId": 9750,
+      "eventHltvId": 4738,
+      "result": "11 - 16",
+      "date": 1569844775000
+    },
+    {
+      "hltvId": 2336647,
+      "team1HltvId": 9747,
+      "team2HltvId": 10339,
+      "eventHltvId": 4738,
+      "result": "16 - 7",
+      "date": 1569844076000
+    },
+    {
+      "hltvId": 2336652,
+      "team1HltvId": 10205,
+      "team2HltvId": 9747,
+      "eventHltvId": 4738,
+      "result": "9 - 16",
+      "date": 1569840410000
+    },
+    {
+      "hltvId": 2336587,
+      "team1HltvId": 7966,
+      "team2HltvId": 7024,
+      "eventHltvId": 4930,
+      "result": "2 - 0",
+      "date": 1569819188000
+    },
+    {
+      "hltvId": 2336447,
+      "team1HltvId": 6665,
+      "team2HltvId": 10399,
+      "eventHltvId": 4597,
+      "result": "1 - 3",
+      "date": 1569799574000
+    },
+    {
+      "hltvId": 2336620,
+      "team1HltvId": 8637,
+      "team2HltvId": 7718,
+      "eventHltvId": 4931,
+      "result": "2 - 1",
+      "date": 1569798970000
+    },
+    {
+      "hltvId": 2336593,
+      "team1HltvId": 8772,
+      "team2HltvId": 8504,
+      "eventHltvId": 2832,
+      "result": "0 - 2",
+      "date": 1569787243000
+    },
+    {
+      "hltvId": 2336619,
+      "team1HltvId": 7898,
+      "team2HltvId": 7718,
+      "eventHltvId": 4931,
+      "result": "2 - 1",
+      "date": 1569782806000
+    },
+    {
+      "hltvId": 2336616,
+      "team1HltvId": 7681,
+      "team2HltvId": 9287,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569780259000
+    },
+    {
+      "hltvId": 2336612,
+      "team1HltvId": 10097,
+      "team2HltvId": 8504,
+      "eventHltvId": 4917,
+      "result": "0 - 2",
+      "date": 1569778475000
+    },
+    {
+      "hltvId": 2336594,
+      "team1HltvId": 10406,
+      "team2HltvId": 10407,
+      "eventHltvId": null,
+      "result": "12 - 16",
+      "date": 1569776124000
+    },
+    {
+      "hltvId": 2336608,
+      "team1HltvId": 10097,
+      "team2HltvId": 8248,
+      "eventHltvId": 4862,
+      "result": "1 - 2",
+      "date": 1569772804000
+    },
+    {
+      "hltvId": 2336615,
+      "team1HltvId": 9976,
+      "team2HltvId": 10225,
+      "eventHltvId": 4706,
+      "result": "16 - 13",
+      "date": 1569769471000
+    },
+    {
+      "hltvId": 2336631,
+      "team1HltvId": 8730,
+      "team2HltvId": 8193,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1569767710000
+    },
+    {
+      "hltvId": 2336630,
+      "team1HltvId": 10401,
+      "team2HltvId": 10129,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1569767099000
+    },
+    {
+      "hltvId": 2336591,
+      "team1HltvId": 7733,
+      "team2HltvId": 9107,
+      "eventHltvId": 4803,
+      "result": "0 - 2",
+      "date": 1569766789000
+    },
+    {
+      "hltvId": 2336611,
+      "team1HltvId": 10022,
+      "team2HltvId": 10386,
+      "eventHltvId": 4917,
+      "result": "2 - 1",
+      "date": 1569766022000
+    },
+    {
+      "hltvId": 2336628,
+      "team1HltvId": 8193,
+      "team2HltvId": 5153,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1569758557000
+    },
+    {
+      "hltvId": 2336629,
+      "team1HltvId": 9696,
+      "team2HltvId": 10129,
+      "eventHltvId": null,
+      "result": "1 - 16",
+      "date": 1569750882000
+    },
+    {
+      "hltvId": 2336602,
+      "team1HltvId": 10411,
+      "team2HltvId": 10129,
+      "eventHltvId": null,
+      "result": "11 - 16",
+      "date": 1569747332000
+    },
+    {
+      "hltvId": 2336605,
+      "team1HltvId": 5153,
+      "team2HltvId": 8111,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1569745511000
+    },
+    {
+      "hltvId": 2336627,
+      "team1HltvId": 8848,
+      "team2HltvId": 8262,
+      "eventHltvId": 4937,
+      "result": "2 - 0",
+      "date": 1569744179000
+    },
+    {
+      "hltvId": 2336626,
+      "team1HltvId": 6898,
+      "team2HltvId": 10300,
+      "eventHltvId": 4935,
+      "result": "2 - 1",
+      "date": 1569742445000
+    },
+    {
+      "hltvId": 2336625,
+      "team1HltvId": 10206,
+      "team2HltvId": 10290,
+      "eventHltvId": 4936,
+      "result": "2 - 0",
+      "date": 1569737466000
+    },
+    {
+      "hltvId": 2336618,
+      "team1HltvId": 8220,
+      "team2HltvId": 8262,
+      "eventHltvId": 4937,
+      "result": "1 - 2",
+      "date": 1569736583000
+    },
+    {
+      "hltvId": 2336586,
+      "team1HltvId": 6010,
+      "team2HltvId": 8668,
+      "eventHltvId": 4853,
+      "result": "0 - 2",
+      "date": 1569736458000
+    },
+    {
+      "hltvId": 2336617,
+      "team1HltvId": 8848,
+      "team2HltvId": 10405,
+      "eventHltvId": 4937,
+      "result": "2 - 0",
+      "date": 1569732023000
+    },
+    {
+      "hltvId": 2336624,
+      "team1HltvId": 10403,
+      "team2HltvId": 10300,
+      "eventHltvId": 4935,
+      "result": "0 - 2",
+      "date": 1569731537000
+    },
+    {
+      "hltvId": 2336622,
+      "team1HltvId": 10193,
+      "team2HltvId": 10290,
+      "eventHltvId": 4936,
+      "result": "0 - 2",
+      "date": 1569729335000
+    },
+    {
+      "hltvId": 2336623,
+      "team1HltvId": 6898,
+      "team2HltvId": 10402,
+      "eventHltvId": 4935,
+      "result": "2 - 0",
+      "date": 1569728692000
+    },
+    {
+      "hltvId": 2336621,
+      "team1HltvId": 10206,
+      "team2HltvId": 10404,
+      "eventHltvId": 4936,
+      "result": "2 - 0",
+      "date": 1569728575000
+    },
+    {
+      "hltvId": 2336446,
+      "team1HltvId": 10399,
+      "team2HltvId": 5995,
+      "eventHltvId": 4597,
+      "result": "2 - 0",
+      "date": 1569719890000
+    },
+    {
+      "hltvId": 2336607,
+      "team1HltvId": 8346,
+      "team2HltvId": 8637,
+      "eventHltvId": 4931,
+      "result": "1 - 2",
+      "date": 1569717021000
+    },
+    {
+      "hltvId": 2336614,
+      "team1HltvId": 10225,
+      "team2HltvId": 7606,
+      "eventHltvId": 4706,
+      "result": "16 - 2",
+      "date": 1569708656000
+    },
+    {
+      "hltvId": 2336445,
+      "team1HltvId": 5973,
+      "team2HltvId": 6665,
+      "eventHltvId": 4597,
+      "result": "1 - 2",
+      "date": 1569707816000
+    },
+    {
+      "hltvId": 2336561,
+      "team1HltvId": 8248,
+      "team2HltvId": 9287,
+      "eventHltvId": null,
+      "result": "1 - 2",
+      "date": 1569707266000
+    },
+    {
+      "hltvId": 2336613,
+      "team1HltvId": 7299,
+      "team2HltvId": 10283,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569706854000
+    },
+    {
+      "hltvId": 2336596,
+      "team1HltvId": 7606,
+      "team2HltvId": 10164,
+      "eventHltvId": 4706,
+      "result": "16 - 14",
+      "date": 1569704414000
+    },
+    {
+      "hltvId": 2336567,
+      "team1HltvId": 8637,
+      "team2HltvId": 7718,
+      "eventHltvId": 4931,
+      "result": "1 - 2",
+      "date": 1569703859000
+    },
+    {
+      "hltvId": 2336604,
+      "team1HltvId": 10283,
+      "team2HltvId": 7666,
+      "eventHltvId": null,
+      "result": "22 - 19",
+      "date": 1569699342000
+    },
+    {
+      "hltvId": 2336603,
+      "team1HltvId": 8280,
+      "team2HltvId": 8698,
+      "eventHltvId": 4927,
+      "result": "0 - 2",
+      "date": 1569699280000
+    },
+    {
+      "hltvId": 2336595,
+      "team1HltvId": 9976,
+      "team2HltvId": 10225,
+      "eventHltvId": 4706,
+      "result": "16 - 11",
+      "date": 1569698524000
+    },
+    {
+      "hltvId": 2336601,
+      "team1HltvId": 8193,
+      "team2HltvId": 8730,
+      "eventHltvId": null,
+      "result": "11 - 16",
+      "date": 1569697858000
+    },
+    {
+      "hltvId": 2336606,
+      "team1HltvId": 4688,
+      "team2HltvId": 7299,
+      "eventHltvId": null,
+      "result": "10 - 16",
+      "date": 1569696313000
+    },
+    {
+      "hltvId": 2336585,
+      "team1HltvId": 10164,
+      "team2HltvId": 10225,
+      "eventHltvId": 4706,
+      "result": "14 - 16",
+      "date": 1569693024000
+    },
+    {
+      "hltvId": 2336600,
+      "team1HltvId": 7299,
+      "team2HltvId": 10410,
+      "eventHltvId": null,
+      "result": "16 - 5",
+      "date": 1569693020000
+    },
+    {
+      "hltvId": 2336599,
+      "team1HltvId": 4688,
+      "team2HltvId": 10409,
+      "eventHltvId": null,
+      "result": "19 - 16",
+      "date": 1569692399000
+    },
+    {
+      "hltvId": 2336597,
+      "team1HltvId": 7375,
+      "team2HltvId": 7666,
+      "eventHltvId": null,
+      "result": "13 - 16",
+      "date": 1569692077000
+    },
+    {
+      "hltvId": 2336588,
+      "team1HltvId": 8280,
+      "team2HltvId": 10396,
+      "eventHltvId": 4927,
+      "result": "2 - 0",
+      "date": 1569691205000
+    },
+    {
+      "hltvId": 2336598,
+      "team1HltvId": 10283,
+      "team2HltvId": 10408,
+      "eventHltvId": null,
+      "result": "16 - 11",
+      "date": 1569690895000
+    },
+    {
+      "hltvId": 2336515,
+      "team1HltvId": 10097,
+      "team2HltvId": 10386,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1569690221000
+    },
+    {
+      "hltvId": 2336566,
+      "team1HltvId": 8346,
+      "team2HltvId": 7898,
+      "eventHltvId": 4931,
+      "result": "1 - 2",
+      "date": 1569689147000
+    },
+    {
+      "hltvId": 2336560,
+      "team1HltvId": 7681,
+      "team2HltvId": 7441,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569688363000
+    },
+    {
+      "hltvId": 2336584,
+      "team1HltvId": 7606,
+      "team2HltvId": 9976,
+      "eventHltvId": 4706,
+      "result": "11 - 16",
+      "date": 1569686750000
+    },
+    {
+      "hltvId": 2336573,
+      "team1HltvId": 8504,
+      "team2HltvId": 8911,
+      "eventHltvId": 4917,
+      "result": "2 - 0",
+      "date": 1569686087000
+    },
+    {
+      "hltvId": 2336590,
+      "team1HltvId": 9696,
+      "team2HltvId": 10401,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1569683793000
+    },
+    {
+      "hltvId": 2336589,
+      "team1HltvId": 8698,
+      "team2HltvId": 10397,
+      "eventHltvId": 4927,
+      "result": "2 - 0",
+      "date": 1569681198000
+    },
+    {
+      "hltvId": 2336517,
+      "team1HltvId": 8504,
+      "team2HltvId": 8911,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1569676441000
+    },
+    {
+      "hltvId": 2336562,
+      "team1HltvId": 10052,
+      "team2HltvId": 7324,
+      "eventHltvId": 4933,
+      "result": "1 - 3",
+      "date": 1569674858000
+    },
+    {
+      "hltvId": 2336565,
+      "team1HltvId": 8669,
+      "team2HltvId": 10386,
+      "eventHltvId": 4917,
+      "result": "0 - 2",
+      "date": 1569674310000
+    },
+    {
+      "hltvId": 2336571,
+      "team1HltvId": 10245,
+      "team2HltvId": 7024,
+      "eventHltvId": 4930,
+      "result": "1 - 2",
+      "date": 1569673198000
+    },
+    {
+      "hltvId": 2336583,
+      "team1HltvId": 10226,
+      "team2HltvId": 10398,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1569672403000
+    },
+    {
+      "hltvId": 2336581,
+      "team1HltvId": 10396,
+      "team2HltvId": 9764,
+      "eventHltvId": 4927,
+      "result": "16 - 13",
+      "date": 1569670849000
+    },
+    {
+      "hltvId": 2336577,
+      "team1HltvId": 10394,
+      "team2HltvId": 9107,
+      "eventHltvId": 4803,
+      "result": "1 - 2",
+      "date": 1569669798000
+    },
+    {
+      "hltvId": 2336580,
+      "team1HltvId": 8211,
+      "team2HltvId": 10397,
+      "eventHltvId": 4927,
+      "result": "17 - 19",
+      "date": 1569665978000
+    },
+    {
+      "hltvId": 2336572,
+      "team1HltvId": 7966,
+      "team2HltvId": 8840,
+      "eventHltvId": 4930,
+      "result": "2 - 0",
+      "date": 1569661045000
+    },
+    {
+      "hltvId": 2336462,
+      "team1HltvId": 6010,
+      "team2HltvId": 8536,
+      "eventHltvId": 4853,
+      "result": "2 - 0",
+      "date": 1569658736000
+    },
+    {
+      "hltvId": 2336579,
+      "team1HltvId": 9764,
+      "team2HltvId": 10271,
+      "eventHltvId": 4927,
+      "result": "16 - 6",
+      "date": 1569656526000
+    },
+    {
+      "hltvId": 2336570,
+      "team1HltvId": 4863,
+      "team2HltvId": 7092,
+      "eventHltvId": 4930,
+      "result": "1 - 2",
+      "date": 1569652547000
+    },
+    {
+      "hltvId": 2336576,
+      "team1HltvId": 10393,
+      "team2HltvId": 7733,
+      "eventHltvId": 4803,
+      "result": "0 - 2",
+      "date": 1569648477000
+    },
+    {
+      "hltvId": 2336463,
+      "team1HltvId": 8668,
+      "team2HltvId": 5293,
+      "eventHltvId": 4853,
+      "result": "2 - 1",
+      "date": 1569647684000
+    },
+    {
+      "hltvId": 2336582,
+      "team1HltvId": 10398,
+      "team2HltvId": 9826,
+      "eventHltvId": null,
+      "result": "16 - 9",
+      "date": 1569645240000
+    },
+    {
+      "hltvId": 2336444,
+      "team1HltvId": 6615,
+      "team2HltvId": 6665,
+      "eventHltvId": 4597,
+      "result": "0 - 2",
+      "date": 1569630597000
+    },
+    {
+      "hltvId": 2336575,
+      "team1HltvId": 10395,
+      "team2HltvId": 10397,
+      "eventHltvId": 4927,
+      "result": "14 - 16",
+      "date": 1569626808000
+    },
+    {
+      "hltvId": 2336564,
+      "team1HltvId": 8911,
+      "team2HltvId": 7969,
+      "eventHltvId": 4931,
+      "result": "1 - 2",
+      "date": 1569623023000
+    },
+    {
+      "hltvId": 2336443,
+      "team1HltvId": 4869,
+      "team2HltvId": 5995,
+      "eventHltvId": 4597,
+      "result": "1 - 2",
+      "date": 1569622073000
+    },
+    {
+      "hltvId": 2336578,
+      "team1HltvId": 8698,
+      "team2HltvId": 10396,
+      "eventHltvId": 4927,
+      "result": "16 - 12",
+      "date": 1569619199000
+    },
+    {
+      "hltvId": 2336553,
+      "team1HltvId": 8963,
+      "team2HltvId": 8769,
+      "eventHltvId": 2832,
+      "result": "1 - 2",
+      "date": 1569613853000
+    },
+    {
+      "hltvId": 2336549,
+      "team1HltvId": 7865,
+      "team2HltvId": 8669,
+      "eventHltvId": 4492,
+      "result": "2 - 0",
+      "date": 1569613463000
+    },
+    {
+      "hltvId": 2336574,
+      "team1HltvId": 8211,
+      "team2HltvId": 8280,
+      "eventHltvId": 4927,
+      "result": "9 - 16",
+      "date": 1569613307000
+    },
+    {
+      "hltvId": 2336563,
+      "team1HltvId": 10020,
+      "team2HltvId": 9928,
+      "eventHltvId": 4931,
+      "result": "2 - 0",
+      "date": 1569608701000
+    },
+    {
+      "hltvId": 2336544,
+      "team1HltvId": 10396,
+      "team2HltvId": 9764,
+      "eventHltvId": 4927,
+      "result": "16 - 12",
+      "date": 1569606538000
+    },
+    {
+      "hltvId": 2336441,
+      "team1HltvId": 6665,
+      "team2HltvId": 10399,
+      "eventHltvId": 4597,
+      "result": "0 - 2",
+      "date": 1569605823000
+    },
+    {
+      "hltvId": 2336442,
+      "team1HltvId": 6615,
+      "team2HltvId": 6667,
+      "eventHltvId": 4597,
+      "result": "2 - 0",
+      "date": 1569603816000
+    },
+    {
+      "hltvId": 2336543,
+      "team1HltvId": 8280,
+      "team2HltvId": 10395,
+      "eventHltvId": 4927,
+      "result": "16 - 13",
+      "date": 1569600340000
+    },
+    {
+      "hltvId": 2336516,
+      "team1HltvId": 7865,
+      "team2HltvId": 8248,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1569599533000
+    },
+    {
+      "hltvId": 2336555,
+      "team1HltvId": 10022,
+      "team2HltvId": 8911,
+      "eventHltvId": 4917,
+      "result": "2 - 1",
+      "date": 1569599340000
+    },
+    {
+      "hltvId": 2336552,
+      "team1HltvId": 9928,
+      "team2HltvId": 7969,
+      "eventHltvId": 4931,
+      "result": "2 - 0",
+      "date": 1569597393000
+    },
+    {
+      "hltvId": 2336542,
+      "team1HltvId": 8698,
+      "team2HltvId": 10271,
+      "eventHltvId": 4927,
+      "result": "16 - 2",
+      "date": 1569593298000
+    },
+    {
+      "hltvId": 2336518,
+      "team1HltvId": 8769,
+      "team2HltvId": 8346,
+      "eventHltvId": 4862,
+      "result": "2 - 1",
+      "date": 1569591679000
+    },
+    {
+      "hltvId": 2336548,
+      "team1HltvId": 8840,
+      "team2HltvId": 9107,
+      "eventHltvId": 4930,
+      "result": "2 - 0",
+      "date": 1569590914000
+    },
+    {
+      "hltvId": 2336554,
+      "team1HltvId": 7461,
+      "team2HltvId": 8504,
+      "eventHltvId": 4917,
+      "result": "1 - 2",
+      "date": 1569588469000
+    },
+    {
+      "hltvId": 2336541,
+      "team1HltvId": 8211,
+      "team2HltvId": 10397,
+      "eventHltvId": 4927,
+      "result": "16 - 10",
+      "date": 1569588223000
+    },
+    {
+      "hltvId": 2336547,
+      "team1HltvId": 10328,
+      "team2HltvId": 7024,
+      "eventHltvId": 4930,
+      "result": "0 - 2",
+      "date": 1569582275000
+    },
+    {
+      "hltvId": 2336559,
+      "team1HltvId": 10226,
+      "team2HltvId": 10398,
+      "eventHltvId": null,
+      "result": "16 - 12",
+      "date": 1569575114000
+    },
+    {
+      "hltvId": 2336546,
+      "team1HltvId": 7092,
+      "team2HltvId": 10245,
+      "eventHltvId": 4930,
+      "result": "2 - 0",
+      "date": 1569570285000
+    },
+    {
+      "hltvId": 2336545,
+      "team1HltvId": 4863,
+      "team2HltvId": 7966,
+      "eventHltvId": 4930,
+      "result": "2 - 0",
+      "date": 1569560534000
+    },
+    {
+      "hltvId": 2336473,
+      "team1HltvId": 6947,
+      "team2HltvId": 9392,
+      "eventHltvId": 4737,
+      "result": "16 - 6",
+      "date": 1569554516000
+    },
+    {
+      "hltvId": 2336238,
+      "team1HltvId": 10092,
+      "team2HltvId": 10059,
+      "eventHltvId": 4737,
+      "result": "14 - 16",
+      "date": 1569551022000
+    },
+    {
+      "hltvId": 2336284,
+      "team1HltvId": 10080,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "16 - 12",
+      "date": 1569549966000
+    },
+    {
+      "hltvId": 2336472,
+      "team1HltvId": 9392,
+      "team2HltvId": 9229,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1569549851000
+    },
+    {
+      "hltvId": 2336439,
+      "team1HltvId": 5973,
+      "team2HltvId": 5995,
+      "eventHltvId": 4597,
+      "result": "2 - 1",
+      "date": 1569547541000
+    },
+    {
+      "hltvId": 2336471,
+      "team1HltvId": 9785,
+      "team2HltvId": 10092,
+      "eventHltvId": 4737,
+      "result": "16 - 9",
+      "date": 1569545506000
+    },
+    {
+      "hltvId": 2336440,
+      "team1HltvId": 7106,
+      "team2HltvId": 4869,
+      "eventHltvId": 4597,
+      "result": "0 - 2",
+      "date": 1569537185000
+    },
+    {
+      "hltvId": 2336558,
+      "team1HltvId": 8504,
+      "team2HltvId": 7865,
+      "eventHltvId": 4909,
+      "result": "0 - 2",
+      "date": 1569533341000
+    },
+    {
+      "hltvId": 2336438,
+      "team1HltvId": 6667,
+      "team2HltvId": 10399,
+      "eventHltvId": 4597,
+      "result": "0 - 2",
+      "date": 1569531793000
+    },
+    {
+      "hltvId": 2336551,
+      "team1HltvId": 10315,
+      "team2HltvId": 8813,
+      "eventHltvId": 4826,
+      "result": "2 - 1",
+      "date": 1569531689000
+    },
+    {
+      "hltvId": 2336539,
+      "team1HltvId": 8704,
+      "team2HltvId": 7461,
+      "eventHltvId": 4916,
+      "result": "1 - 2",
+      "date": 1569531216000
+    },
+    {
+      "hltvId": 2336436,
+      "team1HltvId": 6665,
+      "team2HltvId": 6615,
+      "eventHltvId": 4597,
+      "result": "2 - 0",
+      "date": 1569527004000
+    },
+    {
+      "hltvId": 2336538,
+      "team1HltvId": 7865,
+      "team2HltvId": 7969,
+      "eventHltvId": 4909,
+      "result": "2 - 1",
+      "date": 1569525195000
+    },
+    {
+      "hltvId": 2336526,
+      "team1HltvId": 10386,
+      "team2HltvId": 10097,
+      "eventHltvId": 4917,
+      "result": "1 - 2",
+      "date": 1569524016000
+    },
+    {
+      "hltvId": 2336550,
+      "team1HltvId": 8911,
+      "team2HltvId": 10020,
+      "eventHltvId": 4931,
+      "result": "0 - 2",
+      "date": 1569521898000
+    },
+    {
+      "hltvId": 2336435,
+      "team1HltvId": 5995,
+      "team2HltvId": 4869,
+      "eventHltvId": 4597,
+      "result": "2 - 0",
+      "date": 1569521622000
+    },
+    {
+      "hltvId": 2336535,
+      "team1HltvId": 8813,
+      "team2HltvId": 9928,
+      "eventHltvId": 4826,
+      "result": "1 - 2",
+      "date": 1569519058000
+    },
+    {
+      "hltvId": 2336434,
+      "team1HltvId": 5973,
+      "team2HltvId": 7106,
+      "eventHltvId": 4597,
+      "result": "2 - 0",
+      "date": 1569517385000
+    },
+    {
+      "hltvId": 2336533,
+      "team1HltvId": 7461,
+      "team2HltvId": 7969,
+      "eventHltvId": 2832,
+      "result": "1 - 2",
+      "date": 1569514613000
+    },
+    {
+      "hltvId": 2336525,
+      "team1HltvId": 8346,
+      "team2HltvId": 8669,
+      "eventHltvId": 4917,
+      "result": "0 - 2",
+      "date": 1569512836000
+    },
+    {
+      "hltvId": 2336540,
+      "team1HltvId": 10227,
+      "team2HltvId": 8211,
+      "eventHltvId": 4929,
+      "result": "0 - 2",
+      "date": 1569508949000
+    },
+    {
+      "hltvId": 2336534,
+      "team1HltvId": 7718,
+      "team2HltvId": 10315,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1569505443000
+    },
+    {
+      "hltvId": 2336514,
+      "team1HltvId": 9287,
+      "team2HltvId": 7144,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1569504969000
+    },
+    {
+      "hltvId": 2336499,
+      "team1HltvId": 8911,
+      "team2HltvId": 8504,
+      "eventHltvId": 4917,
+      "result": "2 - 1",
+      "date": 1569503447000
+    },
+    {
+      "hltvId": 2336524,
+      "team1HltvId": 5607,
+      "team2HltvId": 8738,
+      "eventHltvId": 4738,
+      "result": "16 - 14",
+      "date": 1569502924000
+    },
+    {
+      "hltvId": 2336532,
+      "team1HltvId": 9107,
+      "team2HltvId": 10245,
+      "eventHltvId": 4930,
+      "result": "0 - 2",
+      "date": 1569501621000
+    },
+    {
+      "hltvId": 2336267,
+      "team1HltvId": 10252,
+      "team2HltvId": 8536,
+      "eventHltvId": 4770,
+      "result": "0 - 2",
+      "date": 1569501473000
+    },
+    {
+      "hltvId": 2336523,
+      "team1HltvId": 10205,
+      "team2HltvId": 10375,
+      "eventHltvId": 4738,
+      "result": "22 - 20",
+      "date": 1569500839000
+    },
+    {
+      "hltvId": 2336522,
+      "team1HltvId": 10325,
+      "team2HltvId": 8738,
+      "eventHltvId": 4738,
+      "result": "3 - 16",
+      "date": 1569498612000
+    },
+    {
+      "hltvId": 2336457,
+      "team1HltvId": 10205,
+      "team2HltvId": 8668,
+      "eventHltvId": 4738,
+      "result": "9 - 16",
+      "date": 1569495663000
+    },
+    {
+      "hltvId": 2336266,
+      "team1HltvId": 9747,
+      "team2HltvId": 6922,
+      "eventHltvId": 4770,
+      "result": "2 - 0",
+      "date": 1569495013000
+    },
+    {
+      "hltvId": 2336531,
+      "team1HltvId": 7092,
+      "team2HltvId": 8840,
+      "eventHltvId": 4930,
+      "result": "2 - 0",
+      "date": 1569492918000
+    },
+    {
+      "hltvId": 2336530,
+      "team1HltvId": 7024,
+      "team2HltvId": 7966,
+      "eventHltvId": 4930,
+      "result": "0 - 2",
+      "date": 1569483515000
+    },
+    {
+      "hltvId": 2336529,
+      "team1HltvId": 4863,
+      "team2HltvId": 10328,
+      "eventHltvId": 4930,
+      "result": "2 - 0",
+      "date": 1569475804000
+    },
+    {
+      "hltvId": 2336474,
+      "team1HltvId": 10302,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "16 - 8",
+      "date": 1569466728000
+    },
+    {
+      "hltvId": 2336536,
+      "team1HltvId": 5479,
+      "team2HltvId": 10261,
+      "eventHltvId": 4737,
+      "result": "16 - 11",
+      "date": 1569463225000
+    },
+    {
+      "hltvId": 2335770,
+      "team1HltvId": 7653,
+      "team2HltvId": 6033,
+      "eventHltvId": 4780,
+      "result": "1 - 1",
+      "date": 1569462294000
+    },
+    {
+      "hltvId": 2336480,
+      "team1HltvId": 6619,
+      "team2HltvId": 9785,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1569459777000
+    },
+    {
+      "hltvId": 2335769,
+      "team1HltvId": 8574,
+      "team2HltvId": 8902,
+      "eventHltvId": 4780,
+      "result": "0 - 2",
+      "date": 1569453826000
+    },
+    {
+      "hltvId": 2336476,
+      "team1HltvId": 9981,
+      "team2HltvId": 7461,
+      "eventHltvId": 4916,
+      "result": "1 - 2",
+      "date": 1569449552000
+    },
+    {
+      "hltvId": 2336505,
+      "team1HltvId": 7865,
+      "team2HltvId": 8504,
+      "eventHltvId": 4909,
+      "result": "1 - 2",
+      "date": 1569447195000
+    },
+    {
+      "hltvId": 2336498,
+      "team1HltvId": 8669,
+      "team2HltvId": 10097,
+      "eventHltvId": 4917,
+      "result": "1 - 2",
+      "date": 1569441522000
+    },
+    {
+      "hltvId": 2336252,
+      "team1HltvId": 8362,
+      "team2HltvId": 7718,
+      "eventHltvId": 2838,
+      "result": "0 - 2",
+      "date": 1569440704000
+    },
+    {
+      "hltvId": 2336527,
+      "team1HltvId": 8211,
+      "team2HltvId": 7348,
+      "eventHltvId": 4929,
+      "result": "2 - 0",
+      "date": 1569438408000
+    },
+    {
+      "hltvId": 2336504,
+      "team1HltvId": 7969,
+      "team2HltvId": 8248,
+      "eventHltvId": 4909,
+      "result": "2 - 0",
+      "date": 1569434613000
+    },
+    {
+      "hltvId": 2336422,
+      "team1HltvId": 8769,
+      "team2HltvId": 8772,
+      "eventHltvId": 2832,
+      "result": "1 - 2",
+      "date": 1569433473000
+    },
+    {
+      "hltvId": 2336475,
+      "team1HltvId": 10076,
+      "team2HltvId": 8704,
+      "eventHltvId": 4916,
+      "result": "0 - 2",
+      "date": 1569433039000
+    },
+    {
+      "hltvId": 2336503,
+      "team1HltvId": 8813,
+      "team2HltvId": 10315,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1569430555000
+    },
+    {
+      "hltvId": 2336497,
+      "team1HltvId": 10022,
+      "team2HltvId": 7461,
+      "eventHltvId": 4917,
+      "result": "2 - 1",
+      "date": 1569429590000
+    },
+    {
+      "hltvId": 2336495,
+      "team1HltvId": 10386,
+      "team2HltvId": 8346,
+      "eventHltvId": 4492,
+      "result": "2 - 0",
+      "date": 1569428732000
+    },
+    {
+      "hltvId": 2336528,
+      "team1HltvId": 10227,
+      "team2HltvId": 10398,
+      "eventHltvId": 4929,
+      "result": "2 - 0",
+      "date": 1569428212000
+    },
+    {
+      "hltvId": 2336429,
+      "team1HltvId": 8068,
+      "team2HltvId": 4602,
+      "eventHltvId": 4736,
+      "result": "16 - 8",
+      "date": 1569426599000
+    },
+    {
+      "hltvId": 2336502,
+      "team1HltvId": 7718,
+      "team2HltvId": 9928,
+      "eventHltvId": 4826,
+      "result": "1 - 2",
+      "date": 1569421841000
+    },
+    {
+      "hltvId": 2336501,
+      "team1HltvId": 10225,
+      "team2HltvId": 10315,
+      "eventHltvId": 4862,
+      "result": "1 - 2",
+      "date": 1569420274000
+    },
+    {
+      "hltvId": 2336494,
+      "team1HltvId": 4863,
+      "team2HltvId": 7966,
+      "eventHltvId": 4907,
+      "result": "3 - 2",
+      "date": 1569418378000
+    },
+    {
+      "hltvId": 2336487,
+      "team1HltvId": 9747,
+      "team2HltvId": 6010,
+      "eventHltvId": 4738,
+      "result": "16 - 11",
+      "date": 1569415890000
+    },
+    {
+      "hltvId": 2336496,
+      "team1HltvId": 8346,
+      "team2HltvId": 10386,
+      "eventHltvId": 4917,
+      "result": "0 - 2",
+      "date": 1569412740000
+    },
+    {
+      "hltvId": 2336486,
+      "team1HltvId": 9750,
+      "team2HltvId": 6010,
+      "eventHltvId": 4738,
+      "result": "8 - 16",
+      "date": 1569411938000
+    },
+    {
+      "hltvId": 2336485,
+      "team1HltvId": 10299,
+      "team2HltvId": 8536,
+      "eventHltvId": 4738,
+      "result": "4 - 16",
+      "date": 1569411628000
+    },
+    {
+      "hltvId": 2336491,
+      "team1HltvId": 10325,
+      "team2HltvId": 10339,
+      "eventHltvId": 4738,
+      "result": "11 - 16",
+      "date": 1569411527000
+    },
+    {
+      "hltvId": 2336490,
+      "team1HltvId": 7983,
+      "team2HltvId": 10299,
+      "eventHltvId": 4738,
+      "result": "5 - 16",
+      "date": 1569409499000
+    },
+    {
+      "hltvId": 2336484,
+      "team1HltvId": 8536,
+      "team2HltvId": 9750,
+      "eventHltvId": 4738,
+      "result": "16 - 14",
+      "date": 1569409360000
+    },
+    {
+      "hltvId": 2336488,
+      "team1HltvId": 10339,
+      "team2HltvId": 10299,
+      "eventHltvId": 4738,
+      "result": "16 - 10",
+      "date": 1569405445000
+    },
+    {
+      "hltvId": 2336489,
+      "team1HltvId": 8536,
+      "team2HltvId": 10220,
+      "eventHltvId": 4738,
+      "result": "14 - 16",
+      "date": 1569405345000
+    },
+    {
+      "hltvId": 2336493,
+      "team1HltvId": 6898,
+      "team2HltvId": 7966,
+      "eventHltvId": 4907,
+      "result": "0 - 2",
+      "date": 1569399270000
+    },
+    {
+      "hltvId": 2336492,
+      "team1HltvId": 7966,
+      "team2HltvId": 10206,
+      "eventHltvId": 4907,
+      "result": "2 - 0",
+      "date": 1569390970000
+    },
+    {
+      "hltvId": 2336198,
+      "team1HltvId": 9229,
+      "team2HltvId": 10059,
+      "eventHltvId": 4737,
+      "result": "16 - 14",
+      "date": 1569380822000
+    },
+    {
+      "hltvId": 2336470,
+      "team1HltvId": 5479,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "16 - 13",
+      "date": 1569376521000
+    },
+    {
+      "hltvId": 2336237,
+      "team1HltvId": 7885,
+      "team2HltvId": 10080,
+      "eventHltvId": 4737,
+      "result": "3 - 16",
+      "date": 1569372884000
+    },
+    {
+      "hltvId": 2336464,
+      "team1HltvId": 10116,
+      "team2HltvId": 8248,
+      "eventHltvId": 4909,
+      "result": "1 - 2",
+      "date": 1569362629000
+    },
+    {
+      "hltvId": 2336251,
+      "team1HltvId": 8346,
+      "team2HltvId": 4933,
+      "eventHltvId": 2838,
+      "result": "2 - 1",
+      "date": 1569359727000
+    },
+    {
+      "hltvId": 2336465,
+      "team1HltvId": 7969,
+      "team2HltvId": 8513,
+      "eventHltvId": 4909,
+      "result": "2 - 1",
+      "date": 1569351886000
+    },
+    {
+      "hltvId": 2336425,
+      "team1HltvId": 10420,
+      "team2HltvId": 7898,
+      "eventHltvId": 4736,
+      "result": "3 - 16",
+      "date": 1569350811000
+    },
+    {
+      "hltvId": 2336500,
+      "team1HltvId": 8135,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "19 - 15",
+      "date": 1569350196000
+    },
+    {
+      "hltvId": 2336450,
+      "team1HltvId": 7175,
+      "team2HltvId": 10315,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1569347046000
+    },
+    {
+      "hltvId": 2336427,
+      "team1HltvId": 7144,
+      "team2HltvId": 10420,
+      "eventHltvId": 4736,
+      "result": "10 - 16",
+      "date": 1569344364000
+    },
+    {
+      "hltvId": 2336290,
+      "team1HltvId": 9287,
+      "team2HltvId": 8068,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1569342792000
+    },
+    {
+      "hltvId": 2336449,
+      "team1HltvId": 7020,
+      "team2HltvId": 10315,
+      "eventHltvId": 4826,
+      "result": "1 - 2",
+      "date": 1569337397000
+    },
+    {
+      "hltvId": 2336289,
+      "team1HltvId": 10020,
+      "team2HltvId": 8248,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1569330020000
+    },
+    {
+      "hltvId": 2336483,
+      "team1HltvId": 10051,
+      "team2HltvId": 10206,
+      "eventHltvId": 4907,
+      "result": "0 - 2",
+      "date": 1569326189000
+    },
+    {
+      "hltvId": 2336482,
+      "team1HltvId": 7966,
+      "team2HltvId": 8680,
+      "eventHltvId": 4907,
+      "result": "2 - 1",
+      "date": 1569325439000
+    },
+    {
+      "hltvId": 2336481,
+      "team1HltvId": 4863,
+      "team2HltvId": 6898,
+      "eventHltvId": 4907,
+      "result": "2 - 0",
+      "date": 1569322950000
+    },
+    {
+      "hltvId": 2336479,
+      "team1HltvId": 8848,
+      "team2HltvId": 10206,
+      "eventHltvId": 4907,
+      "result": "1 - 2",
+      "date": 1569317823000
+    },
+    {
+      "hltvId": 2336478,
+      "team1HltvId": 7966,
+      "team2HltvId": 6898,
+      "eventHltvId": 4907,
+      "result": "0 - 2",
+      "date": 1569313007000
+    },
+    {
+      "hltvId": 2336477,
+      "team1HltvId": 10051,
+      "team2HltvId": 4863,
+      "eventHltvId": 4907,
+      "result": "0 - 2",
+      "date": 1569312099000
+    },
+    {
+      "hltvId": 2336460,
+      "team1HltvId": 7966,
+      "team2HltvId": 10206,
+      "eventHltvId": 4907,
+      "result": "2 - 1",
+      "date": 1569305057000
+    },
+    {
+      "hltvId": 2336461,
+      "team1HltvId": 8848,
+      "team2HltvId": 6898,
+      "eventHltvId": 4907,
+      "result": "1 - 2",
+      "date": 1569304611000
+    },
+    {
+      "hltvId": 2336459,
+      "team1HltvId": 4863,
+      "team2HltvId": 8680,
+      "eventHltvId": 4907,
+      "result": "2 - 0",
+      "date": 1569303699000
+    },
+    {
+      "hltvId": 2335768,
+      "team1HltvId": 7176,
+      "team2HltvId": 4773,
+      "eventHltvId": 4780,
+      "result": "1 - 1",
+      "date": 1569291598000
+    },
+    {
+      "hltvId": 2335767,
+      "team1HltvId": 6033,
+      "team2HltvId": 8574,
+      "eventHltvId": 4780,
+      "result": "1 - 1",
+      "date": 1569282681000
+    },
+    {
+      "hltvId": 2336378,
+      "team1HltvId": 7898,
+      "team2HltvId": 8513,
+      "eventHltvId": 4909,
+      "result": "1 - 2",
+      "date": 1569274189000
+    },
+    {
+      "hltvId": 2336424,
+      "team1HltvId": 8346,
+      "team2HltvId": 7969,
+      "eventHltvId": 2832,
+      "result": "0 - 2",
+      "date": 1569265435000
+    },
+    {
+      "hltvId": 2336437,
+      "team1HltvId": 10129,
+      "team2HltvId": 10420,
+      "eventHltvId": 4771,
+      "result": "0 - 2",
+      "date": 1569264256000
+    },
+    {
+      "hltvId": 2336423,
+      "team1HltvId": 8963,
+      "team2HltvId": 8813,
+      "eventHltvId": 2832,
+      "result": "2 - 0",
+      "date": 1569257579000
+    },
+    {
+      "hltvId": 2336448,
+      "team1HltvId": 9928,
+      "team2HltvId": 8513,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1569256632000
+    },
+    {
+      "hltvId": 2336376,
+      "team1HltvId": 7969,
+      "team2HltvId": 8504,
+      "eventHltvId": 4909,
+      "result": "0 - 2",
+      "date": 1569253159000
+    },
+    {
+      "hltvId": 2336416,
+      "team1HltvId": 7606,
+      "team2HltvId": 7966,
+      "eventHltvId": 4906,
+      "result": "3 - 1",
+      "date": 1569244917000
+    },
+    {
+      "hltvId": 2336421,
+      "team1HltvId": 8504,
+      "team2HltvId": 7461,
+      "eventHltvId": 2832,
+      "result": "2 - 0",
+      "date": 1569244354000
+    },
+    {
+      "hltvId": 2336413,
+      "team1HltvId": 6898,
+      "team2HltvId": 10051,
+      "eventHltvId": 4911,
+      "result": "2 - 0",
+      "date": 1569241313000
+    },
+    {
+      "hltvId": 2336420,
+      "team1HltvId": 10299,
+      "team2HltvId": 9275,
+      "eventHltvId": 4738,
+      "result": "13 - 16",
+      "date": 1569236853000
+    },
+    {
+      "hltvId": 2336182,
+      "team1HltvId": 6010,
+      "team2HltvId": 5607,
+      "eventHltvId": 4738,
+      "result": "16 - 5",
+      "date": 1569235271000
+    },
+    {
+      "hltvId": 2335968,
+      "team1HltvId": 10299,
+      "team2HltvId": 6010,
+      "eventHltvId": 4738,
+      "result": "13 - 16",
+      "date": 1569232586000
+    },
+    {
+      "hltvId": 2336225,
+      "team1HltvId": 8008,
+      "team2HltvId": 10220,
+      "eventHltvId": 4738,
+      "result": "16 - 4",
+      "date": 1569232232000
+    },
+    {
+      "hltvId": 2336415,
+      "team1HltvId": 7966,
+      "team2HltvId": 4863,
+      "eventHltvId": 4906,
+      "result": "2 - 0",
+      "date": 1569231217000
+    },
+    {
+      "hltvId": 2336414,
+      "team1HltvId": 7092,
+      "team2HltvId": 4863,
+      "eventHltvId": 4906,
+      "result": "1 - 2",
+      "date": 1569222727000
+    },
+    {
+      "hltvId": 2336418,
+      "team1HltvId": 9105,
+      "team2HltvId": 7581,
+      "eventHltvId": 4787,
+      "result": "0 - 2",
+      "date": 1569218629000
+    },
+    {
+      "hltvId": 2336455,
+      "team1HltvId": 10368,
+      "team2HltvId": 10227,
+      "eventHltvId": 4900,
+      "result": "13 - 16",
+      "date": 1569205975000
+    },
+    {
+      "hltvId": 2336454,
+      "team1HltvId": 10368,
+      "team2HltvId": 7348,
+      "eventHltvId": 4900,
+      "result": "4 - 16",
+      "date": 1569205807000
+    },
+    {
+      "hltvId": 2336453,
+      "team1HltvId": 10370,
+      "team2HltvId": 10226,
+      "eventHltvId": 4900,
+      "result": "16 - 14",
+      "date": 1569205723000
+    },
+    {
+      "hltvId": 2336452,
+      "team1HltvId": 10227,
+      "team2HltvId": 10369,
+      "eventHltvId": 4900,
+      "result": "16 - 3",
+      "date": 1569205610000
+    },
+    {
+      "hltvId": 2336451,
+      "team1HltvId": 9921,
+      "team2HltvId": 10226,
+      "eventHltvId": 4900,
+      "result": "16 - 4",
+      "date": 1569205415000
+    },
+    {
+      "hltvId": 2336282,
+      "team1HltvId": 9785,
+      "team2HltvId": 7841,
+      "eventHltvId": 4737,
+      "result": "16 - 8",
+      "date": 1569204062000
+    },
+    {
+      "hltvId": 2336377,
+      "team1HltvId": 8248,
+      "team2HltvId": 7865,
+      "eventHltvId": 4909,
+      "result": "0 - 2",
+      "date": 1569188531000
+    },
+    {
+      "hltvId": 2336382,
+      "team1HltvId": 8772,
+      "team2HltvId": 10315,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1569187586000
+    },
+    {
+      "hltvId": 2336215,
+      "team1HltvId": 5378,
+      "team2HltvId": 4602,
+      "eventHltvId": 4828,
+      "result": "1 - 2",
+      "date": 1569182953000
+    },
+    {
+      "hltvId": 2336419,
+      "team1HltvId": 7865,
+      "team2HltvId": 9928,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1569180209000
+    },
+    {
+      "hltvId": 2336379,
+      "team1HltvId": 10116,
+      "team2HltvId": 4674,
+      "eventHltvId": 4909,
+      "result": "2 - 0",
+      "date": 1569175440000
+    },
+    {
+      "hltvId": 2336381,
+      "team1HltvId": 7020,
+      "team2HltvId": 8513,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1569175382000
+    },
+    {
+      "hltvId": 2336412,
+      "team1HltvId": 9199,
+      "team2HltvId": 7340,
+      "eventHltvId": null,
+      "result": "1 - 2",
+      "date": 1569171738000
+    },
+    {
+      "hltvId": 2336410,
+      "team1HltvId": 9921,
+      "team2HltvId": 7348,
+      "eventHltvId": 4900,
+      "result": "1 - 2",
+      "date": 1569170388000
+    },
+    {
+      "hltvId": 2336417,
+      "team1HltvId": 10383,
+      "team2HltvId": 5540,
+      "eventHltvId": null,
+      "result": "14 - 16",
+      "date": 1569169374000
+    },
+    {
+      "hltvId": 2336279,
+      "team1HltvId": 8637,
+      "team2HltvId": 8813,
+      "eventHltvId": 4444,
+      "result": "0 - 3",
+      "date": 1569166642000
+    },
+    {
+      "hltvId": 2336411,
+      "team1HltvId": 10384,
+      "team2HltvId": 10385,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569166089000
+    },
+    {
+      "hltvId": 2336359,
+      "team1HltvId": 7532,
+      "team2HltvId": 6615,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1569165748000
+    },
+    {
+      "hltvId": 2336214,
+      "team1HltvId": 9215,
+      "team2HltvId": 4602,
+      "eventHltvId": 4828,
+      "result": "0 - 2",
+      "date": 1569165604000
+    },
+    {
+      "hltvId": 2336403,
+      "team1HltvId": 8848,
+      "team2HltvId": 8680,
+      "eventHltvId": 4897,
+      "result": "1 - 2",
+      "date": 1569165166000
+    },
+    {
+      "hltvId": 2336409,
+      "team1HltvId": 9928,
+      "team2HltvId": 10225,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569164935000
+    },
+    {
+      "hltvId": 2336402,
+      "team1HltvId": 5153,
+      "team2HltvId": 8111,
+      "eventHltvId": 4491,
+      "result": "2 - 1",
+      "date": 1569164744000
+    },
+    {
+      "hltvId": 2336408,
+      "team1HltvId": 8346,
+      "team2HltvId": 7865,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1569164539000
+    },
+    {
+      "hltvId": 2336342,
+      "team1HltvId": 10206,
+      "team2HltvId": 10290,
+      "eventHltvId": 4802,
+      "result": "1 - 2",
+      "date": 1569163352000
+    },
+    {
+      "hltvId": 2336407,
+      "team1HltvId": 10177,
+      "team2HltvId": 5540,
+      "eventHltvId": null,
+      "result": "10 - 16",
+      "date": 1569163152000
+    },
+    {
+      "hltvId": 2336405,
+      "team1HltvId": 7340,
+      "team2HltvId": 9562,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569161101000
+    },
+    {
+      "hltvId": 2336288,
+      "team1HltvId": 7718,
+      "team2HltvId": 8769,
+      "eventHltvId": 4862,
+      "result": "1 - 2",
+      "date": 1569160697000
+    },
+    {
+      "hltvId": 2336404,
+      "team1HltvId": 9199,
+      "team2HltvId": 7719,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569160097000
+    },
+    {
+      "hltvId": 2336386,
+      "team1HltvId": 10225,
+      "team2HltvId": 7144,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1569158956000
+    },
+    {
+      "hltvId": 2335758,
+      "team1HltvId": 8513,
+      "team2HltvId": 10315,
+      "eventHltvId": 4826,
+      "result": "2 - 1",
+      "date": 1569157538000
+    },
+    {
+      "hltvId": 2336361,
+      "team1HltvId": 10051,
+      "team2HltvId": 9032,
+      "eventHltvId": 4911,
+      "result": "2 - 0",
+      "date": 1569157443000
+    },
+    {
+      "hltvId": 2336365,
+      "team1HltvId": 10370,
+      "team2HltvId": 7348,
+      "eventHltvId": 4900,
+      "result": "1 - 2",
+      "date": 1569157249000
+    },
+    {
+      "hltvId": 2336406,
+      "team1HltvId": 5406,
+      "team2HltvId": 10383,
+      "eventHltvId": null,
+      "result": "10 - 16",
+      "date": 1569157106000
+    },
+    {
+      "hltvId": 2336360,
+      "team1HltvId": 6898,
+      "team2HltvId": 10377,
+      "eventHltvId": 4911,
+      "result": "2 - 0",
+      "date": 1569156654000
+    },
+    {
+      "hltvId": 2336385,
+      "team1HltvId": 7865,
+      "team2HltvId": 7898,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1569156383000
+    },
+    {
+      "hltvId": 2336384,
+      "team1HltvId": 8346,
+      "team2HltvId": 8698,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569155087000
+    },
+    {
+      "hltvId": 2336399,
+      "team1HltvId": 7966,
+      "team2HltvId": 7606,
+      "eventHltvId": 4906,
+      "result": "1 - 2",
+      "date": 1569154623000
+    },
+    {
+      "hltvId": 2336401,
+      "team1HltvId": 4863,
+      "team2HltvId": 7024,
+      "eventHltvId": 4906,
+      "result": "2 - 1",
+      "date": 1569153514000
+    },
+    {
+      "hltvId": 2336213,
+      "team1HltvId": 4494,
+      "team2HltvId": 5378,
+      "eventHltvId": 4828,
+      "result": "0 - 2",
+      "date": 1569152475000
+    },
+    {
+      "hltvId": 2336363,
+      "team1HltvId": 8262,
+      "team2HltvId": 8680,
+      "eventHltvId": 4897,
+      "result": "1 - 2",
+      "date": 1569151382000
+    },
+    {
+      "hltvId": 2336387,
+      "team1HltvId": 9928,
+      "team2HltvId": 10259,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1569151171000
+    },
+    {
+      "hltvId": 2336400,
+      "team1HltvId": 7092,
+      "team2HltvId": 10245,
+      "eventHltvId": 4906,
+      "result": "2 - 0",
+      "date": 1569150919000
+    },
+    {
+      "hltvId": 2336356,
+      "team1HltvId": 8111,
+      "team2HltvId": 8730,
+      "eventHltvId": 4491,
+      "result": "2 - 0",
+      "date": 1569147885000
+    },
+    {
+      "hltvId": 2336357,
+      "team1HltvId": 8193,
+      "team2HltvId": 5153,
+      "eventHltvId": 4491,
+      "result": "0 - 2",
+      "date": 1569145996000
+    },
+    {
+      "hltvId": 2336240,
+      "team1HltvId": 4680,
+      "team2HltvId": 9275,
+      "eventHltvId": 4887,
+      "result": "1 - 0",
+      "date": 1569144526000
+    },
+    {
+      "hltvId": 2336398,
+      "team1HltvId": 5293,
+      "team2HltvId": 8668,
+      "eventHltvId": 4898,
+      "result": "2 - 1",
+      "date": 1569144151000
+    },
+    {
+      "hltvId": 2336362,
+      "team1HltvId": 10220,
+      "team2HltvId": 9870,
+      "eventHltvId": 4738,
+      "result": "16 - 14",
+      "date": 1569144011000
+    },
+    {
+      "hltvId": 2336364,
+      "team1HltvId": 9921,
+      "team2HltvId": 10227,
+      "eventHltvId": 4900,
+      "result": "2 - 1",
+      "date": 1569143709000
+    },
+    {
+      "hltvId": 2336350,
+      "team1HltvId": 10338,
+      "team2HltvId": 10115,
+      "eventHltvId": 4867,
+      "result": "1 - 2",
+      "date": 1569143593000
+    },
+    {
+      "hltvId": 2336300,
+      "team1HltvId": 7581,
+      "team2HltvId": 10053,
+      "eventHltvId": 4787,
+      "result": "2 - 0",
+      "date": 1569142597000
+    },
+    {
+      "hltvId": 2336395,
+      "team1HltvId": 4863,
+      "team2HltvId": 7966,
+      "eventHltvId": 4906,
+      "result": "0 - 2",
+      "date": 1569141471000
+    },
+    {
+      "hltvId": 2336394,
+      "team1HltvId": 7092,
+      "team2HltvId": 7606,
+      "eventHltvId": 4906,
+      "result": "0 - 2",
+      "date": 1569140645000
+    },
+    {
+      "hltvId": 2336397,
+      "team1HltvId": 7024,
+      "team2HltvId": 10378,
+      "eventHltvId": 4906,
+      "result": "2 - 0",
+      "date": 1569138212000
+    },
+    {
+      "hltvId": 2336396,
+      "team1HltvId": 10379,
+      "team2HltvId": 10245,
+      "eventHltvId": 4906,
+      "result": "0 - 2",
+      "date": 1569137692000
+    },
+    {
+      "hltvId": 2336393,
+      "team1HltvId": 9747,
+      "team2HltvId": 8668,
+      "eventHltvId": 4898,
+      "result": "1 - 2",
+      "date": 1569133620000
+    },
+    {
+      "hltvId": 2336344,
+      "team1HltvId": 8848,
+      "team2HltvId": 8220,
+      "eventHltvId": 4897,
+      "result": "2 - 0",
+      "date": 1569132561000
+    },
+    {
+      "hltvId": 2336297,
+      "team1HltvId": 9105,
+      "team2HltvId": 7483,
+      "eventHltvId": 4787,
+      "result": "2 - 0",
+      "date": 1569130113000
+    },
+    {
+      "hltvId": 2336392,
+      "team1HltvId": 8536,
+      "team2HltvId": 5293,
+      "eventHltvId": 4898,
+      "result": "1 - 2",
+      "date": 1569129146000
+    },
+    {
+      "hltvId": 2336389,
+      "team1HltvId": 10245,
+      "team2HltvId": 7966,
+      "eventHltvId": 4906,
+      "result": "0 - 2",
+      "date": 1569128902000
+    },
+    {
+      "hltvId": 2336390,
+      "team1HltvId": 7024,
+      "team2HltvId": 7092,
+      "eventHltvId": 4906,
+      "result": "0 - 2",
+      "date": 1569128723000
+    },
+    {
+      "hltvId": 2336391,
+      "team1HltvId": 7606,
+      "team2HltvId": 10378,
+      "eventHltvId": 4906,
+      "result": "2 - 0",
+      "date": 1569127811000
+    },
+    {
+      "hltvId": 2336388,
+      "team1HltvId": 4863,
+      "team2HltvId": 10379,
+      "eventHltvId": 4906,
+      "result": "2 - 0",
+      "date": 1569126594000
+    },
+    {
+      "hltvId": 2336349,
+      "team1HltvId": 8668,
+      "team2HltvId": 9275,
+      "eventHltvId": 4898,
+      "result": "2 - 1",
+      "date": 1569122903000
+    },
+    {
+      "hltvId": 2336346,
+      "team1HltvId": 8536,
+      "team2HltvId": 10041,
+      "eventHltvId": 4898,
+      "result": "2 - 0",
+      "date": 1569119016000
+    },
+    {
+      "hltvId": 2336348,
+      "team1HltvId": 9747,
+      "team2HltvId": 7983,
+      "eventHltvId": 4898,
+      "result": "2 - 0",
+      "date": 1569118524000
+    },
+    {
+      "hltvId": 2336347,
+      "team1HltvId": 5293,
+      "team2HltvId": 9750,
+      "eventHltvId": 4898,
+      "result": "2 - 0",
+      "date": 1569117663000
+    },
+    {
+      "hltvId": 2336383,
+      "team1HltvId": 10259,
+      "team2HltvId": 10382,
+      "eventHltvId": null,
+      "result": "1 - 0",
+      "date": 1569097050000
+    },
+    {
+      "hltvId": 2336380,
+      "team1HltvId": 7144,
+      "team2HltvId": 10128,
+      "eventHltvId": null,
+      "result": "16 - 5",
+      "date": 1569096552000
+    },
+    {
+      "hltvId": 2336263,
+      "team1HltvId": 8504,
+      "team2HltvId": 4674,
+      "eventHltvId": 4909,
+      "result": "2 - 0",
+      "date": 1569096454000
+    },
+    {
+      "hltvId": 2336374,
+      "team1HltvId": 8698,
+      "team2HltvId": 9539,
+      "eventHltvId": null,
+      "result": "19 - 16",
+      "date": 1569096220000
+    },
+    {
+      "hltvId": 2336375,
+      "team1HltvId": 7898,
+      "team2HltvId": 10270,
+      "eventHltvId": null,
+      "result": "16 - 11",
+      "date": 1569095162000
+    },
+    {
+      "hltvId": 2336373,
+      "team1HltvId": 4468,
+      "team2HltvId": 10382,
+      "eventHltvId": null,
+      "result": "11 - 16",
+      "date": 1569093887000
+    },
+    {
+      "hltvId": 2336372,
+      "team1HltvId": 10259,
+      "team2HltvId": 9949,
+      "eventHltvId": null,
+      "result": "16 - 11",
+      "date": 1569093499000
+    },
+    {
+      "hltvId": 2336212,
+      "team1HltvId": 4602,
+      "team2HltvId": 8911,
+      "eventHltvId": 4828,
+      "result": "2 - 1",
+      "date": 1569093352000
+    },
+    {
+      "hltvId": 2335757,
+      "team1HltvId": 8772,
+      "team2HltvId": 7020,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1569092165000
+    },
+    {
+      "hltvId": 2336368,
+      "team1HltvId": 10128,
+      "team2HltvId": 10380,
+      "eventHltvId": null,
+      "result": "16 - 11",
+      "date": 1569091767000
+    },
+    {
+      "hltvId": 2336366,
+      "team1HltvId": 7234,
+      "team2HltvId": 7144,
+      "eventHltvId": null,
+      "result": "13 - 16",
+      "date": 1569091701000
+    },
+    {
+      "hltvId": 2336371,
+      "team1HltvId": 8248,
+      "team2HltvId": 10270,
+      "eventHltvId": null,
+      "result": "9 - 16",
+      "date": 1569091636000
+    },
+    {
+      "hltvId": 2336370,
+      "team1HltvId": 10316,
+      "team2HltvId": 8698,
+      "eventHltvId": null,
+      "result": "4 - 16",
+      "date": 1569090661000
+    },
+    {
+      "hltvId": 2336367,
+      "team1HltvId": 9539,
+      "team2HltvId": 7461,
+      "eventHltvId": null,
+      "result": "16 - 8",
+      "date": 1569090546000
+    },
+    {
+      "hltvId": 2336369,
+      "team1HltvId": 8963,
+      "team2HltvId": 7898,
+      "eventHltvId": null,
+      "result": "3 - 16",
+      "date": 1569090415000
+    },
+    {
+      "hltvId": 2336278,
+      "team1HltvId": 8813,
+      "team2HltvId": 10020,
+      "eventHltvId": 4444,
+      "result": "2 - 1",
+      "date": 1569089973000
+    },
+    {
+      "hltvId": 2336262,
+      "team1HltvId": 7969,
+      "team2HltvId": 10116,
+      "eventHltvId": 4909,
+      "result": "2 - 0",
+      "date": 1569089201000
+    },
+    {
+      "hltvId": 2336351,
+      "team1HltvId": 9928,
+      "team2HltvId": 8135,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1569081941000
+    },
+    {
+      "hltvId": 2336287,
+      "team1HltvId": 7865,
+      "team2HltvId": 8504,
+      "eventHltvId": 4862,
+      "result": "2 - 0",
+      "date": 1569079713000
+    },
+    {
+      "hltvId": 2336354,
+      "team1HltvId": 9032,
+      "team2HltvId": 10376,
+      "eventHltvId": 4910,
+      "result": "2 - 1",
+      "date": 1569079026000
+    },
+    {
+      "hltvId": 2335961,
+      "team1HltvId": 5153,
+      "team2HltvId": 10336,
+      "eventHltvId": 4491,
+      "result": "2 - 0",
+      "date": 1569077143000
+    },
+    {
+      "hltvId": 2336352,
+      "team1HltvId": 10051,
+      "team2HltvId": 9907,
+      "eventHltvId": 4905,
+      "result": "2 - 0",
+      "date": 1569077136000
+    },
+    {
+      "hltvId": 2336211,
+      "team1HltvId": 5378,
+      "team2HltvId": 4411,
+      "eventHltvId": 4828,
+      "result": "2 - 0",
+      "date": 1569076801000
+    },
+    {
+      "hltvId": 2336292,
+      "team1HltvId": 7966,
+      "team2HltvId": 7092,
+      "eventHltvId": 4903,
+      "result": "2 - 1",
+      "date": 1569076657000
+    },
+    {
+      "hltvId": 2336353,
+      "team1HltvId": 10328,
+      "team2HltvId": 6898,
+      "eventHltvId": 4905,
+      "result": "0 - 2",
+      "date": 1569075564000
+    },
+    {
+      "hltvId": 2336186,
+      "team1HltvId": 8680,
+      "team2HltvId": 10366,
+      "eventHltvId": 4897,
+      "result": "2 - 0",
+      "date": 1569075047000
+    },
+    {
+      "hltvId": 2336336,
+      "team1HltvId": 7175,
+      "team2HltvId": 8135,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1569074837000
+    },
+    {
+      "hltvId": 2335960,
+      "team1HltvId": 8193,
+      "team2HltvId": 7647,
+      "eventHltvId": 4491,
+      "result": "2 - 0",
+      "date": 1569073889000
+    },
+    {
+      "hltvId": 2336277,
+      "team1HltvId": 8637,
+      "team2HltvId": 8297,
+      "eventHltvId": 4444,
+      "result": "2 - 1",
+      "date": 1569073461000
+    },
+    {
+      "hltvId": 2336345,
+      "team1HltvId": 10373,
+      "team2HltvId": 10374,
+      "eventHltvId": 4867,
+      "result": "2 - 1",
+      "date": 1569071481000
+    },
+    {
+      "hltvId": 2336174,
+      "team1HltvId": 7969,
+      "team2HltvId": 8772,
+      "eventHltvId": 2832,
+      "result": "1 - 2",
+      "date": 1569071296000
+    },
+    {
+      "hltvId": 2336355,
+      "team1HltvId": 10377,
+      "team2HltvId": 9100,
+      "eventHltvId": 4910,
+      "result": "1 - 0",
+      "date": 1569069968000
+    },
+    {
+      "hltvId": 2336185,
+      "team1HltvId": 8262,
+      "team2HltvId": 10365,
+      "eventHltvId": 4897,
+      "result": "2 - 0",
+      "date": 1569067624000
+    },
+    {
+      "hltvId": 2336294,
+      "team1HltvId": 5258,
+      "team2HltvId": 10328,
+      "eventHltvId": 4905,
+      "result": "10 - 16",
+      "date": 1569067522000
+    },
+    {
+      "hltvId": 2335959,
+      "team1HltvId": 8730,
+      "team2HltvId": 6765,
+      "eventHltvId": 4491,
+      "result": "2 - 1",
+      "date": 1569067492000
+    },
+    {
+      "hltvId": 2336295,
+      "team1HltvId": 9907,
+      "team2HltvId": 7109,
+      "eventHltvId": 4905,
+      "result": "16 - 9",
+      "date": 1569066903000
+    },
+    {
+      "hltvId": 2336293,
+      "team1HltvId": 6898,
+      "team2HltvId": 8607,
+      "eventHltvId": 4905,
+      "result": "16 - 2",
+      "date": 1569066440000
+    },
+    {
+      "hltvId": 2336296,
+      "team1HltvId": 10047,
+      "team2HltvId": 10051,
+      "eventHltvId": 4905,
+      "result": "8 - 16",
+      "date": 1569066226000
+    },
+    {
+      "hltvId": 2336343,
+      "team1HltvId": 9939,
+      "team2HltvId": 9802,
+      "eventHltvId": null,
+      "result": "1 - 1",
+      "date": 1569065095000
+    },
+    {
+      "hltvId": 2335958,
+      "team1HltvId": 8111,
+      "team2HltvId": 10335,
+      "eventHltvId": 4491,
+      "result": "2 - 0",
+      "date": 1569058548000
+    },
+    {
+      "hltvId": 2336258,
+      "team1HltvId": 10374,
+      "team2HltvId": 10115,
+      "eventHltvId": 4867,
+      "result": "0 - 2",
+      "date": 1569057414000
+    },
+    {
+      "hltvId": 2336189,
+      "team1HltvId": 10226,
+      "team2HltvId": 10370,
+      "eventHltvId": 4900,
+      "result": "16 - 2",
+      "date": 1569056634000
+    },
+    {
+      "hltvId": 2336190,
+      "team1HltvId": 7348,
+      "team2HltvId": 10369,
+      "eventHltvId": 4900,
+      "result": "16 - 12",
+      "date": 1569056628000
+    },
+    {
+      "hltvId": 2336184,
+      "team1HltvId": 8220,
+      "team2HltvId": 10367,
+      "eventHltvId": 4897,
+      "result": "2 - 0",
+      "date": 1569056488000
+    },
+    {
+      "hltvId": 2336340,
+      "team1HltvId": 10206,
+      "team2HltvId": 8633,
+      "eventHltvId": 4802,
+      "result": "2 - 0",
+      "date": 1569052821000
+    },
+    {
+      "hltvId": 2336188,
+      "team1HltvId": 10227,
+      "team2HltvId": 10368,
+      "eventHltvId": 4900,
+      "result": "12 - 16",
+      "date": 1569051196000
+    },
+    {
+      "hltvId": 2336257,
+      "team1HltvId": 10338,
+      "team2HltvId": 10373,
+      "eventHltvId": 4867,
+      "result": "2 - 1",
+      "date": 1569049156000
+    },
+    {
+      "hltvId": 2336183,
+      "team1HltvId": 8848,
+      "team2HltvId": 10047,
+      "eventHltvId": 4897,
+      "result": "2 - 0",
+      "date": 1569047583000
+    },
+    {
+      "hltvId": 2336341,
+      "team1HltvId": 10290,
+      "team2HltvId": 7285,
+      "eventHltvId": 4802,
+      "result": "2 - 0",
+      "date": 1569042385000
+    },
+    {
+      "hltvId": 2336261,
+      "team1HltvId": 7865,
+      "team2HltvId": 8513,
+      "eventHltvId": 4909,
+      "result": "2 - 1",
+      "date": 1569012309000
+    },
+    {
+      "hltvId": 2336276,
+      "team1HltvId": 8297,
+      "team2HltvId": 7532,
+      "eventHltvId": 4444,
+      "result": "2 - 0",
+      "date": 1569011980000
+    },
+    {
+      "hltvId": 2336275,
+      "team1HltvId": 8305,
+      "team2HltvId": 10020,
+      "eventHltvId": 4444,
+      "result": "0 - 2",
+      "date": 1569011843000
+    },
+    {
+      "hltvId": 2336331,
+      "team1HltvId": 8135,
+      "team2HltvId": 4494,
+      "eventHltvId": 4832,
+      "result": "0 - 2",
+      "date": 1569011267000
+    },
+    {
+      "hltvId": 2336315,
+      "team1HltvId": 9928,
+      "team2HltvId": 8346,
+      "eventHltvId": 4826,
+      "result": "2 - 1",
+      "date": 1569009571000
+    },
+    {
+      "hltvId": 2336260,
+      "team1HltvId": 8248,
+      "team2HltvId": 7898,
+      "eventHltvId": 4909,
+      "result": "2 - 0",
+      "date": 1569002142000
+    },
+    {
+      "hltvId": 2336273,
+      "team1HltvId": 8772,
+      "team2HltvId": 10020,
+      "eventHltvId": 4444,
+      "result": "1 - 2",
+      "date": 1569001519000
+    },
+    {
+      "hltvId": 2336274,
+      "team1HltvId": 7532,
+      "team2HltvId": 8068,
+      "eventHltvId": 4444,
+      "result": "2 - 0",
+      "date": 1569000668000
+    },
+    {
+      "hltvId": 2336281,
+      "team1HltvId": 4494,
+      "team2HltvId": 7175,
+      "eventHltvId": 4832,
+      "result": "2 - 0",
+      "date": 1569000461000
+    },
+    {
+      "hltvId": 2335756,
+      "team1HltvId": 8135,
+      "team2HltvId": 8346,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1568997199000
+    },
+    {
+      "hltvId": 2336280,
+      "team1HltvId": 5995,
+      "team2HltvId": 8135,
+      "eventHltvId": 4832,
+      "result": "1 - 2",
+      "date": 1568989932000
+    },
+    {
+      "hltvId": 2335755,
+      "team1HltvId": 7175,
+      "team2HltvId": 9928,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1568986416000
+    },
+    {
+      "hltvId": 2336272,
+      "team1HltvId": 8297,
+      "team2HltvId": 8813,
+      "eventHltvId": 4444,
+      "result": "14 - 16",
+      "date": 1568986271000
+    },
+    {
+      "hltvId": 2336271,
+      "team1HltvId": 8305,
+      "team2HltvId": 8637,
+      "eventHltvId": 4444,
+      "result": "9 - 16",
+      "date": 1568984188000
+    },
+    {
+      "hltvId": 2336168,
+      "team1HltvId": 8911,
+      "team2HltvId": 10386,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1568984020000
+    },
+    {
+      "hltvId": 2336269,
+      "team1HltvId": 7966,
+      "team2HltvId": 7798,
+      "eventHltvId": 4903,
+      "result": "2 - 0",
+      "date": 1568982988000
+    },
+    {
+      "hltvId": 2336291,
+      "team1HltvId": 8680,
+      "team2HltvId": 10206,
+      "eventHltvId": 4904,
+      "result": "1 - 0",
+      "date": 1568979483000
+    },
+    {
+      "hltvId": 2336268,
+      "team1HltvId": 7092,
+      "team2HltvId": 8840,
+      "eventHltvId": 4903,
+      "result": "1 - 0",
+      "date": 1568979380000
+    },
+    {
+      "hltvId": 2336066,
+      "team1HltvId": 8068,
+      "team2HltvId": 8813,
+      "eventHltvId": 4444,
+      "result": "13 - 16",
+      "date": 1568979048000
+    },
+    {
+      "hltvId": 2336065,
+      "team1HltvId": 10020,
+      "team2HltvId": 8637,
+      "eventHltvId": 4444,
+      "result": "10 - 16",
+      "date": 1568977971000
+    },
+    {
+      "hltvId": 2336259,
+      "team1HltvId": 9870,
+      "team2HltvId": 10325,
+      "eventHltvId": 4738,
+      "result": "16 - 14",
+      "date": 1568974402000
+    },
+    {
+      "hltvId": 2336063,
+      "team1HltvId": 8305,
+      "team2HltvId": 8772,
+      "eventHltvId": 4444,
+      "result": "16 - 9",
+      "date": 1568972830000
+    },
+    {
+      "hltvId": 2336064,
+      "team1HltvId": 7532,
+      "team2HltvId": 8297,
+      "eventHltvId": 4444,
+      "result": "7 - 16",
+      "date": 1568972088000
+    },
+    {
+      "hltvId": 2336199,
+      "team1HltvId": 10302,
+      "team2HltvId": 10261,
+      "eventHltvId": 4737,
+      "result": "16 - 13",
+      "date": 1568948794000
+    },
+    {
+      "hltvId": 2336200,
+      "team1HltvId": 6619,
+      "team2HltvId": 7885,
+      "eventHltvId": 4737,
+      "result": "16 - 2",
+      "date": 1568944201000
+    },
+    {
+      "hltvId": 2336235,
+      "team1HltvId": 10080,
+      "team2HltvId": 10146,
+      "eventHltvId": 4737,
+      "result": "16 - 1",
+      "date": 1568943887000
+    },
+    {
+      "hltvId": 2336197,
+      "team1HltvId": 9943,
+      "team2HltvId": 6619,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1568941638000
+    },
+    {
+      "hltvId": 2336250,
+      "team1HltvId": 8113,
+      "team2HltvId": 6673,
+      "eventHltvId": 4838,
+      "result": "0 - 2",
+      "date": 1568937279000
+    },
+    {
+      "hltvId": 2336248,
+      "team1HltvId": 9928,
+      "team2HltvId": 7175,
+      "eventHltvId": 4832,
+      "result": "0 - 2",
+      "date": 1568927519000
+    },
+    {
+      "hltvId": 2336231,
+      "team1HltvId": 8120,
+      "team2HltvId": 8135,
+      "eventHltvId": 4827,
+      "result": "2 - 1",
+      "date": 1568927505000
+    },
+    {
+      "hltvId": 2336210,
+      "team1HltvId": 10210,
+      "team2HltvId": 8911,
+      "eventHltvId": 4828,
+      "result": "0 - 2",
+      "date": 1568924086000
+    },
+    {
+      "hltvId": 2336249,
+      "team1HltvId": 8305,
+      "team2HltvId": 9976,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1568920696000
+    },
+    {
+      "hltvId": 2336218,
+      "team1HltvId": 8135,
+      "team2HltvId": 10225,
+      "eventHltvId": 4832,
+      "result": "2 - 1",
+      "date": 1568915449000
+    },
+    {
+      "hltvId": 2336209,
+      "team1HltvId": 9215,
+      "team2HltvId": 4411,
+      "eventHltvId": 4828,
+      "result": "2 - 0",
+      "date": 1568914930000
+    },
+    {
+      "hltvId": 2336206,
+      "team1HltvId": 7144,
+      "team2HltvId": 8248,
+      "eventHltvId": 4736,
+      "result": "19 - 15",
+      "date": 1568914030000
+    },
+    {
+      "hltvId": 2336246,
+      "team1HltvId": 8346,
+      "team2HltvId": 8769,
+      "eventHltvId": 2832,
+      "result": "0 - 2",
+      "date": 1568907188000
+    },
+    {
+      "hltvId": 2336264,
+      "team1HltvId": 6898,
+      "team2HltvId": 10206,
+      "eventHltvId": 4904,
+      "result": "1 - 2",
+      "date": 1568905559000
+    },
+    {
+      "hltvId": 2336265,
+      "team1HltvId": 8680,
+      "team2HltvId": 10051,
+      "eventHltvId": 4904,
+      "result": "2 - 0",
+      "date": 1568903552000
+    },
+    {
+      "hltvId": 2336208,
+      "team1HltvId": 5378,
+      "team2HltvId": 10349,
+      "eventHltvId": 4828,
+      "result": "2 - 0",
+      "date": 1568901712000
+    },
+    {
+      "hltvId": 2335807,
+      "team1HltvId": 8536,
+      "team2HltvId": 5290,
+      "eventHltvId": 4770,
+      "result": "2 - 0",
+      "date": 1568898602000
+    },
+    {
+      "hltvId": 2336167,
+      "team1HltvId": 7144,
+      "team2HltvId": 10097,
+      "eventHltvId": 4862,
+      "result": "0 - 2",
+      "date": 1568896886000
+    },
+    {
+      "hltvId": 2336242,
+      "team1HltvId": 9747,
+      "team2HltvId": 8738,
+      "eventHltvId": 4738,
+      "result": "16 - 2",
+      "date": 1568896183000
+    },
+    {
+      "hltvId": 2336255,
+      "team1HltvId": 9107,
+      "team2HltvId": 10051,
+      "eventHltvId": 4904,
+      "result": "14 - 16",
+      "date": 1568895948000
+    },
+    {
+      "hltvId": 2336253,
+      "team1HltvId": 6898,
+      "team2HltvId": 8607,
+      "eventHltvId": 4904,
+      "result": "16 - 8",
+      "date": 1568894371000
+    },
+    {
+      "hltvId": 2336254,
+      "team1HltvId": 10328,
+      "team2HltvId": 10206,
+      "eventHltvId": 4904,
+      "result": "3 - 16",
+      "date": 1568894346000
+    },
+    {
+      "hltvId": 2336245,
+      "team1HltvId": 10375,
+      "team2HltvId": 9747,
+      "eventHltvId": 4738,
+      "result": "12 - 16",
+      "date": 1568894126000
+    },
+    {
+      "hltvId": 2336256,
+      "team1HltvId": 7348,
+      "team2HltvId": 8680,
+      "eventHltvId": 4904,
+      "result": "6 - 16",
+      "date": 1568893990000
+    },
+    {
+      "hltvId": 2336244,
+      "team1HltvId": 8738,
+      "team2HltvId": 8668,
+      "eventHltvId": 4738,
+      "result": "6 - 16",
+      "date": 1568893955000
+    },
+    {
+      "hltvId": 2336243,
+      "team1HltvId": 7983,
+      "team2HltvId": 10205,
+      "eventHltvId": 4738,
+      "result": "16 - 12",
+      "date": 1568892681000
+    },
+    {
+      "hltvId": 2335893,
+      "team1HltvId": 4411,
+      "team2HltvId": 8911,
+      "eventHltvId": 4828,
+      "result": "2 - 0",
+      "date": 1568891848000
+    },
+    {
+      "hltvId": 2335806,
+      "team1HltvId": 5607,
+      "team2HltvId": 6922,
+      "eventHltvId": 4770,
+      "result": "0 - 2",
+      "date": 1568890443000
+    },
+    {
+      "hltvId": 2336196,
+      "team1HltvId": 10392,
+      "team2HltvId": 10261,
+      "eventHltvId": 4737,
+      "result": "7 - 16",
+      "date": 1568861178000
+    },
+    {
+      "hltvId": 2336195,
+      "team1HltvId": 6947,
+      "team2HltvId": 10302,
+      "eventHltvId": 4737,
+      "result": "13 - 16",
+      "date": 1568858800000
+    },
+    {
+      "hltvId": 2335766,
+      "team1HltvId": 4773,
+      "team2HltvId": 7653,
+      "eventHltvId": 4780,
+      "result": "2 - 0",
+      "date": 1568858528000
+    },
+    {
+      "hltvId": 2336234,
+      "team1HltvId": 5479,
+      "team2HltvId": 10146,
+      "eventHltvId": 4737,
+      "result": "16 - 6",
+      "date": 1568858192000
+    },
+    {
+      "hltvId": 2336194,
+      "team1HltvId": 10392,
+      "team2HltvId": 10059,
+      "eventHltvId": 4737,
+      "result": "9 - 16",
+      "date": 1568857833000
+    },
+    {
+      "hltvId": 2336233,
+      "team1HltvId": 5479,
+      "team2HltvId": 7841,
+      "eventHltvId": 4737,
+      "result": "3 - 16",
+      "date": 1568854078000
+    },
+    {
+      "hltvId": 2336202,
+      "team1HltvId": 6673,
+      "team2HltvId": 5752,
+      "eventHltvId": 4838,
+      "result": "2 - 0",
+      "date": 1568849744000
+    },
+    {
+      "hltvId": 2335765,
+      "team1HltvId": 8902,
+      "team2HltvId": 7176,
+      "eventHltvId": 4780,
+      "result": "2 - 0",
+      "date": 1568849393000
+    },
+    {
+      "hltvId": 2336207,
+      "team1HltvId": 4602,
+      "team2HltvId": 4494,
+      "eventHltvId": 4828,
+      "result": "1 - 2",
+      "date": 1568847640000
+    },
+    {
+      "hltvId": 2336247,
+      "team1HltvId": 7718,
+      "team2HltvId": 6615,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1568844261000
+    },
+    {
+      "hltvId": 2336014,
+      "team1HltvId": 4468,
+      "team2HltvId": 4933,
+      "eventHltvId": 2838,
+      "result": "1 - 2",
+      "date": 1568844036000
+    },
+    {
+      "hltvId": 2336180,
+      "team1HltvId": 8135,
+      "team2HltvId": 7144,
+      "eventHltvId": 4827,
+      "result": "2 - 1",
+      "date": 1568841397000
+    },
+    {
+      "hltvId": 2336217,
+      "team1HltvId": 7175,
+      "team2HltvId": 10270,
+      "eventHltvId": 4832,
+      "result": "2 - 0",
+      "date": 1568838334000
+    },
+    {
+      "hltvId": 2336229,
+      "team1HltvId": 6615,
+      "team2HltvId": 8305,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1568836242000
+    },
+    {
+      "hltvId": 2335900,
+      "team1HltvId": 9215,
+      "team2HltvId": 10210,
+      "eventHltvId": 4828,
+      "result": "2 - 1",
+      "date": 1568831209000
+    },
+    {
+      "hltvId": 2336013,
+      "team1HltvId": 9616,
+      "team2HltvId": 8362,
+      "eventHltvId": 2838,
+      "result": "0 - 2",
+      "date": 1568830230000
+    },
+    {
+      "hltvId": 2336175,
+      "team1HltvId": 6615,
+      "team2HltvId": 10225,
+      "eventHltvId": 4832,
+      "result": "1 - 2",
+      "date": 1568828443000
+    },
+    {
+      "hltvId": 2336230,
+      "team1HltvId": 8637,
+      "team2HltvId": 7718,
+      "eventHltvId": 4826,
+      "result": "1 - 2",
+      "date": 1568828124000
+    },
+    {
+      "hltvId": 2336173,
+      "team1HltvId": 8813,
+      "team2HltvId": 7461,
+      "eventHltvId": 2832,
+      "result": "1 - 2",
+      "date": 1568826162000
+    },
+    {
+      "hltvId": 2335892,
+      "team1HltvId": 4494,
+      "team2HltvId": 10349,
+      "eventHltvId": 4828,
+      "result": "2 - 0",
+      "date": 1568816958000
+    },
+    {
+      "hltvId": 2335754,
+      "team1HltvId": 8305,
+      "team2HltvId": 7718,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1568813720000
+    },
+    {
+      "hltvId": 2336166,
+      "team1HltvId": 8346,
+      "team2HltvId": 10315,
+      "eventHltvId": 4862,
+      "result": "1 - 2",
+      "date": 1568813169000
+    },
+    {
+      "hltvId": 2336227,
+      "team1HltvId": 10245,
+      "team2HltvId": 7024,
+      "eventHltvId": 4902,
+      "result": "0 - 2",
+      "date": 1568811695000
+    },
+    {
+      "hltvId": 2336224,
+      "team1HltvId": 8536,
+      "team2HltvId": 7983,
+      "eventHltvId": 4738,
+      "result": "22 - 20",
+      "date": 1568810474000
+    },
+    {
+      "hltvId": 2336223,
+      "team1HltvId": 10339,
+      "team2HltvId": 10205,
+      "eventHltvId": 4738,
+      "result": "14 - 16",
+      "date": 1568808393000
+    },
+    {
+      "hltvId": 2335891,
+      "team1HltvId": 5378,
+      "team2HltvId": 4602,
+      "eventHltvId": 4828,
+      "result": "0 - 2",
+      "date": 1568807545000
+    },
+    {
+      "hltvId": 2336239,
+      "team1HltvId": 10339,
+      "team2HltvId": 10327,
+      "eventHltvId": 4738,
+      "result": "16 - 12",
+      "date": 1568804900000
+    },
+    {
+      "hltvId": 2336226,
+      "team1HltvId": 9870,
+      "team2HltvId": 9275,
+      "eventHltvId": 4887,
+      "result": "0 - 2",
+      "date": 1568804823000
+    },
+    {
+      "hltvId": 2336220,
+      "team1HltvId": 10220,
+      "team2HltvId": 10205,
+      "eventHltvId": 4738,
+      "result": "16 - 8",
+      "date": 1568804154000
+    },
+    {
+      "hltvId": 2336221,
+      "team1HltvId": 9750,
+      "team2HltvId": 10325,
+      "eventHltvId": 4738,
+      "result": "16 - 8",
+      "date": 1568803626000
+    },
+    {
+      "hltvId": 2336219,
+      "team1HltvId": 10220,
+      "team2HltvId": 5607,
+      "eventHltvId": 4738,
+      "result": "16 - 7",
+      "date": 1568800684000
+    },
+    {
+      "hltvId": 2336222,
+      "team1HltvId": 8008,
+      "team2HltvId": 8738,
+      "eventHltvId": 4738,
+      "result": "1 - 0",
+      "date": 1568787610000
+    },
+    {
+      "hltvId": 2336193,
+      "team1HltvId": 7885,
+      "team2HltvId": 10302,
+      "eventHltvId": 4737,
+      "result": "19 - 17",
+      "date": 1568776973000
+    },
+    {
+      "hltvId": 2336192,
+      "team1HltvId": 7841,
+      "team2HltvId": 9229,
+      "eventHltvId": 4737,
+      "result": "5 - 16",
+      "date": 1568775111000
+    },
+    {
+      "hltvId": 2336232,
+      "team1HltvId": 9392,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "1 - 16",
+      "date": 1568774766000
+    },
+    {
+      "hltvId": 2336191,
+      "team1HltvId": 10261,
+      "team2HltvId": 9392,
+      "eventHltvId": 4737,
+      "result": "16 - 7",
+      "date": 1568772538000
+    },
+    {
+      "hltvId": 2336041,
+      "team1HltvId": 5991,
+      "team2HltvId": 7106,
+      "eventHltvId": 4848,
+      "result": "3 - 1",
+      "date": 1568769946000
+    },
+    {
+      "hltvId": 2336201,
+      "team1HltvId": 5973,
+      "team2HltvId": 8113,
+      "eventHltvId": 4838,
+      "result": "0 - 2",
+      "date": 1568764757000
+    },
+    {
+      "hltvId": 2336012,
+      "team1HltvId": 4949,
+      "team2HltvId": 7718,
+      "eventHltvId": 2838,
+      "result": "0 - 2",
+      "date": 1568757070000
+    },
+    {
+      "hltvId": 2336177,
+      "team1HltvId": 8120,
+      "team2HltvId": 4991,
+      "eventHltvId": 4827,
+      "result": "2 - 1",
+      "date": 1568755743000
+    },
+    {
+      "hltvId": 2336228,
+      "team1HltvId": 8902,
+      "team2HltvId": 8574,
+      "eventHltvId": 4509,
+      "result": "0 - 2",
+      "date": 1568755168000
+    },
+    {
+      "hltvId": 2336216,
+      "team1HltvId": 9928,
+      "team2HltvId": 5995,
+      "eventHltvId": 4832,
+      "result": "1 - 2",
+      "date": 1568753055000
+    },
+    {
+      "hltvId": 2335753,
+      "team1HltvId": 6615,
+      "team2HltvId": 8637,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1568747659000
+    },
+    {
+      "hltvId": 2336011,
+      "team1HltvId": 8346,
+      "team2HltvId": 10337,
+      "eventHltvId": 2838,
+      "result": "2 - 1",
+      "date": 1568746203000
+    },
+    {
+      "hltvId": 2336140,
+      "team1HltvId": 8068,
+      "team2HltvId": 7144,
+      "eventHltvId": 4736,
+      "result": "16 - 6",
+      "date": 1568743029000
+    },
+    {
+      "hltvId": 2336138,
+      "team1HltvId": 7144,
+      "team2HltvId": 7865,
+      "eventHltvId": 4736,
+      "result": "7 - 16",
+      "date": 1568739921000
+    },
+    {
+      "hltvId": 2336179,
+      "team1HltvId": 9976,
+      "team2HltvId": 8813,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1568739551000
+    },
+    {
+      "hltvId": 2336172,
+      "team1HltvId": 8504,
+      "team2HltvId": 8963,
+      "eventHltvId": 2832,
+      "result": "2 - 1",
+      "date": 1568739002000
+    },
+    {
+      "hltvId": 2336093,
+      "team1HltvId": 5995,
+      "team2HltvId": 10270,
+      "eventHltvId": 4832,
+      "result": "16 - 8",
+      "date": 1568736613000
+    },
+    {
+      "hltvId": 2336203,
+      "team1HltvId": 10245,
+      "team2HltvId": 7092,
+      "eventHltvId": 4902,
+      "result": "2 - 1",
+      "date": 1568735077000
+    },
+    {
+      "hltvId": 2336092,
+      "team1HltvId": 7175,
+      "team2HltvId": 9928,
+      "eventHltvId": 4832,
+      "result": "0 - 16",
+      "date": 1568731320000
+    },
+    {
+      "hltvId": 2336204,
+      "team1HltvId": 8840,
+      "team2HltvId": 7024,
+      "eventHltvId": 4902,
+      "result": "1 - 2",
+      "date": 1568731008000
+    },
+    {
+      "hltvId": 2336178,
+      "team1HltvId": 8120,
+      "team2HltvId": 8813,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1568728266000
+    },
+    {
+      "hltvId": 2336205,
+      "team1HltvId": 9747,
+      "team2HltvId": 4680,
+      "eventHltvId": 4887,
+      "result": "0 - 2",
+      "date": 1568728153000
+    },
+    {
+      "hltvId": 2336165,
+      "team1HltvId": 7461,
+      "team2HltvId": 10225,
+      "eventHltvId": 4862,
+      "result": "2 - 1",
+      "date": 1568727456000
+    },
+    {
+      "hltvId": 2336159,
+      "team1HltvId": 5752,
+      "team2HltvId": 10340,
+      "eventHltvId": 4838,
+      "result": "2 - 1",
+      "date": 1568695204000
+    },
+    {
+      "hltvId": 2336160,
+      "team1HltvId": 6978,
+      "team2HltvId": 6673,
+      "eventHltvId": 4838,
+      "result": "1 - 2",
+      "date": 1568692638000
+    },
+    {
+      "hltvId": 2336040,
+      "team1HltvId": 7106,
+      "team2HltvId": 8113,
+      "eventHltvId": 4848,
+      "result": "2 - 0",
+      "date": 1568691393000
+    },
+    {
+      "hltvId": 2335764,
+      "team1HltvId": 7176,
+      "team2HltvId": 6033,
+      "eventHltvId": 4780,
+      "result": "0 - 2",
+      "date": 1568688801000
+    },
+    {
+      "hltvId": 2336181,
+      "team1HltvId": 9943,
+      "team2HltvId": 5479,
+      "eventHltvId": 4737,
+      "result": "16 - 4",
+      "date": 1568686267000
+    },
+    {
+      "hltvId": 2336161,
+      "team1HltvId": 5973,
+      "team2HltvId": 7106,
+      "eventHltvId": 4838,
+      "result": "2 - 1",
+      "date": 1568683933000
+    },
+    {
+      "hltvId": 2336158,
+      "team1HltvId": 8113,
+      "team2HltvId": 6619,
+      "eventHltvId": 4838,
+      "result": "2 - 0",
+      "date": 1568683694000
+    },
+    {
+      "hltvId": 2335763,
+      "team1HltvId": 8574,
+      "team2HltvId": 7653,
+      "eventHltvId": 4780,
+      "result": "2 - 0",
+      "date": 1568677549000
+    },
+    {
+      "hltvId": 2336169,
+      "team1HltvId": 7898,
+      "team2HltvId": 10235,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1568673615000
+    },
+    {
+      "hltvId": 2336154,
+      "team1HltvId": 7144,
+      "team2HltvId": 7175,
+      "eventHltvId": 4827,
+      "result": "2 - 1",
+      "date": 1568671270000
+    },
+    {
+      "hltvId": 2336176,
+      "team1HltvId": 4494,
+      "team2HltvId": 10150,
+      "eventHltvId": 4847,
+      "result": "3 - 0",
+      "date": 1568669184000
+    },
+    {
+      "hltvId": 2336039,
+      "team1HltvId": 9943,
+      "team2HltvId": 8113,
+      "eventHltvId": 4848,
+      "result": "1 - 2",
+      "date": 1568668181000
+    },
+    {
+      "hltvId": 2336153,
+      "team1HltvId": 8135,
+      "team2HltvId": 7674,
+      "eventHltvId": 4827,
+      "result": "2 - 1",
+      "date": 1568667209000
+    },
+    {
+      "hltvId": 2336147,
+      "team1HltvId": 10235,
+      "team2HltvId": 8669,
+      "eventHltvId": null,
+      "result": "2 - 1",
+      "date": 1568665964000
+    },
+    {
+      "hltvId": 2336170,
+      "team1HltvId": 7532,
+      "team2HltvId": 9976,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1568661025000
+    },
+    {
+      "hltvId": 2336137,
+      "team1HltvId": 7718,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "16 - 14",
+      "date": 1568659481000
+    },
+    {
+      "hltvId": 2336151,
+      "team1HltvId": 8120,
+      "team2HltvId": 5378,
+      "eventHltvId": 4827,
+      "result": "2 - 1",
+      "date": 1568658066000
+    },
+    {
+      "hltvId": 2336015,
+      "team1HltvId": 10150,
+      "team2HltvId": 9928,
+      "eventHltvId": 4847,
+      "result": "2 - 0",
+      "date": 1568656943000
+    },
+    {
+      "hltvId": 2336171,
+      "team1HltvId": 4494,
+      "team2HltvId": 8135,
+      "eventHltvId": 4832,
+      "result": "2 - 0",
+      "date": 1568655666000
+    },
+    {
+      "hltvId": 2336152,
+      "team1HltvId": 8346,
+      "team2HltvId": 4991,
+      "eventHltvId": 4827,
+      "result": "0 - 2",
+      "date": 1568653676000
+    },
+    {
+      "hltvId": 2335752,
+      "team1HltvId": 9976,
+      "team2HltvId": 8813,
+      "eventHltvId": 4826,
+      "result": "2 - 0",
+      "date": 1568651904000
+    },
+    {
+      "hltvId": 2336091,
+      "team1HltvId": 6615,
+      "team2HltvId": 8135,
+      "eventHltvId": 4832,
+      "result": "13 - 16",
+      "date": 1568648384000
+    },
+    {
+      "hltvId": 2336090,
+      "team1HltvId": 4494,
+      "team2HltvId": 10225,
+      "eventHltvId": 4832,
+      "result": "16 - 8",
+      "date": 1568643610000
+    },
+    {
+      "hltvId": 2335751,
+      "team1HltvId": 8120,
+      "team2HltvId": 7532,
+      "eventHltvId": 4826,
+      "result": "0 - 2",
+      "date": 1568642557000
+    },
+    {
+      "hltvId": 2336146,
+      "team1HltvId": 9287,
+      "team2HltvId": 7898,
+      "eventHltvId": null,
+      "result": "1 - 2",
+      "date": 1568641457000
+    },
+    {
+      "hltvId": 2335951,
+      "team1HltvId": 8504,
+      "team2HltvId": 8769,
+      "eventHltvId": 4862,
+      "result": "2 - 1",
+      "date": 1568641041000
+    },
+    {
+      "hltvId": 2336032,
+      "team1HltvId": 9747,
+      "team2HltvId": 8008,
+      "eventHltvId": 4845,
+      "result": "1 - 3",
+      "date": 1568635664000
+    },
+    {
+      "hltvId": 2336031,
+      "team1HltvId": 6010,
+      "team2HltvId": 8008,
+      "eventHltvId": 4845,
+      "result": "0 - 2",
+      "date": 1568626914000
+    },
+    {
+      "hltvId": 2336086,
+      "team1HltvId": 10227,
+      "team2HltvId": 9107,
+      "eventHltvId": 4884,
+      "result": "0 - 2",
+      "date": 1568626551000
+    },
+    {
+      "hltvId": 2336164,
+      "team1HltvId": 10080,
+      "team2HltvId": 10361,
+      "eventHltvId": 4873,
+      "result": "1 - 3",
+      "date": 1568616723000
+    },
+    {
+      "hltvId": 2336163,
+      "team1HltvId": 10361,
+      "team2HltvId": 7841,
+      "eventHltvId": 4873,
+      "result": "2 - 0",
+      "date": 1568603089000
+    },
+    {
+      "hltvId": 2336156,
+      "team1HltvId": 10080,
+      "team2HltvId": 10361,
+      "eventHltvId": 4873,
+      "result": "2 - 1",
+      "date": 1568592394000
+    },
+    {
+      "hltvId": 2336162,
+      "team1HltvId": 7841,
+      "team2HltvId": 9615,
+      "eventHltvId": 4873,
+      "result": "16 - 5",
+      "date": 1568590693000
+    },
+    {
+      "hltvId": 2336155,
+      "team1HltvId": 7841,
+      "team2HltvId": 10357,
+      "eventHltvId": 4873,
+      "result": "16 - 14",
+      "date": 1568586834000
+    },
+    {
+      "hltvId": 2336145,
+      "team1HltvId": 5347,
+      "team2HltvId": 9939,
+      "eventHltvId": null,
+      "result": "2 - 0",
+      "date": 1568583879000
+    },
+    {
+      "hltvId": 2336128,
+      "team1HltvId": 10361,
+      "team2HltvId": 7841,
+      "eventHltvId": 4873,
+      "result": "2 - 1",
+      "date": 1568580867000
+    },
+    {
+      "hltvId": 2336150,
+      "team1HltvId": 10185,
+      "team2HltvId": 9615,
+      "eventHltvId": 4873,
+      "result": "5 - 16",
+      "date": 1568579779000
+    },
+    {
+      "hltvId": 2336148,
+      "team1HltvId": 10360,
+      "team2HltvId": 10357,
+      "eventHltvId": 4873,
+      "result": "12 - 16",
+      "date": 1568579205000
+    },
+    {
+      "hltvId": 2336149,
+      "team1HltvId": 9615,
+      "team2HltvId": 10358,
+      "eventHltvId": 4873,
+      "result": "16 - 9",
+      "date": 1568576865000
+    },
+    {
+      "hltvId": 2336127,
+      "team1HltvId": 10080,
+      "team2HltvId": 10185,
+      "eventHltvId": 4873,
+      "result": "2 - 0",
+      "date": 1568574135000
+    },
+    {
+      "hltvId": 2336136,
+      "team1HltvId": 10364,
+      "team2HltvId": 9939,
+      "eventHltvId": null,
+      "result": "0 - 2",
+      "date": 1568573972000
+    },
+    {
+      "hltvId": 2336130,
+      "team1HltvId": 10357,
+      "team2HltvId": 10356,
+      "eventHltvId": 4873,
+      "result": "16 - 8",
+      "date": 1568573565000
+    },
+    {
+      "hltvId": 2336131,
+      "team1HltvId": 9615,
+      "team2HltvId": 10355,
+      "eventHltvId": 4873,
+      "result": "16 - 12",
+      "date": 1568573202000
+    }
+  ]
+}

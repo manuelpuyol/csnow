@@ -28,6 +28,6 @@ class AfterValidator < ActiveModel::EachValidator
   end
 
   def attribute_is_after_requested_attribute?
-    (nullable? && attribute_value.nil?) || attribute_value > requested_attribute_value
+    (nullable? && attribute_value.nil?) || attribute_value >= requested_attribute_value
   end
 end

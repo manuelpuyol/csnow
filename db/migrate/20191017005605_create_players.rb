@@ -6,7 +6,9 @@ class CreatePlayers < ActiveRecord::Migration[6.0]
       t.string :name, null: false
       t.string :nickname, null: false
       t.string :nationality, null: false
+      t.string :photo, null: true
       t.boolean :active, null: false, default: true
+      t.integer :hltv_id, null: false
 
       t.timestamps
     end

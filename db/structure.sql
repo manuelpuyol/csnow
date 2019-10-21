@@ -136,9 +136,9 @@ CREATE TABLE public.matches (
     lower_roster_id bigint,
     winner_id bigint,
     tournament_id bigint NOT NULL,
-    stage character varying NOT NULL,
     start_at timestamp without time zone,
     end_at timestamp without time zone,
+    hltv_id integer NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
 );
@@ -237,7 +237,9 @@ CREATE TABLE public.players (
     name character varying NOT NULL,
     nickname character varying NOT NULL,
     nationality character varying NOT NULL,
+    photo character varying,
     active boolean DEFAULT true NOT NULL,
+    hltv_id integer NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
 );
@@ -347,6 +349,7 @@ CREATE TABLE public.teams (
     name character varying NOT NULL,
     logo character varying NOT NULL,
     active boolean DEFAULT true NOT NULL,
+    hltv_id integer NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
 );
@@ -415,6 +418,7 @@ CREATE TABLE public.tournaments (
     location character varying,
     start_at timestamp without time zone NOT NULL,
     end_at timestamp without time zone NOT NULL,
+    hltv_id integer NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
 );

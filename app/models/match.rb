@@ -1,16 +1,6 @@
 # frozen_string_literal: true
 
 class Match < ApplicationRecord
-  enum stage: {
-    groups: 'groups',
-    ro64: 'ro64',
-    ro32: 'ro32',
-    ro16: 'ro16',
-    quarterfinals: 'quarterfinals',
-    semifinals: 'semifinals',
-    final: 'final'
-  }
-
   belongs_to :upper_roster, class_name: 'Roster', optional: true
   belongs_to :lower_roster, class_name: 'Roster', optional: true
   belongs_to :winner, class_name: 'Roster', optional: true
@@ -41,9 +31,9 @@ end
 #  lower_roster_id :integer
 #  winner_id       :integer
 #  tournament_id   :integer          not null
-#  stage           :string           not null
 #  start_at        :datetime
 #  end_at          :datetime
+#  hltv_id         :integer          not null
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #

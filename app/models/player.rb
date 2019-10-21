@@ -33,7 +33,9 @@ end
 #  name        :string           not null
 #  nickname    :string           not null
 #  nationality :string           not null
+#  photo       :string
 #  active      :boolean          default("true"), not null
+#  hltv_id     :integer          not null
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #

@@ -7,6 +7,7 @@ class CreateTournaments < ActiveRecord::Migration[6.0]
       t.string :location
       t.timestamp :start_at, null: false
       t.timestamp :end_at, null: false
+      t.integer :hltv_id, null: false
 
       t.timestamps
     end

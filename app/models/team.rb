@@ -24,6 +24,7 @@ end
 #  name       :string           not null
 #  logo       :string           not null
 #  active     :boolean          default("true"), not null
+#  hltv_id    :integer          not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #

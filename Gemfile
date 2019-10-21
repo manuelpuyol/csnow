@@ -27,6 +27,7 @@ end
 
 group :development do
   gem 'graphiql-rails'
+  gem 'json'
   gem 'listen'
   gem 'web-console'
 end

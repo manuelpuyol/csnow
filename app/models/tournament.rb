@@ -29,6 +29,7 @@ end
 #  location   :string
 #  start_at   :datetime         not null
 #  end_at     :datetime         not null
+#  hltv_id    :integer          not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
