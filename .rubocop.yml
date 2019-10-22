@@ -2,6 +2,7 @@ AllCops:
   Exclude:
     - 'bin/**/*'
     - 'node_modules/**/*'
+    - 'lib/tasks/**/*'
 
 Metrics/LineLength:
   Max: 120

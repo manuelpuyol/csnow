@@ -1,72 +1,72 @@
-const express = require("express");
-const { HLTV } = require("hltv");
-const _ = require("lodash");
+const express = require('express');
+const { HLTV } = require('hltv');
+const _ = require('lodash');
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("HLTV data");
+app.get('/', (req, res) => {
+  res.send('HLTV data');
 });
 
-app.get("/matches", (req, res) => {
+app.get('/matches', (req, res) => {
   HLTV.getMatches().then(response => {
     res.send(response);
   });
 });
 
-app.get("/matchesStats", (req, res) => {
+app.get('/matchesStats', (req, res) => {
   HLTV.getMatchesStats().then(response => {
     res.send(response);
   });
 });
 
-app.get("/results", (req, res) => {
+app.get('/results', (req, res) => {
   HLTV.getResults({ pages: 10 }).then(response => {
     res.send(response);
   });
 });
 
-app.get("/team/:teamId", (req, res) => {
+app.get('/team/:teamId', (req, res) => {
   const teamId = req.params.teamId;
   HLTV.getTeam({ id: teamId }).then(response => {
     res.send(response);
   });
 });
 
-app.get("/player/:playerId", (req, res) => {
+app.get('/player/:playerId', (req, res) => {
   const playerId = req.params.playerId;
   HLTV.getPlayer({ id: playerId }).then(response => {
     res.send(response);
   });
 });
 
-app.get("/events", (req, res) => {
+app.get('/events', (req, res) => {
   HLTV.getEvents().then(response => {
     res.send(response);
   });
 });
 
-app.get("/event/:eventId", (req, res) => {
+app.get('/event/:eventId', (req, res) => {
   const { eventId } = req.params;
   HLTV.getEvent({ id: eventId }).then(response => res.send(response));
 });
 
-app.get("/results/:eventId", (req, res) => {
+app.get('/results/:eventId', (req, res) => {
   const { eventId } = req.params;
   HLTV.getResults({ eventID: eventId }).then(response => res.send(response));
 });
 
-app.get("/results", (req, res) => {
+app.get('/results', (req, res) => {
   HLTV.getResults({ pages: 1 }).then(response => res.send(response));
 });
 
-app.get("/playerRankings", (req, res) => {
+app.get('/playerRankings', (req, res) => {
   HLTV.getPlayerRanking({}).then(response => res.send(response));
 });
 
-app.get("/teamRankings", (req, res) => {
-  HLTV.getTeamRanking({ year: "2019", month: "september", day: "30" }).then(
-    response => res.send(response)
+app.get('/teamRankings', (req, res) => {
+  HLTV.getTeamRanking({ year: '2019', month: 'september', day: '30' }).then(
+    response => res.send(response),
   );
 });
 
@@ -87,9 +87,9 @@ const chunkGet = async (ids, func, dataType, chunk) => {
         try {
           return await func({ id: eventId });
         } catch {
-          console.log("error:", dataType, eventId);
+          console.log('error:', dataType, eventId);
         }
-      })
+      }),
     );
 
     data = data.concat(chunkData);
@@ -98,27 +98,27 @@ const chunkGet = async (ids, func, dataType, chunk) => {
   return data;
 };
 
-app.get("/info", async (req, res) => {
+app.get('/info', async (req, res) => {
   const info = {};
 
   const results = await HLTV.getResults({ pages: 1 });
-  info["matches"] = results.map(result => ({
+  info['matches'] = results.map(result => ({
     hltvId: result.id,
     team1HltvId: result.team1.id,
     team2HltvId: result.team2.id,
     eventHltvId: result.event.id,
     result: result.result,
-    date: result.date
+    date: result.date,
   }));
 
   await sleep(1000);
   const eventIds = _.uniq(
-    results.filter(result => !!result.event.id).map(result => result.event.id)
+    results.filter(result => !!result.event.id).map(result => result.event.id),
   );
 
-  const events = await chunkGet(eventIds, HLTV.getEvent, "Event", 1);
+  const events = await chunkGet(eventIds, HLTV.getEvent, 'Event', 1);
 
-  info["events"] = events.map(event => ({
+  info['events'] = events.map(event => ({
     hltvId: event.id,
     name: event.name,
     dateStart: event.dateStart,
@@ -126,64 +126,65 @@ app.get("/info", async (req, res) => {
     location: event.location.name,
     placements: event.prizeDistribution.map(pd => ({
       place: pd.place,
-      hltvTeamId: _.get(pd, "team.id"),
-      prize: pd.prize
-    }))
+      teamId: _.get(pd, 'team.id'),
+      prize: pd.prize,
+    })),
   }));
 
   let teamIds = [];
   events.forEach(
-    event => (teamIds = teamIds.concat(event.teams.map(team => team.id)))
+    event => (teamIds = teamIds.concat(event.teams.map(team => team.id))),
   );
   teamIds = _.uniq(teamIds);
 
-  const teams = await chunkGet(teamIds, HLTV.getTeam, "Team", 10);
+  const teams = await chunkGet(teamIds, HLTV.getTeam, 'Team', 10);
 
-  info["teams"] = teams.map(team => ({
+  info['teams'] = teams.map(team => ({
     hltvId: team.id,
     name: team.name,
     logo: team.logo,
-    active: true
+    active: true,
   }));
 
   let playerIds = [];
   teams.forEach(
     team =>
-      (playerIds = playerIds.concat(team.players.map(player => player.id)))
+      (playerIds = playerIds.concat(team.players.map(player => player.id))),
   );
   playerIds = _.uniq(playerIds);
   playerIds = playerIds.filter(playerId => !_.isNaN(playerId));
 
-  const players = await chunkGet(playerIds, HLTV.getPlayer, "Player", 10);
+  const players = await chunkGet(playerIds, HLTV.getPlayer, 'Player', 10);
 
-  info["players"] = players.map(player => ({
+  info['players'] = players.map(player => ({
+    hltvId: player.id,
     name: player.name,
     nickname: player.ign,
     photo: player.image,
     nationality: player.country.name,
     active: true,
-    teamId: player.team.id
+    teamId: player.team.id,
   }));
 
   res.send(info);
 });
 
-app.get("/placements", async (req, res) => {
-  const events = await chunkGet(eventIds, HLTV.getEvent, "Event", 1);
+app.get('/placements', async (req, res) => {
+  const events = await chunkGet(eventIds, HLTV.getEvent, 'Event', 1);
   const response = events.map(event => ({
     id: event.id,
     placements: event.prizeDistribution.map(pd => ({
       place: pd.place,
       prize: pd.prize,
-      teamId: _.get(pd, "team.id")
-    }))
+      teamId: _.get(pd, 'team.id'),
+    })),
   }));
 
-  console.log("DONE");
+  console.log('DONE');
 
   res.send({
-    events: response
+    events: response,
   });
 });
 
-app.listen(3000);
+app.listen(4000);

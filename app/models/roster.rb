@@ -12,6 +12,8 @@ class Roster < ApplicationRecord
 
   validates :start_at, presence: true
   validates :end_at, after: { attr: :start_at, null: true }
+
+  scope :with_team_hltv_id, ->(hltv_id) { joins(:team).merge(Team.where(hltv_id: hltv_id)) }
 end
 
 # == Schema Information

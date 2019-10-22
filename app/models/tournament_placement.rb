@@ -8,6 +8,8 @@ class TournamentPlacement < ApplicationRecord
   validates :tournament, presence: true
   validates :roster, presence: true
   validates :prize, numericality: { greater_than_or_equal_to: 0 }
+
+  scope :with_team_id, ->(team_id) { joins(:team).merge(Team.where(id: team_id)) }
 end
 
 # == Schema Information
