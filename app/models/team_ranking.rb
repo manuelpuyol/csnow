@@ -3,7 +3,7 @@
 class TeamRanking < ApplicationRecord
   belongs_to :roster
 
-  valdiates :roster, presence: true
+  validates :roster, presence: true
   validates :rank, numericality: { greater_than: 0 }
   validates :points, numericality: { greater_than: 0 }
   validates :ranked_at, presence: true

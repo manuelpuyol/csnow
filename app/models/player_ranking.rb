@@ -3,7 +3,7 @@
 class PlayerRanking < ApplicationRecord
   belongs_to :player
 
-  valdiates :player, presence: true
+  validates :player, presence: true
   validates :rank, numericality: { greater_than: 0 }
   validates :ranked_at, presence: true
 end
