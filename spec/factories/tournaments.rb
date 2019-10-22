@@ -5,6 +5,7 @@ FactoryBot.define do
     sequence(:name) { |n| "Tournament #{n}" }
     start_at { 1.month.ago }
     end_at { 1.month.from_now }
+    sequence(:hltv_id) { |n| n }
   end
 end
 
