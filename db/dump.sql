@@ -721,6 +721,7 @@ INSERT INTO public.tournaments (id, name, location, start_at, end_at, hltv_id, c
 INSERT INTO public.tournaments (id, name, location, start_at, end_at, hltv_id, created_at, updated_at) VALUES (92, 'ESL Pro League Season 9 Asia Relegation', 'Other', '2019-09-13 10:00:00', '2019-09-16 10:00:00', 4884, '2019-10-22 01:24:13.452357', '2019-10-22 01:24:13.452357');
 INSERT INTO public.tournaments (id, name, location, start_at, end_at, hltv_id, created_at, updated_at) VALUES (93, 'Fragadelphia 13', 'United States', '2019-09-13 10:00:00', '2019-09-15 10:00:00', 4873, '2019-10-22 01:24:13.458375', '2019-10-22 01:24:13.458375');
 INSERT INTO public.tournaments (id, name, location, start_at, end_at, hltv_id, created_at, updated_at) VALUES (94, 'ESL Turkey Championship Summer 2019 Finals', 'Turkey', '2019-09-14 10:00:00', '2019-09-15 10:00:00', 4882, '2019-10-22 01:24:13.462887', '2019-10-22 01:24:13.462887');
+INSERT INTO public.tournaments (id, name, location, start_at, end_at, hltv_id, created_at, updated_at) VALUES (95, 'ECS Season 8 North America Week 4', 'North America', '2019-10-21 10:00:00', '2019-10-24 10:00:00', 4920, '2019-10-22 18:26:59.239997', '2019-10-22 18:26:59.239997');
 
 
 --
@@ -1642,6 +1643,26 @@ INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tou
 INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (913, 274, 275, 274, 93, '2019-09-15 19:02:15', NULL, 2336127, '2019-10-22 01:24:35.428329', '2019-10-22 01:24:35.428329');
 INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (914, 283, 289, 283, 93, '2019-09-15 18:52:45', NULL, 2336130, '2019-10-22 01:24:35.436169', '2019-10-22 01:24:35.436169');
 INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (915, 287, 280, 287, 93, '2019-09-15 18:46:42', NULL, 2336131, '2019-10-22 01:24:35.445449', '2019-10-22 01:24:35.445449');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (916, 1, 8, 8, 1, '2019-10-22 18:17:19', NULL, 2337109, '2019-10-22 18:45:23.721098', '2019-10-22 18:45:23.721098');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (917, 20, 19, 19, 2, '2019-10-22 16:49:40', NULL, 2337198, '2019-10-22 18:45:23.732392', '2019-10-22 18:45:23.732392');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (918, 23, 31, 23, 2, '2019-10-22 16:18:18', NULL, 2336428, '2019-10-22 18:45:23.738963', '2019-10-22 18:45:23.738963');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (919, 28, 33, 28, 2, '2019-10-22 16:03:13', NULL, 2337218, '2019-10-22 18:45:23.745452', '2019-10-22 18:45:23.745452');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (920, 41, 40, 41, 4, '2019-10-22 15:42:25', NULL, 2337194, '2019-10-22 18:45:23.752073', '2019-10-22 18:45:23.752073');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (921, 83, 85, 83, 8, '2019-10-22 15:26:02', NULL, 2337093, '2019-10-22 18:45:23.758711', '2019-10-22 18:45:23.758711');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (922, 7, 10, 10, 1, '2019-10-22 14:21:40', NULL, 2337112, '2019-10-22 18:45:23.765869', '2019-10-22 18:45:23.765869');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (923, 26, 28, 26, 2, '2019-10-22 14:05:24', NULL, 2336867, '2019-10-22 18:45:23.771777', '2019-10-22 18:45:23.771777');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (924, 38, 45, 38, 4, '2019-10-22 12:54:05', NULL, 2337193, '2019-10-22 18:45:23.77771', '2019-10-22 18:45:23.77771');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (925, 4, 12, 4, 1, '2019-10-22 11:55:13', NULL, 2337113, '2019-10-22 18:45:23.783133', '2019-10-22 18:45:23.783133');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (926, 43, 44, 44, 4, '2019-10-22 10:12:58', NULL, 2337196, '2019-10-22 18:45:23.788542', '2019-10-22 18:45:23.788542');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (927, 8, 9, 8, 1, '2019-10-22 09:26:18', NULL, 2337110, '2019-10-22 18:45:23.793703', '2019-10-22 18:45:23.793703');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (928, 1, 16, 1, 1, '2019-10-22 09:02:14', NULL, 2337111, '2019-10-22 18:45:23.799192', '2019-10-22 18:45:23.799192');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (929, 39, 42, 39, 4, '2019-10-22 05:41:51', NULL, 2337195, '2019-10-22 18:45:23.805044', '2019-10-22 18:45:23.805044');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (930, 112, 115, 112, 95, '2019-10-22 03:54:59', NULL, 2337171, '2019-10-22 18:45:23.811333', '2019-10-22 18:45:23.811333');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (931, 65, 114, 114, 95, '2019-10-22 03:12:47', NULL, 2337172, '2019-10-22 18:45:23.834455', '2019-10-22 18:45:23.834455');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (932, 77, 68, 77, 6, '2019-10-22 02:41:24', NULL, 2337073, '2019-10-22 18:45:23.840773', '2019-10-22 18:45:23.840773');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (933, 77, 79, 77, 6, '2019-10-22 02:02:22', NULL, 2337072, '2019-10-22 18:45:23.846704', '2019-10-22 18:45:23.846704');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (934, 110, 64, 64, 95, '2019-10-22 00:14:21', NULL, 2337170, '2019-10-22 18:45:23.852769', '2019-10-22 18:45:23.852769');
+INSERT INTO public.matches (id, upper_roster_id, lower_roster_id, winner_id, tournament_id, start_at, end_at, hltv_id, created_at, updated_at) VALUES (935, 109, 141, 109, 95, '2019-10-21 23:16:42', NULL, 2337169, '2019-10-22 18:45:23.859412', '2019-10-22 18:45:23.859412');
 
 
 --
@@ -5171,6 +5192,7 @@ INSERT INTO public.players (id, name, nickname, nationality, photo, active, hltv
 INSERT INTO public.players (id, name, nickname, nationality, photo, active, hltv_id, created_at, updated_at) VALUES (804, 'Muhammed Tezcan', 'm1tez', 'Turkey', 'https://static.hltv.org/images/playerprofile/thumb/15729/400.jpeg?v=2', true, 15729, '2019-10-22 01:24:28.981856', '2019-10-22 01:24:28.981856');
 INSERT INTO public.players (id, name, nickname, nationality, photo, active, hltv_id, created_at, updated_at) VALUES (805, 'Doğukan Balaban', 'qRaxs', 'Turkey', 'https://static.hltv.org/images/playerprofile/thumb/18855/400.jpeg?v=2', true, 18855, '2019-10-22 01:24:28.999353', '2019-10-22 01:24:28.999353');
 INSERT INTO public.players (id, name, nickname, nationality, photo, active, hltv_id, created_at, updated_at) VALUES (806, 'Baran Yılmaz', 'Izzy', 'Turkey', 'https://static.hltv.org/images/playerprofile/thumb/19470/400.jpeg?v=1', true, 19470, '2019-10-22 01:24:29.019019', '2019-10-22 01:24:29.019019');
+INSERT INTO public.players (id, name, nickname, nationality, photo, active, hltv_id, created_at, updated_at) VALUES (808, 'Yanko Panov', 'blocker', 'Bulgaria', 'https://static.hltv.org//images/playerprofile/bodyshot/compressed/10697.png', true, 10697, '2019-10-22 18:35:25.335097', '2019-10-22 18:35:25.335097');
 
 
 --
@@ -6646,6 +6668,43 @@ INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, p
 INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (528, 94, 291, '2nd', 3325, '2019-10-22 01:25:13.163961', '2019-10-22 01:25:13.163961');
 INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (529, 94, 293, '3-4th', 0, '2019-10-22 01:25:13.172879', '2019-10-22 01:25:13.172879');
 INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (530, 94, 292, '3-4th', 0, '2019-10-22 01:25:13.179532', '2019-10-22 01:25:13.179532');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (531, 4, 43, '7-8th', 0, '2019-10-22 18:55:16.243523', '2019-10-22 18:55:16.243523');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (532, 4, 42, '7-8th', 0, '2019-10-22 18:55:16.255428', '2019-10-22 18:55:16.255428');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (533, 8, 19, '13-16th', 0, '2019-10-22 18:55:16.265073', '2019-10-22 18:55:16.265073');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (534, 8, 20, '13-16th', 0, '2019-10-22 18:55:16.274422', '2019-10-22 18:55:16.274422');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (535, 95, 115, '5-8th', 0, '2019-10-22 18:55:16.284793', '2019-10-22 18:55:16.284793');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (536, 95, 65, '5-8th', 0, '2019-10-22 18:55:16.31588', '2019-10-22 18:55:16.31588');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (537, 95, 110, '5-8th', 0, '2019-10-22 18:55:16.326148', '2019-10-22 18:55:16.326148');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (538, 95, 141, '5-8th', 0, '2019-10-22 18:55:16.33883', '2019-10-22 18:55:16.33883');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (539, 3, 13, '5-8th', 0, '2019-10-22 18:55:16.351091', '2019-10-22 18:55:16.351091');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (540, 3, 37, '5-8th', 0, '2019-10-22 18:55:16.360104', '2019-10-22 18:55:16.360104');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (541, 3, 20, '5-8th', 0, '2019-10-22 18:55:16.374515', '2019-10-22 18:55:16.374515');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (542, 3, 30, '5-8th', 0, '2019-10-22 18:55:16.382425', '2019-10-22 18:55:16.382425');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (543, 5, 56, '18th', 0, '2019-10-22 18:55:16.389753', '2019-10-22 18:55:16.389753');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (544, 13, 11, '1-4th', 0, '2019-10-22 18:55:16.500553', '2019-10-22 18:55:16.500553');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (545, 13, 1, '1-4th', 0, '2019-10-22 18:55:16.512683', '2019-10-22 18:55:16.512683');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (546, 13, 109, '1-4th', 0, '2019-10-22 18:55:16.519986', '2019-10-22 18:55:16.519986');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (547, 13, 111, '1-4th', 0, '2019-10-22 18:55:16.526495', '2019-10-22 18:55:16.526495');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (548, 13, 120, '13-16th', 0, '2019-10-22 18:55:16.533266', '2019-10-22 18:55:16.533266');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (549, 13, 116, '13-16th', 0, '2019-10-22 18:55:16.539565', '2019-10-22 18:55:16.539565');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (550, 13, 117, '13-16th', 0, '2019-10-22 18:55:16.548109', '2019-10-22 18:55:16.548109');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (551, 13, 110, '13-16th', 0, '2019-10-22 18:55:16.555627', '2019-10-22 18:55:16.555627');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (552, 15, 5, '1-4th', 0, '2019-10-22 18:55:16.579362', '2019-10-22 18:55:16.579362');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (553, 15, 34, '1-4th', 0, '2019-10-22 18:55:16.587702', '2019-10-22 18:55:16.587702');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (554, 15, 12, '1-4th', 0, '2019-10-22 18:55:16.593675', '2019-10-22 18:55:16.593675');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (555, 15, 7, '1-4th', 0, '2019-10-22 18:55:16.599869', '2019-10-22 18:55:16.599869');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (556, 15, 85, '13-16th', 0, '2019-10-22 18:55:16.605755', '2019-10-22 18:55:16.605755');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (557, 15, 126, '13-16th', 0, '2019-10-22 18:55:16.611909', '2019-10-22 18:55:16.611909');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (558, 15, 83, '13-16th', 0, '2019-10-22 18:55:16.618398', '2019-10-22 18:55:16.618398');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (559, 15, 125, '13-16th', 0, '2019-10-22 18:55:16.624869', '2019-10-22 18:55:16.624869');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (560, 17, 131, '9-12th', 0, '2019-10-22 18:55:16.646206', '2019-10-22 18:55:16.646206');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (561, 17, 105, '9-12th', 0, '2019-10-22 18:55:16.653935', '2019-10-22 18:55:16.653935');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (562, 17, 49, '9-12th', 0, '2019-10-22 18:55:16.661467', '2019-10-22 18:55:16.661467');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (563, 17, 133, '9-12th', 0, '2019-10-22 18:55:16.670115', '2019-10-22 18:55:16.670115');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (564, 17, 132, '13-16th', 0, '2019-10-22 18:55:16.678072', '2019-10-22 18:55:16.678072');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (565, 17, 134, '13-16th', 0, '2019-10-22 18:55:16.686007', '2019-10-22 18:55:16.686007');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (566, 17, 57, '13-16th', 0, '2019-10-22 18:55:16.709296', '2019-10-22 18:55:16.709296');
+INSERT INTO public.tournament_placements (id, tournament_id, roster_id, place, prize, created_at, updated_at) VALUES (567, 17, 55, '13-16th', 0, '2019-10-22 18:55:16.716028', '2019-10-22 18:55:16.716028');
 
 
 --
@@ -6673,7 +6732,7 @@ SELECT pg_catalog.setval('public.likes_id_seq', 1500, true);
 -- Name: matches_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.matches_id_seq', 915, true);
+SELECT pg_catalog.setval('public.matches_id_seq', 935, true);
 
 
 --
@@ -6694,7 +6753,7 @@ SELECT pg_catalog.setval('public.player_rosters_id_seq', 806, true);
 -- Name: players_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.players_id_seq', 806, true);
+SELECT pg_catalog.setval('public.players_id_seq', 808, true);
 
 
 --
@@ -6722,14 +6781,14 @@ SELECT pg_catalog.setval('public.teams_id_seq', 294, true);
 -- Name: tournament_placements_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.tournament_placements_id_seq', 530, true);
+SELECT pg_catalog.setval('public.tournament_placements_id_seq', 567, true);
 
 
 --
 -- Name: tournaments_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.tournaments_id_seq', 94, true);
+SELECT pg_catalog.setval('public.tournaments_id_seq', 95, true);
 
 
 --
