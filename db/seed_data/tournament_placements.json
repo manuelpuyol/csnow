@@ -1,0 +1,2778 @@
+{
+  "events": [
+    {
+      "id": 4093,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "50,000",
+          "teamId": 10150
+        },
+        {
+          "place": "2nd",
+          "prize": "20,000",
+          "teamId": 7175
+        },
+        {
+          "place": "3-4th",
+          "prize": "10,000",
+          "teamId": 8120
+        },
+        {
+          "place": "3-4th",
+          "prize": "10,000",
+          "teamId": 8135
+        },
+        {
+          "place": "5-6th",
+          "prize": "3,000",
+          "teamId": 10421
+        },
+        {
+          "place": "5-6th",
+          "prize": "3,000",
+          "teamId": 7865
+        },
+        {
+          "place": "7-8th",
+          "prize": "2,000",
+          "teamId": 7299
+        },
+        {
+          "place": "7-8th",
+          "prize": "2,000",
+          "teamId": 9263
+        }
+      ]
+    },
+    {
+      "id": 4974,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "3,913",
+          "teamId": 8068
+        },
+        {
+          "place": "2nd",
+          "prize": "1,304",
+          "teamId": 10426
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9797
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10181
+        }
+      ]
+    },
+    {
+      "id": 4955,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "1,000",
+          "teamId": 8848
+        },
+        {
+          "place": "2nd",
+          "prize": "500",
+          "teamId": 8680
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8262
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10419
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9561
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9659
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10047
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10365
+        }
+      ]
+    },
+    {
+      "id": 4962,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 7606
+        },
+        {
+          "place": "2nd",
+          "teamId": 4863
+        },
+        {
+          "place": "3rd",
+          "teamId": 7024
+        },
+        {
+          "place": "4th",
+          "teamId": 10022
+        }
+      ]
+    },
+    {
+      "id": 4899,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "700",
+          "teamId": 8008
+        },
+        {
+          "place": "2nd",
+          "prize": "300",
+          "teamId": 8668
+        },
+        {
+          "place": "3rd",
+          "teamId": 6010
+        },
+        {
+          "place": "4th",
+          "teamId": 5293
+        }
+      ]
+    },
+    {
+      "id": 4970,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "1,800",
+          "teamId": 9996
+        },
+        {
+          "place": "2nd",
+          "prize": "1,100",
+          "teamId": 8121
+        },
+        {
+          "place": "3-4th",
+          "prize": "350",
+          "teamId": 10387
+        },
+        {
+          "place": "3-4th",
+          "prize": "350",
+          "teamId": 9166
+        }
+      ]
+    },
+    {
+      "id": 4972,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "8,719",
+          "teamId": 8504
+        },
+        {
+          "place": "2nd",
+          "prize": "5,812",
+          "teamId": 10116
+        },
+        {
+          "place": "3rd",
+          "prize": "2,906",
+          "teamId": 9648
+        },
+        {
+          "place": "4th",
+          "prize": "1,939",
+          "teamId": 7434
+        }
+      ]
+    },
+    {
+      "id": 4943,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "6,000",
+          "teamId": 6685
+        },
+        {
+          "place": "2nd",
+          "prize": "4,000",
+          "teamId": 10315
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 10386
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 7898
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8346
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8772
+        },
+        {
+          "place": "7-8th",
+          "teamId": 7461
+        },
+        {
+          "place": "7-8th",
+          "teamId": 7718
+        }
+      ]
+    },
+    {
+      "id": 4973,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "2,125",
+          "teamId": 5412
+        },
+        {
+          "place": "2nd",
+          "prize": "1,060",
+          "teamId": 10188
+        },
+        {
+          "place": "3rd",
+          "prize": "637",
+          "teamId": 7441
+        },
+        {
+          "place": "4th",
+          "prize": "428",
+          "teamId": 7842
+        }
+      ]
+    },
+    {
+      "id": 4919,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "12,500",
+          "teamId": 10399
+        },
+        {
+          "place": "2nd",
+          "prize": "7,500",
+          "teamId": 5752
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 8297
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 5005
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9943
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10164
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10423
+        },
+        {
+          "place": "5-8th",
+          "teamId": 6619
+        }
+      ]
+    },
+    {
+      "id": 4923,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "12,500",
+          "teamId": 4411
+        },
+        {
+          "place": "2nd",
+          "prize": "7,500",
+          "teamId": 7376
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 4602
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 7532
+        },
+        {
+          "place": "5-8th",
+          "teamId": 5378
+        },
+        {
+          "place": "5-8th",
+          "teamId": 6667
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8346
+        },
+        {
+          "place": "5-8th",
+          "teamId": 4494
+        }
+      ]
+    },
+    {
+      "id": 4770,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "2,100",
+          "teamId": 10425
+        },
+        {
+          "place": "2nd",
+          "prize": "700",
+          "teamId": 9747
+        },
+        {
+          "place": "3rd",
+          "prize": "350",
+          "teamId": 7983
+        },
+        {
+          "place": "4th",
+          "prize": "350",
+          "teamId": 8536
+        },
+        {
+          "place": "5-6th",
+          "teamId": 6922
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10252
+        },
+        {
+          "place": "7-8th",
+          "teamId": 5290
+        },
+        {
+          "place": "7-8th",
+          "teamId": 5607
+        }
+      ]
+    },
+    {
+      "id": 4940,
+      "placements": [
+        {
+          "place": "1-6th",
+          "teamId": 9976
+        },
+        {
+          "place": "1-6th",
+          "teamId": 8135
+        },
+        {
+          "place": "1-6th",
+          "teamId": 8513
+        },
+        {
+          "place": "1-6th",
+          "teamId": 10315
+        },
+        {
+          "place": "1-6th",
+          "teamId": 4602
+        },
+        {
+          "place": "1-6th",
+          "teamId": 8772
+        },
+        {
+          "place": "7-8th"
+        },
+        {
+          "place": "7-8th"
+        },
+        {
+          "place": "9-10th"
+        },
+        {
+          "place": "9-10th"
+        },
+        {
+          "place": "11-14th"
+        },
+        {
+          "place": "11-14th"
+        },
+        {
+          "place": "11-14th"
+        },
+        {
+          "place": "11-14th"
+        },
+        {
+          "place": "15th"
+        },
+        {
+          "place": "16-18th"
+        },
+        {
+          "place": "16-18th"
+        },
+        {
+          "place": "16-18th"
+        },
+        {
+          "place": "19-24th",
+          "teamId": 5378
+        },
+        {
+          "place": "19-24th",
+          "teamId": 10020
+        },
+        {
+          "place": "19-24th",
+          "teamId": 10094
+        },
+        {
+          "place": "19-24th",
+          "teamId": 8669
+        },
+        {
+          "place": "19-24th",
+          "teamId": 10381
+        },
+        {
+          "place": "19-24th",
+          "teamId": 5310
+        }
+      ]
+    },
+    {
+      "id": 4969,
+      "placements": [
+        {
+          "place": "1-2nd",
+          "teamId": 9166
+        },
+        {
+          "place": "1-2nd",
+          "teamId": 10387
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8905
+        },
+        {
+          "place": "3-4th",
+          "teamId": 6799
+        }
+      ]
+    },
+    {
+      "id": 4966,
+      "placements": [
+        {
+          "place": "1-2nd",
+          "teamId": 9785
+        },
+        {
+          "place": "1-2nd",
+          "teamId": 6619
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10164
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7612
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8113
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9943
+        },
+        {
+          "place": "5-8th",
+          "teamId": 5005
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7106
+        }
+      ]
+    },
+    {
+      "id": 4961,
+      "placements": [
+        {
+          "place": "1-2nd",
+          "teamId": 7024
+        },
+        {
+          "place": "1-2nd",
+          "teamId": 7966
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10022
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7606
+        },
+        {
+          "place": "5-6th",
+          "teamId": 9618
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8840
+        },
+        {
+          "place": "7-8th",
+          "teamId": 9868
+        },
+        {
+          "place": "7-8th",
+          "teamId": 6634
+        }
+      ]
+    },
+    {
+      "id": 4968,
+      "placements": [
+        {
+          "place": "1-4th",
+          "teamId": 6619
+        },
+        {
+          "place": "1-4th",
+          "teamId": 7612
+        },
+        {
+          "place": "1-4th",
+          "teamId": 9785
+        },
+        {
+          "place": "1-4th",
+          "teamId": 10164
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10302
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10332
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9963
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10059
+        }
+      ]
+    },
+    {
+      "id": 4862,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "18,000",
+          "teamId": 10315
+        },
+        {
+          "place": "2nd",
+          "prize": "7,500",
+          "teamId": 7865
+        },
+        {
+          "place": "3rd",
+          "prize": "3,000",
+          "teamId": 10020
+        },
+        {
+          "place": "4th",
+          "prize": "1,500",
+          "teamId": 10420
+        },
+        {
+          "place": "5-6th",
+          "teamId": 9287
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8248
+        },
+        {
+          "place": "7-8th",
+          "teamId": 7461
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10386
+        },
+        {
+          "place": "9-11th",
+          "teamId": 8504
+        },
+        {
+          "place": "9-11th",
+          "teamId": 8769
+        },
+        {
+          "place": "9-11th",
+          "teamId": 10097
+        },
+        {
+          "place": "12-14th",
+          "teamId": 8346
+        },
+        {
+          "place": "12-14th",
+          "teamId": 8911
+        },
+        {
+          "place": "12-14th",
+          "teamId": 7144
+        },
+        {
+          "place": "15-16th",
+          "teamId": 7718
+        },
+        {
+          "place": "15-16th",
+          "teamId": 8068
+        }
+      ]
+    },
+    {
+      "id": 4960,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "1,000",
+          "teamId": 7354
+        },
+        {
+          "place": "2nd",
+          "prize": "500",
+          "teamId": 8203
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10318
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8200
+        }
+      ]
+    },
+    {
+      "id": 4739,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "6,250",
+          "teamId": 9455
+        },
+        {
+          "place": "2nd",
+          "prize": "1,250",
+          "teamId": 9803
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9902
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9910
+        }
+      ]
+    },
+    {
+      "id": 4942,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "6,000",
+          "teamId": 8813
+        },
+        {
+          "place": "2nd",
+          "prize": "4,000",
+          "teamId": 5378
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 7718
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 8772
+        },
+        {
+          "place": "5-6th",
+          "teamId": 6685
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8346
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10315
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10386
+        }
+      ]
+    },
+    {
+      "id": 4510,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "5,000",
+          "teamId": 4773
+        },
+        {
+          "place": "2nd",
+          "prize": "2,500",
+          "teamId": 8574
+        }
+      ]
+    },
+    {
+      "id": 4784,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 8121
+        },
+        {
+          "place": "2nd",
+          "teamId": 6799
+        },
+        {
+          "place": "3rd",
+          "teamId": 10387
+        },
+        {
+          "place": "4th",
+          "teamId": 8905
+        }
+      ]
+    },
+    {
+      "id": 4785,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 9963
+        },
+        {
+          "place": "2nd",
+          "teamId": 10388
+        },
+        {
+          "place": "3rd",
+          "teamId": 9857
+        },
+        {
+          "place": "4th",
+          "teamId": 10330
+        }
+      ]
+    },
+    {
+      "id": 4553,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "100,000",
+          "teamId": 4991
+        },
+        {
+          "place": "2nd",
+          "prize": "50,000",
+          "teamId": 9565
+        },
+        {
+          "place": "3-4th",
+          "prize": "22,000",
+          "teamId": 6665
+        },
+        {
+          "place": "3-4th",
+          "prize": "22,000",
+          "teamId": 4608
+        },
+        {
+          "place": "5-6th",
+          "prize": "10,000",
+          "teamId": 4411
+        },
+        {
+          "place": "5-6th",
+          "prize": "10,000",
+          "teamId": 4494
+        },
+        {
+          "place": "7-8th",
+          "prize": "6,000",
+          "teamId": 8008
+        },
+        {
+          "place": "7-8th",
+          "prize": "6,000",
+          "teamId": 8297
+        },
+        {
+          "place": "9-12th",
+          "prize": "4,000",
+          "teamId": 4869
+        },
+        {
+          "place": "9-12th",
+          "prize": "4,000",
+          "teamId": 5973
+        },
+        {
+          "place": "9-12th",
+          "prize": "4,000",
+          "teamId": 5995
+        },
+        {
+          "place": "9-12th",
+          "prize": "4,000",
+          "teamId": 6615
+        },
+        {
+          "place": "13-16th",
+          "prize": "3,000",
+          "teamId": 10399
+        },
+        {
+          "place": "13-16th",
+          "prize": "3,000",
+          "teamId": 5991
+        },
+        {
+          "place": "13-16th",
+          "prize": "3,000",
+          "teamId": 7533
+        },
+        {
+          "place": "13-16th",
+          "prize": "3,000",
+          "teamId": 4863
+        }
+      ]
+    },
+    {
+      "id": 4931,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 7175
+        },
+        {
+          "place": "2nd",
+          "teamId": 4602
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7898
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8637
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8772
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10020
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7532
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7969
+        },
+        {
+          "place": "9-10th",
+          "teamId": 9928
+        },
+        {
+          "place": "9-10th",
+          "teamId": 7718
+        },
+        {
+          "place": "11-12th",
+          "teamId": 8911
+        },
+        {
+          "place": "11-12th",
+          "teamId": 8346
+        }
+      ]
+    },
+    {
+      "id": 4804,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "750",
+          "teamId": 10417
+        },
+        {
+          "place": "2nd",
+          "prize": "450",
+          "teamId": 10115
+        },
+        {
+          "place": "3-4th",
+          "prize": "150",
+          "teamId": 10338
+        },
+        {
+          "place": "3-4th",
+          "prize": "150",
+          "teamId": 10418
+        }
+      ]
+    },
+    {
+      "id": 4957,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 10328
+        },
+        {
+          "place": "2nd",
+          "teamId": 10051
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8607
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9100
+        }
+      ]
+    },
+    {
+      "id": 4806,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "750",
+          "teamId": 6898
+        },
+        {
+          "place": "2nd",
+          "prize": "450",
+          "teamId": 10300
+        },
+        {
+          "place": "3-4th",
+          "prize": "150",
+          "teamId": 6915
+        },
+        {
+          "place": "3-4th",
+          "prize": "150",
+          "teamId": 10402
+        }
+      ]
+    },
+    {
+      "id": 4948,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 9032
+        },
+        {
+          "place": "2nd",
+          "teamId": 10310
+        },
+        {
+          "place": "3-4th",
+          "teamId": 5013
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10301
+        }
+      ]
+    },
+    {
+      "id": 4947,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 9107
+        },
+        {
+          "place": "2nd",
+          "teamId": 10394
+        },
+        {
+          "place": "3-4th",
+          "teamId": 5258
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10393
+        }
+      ]
+    },
+    {
+      "id": 4771,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "3,850"
+        },
+        {
+          "place": "2nd",
+          "prize": "2,310"
+        },
+        {
+          "place": "3rd",
+          "prize": "1,155",
+          "teamId": 8772
+        },
+        {
+          "place": "4th",
+          "prize": "385",
+          "teamId": 10129
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9287
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9887
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7427
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8305
+        }
+      ]
+    },
+    {
+      "id": 2838,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "3,970",
+          "teamId": 8346
+        },
+        {
+          "place": "2nd",
+          "prize": "2,980",
+          "teamId": 7718
+        },
+        {
+          "place": "3-4th",
+          "prize": "1,490",
+          "teamId": 8362
+        },
+        {
+          "place": "3-4th",
+          "prize": "1,490",
+          "teamId": 4933
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9616
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10337
+        },
+        {
+          "place": "5-8th",
+          "teamId": 4468
+        },
+        {
+          "place": "5-8th",
+          "teamId": 4949
+        }
+      ]
+    },
+    {
+      "id": 4952,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "8,434",
+          "teamId": 7348
+        },
+        {
+          "place": "2nd",
+          "prize": "2,108",
+          "teamId": 9921
+        },
+        {
+          "place": "3rd",
+          "teamId": 10368
+        },
+        {
+          "place": "4th",
+          "teamId": 8000
+        }
+      ]
+    },
+    {
+      "id": 4843,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "7,137",
+          "teamId": 4688
+        },
+        {
+          "place": "2nd",
+          "prize": "2,745",
+          "teamId": 10127
+        }
+      ]
+    },
+    {
+      "id": 4941,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "6,000",
+          "teamId": 4949
+        },
+        {
+          "place": "2nd",
+          "prize": "4,000",
+          "teamId": 10020
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 6685
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 7718
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8504
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8772
+        },
+        {
+          "place": "7-8th",
+          "teamId": 5378
+        },
+        {
+          "place": "7-8th",
+          "teamId": 8813
+        }
+      ]
+    },
+    {
+      "id": 4918,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "12,500",
+          "teamId": 9943
+        },
+        {
+          "place": "2nd",
+          "prize": "7,500",
+          "teamId": 8113
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 9215
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 5752
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9785
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10340
+        },
+        {
+          "place": "5-8th",
+          "teamId": 6619
+        },
+        {
+          "place": "5-8th",
+          "teamId": 6978
+        }
+      ]
+    },
+    {
+      "id": 4922,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "12,500",
+          "teamId": 7175
+        },
+        {
+          "place": "2nd",
+          "prize": "7,500",
+          "teamId": 5378
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 4602
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 8120
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10097
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7376
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7532
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8669
+        }
+      ]
+    },
+    {
+      "id": 4946,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 7092
+        },
+        {
+          "place": "2nd",
+          "teamId": 10414
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10415
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7024
+        }
+      ]
+    },
+    {
+      "id": 2832,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 8772
+        },
+        {
+          "place": "2nd",
+          "teamId": 8504
+        },
+        {
+          "place": "3rd",
+          "teamId": 8769
+        },
+        {
+          "place": "4th",
+          "teamId": 7969
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8963
+        },
+        {
+          "place": "5-6th",
+          "teamId": 7461
+        },
+        {
+          "place": "7-8th",
+          "teamId": 8813
+        },
+        {
+          "place": "7-8th",
+          "teamId": 8346
+        }
+      ]
+    },
+    {
+      "id": 4917,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "9,000",
+          "teamId": 8504
+        },
+        {
+          "place": "2nd",
+          "prize": "3,750",
+          "teamId": 10022
+        },
+        {
+          "place": "3rd",
+          "prize": "1,500",
+          "teamId": 10386
+        },
+        {
+          "place": "4th",
+          "prize": "750",
+          "teamId": 10097
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8669
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8911
+        },
+        {
+          "place": "7-8th",
+          "teamId": 7461
+        },
+        {
+          "place": "7-8th",
+          "teamId": 8346
+        }
+      ]
+    },
+    {
+      "id": 4930,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 7092
+        },
+        {
+          "place": "2nd",
+          "teamId": 7966
+        },
+        {
+          "place": "3rd",
+          "teamId": 4863
+        },
+        {
+          "place": "4th",
+          "teamId": 7024
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8840
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10245
+        },
+        {
+          "place": "7-8th",
+          "teamId": 9107
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10328
+        }
+      ]
+    },
+    {
+      "id": 4597,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "100,000",
+          "teamId": 10399
+        },
+        {
+          "place": "2nd",
+          "prize": "40,000",
+          "teamId": 6665
+        },
+        {
+          "place": "3-4th",
+          "prize": "18,000",
+          "teamId": 5973
+        },
+        {
+          "place": "3-4th",
+          "prize": "18,000",
+          "teamId": 5995
+        },
+        {
+          "place": "5-6th",
+          "prize": "8,000",
+          "teamId": 4869
+        },
+        {
+          "place": "5-6th",
+          "prize": "8,000",
+          "teamId": 6615
+        },
+        {
+          "place": "7-8th",
+          "prize": "4,000",
+          "teamId": 6667
+        },
+        {
+          "place": "7-8th",
+          "prize": "4,000",
+          "teamId": 7106
+        }
+      ]
+    },
+    {
+      "id": 4706,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "30,000",
+          "teamId": 9976
+        },
+        {
+          "place": "2nd",
+          "prize": "15,000",
+          "teamId": 10225
+        },
+        {
+          "place": "3rd",
+          "prize": "10,000",
+          "teamId": 7606
+        },
+        {
+          "place": "4th",
+          "prize": "5,000",
+          "teamId": 10164
+        }
+      ]
+    },
+    {
+      "id": 4803,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "750",
+          "teamId": 9107
+        },
+        {
+          "place": "2nd",
+          "prize": "450",
+          "teamId": 7733
+        },
+        {
+          "place": "3-4th",
+          "prize": "150",
+          "teamId": 10393
+        },
+        {
+          "place": "3-4th",
+          "prize": "150",
+          "teamId": 10394
+        }
+      ]
+    },
+    {
+      "id": 4937,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 8848
+        },
+        {
+          "place": "2nd",
+          "teamId": 8262
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8220
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10405
+        }
+      ]
+    },
+    {
+      "id": 4935,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 6898
+        },
+        {
+          "place": "2nd",
+          "teamId": 10300
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10402
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10403
+        }
+      ]
+    },
+    {
+      "id": 4936,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 10206
+        },
+        {
+          "place": "2nd",
+          "teamId": 10290
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10193
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10404
+        }
+      ]
+    },
+    {
+      "id": 4853,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "5,475",
+          "teamId": 8668
+        },
+        {
+          "place": "2nd",
+          "prize": "3,422",
+          "teamId": 6010
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,395",
+          "teamId": 5293
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,395",
+          "teamId": 8536
+        }
+      ]
+    },
+    {
+      "id": 4927,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 8698
+        },
+        {
+          "place": "2nd",
+          "teamId": 8280
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10396
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10397
+        },
+        {
+          "place": "5-6th",
+          "teamId": 9764
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8211
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10271
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10395
+        }
+      ]
+    },
+    {
+      "id": 4933,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 7324
+        },
+        {
+          "place": "2nd",
+          "teamId": 10052
+        }
+      ]
+    },
+    {
+      "id": 4909,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "9,000",
+          "teamId": 7865
+        },
+        {
+          "place": "2nd",
+          "prize": "5,000",
+          "teamId": 8504
+        },
+        {
+          "place": "3rd",
+          "prize": "3,600",
+          "teamId": 7969
+        },
+        {
+          "place": "4th",
+          "prize": "2,400",
+          "teamId": 8248
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8513
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10116
+        },
+        {
+          "place": "7-8th",
+          "teamId": 7898
+        },
+        {
+          "place": "7-8th",
+          "teamId": 4674
+        }
+      ]
+    },
+    {
+      "id": 4916,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "1,500",
+          "teamId": 7461
+        },
+        {
+          "place": "2nd",
+          "teamId": 8704
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9981
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10076
+        }
+      ]
+    },
+    {
+      "id": 4929,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 8211
+        },
+        {
+          "place": "2nd",
+          "teamId": 10227
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10398
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7348
+        }
+      ]
+    },
+    {
+      "id": 4907,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 4863
+        },
+        {
+          "place": "2nd",
+          "teamId": 7966
+        },
+        {
+          "place": "3rd",
+          "teamId": 6898
+        },
+        {
+          "place": "4th",
+          "teamId": 10206
+        },
+        {
+          "place": "5-6th",
+          "teamId": 8680
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10051
+        },
+        {
+          "place": "7-8th",
+          "teamId": 7354
+        },
+        {
+          "place": "7-8th",
+          "teamId": 8848
+        }
+      ]
+    },
+    {
+      "id": 4906,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 7606
+        },
+        {
+          "place": "2nd",
+          "teamId": 7966
+        },
+        {
+          "place": "3rd",
+          "teamId": 4863
+        },
+        {
+          "place": "4th",
+          "teamId": 7092
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10245
+        },
+        {
+          "place": "5-6th",
+          "teamId": 7024
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10378
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10379
+        }
+      ]
+    },
+    {
+      "id": 4911,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 6898
+        },
+        {
+          "place": "2nd",
+          "teamId": 10051
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9032
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10377
+        }
+      ]
+    },
+    {
+      "id": 4787,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "9,400",
+          "teamId": 7581
+        },
+        {
+          "place": "2nd",
+          "teamId": 9105
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10053
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7483
+        }
+      ]
+    },
+    {
+      "id": 4900,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "1,000",
+          "teamId": 7348
+        },
+        {
+          "place": "2nd",
+          "prize": "500",
+          "teamId": 9921
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10227
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10370
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10226
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10368
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10369
+        },
+        {
+          "place": "7-8th",
+          "teamId": 8259
+        }
+      ]
+    },
+    {
+      "id": 4828,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "165,500",
+          "teamId": 4602
+        },
+        {
+          "place": "2nd",
+          "prize": "77,300",
+          "teamId": 5378
+        },
+        {
+          "place": "3-4th",
+          "prize": "22,000",
+          "teamId": 4494
+        },
+        {
+          "place": "3-4th",
+          "prize": "22,000",
+          "teamId": 9215
+        },
+        {
+          "place": "5-6th",
+          "prize": "13,800",
+          "teamId": 4411
+        },
+        {
+          "place": "5-6th",
+          "prize": "13,800",
+          "teamId": 8911
+        },
+        {
+          "place": "7-8th",
+          "prize": "8,300",
+          "teamId": 10349
+        },
+        {
+          "place": "7-8th",
+          "prize": "8,300",
+          "teamId": 10210
+        },
+        {
+          "place": ""
+        },
+        {
+          "place": ""
+        }
+      ]
+    },
+    {
+      "id": 4444,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "50,000",
+          "teamId": 8813
+        },
+        {
+          "place": "2nd",
+          "prize": "20,000",
+          "teamId": 8637
+        },
+        {
+          "place": "3-4th",
+          "prize": "10,000",
+          "teamId": 10020
+        },
+        {
+          "place": "3-4th",
+          "prize": "10,000",
+          "teamId": 8297
+        },
+        {
+          "place": "5-6th",
+          "prize": "3,000",
+          "teamId": 7532
+        },
+        {
+          "place": "5-6th",
+          "prize": "3,000",
+          "teamId": 8305
+        },
+        {
+          "place": "7-8th",
+          "prize": "2,000",
+          "teamId": 8772
+        },
+        {
+          "place": "7-8th",
+          "prize": "2,000",
+          "teamId": 8068
+        }
+      ]
+    },
+    {
+      "id": 4897,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "6,530",
+          "teamId": 8680
+        },
+        {
+          "place": "2nd",
+          "prize": "3,260",
+          "teamId": 8848
+        },
+        {
+          "place": "3-4th",
+          "prize": "980",
+          "teamId": 8220
+        },
+        {
+          "place": "3-4th",
+          "prize": "980",
+          "teamId": 8262
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10047
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10365
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10366
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10367
+        }
+      ]
+    },
+    {
+      "id": 4491,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "14,835",
+          "teamId": 5153
+        },
+        {
+          "place": "2nd",
+          "prize": "6,743",
+          "teamId": 8111
+        },
+        {
+          "place": "3-4th",
+          "prize": "4,720",
+          "teamId": 8193
+        },
+        {
+          "place": "3-4th",
+          "prize": "4,720",
+          "teamId": 8730
+        },
+        {
+          "place": "5-8th",
+          "prize": "1,855",
+          "teamId": 6765
+        },
+        {
+          "place": "5-8th",
+          "prize": "1,855",
+          "teamId": 7647
+        },
+        {
+          "place": "5-8th",
+          "prize": "1,855",
+          "teamId": 10335
+        },
+        {
+          "place": "5-8th",
+          "prize": "1,855",
+          "teamId": 10336
+        }
+      ]
+    },
+    {
+      "id": 4802,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "750",
+          "teamId": 10290
+        },
+        {
+          "place": "2nd",
+          "prize": "450",
+          "teamId": 10206
+        },
+        {
+          "place": "3-4th",
+          "prize": "150",
+          "teamId": 8633
+        },
+        {
+          "place": "3-4th",
+          "prize": "150",
+          "teamId": 7285
+        }
+      ]
+    },
+    {
+      "id": 4887,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 4680
+        },
+        {
+          "place": "2nd",
+          "teamId": 9275
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9747
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9870
+        }
+      ]
+    },
+    {
+      "id": 4898,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 5293
+        },
+        {
+          "place": "2nd",
+          "teamId": 8668
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8536
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9747
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7983
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9275
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9750
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10041
+        }
+      ]
+    },
+    {
+      "id": 4867,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "645",
+          "teamId": 10115
+        },
+        {
+          "place": "2nd",
+          "prize": "430",
+          "teamId": 10338
+        },
+        {
+          "place": "3rd",
+          "prize": "215",
+          "teamId": 10374
+        },
+        {
+          "place": "4th",
+          "teamId": 10373
+        }
+      ]
+    },
+    {
+      "id": 4910,
+      "placements": [
+        {
+          "place": "1-2nd",
+          "teamId": 9032
+        },
+        {
+          "place": "1-2nd",
+          "teamId": 10377
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9100
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10376
+        }
+      ]
+    },
+    {
+      "id": 4905,
+      "placements": [
+        {
+          "place": "1-2nd",
+          "teamId": 10051
+        },
+        {
+          "place": "1-2nd",
+          "teamId": 6898
+        },
+        {
+          "place": "3-4th",
+          "teamId": 9907
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10328
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7109
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8607
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10047
+        },
+        {
+          "place": "5-8th",
+          "teamId": 5258
+        }
+      ]
+    },
+    {
+      "id": 4903,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 7966
+        },
+        {
+          "place": "2nd",
+          "teamId": 7092
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7798
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8840
+        }
+      ]
+    },
+    {
+      "id": 4832,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 4494
+        },
+        {
+          "place": "2nd",
+          "prize": "5,000",
+          "teamId": 8135
+        },
+        {
+          "place": "3-4th",
+          "teamId": 5995
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7175
+        },
+        {
+          "place": "5-6th",
+          "teamId": 9928
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10225
+        },
+        {
+          "place": "7-8th",
+          "teamId": 6615
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10270
+        }
+      ]
+    },
+    {
+      "id": 4904,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 8680
+        },
+        {
+          "place": "2nd",
+          "teamId": 10206
+        },
+        {
+          "place": "3-4th",
+          "teamId": 6898
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10051
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10328
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7348
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8607
+        },
+        {
+          "place": "5-8th",
+          "teamId": 9107
+        }
+      ]
+    },
+    {
+      "id": 4838,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "12,500",
+          "teamId": 6673
+        },
+        {
+          "place": "2nd",
+          "prize": "7,500",
+          "teamId": 8113
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 5752
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 5973
+        },
+        {
+          "place": "5-8th",
+          "teamId": 6619
+        },
+        {
+          "place": "5-8th",
+          "teamId": 6978
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7106
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10340
+        }
+      ]
+    },
+    {
+      "id": 4827,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "12,500",
+          "teamId": 8120
+        },
+        {
+          "place": "2nd",
+          "prize": "7,500",
+          "teamId": 8135
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 4991
+        },
+        {
+          "place": "3-4th",
+          "prize": "2,500",
+          "teamId": 7144
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8346
+        },
+        {
+          "place": "5-8th",
+          "teamId": 5378
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7175
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7674
+        }
+      ]
+    },
+    {
+      "id": 4902,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 7024
+        },
+        {
+          "place": "2nd",
+          "teamId": 10245
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7092
+        },
+        {
+          "place": "3-4th",
+          "teamId": 8840
+        }
+      ]
+    },
+    {
+      "id": 4848,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 5991
+        },
+        {
+          "place": "2nd",
+          "teamId": 7106
+        },
+        {
+          "place": "3rd",
+          "teamId": 8113
+        },
+        {
+          "place": "4th",
+          "teamId": 9943
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10302
+        },
+        {
+          "place": "5-6th",
+          "teamId": 7726
+        },
+        {
+          "place": "7-8th",
+          "teamId": 9717
+        },
+        {
+          "place": "7-8th",
+          "teamId": 7841
+        }
+      ]
+    },
+    {
+      "id": 4509,
+      "placements": [
+        {
+          "place": "1-2nd",
+          "teamId": 4773
+        },
+        {
+          "place": "1-2nd",
+          "teamId": 8574
+        },
+        {
+          "place": "3-4th",
+          "prize": "1,000",
+          "teamId": 8902
+        },
+        {
+          "place": "3-4th",
+          "prize": "1,000",
+          "teamId": 7653
+        },
+        {
+          "place": "5-8th",
+          "prize": "500",
+          "teamId": 9013
+        },
+        {
+          "place": "5-8th",
+          "prize": "500",
+          "teamId": 10028
+        },
+        {
+          "place": "5-8th",
+          "prize": "500",
+          "teamId": 10267
+        },
+        {
+          "place": "5-8th",
+          "prize": "500",
+          "teamId": 6033
+        },
+        {
+          "place": "9-12th",
+          "prize": "250",
+          "teamId": 9213
+        },
+        {
+          "place": "9-12th",
+          "prize": "250",
+          "teamId": 9684
+        },
+        {
+          "place": "9-12th",
+          "prize": "250",
+          "teamId": 9902
+        },
+        {
+          "place": "9-12th",
+          "prize": "250",
+          "teamId": 9910
+        }
+      ]
+    },
+    {
+      "id": 4847,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 4494
+        },
+        {
+          "place": "2nd",
+          "teamId": 10150
+        },
+        {
+          "place": "3rd",
+          "teamId": 9928
+        },
+        {
+          "place": "4th",
+          "teamId": 7175
+        },
+        {
+          "place": "5-6th",
+          "teamId": 4602
+        },
+        {
+          "place": "5-6th",
+          "teamId": 9812
+        },
+        {
+          "place": "7-8th",
+          "teamId": 7020
+        },
+        {
+          "place": "7-8th",
+          "teamId": 9863
+        }
+      ]
+    },
+    {
+      "id": 4845,
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 8008
+        },
+        {
+          "place": "2nd",
+          "teamId": 9747
+        },
+        {
+          "place": "3rd",
+          "teamId": 6010
+        },
+        {
+          "place": "4th",
+          "teamId": 5293
+        },
+        {
+          "place": "5-6th",
+          "teamId": 9870
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10220
+        },
+        {
+          "place": "7-8th",
+          "teamId": 8668
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10205
+        }
+      ]
+    },
+    {
+      "id": 4884,
+      "placements": [
+        {
+          "place": "1-2nd",
+          "teamId": 7966
+        },
+        {
+          "place": "1-2nd",
+          "teamId": 9107
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10227
+        },
+        {
+          "place": "3-4th",
+          "teamId": 7092
+        }
+      ]
+    },
+    {
+      "id": 4873,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "16,500",
+          "teamId": 10361
+        },
+        {
+          "place": "2nd",
+          "prize": "7,000",
+          "teamId": 10080
+        },
+        {
+          "place": "3rd",
+          "prize": "2,750",
+          "teamId": 7841
+        },
+        {
+          "place": "4th",
+          "prize": "1,250",
+          "teamId": 9615
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10357
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10185
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10358
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10360
+        },
+        {
+          "place": "9-12th",
+          "teamId": 10329
+        },
+        {
+          "place": "9-12th",
+          "teamId": 10355
+        },
+        {
+          "place": "9-12th",
+          "teamId": 10356
+        },
+        {
+          "place": "9-12th",
+          "teamId": 6056
+        },
+        {
+          "place": "13-16th",
+          "teamId": 9322
+        },
+        {
+          "place": "13-16th",
+          "teamId": 10359
+        },
+        {
+          "place": "13-16th",
+          "teamId": 10362
+        },
+        {
+          "place": "13-16th",
+          "teamId": 10272
+        },
+        {
+          "place": "17-18th",
+          "teamId": 10363
+        },
+        {
+          "place": "17-18th",
+          "teamId": 10304
+        }
+      ]
+    },
+    {
+      "id": 4882,
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "4,175",
+          "teamId": 10333
+        },
+        {
+          "place": "2nd",
+          "prize": "3,325",
+          "teamId": 9539
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10030
+        },
+        {
+          "place": "3-4th",
+          "teamId": 10334
+        }
+      ]
+    }
+  ]
+}

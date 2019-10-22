@@ -8,6 +8,7 @@ players_json = JSON.parse(File.read("#{Rails.root}/db/seed_data/players.json"))
 teams_json = JSON.parse(File.read("#{Rails.root}/db/seed_data/teams.json"))
 player_rankings_json = JSON.parse(File.read("#{Rails.root}/db/seed_data/player_rankings.json"))
 team_rankings_json = JSON.parse(File.read("#{Rails.root}/db/seed_data/team_rankings.json"))
+tournament_placements_json = JSON.parse(File.read("#{Rails.root}/db/seed_data/tournament_placements.json"))
 
 events = events_json['events'].map do |event|
   Tournament.create!(
@@ -140,4 +141,21 @@ team_rankings_json['rankings'].each do |ranking|
     points: ranking['points'],
     ranked_at: Time.parse(ranking['rankedAt'])
   )
+end
+
+tournament_placements_json['events'].each do |event|
+  tournament = events.find { |x| x.hltv_id == event['id'] }
+  event['placements'].each do |placement|
+    team = teams.find { |x| x.hltv_id == placement['teamId'] }
+    prize = placement['prize']&.gsub(',', '').to_i
+
+    next if team.nil?
+
+    TournamentPlacement.create!(
+      tournament: tournament,
+      place: placement['place'],
+      prize: prize,
+      roster: team.rosters.first
+    )
+  end
 end

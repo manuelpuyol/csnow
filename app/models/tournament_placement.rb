@@ -7,7 +7,6 @@ class TournamentPlacement < ApplicationRecord
 
   validates :tournament, presence: true
   validates :roster, presence: true
-  validates :place, numericality: { greater_than: 0 }, if: -> { place.present? }
   validates :prize, numericality: { greater_than_or_equal_to: 0 }
 end
 
@@ -18,7 +17,7 @@ end
 #  id            :integer          not null, primary key
 #  tournament_id :integer          not null
 #  roster_id     :integer          not null
-#  place         :integer
+#  place         :string
 #  prize         :integer          default("0"), not null
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
