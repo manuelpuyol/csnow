@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../Avatar/Avatar';
+import Avatar from '@csnow/components/ui/Avatar/Avatar';
 import {
   UserPanelContainer,
   UserPanelAvatarContainer,

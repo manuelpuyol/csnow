@@ -2,11 +2,11 @@ import React, { Fragment } from 'react';
 import { TournamentFragment } from '@csnow/schema/TournamentFragment';
 import { TournamentCard } from './TournamentList.style';
 
-interface ITournamentList {
+interface ITournamentListProps {
   tournaments: TournamentFragment[];
 }
 
-const TournamentList: React.FC<ITournamentList> = ({ tournaments }) => (
+const TournamentList: React.FC<ITournamentListProps> = ({ tournaments }) => (
   <Fragment>
     {tournaments.map(tournament => (
       <TournamentCard key={tournament.id}>

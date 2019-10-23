@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
-import UserPanel from '../../ui/UserPanel/UserPanel';
+import UserPanel from '@csnow/components/ui/UserPanel/UserPanel';
 import { SidebarNavigationUserPanelContainer } from './SidebarNavigation.style';
 
 export const NAVIGATION_KEYS = {

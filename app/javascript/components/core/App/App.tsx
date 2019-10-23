@@ -3,8 +3,8 @@ import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import SidebarNavigation, {
   NavigationKey,
-} from '../SidebarNavigation/SidebarNavigation';
-import Provider from '../Provider/Provider';
+} from '@csnow/components/core/SidebarNavigation/SidebarNavigation';
+import Provider from '@csnow/components/core/Provider/Provider';
 import { AppContainer, AppContentContainer } from './App.style';
 
 interface IAppProps {
