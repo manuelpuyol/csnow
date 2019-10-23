@@ -12,6 +12,8 @@ class Bet < ApplicationRecord
   validate :must_bet_on_a_playing_team
   validate :must_place_bet_before_start_of_game
 
+  scope :by_user_id, ->(user_id) { where(user_id: user_id) }
+
   private
 
   def must_bet_on_a_playing_team

@@ -30,19 +30,11 @@ class User < ApplicationRecord
   validates :email, presence: true, uniqueness: true
 
   scope :friends_with, lambda { |user_id|
-    users = User.arel_table
-    friendships = Friendship.arel_table
+    ids = joins('INNER JOIN friendships ON friendships.requester_id = users.id OR friendships.receiver_id = users.id')
+          .where(id: user_id)
+          .pluck('friendships.requester_id', 'friendships.receiver_id')
 
-    join_table = users.join(friendships, Arel::Nodes::InnerJoin)
-                      .on(
-                        friendships[:receiver_id].eq(user_id)
-                        .or(
-                          friendships[:requester_id].eq(user_id)
-                        )
-                      )
-                      .join_sources
-
-    joins(join_table).where.not(id: user_id).distinct
+    where(id: ids).where.not(id: user_id)
   }
 
   def friends
