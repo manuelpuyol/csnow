@@ -17,7 +17,7 @@ const getInitials = (fullName: string): string => {
 
 const Avatar: React.FC<IAvatarProps> = ({ userName }) => (
   <AntdAvatar
-    style={{ backgroundColor: this.state.color, verticalAlign: 'middle' }}
+    style={{ backgroundColor: '#1890ff', verticalAlign: 'middle' }}
     size="large"
   >
     {getInitials(userName)}

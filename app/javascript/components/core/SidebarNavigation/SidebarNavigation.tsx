@@ -1,5 +1,7 @@
 import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
+import UserPanel from '../../ui/UserPanel/UserPanel';
+import { SidebarNavigationUserPanelContainer } from './SidebarNavigation.style';
 
 export const NAVIGATION_KEYS = {
   matches: 'matches' as 'matches',
@@ -27,7 +29,9 @@ const SidebarNavigation: React.FC<ISidebarNavigationProps> = ({
         left: 0,
       }}
     >
-      <div className="logo" />
+      <SidebarNavigationUserPanelContainer>
+        <UserPanel userName="Manuel Puyol" />
+      </SidebarNavigationUserPanelContainer>
       <Menu theme="dark" mode="inline" selectedKeys={[selectedKey]}>
         <Menu.Item key={NAVIGATION_KEYS.tournaments}>
           <Icon type="user" />
