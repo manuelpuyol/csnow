@@ -20,6 +20,4 @@ environment.config.merge({
   },
 });
 
-console.log(environment.toWebpackConfig());
-
 module.exports = environment;
