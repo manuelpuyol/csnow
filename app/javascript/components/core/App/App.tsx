@@ -4,6 +4,7 @@ import { Layout, Menu, Icon } from 'antd';
 import SidebarNavigation, {
   NavigationKey,
 } from '../SidebarNavigation/SidebarNavigation';
+import Provider from '../Provider/Provider';
 import { AppContainer, AppContentContainer } from './App.style';
 
 interface IAppProps {
@@ -14,10 +15,12 @@ interface IAppProps {
 const App: React.FC<IAppProps> = ({ selectedKey, children }) => {
   const { Header, Footer, Content } = Layout;
   return (
-    <AppContainer>
-      <SidebarNavigation selectedKey={selectedKey} />
-      <AppContentContainer>{children}</AppContentContainer>
-    </AppContainer>
+    <Provider>
+      <AppContainer>
+        <SidebarNavigation selectedKey={selectedKey} />
+        <AppContentContainer>{children}</AppContentContainer>
+      </AppContainer>
+    </Provider>
   );
 };
 
