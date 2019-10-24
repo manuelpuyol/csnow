@@ -29,8 +29,9 @@ const TournamentList: React.FC<ITournamentListProps> = ({ tournament }) => {
             </Fragment>
           </Title>
           <div>
-            {moment(tournament.startAt).format('MMM Do YYYY')} -{' '}
-            {moment(tournament.endAt).format('MMM Do YYYY')}
+            {`${moment(tournament.startAt).format('MMM Do YYYY')} - ${moment(
+              tournament.endAt,
+            ).format('MMM Do YYYY')}`}
           </div>
         </div>
         <TournamentTeamCountContainer>

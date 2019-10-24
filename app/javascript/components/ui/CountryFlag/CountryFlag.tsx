@@ -8,23 +8,14 @@ interface ICountryFlagProps {
 }
 
 const getCode = (location: string): string => {
-  if (location === 'Europe') {
-    return 'eu';
-  } else if (location === 'North America') {
-    return 'us';
-  } else if (location === 'Korea') {
-    return 'kr';
-  } else if (location === 'United States') {
-    return 'us';
-  } else if (location === 'United Kingdom') {
-    return 'uk';
-  } else if (location === 'Vietnam') {
-    return 'vn';
-  } else if (location === 'Oceania') {
-    return 'au';
-  } else if (location === 'Czech Republic') {
-    return 'cz';
-  }
+  if (location === 'Europe') return 'eu';
+  if (location === 'North America') return 'us';
+  if (location === 'Korea') return 'kr';
+  if (location === 'United States') return 'us';
+  if (location === 'United Kingdom') return 'uk';
+  if (location === 'Vietnam') return 'vn';
+  if (location === 'Oceania') return 'au';
+  if (location === 'Czech Republic') return 'cz';
 
   return getCountryCode(location);
 };
