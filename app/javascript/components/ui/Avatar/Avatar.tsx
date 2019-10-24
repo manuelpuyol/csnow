@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 import { Avatar as AntdAvatar } from 'antd';
 
 interface IAvatarProps {
@@ -15,13 +16,14 @@ const getInitials = (fullName: string): string => {
   return initials;
 };
 
+const AvatarStyled = styled(AntdAvatar)`
+  background-color: #1890ff !important;
+  vertical-align: middle;
+  font-weight: bold;
+`;
+
 const Avatar: React.FC<IAvatarProps> = ({ userName }) => (
-  <AntdAvatar
-    style={{ backgroundColor: '#1890ff', verticalAlign: 'middle' }}
-    size="large"
-  >
-    {getInitials(userName)}
-  </AntdAvatar>
+  <AvatarStyled size="large">{getInitials(userName)}</AvatarStyled>
 );
 
 export default Avatar;

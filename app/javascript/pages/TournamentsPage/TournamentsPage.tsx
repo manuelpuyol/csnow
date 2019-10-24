@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { NAVIGATION_KEYS } from '@csnow/components/core/SidebarNavigation/SidebarNavigation';
+import { NAVIGATION_KEYS } from '@csnow/components/core/Navbar/Navbar';
 import { PageHeader } from 'antd';
 import App from '@csnow/components/core/App/App';
 import PageContent from '@csnow/components/ui/PageContent/PageContent';

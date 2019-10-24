@@ -1,9 +1,7 @@
 import 'antd/dist/antd.css';
 import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
-import SidebarNavigation, {
-  NavigationKey,
-} from '@csnow/components/core/SidebarNavigation/SidebarNavigation';
+import Navbar, { NavigationKey } from '@csnow/components/core/Navbar/Navbar';
 import Provider from '@csnow/components/core/Provider/Provider';
 import { AppContainer, AppContentContainer } from './App.style';
 
@@ -17,7 +15,7 @@ const App: React.FC<IAppProps> = ({ selectedKey, children }) => {
   return (
     <Provider>
       <AppContainer>
-        <SidebarNavigation selectedKey={selectedKey} />
+        <Navbar selectedKey={selectedKey} />
         <AppContentContainer>{children}</AppContentContainer>
       </AppContainer>
     </Provider>

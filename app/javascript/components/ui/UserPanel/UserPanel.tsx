@@ -8,14 +8,15 @@ import {
 
 interface IUserPanelProps {
   userName: string;
+  bold: boolean;
 }
 
-const UserPanel: React.FC<IUserPanelProps> = ({ userName }) => (
+const UserPanel: React.FC<IUserPanelProps> = ({ userName, bold }) => (
   <UserPanelContainer>
     <UserPanelAvatarContainer>
       <Avatar userName={userName} />
     </UserPanelAvatarContainer>
-    <UserPanelUserName>{userName}</UserPanelUserName>
+    <UserPanelUserName bold>{userName}</UserPanelUserName>
   </UserPanelContainer>
 );
 
