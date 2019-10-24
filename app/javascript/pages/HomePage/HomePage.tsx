@@ -10,7 +10,7 @@ const TournamentsPage: React.FC = () => (
     <Fragment>
       <PageHeader ghost={false} title="News" />
       <PageContent>
-        <TournamentListWithData />
+        <div>Home</div>
       </PageContent>
     </Fragment>
   </App>

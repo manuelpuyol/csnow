@@ -23,11 +23,15 @@ interface INavbarProps {
 const Navbar: React.FC<INavbarProps> = ({ selectedKey }) => (
   <NavbarHeader>
     <NavbarContainer>
-      <NavbarLogo src={Logo} />
+      <a href="/">
+        <NavbarLogo src={Logo} />
+      </a>
       <NavbarMenu theme="dark" mode="horizontal" selectedKeys={[selectedKey]}>
         <Menu.Item key={NAVIGATION_KEYS.tournaments}>
-          <Icon type="user" />
-          <span>Tournaments</span>
+          <a href="/tournaments">
+            <Icon type="user" />
+            <span>Tournaments</span>
+          </a>
         </Menu.Item>
         <Menu.Item key={NAVIGATION_KEYS.matches}>
           <Icon type="user" />

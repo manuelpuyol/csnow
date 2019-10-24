@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-class AppController < ApplicationController
+class TournamentsController < ApplicationController
   def index; end
 end

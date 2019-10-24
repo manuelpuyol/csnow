@@ -23,6 +23,6 @@ export const NavbarHeader = styled(Header)`
 `;
 
 export const NavbarMenu = styled(Menu)`
-  line-height: 64px;
+  line-height: 64px !important;
   flex: 1;
 `;

@@ -8,11 +8,7 @@ import TournamentListWithData from '@csnow/components/core/TournamentList/WithDa
 const TournamentsPage: React.FC = () => (
   <App selectedKey={NAVIGATION_KEYS.tournaments}>
     <Fragment>
-      <PageHeader
-        ghost={false}
-        onBack={() => window.history.back()}
-        title="Tournaments"
-      />
+      <PageHeader ghost={false} title="Tournaments" />
       <PageContent>
         <TournamentListWithData />
       </PageContent>
