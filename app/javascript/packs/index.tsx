@@ -1,5 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import HomePage from '@csnow/pages/HomePage/HomePage';
+import App from '@csnow/components/core/App/App';
 
-render(<HomePage />, document.querySelector('#root'));
+render(<App />, document.querySelector('#root'));

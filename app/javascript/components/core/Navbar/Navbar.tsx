@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Menu, Icon } from 'antd';
 import Logo from '@csnow/assets/images/logo.png';
 import UserPanel from '@csnow/components/ui/UserPanel/UserPanel';
@@ -10,6 +11,7 @@ import {
 } from './Navbar.style';
 
 export const NAVIGATION_KEYS = {
+  home: 'home' as 'home',
   matches: 'matches' as 'matches',
   tournaments: 'tournaments' as 'tournaments',
 };
@@ -17,21 +19,21 @@ export const NAVIGATION_KEYS = {
 export type NavigationKey = keyof typeof NAVIGATION_KEYS;
 
 interface INavbarProps {
-  selectedKey?: NavigationKey;
+  selectedKey: NavigationKey;
 }
 
 const Navbar: React.FC<INavbarProps> = ({ selectedKey }) => (
   <NavbarHeader>
     <NavbarContainer>
-      <a href="/">
+      <Link to="/">
         <NavbarLogo src={Logo} />
-      </a>
+      </Link>
       <NavbarMenu theme="dark" mode="horizontal" selectedKeys={[selectedKey]}>
         <Menu.Item key={NAVIGATION_KEYS.tournaments}>
-          <a href="/tournaments">
+          <Link to="/tournaments">
             <Icon type="user" />
             <span>Tournaments</span>
-          </a>
+          </Link>
         </Menu.Item>
         <Menu.Item key={NAVIGATION_KEYS.matches}>
           <Icon type="user" />
