@@ -7,5 +7,5 @@ export const AppContainer = styled(Layout)`
 
 export const AppContent = styled(Layout)`
   height: 100%;
-  margin-top: 64px;
+  margin-top: 96px;
 `;
