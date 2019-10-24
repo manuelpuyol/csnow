@@ -5,8 +5,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar, { NavigationKey } from '@csnow/components/core/Navbar/Navbar';
 import Provider from '@csnow/components/core/Provider/Provider';
-import TournamentsPage from '@csnow/pages/TournamentsPage/TournamentsPage';
-import HomePage from '@csnow/pages/HomePage/HomePage';
 import { AppContainer, AppContent } from './App.style';
 import Routes from './Routes';
 
