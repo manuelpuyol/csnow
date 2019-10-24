@@ -59,6 +59,7 @@
     "webpack-dev-server": "^3.8.2"
   },
   "scripts": {
+    "dev": "yarn && ./bin/webpack-dev-server",
     "lint": "npx eslint --cache --ext .js,.ts,.tsx app/javascript",
     "types": "yarn types:backend && yarn types:frontend",
     "types:backend": "bundle exec rake graphql:schema:idl",
