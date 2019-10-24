@@ -1,0 +1,5523 @@
+{
+  "matches": [
+    {
+      "hltvId": 2337277,
+      "team1HltvId": 7718,
+      "team2HltvId": 7461,
+      "eventHltvId": 4944,
+      "result": "1 - 2",
+      "date": 1571955800000
+    },
+    {
+      "hltvId": 2337222,
+      "team1HltvId": 6665,
+      "team2HltvId": 7532,
+      "eventHltvId": 4924,
+      "result": "2 - 1",
+      "date": 1571951663000
+    },
+    {
+      "hltvId": 2337256,
+      "team1HltvId": 9863,
+      "team2HltvId": 9496,
+      "eventHltvId": 4983,
+      "result": "2 - 0",
+      "date": 1571947580000
+    },
+    {
+      "hltvId": 2337276,
+      "team1HltvId": 7461,
+      "team2HltvId": 4468,
+      "eventHltvId": 4944,
+      "result": "16 - 10",
+      "date": 1571942372000
+    },
+    {
+      "hltvId": 2337247,
+      "team1HltvId": 8813,
+      "team2HltvId": 8068,
+      "eventHltvId": 4736,
+      "result": "19 - 17",
+      "date": 1571941831000
+    },
+    {
+      "hltvId": 2337245,
+      "team1HltvId": 8135,
+      "team2HltvId": 4602,
+      "eventHltvId": 4736,
+      "result": "16 - 14",
+      "date": 1571940941000
+    },
+    {
+      "hltvId": 2337255,
+      "team1HltvId": 7187,
+      "team2HltvId": 9939,
+      "eventHltvId": 4983,
+      "result": "1 - 2",
+      "date": 1571940816000
+    },
+    {
+      "hltvId": 2337246,
+      "team1HltvId": 8248,
+      "team2HltvId": 10420,
+      "eventHltvId": 4736,
+      "result": "16 - 8",
+      "date": 1571940336000
+    },
+    {
+      "hltvId": 2337275,
+      "team1HltvId": 7718,
+      "team2HltvId": 9976,
+      "eventHltvId": 4944,
+      "result": "14 - 16",
+      "date": 1571937827000
+    },
+    {
+      "hltvId": 2337243,
+      "team1HltvId": 7020,
+      "team2HltvId": 8248,
+      "eventHltvId": 4736,
+      "result": "16 - 12",
+      "date": 1571937196000
+    },
+    {
+      "hltvId": 2336433,
+      "team1HltvId": 9928,
+      "team2HltvId": 8135,
+      "eventHltvId": 4736,
+      "result": "14 - 16",
+      "date": 1571937179000
+    },
+    {
+      "hltvId": 2336876,
+      "team1HltvId": 8698,
+      "team2HltvId": 7865,
+      "eventHltvId": 4736,
+      "result": "16 - 14",
+      "date": 1571937130000
+    },
+    {
+      "hltvId": 2337244,
+      "team1HltvId": 8813,
+      "team2HltvId": 10150,
+      "eventHltvId": 4736,
+      "result": "13 - 16",
+      "date": 1571936838000
+    },
+    {
+      "hltvId": 2336646,
+      "team1HltvId": 7969,
+      "team2HltvId": 8346,
+      "eventHltvId": 4736,
+      "result": "16 - 8",
+      "date": 1571936291000
+    },
+    {
+      "hltvId": 2337128,
+      "team1HltvId": 10399,
+      "team2HltvId": 4411,
+      "eventHltvId": 4932,
+      "result": "2 - 0",
+      "date": 1571935937000
+    },
+    {
+      "hltvId": 2337242,
+      "team1HltvId": 7020,
+      "team2HltvId": 8068,
+      "eventHltvId": 4736,
+      "result": "12 - 16",
+      "date": 1571933364000
+    },
+    {
+      "hltvId": 2337274,
+      "team1HltvId": 7969,
+      "team2HltvId": 5378,
+      "eventHltvId": 4736,
+      "result": "16 - 13",
+      "date": 1571933288000
+    },
+    {
+      "hltvId": 2337240,
+      "team1HltvId": 9928,
+      "team2HltvId": 4602,
+      "eventHltvId": 4736,
+      "result": "14 - 16",
+      "date": 1571933244000
+    },
+    {
+      "hltvId": 2337127,
+      "team1HltvId": 9565,
+      "team2HltvId": 4991,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571932279000
+    },
+    {
+      "hltvId": 2337214,
+      "team1HltvId": 4468,
+      "team2HltvId": 9976,
+      "eventHltvId": 4944,
+      "result": "9 - 16",
+      "date": 1571931821000
+    },
+    {
+      "hltvId": 2337239,
+      "team1HltvId": 8813,
+      "team2HltvId": 7898,
+      "eventHltvId": 4736,
+      "result": "16 - 10",
+      "date": 1571929669000
+    },
+    {
+      "hltvId": 2337094,
+      "team1HltvId": 9287,
+      "team2HltvId": 8135,
+      "eventHltvId": 4492,
+      "result": "0 - 2",
+      "date": 1571928432000
+    },
+    {
+      "hltvId": 2337213,
+      "team1HltvId": 7718,
+      "team2HltvId": 7461,
+      "eventHltvId": 4944,
+      "result": "19 - 17",
+      "date": 1571927594000
+    },
+    {
+      "hltvId": 2337124,
+      "team1HltvId": 4411,
+      "team2HltvId": 5995,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571925865000
+    },
+    {
+      "hltvId": 2337126,
+      "team1HltvId": 8297,
+      "team2HltvId": 10399,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571923155000
+    },
+    {
+      "hltvId": 2337062,
+      "team1HltvId": 6010,
+      "team2HltvId": 8536,
+      "eventHltvId": 4738,
+      "result": "16 - 5",
+      "date": 1571917027000
+    },
+    {
+      "hltvId": 2337125,
+      "team1HltvId": 9215,
+      "team2HltvId": 4991,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571915985000
+    },
+    {
+      "hltvId": 2337232,
+      "team1HltvId": 10115,
+      "team2HltvId": 8607,
+      "eventHltvId": 4951,
+      "result": "0 - 2",
+      "date": 1571915943000
+    },
+    {
+      "hltvId": 2337237,
+      "team1HltvId": 8536,
+      "team2HltvId": 8668,
+      "eventHltvId": 4738,
+      "result": "16 - 14",
+      "date": 1571914696000
+    },
+    {
+      "hltvId": 2337238,
+      "team1HltvId": 6010,
+      "team2HltvId": 9275,
+      "eventHltvId": 4738,
+      "result": "16 - 10",
+      "date": 1571914030000
+    },
+    {
+      "hltvId": 2337123,
+      "team1HltvId": 9565,
+      "team2HltvId": 6211,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571913883000
+    },
+    {
+      "hltvId": 2337234,
+      "team1HltvId": 9870,
+      "team2HltvId": 10205,
+      "eventHltvId": 4738,
+      "result": "16 - 5",
+      "date": 1571910470000
+    },
+    {
+      "hltvId": 2337236,
+      "team1HltvId": 9275,
+      "team2HltvId": 8536,
+      "eventHltvId": 4738,
+      "result": "4 - 16",
+      "date": 1571909946000
+    },
+    {
+      "hltvId": 2337235,
+      "team1HltvId": 8738,
+      "team2HltvId": 6010,
+      "eventHltvId": 4738,
+      "result": "11 - 16",
+      "date": 1571907550000
+    },
+    {
+      "hltvId": 2337233,
+      "team1HltvId": 8607,
+      "team2HltvId": 10051,
+      "eventHltvId": 4951,
+      "result": "2 - 1",
+      "date": 1571905930000
+    },
+    {
+      "hltvId": 2337226,
+      "team1HltvId": 6619,
+      "team2HltvId": 7841,
+      "eventHltvId": 4737,
+      "result": "16 - 10",
+      "date": 1571886352000
+    },
+    {
+      "hltvId": 2337076,
+      "team1HltvId": 7885,
+      "team2HltvId": 7612,
+      "eventHltvId": 4737,
+      "result": "10 - 16",
+      "date": 1571886338000
+    },
+    {
+      "hltvId": 2337225,
+      "team1HltvId": 6947,
+      "team2HltvId": 5479,
+      "eventHltvId": 4737,
+      "result": "16 - 8",
+      "date": 1571882858000
+    },
+    {
+      "hltvId": 2337182,
+      "team1HltvId": 10092,
+      "team2HltvId": 7612,
+      "eventHltvId": 4737,
+      "result": "22 - 25",
+      "date": 1571881793000
+    },
+    {
+      "hltvId": 2337224,
+      "team1HltvId": 10146,
+      "team2HltvId": 6619,
+      "eventHltvId": 4737,
+      "result": "6 - 16",
+      "date": 1571881712000
+    },
+    {
+      "hltvId": 2337216,
+      "team1HltvId": 9943,
+      "team2HltvId": 5005,
+      "eventHltvId": 4920,
+      "result": "2 - 0",
+      "date": 1571872445000
+    },
+    {
+      "hltvId": 2337250,
+      "team1HltvId": 10420,
+      "team2HltvId": 7865,
+      "eventHltvId": 4944,
+      "result": "0 - 2",
+      "date": 1571863674000
+    },
+    {
+      "hltvId": 2337203,
+      "team1HltvId": 4602,
+      "team2HltvId": 7532,
+      "eventHltvId": 4924,
+      "result": "0 - 2",
+      "date": 1571860993000
+    },
+    {
+      "hltvId": 2337122,
+      "team1HltvId": 10399,
+      "team2HltvId": 7175,
+      "eventHltvId": 4932,
+      "result": "2 - 1",
+      "date": 1571857706000
+    },
+    {
+      "hltvId": 2337121,
+      "team1HltvId": 8120,
+      "team2HltvId": 8297,
+      "eventHltvId": 4932,
+      "result": "1 - 2",
+      "date": 1571855592000
+    },
+    {
+      "hltvId": 2337249,
+      "team1HltvId": 8346,
+      "team2HltvId": 7865,
+      "eventHltvId": 4944,
+      "result": "12 - 16",
+      "date": 1571855331000
+    },
+    {
+      "hltvId": 2337208,
+      "team1HltvId": 9928,
+      "team2HltvId": 7020,
+      "eventHltvId": 4736,
+      "result": "14 - 16",
+      "date": 1571851078000
+    },
+    {
+      "hltvId": 2337248,
+      "team1HltvId": 10420,
+      "team2HltvId": 10386,
+      "eventHltvId": 4944,
+      "result": "17 - 19",
+      "date": 1571850685000
+    },
+    {
+      "hltvId": 2337210,
+      "team1HltvId": 10150,
+      "team2HltvId": 5378,
+      "eventHltvId": 4736,
+      "result": "16 - 8",
+      "date": 1571850022000
+    },
+    {
+      "hltvId": 2337209,
+      "team1HltvId": 8135,
+      "team2HltvId": 8248,
+      "eventHltvId": 4736,
+      "result": "16 - 9",
+      "date": 1571849992000
+    },
+    {
+      "hltvId": 2337206,
+      "team1HltvId": 9928,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "13 - 16",
+      "date": 1571847201000
+    },
+    {
+      "hltvId": 2337207,
+      "team1HltvId": 7020,
+      "team2HltvId": 7898,
+      "eventHltvId": 4736,
+      "result": "16 - 11",
+      "date": 1571846619000
+    },
+    {
+      "hltvId": 2337212,
+      "team1HltvId": 7865,
+      "team2HltvId": 10386,
+      "eventHltvId": 4944,
+      "result": "8 - 16",
+      "date": 1571844353000
+    },
+    {
+      "hltvId": 2337199,
+      "team1HltvId": 8813,
+      "team2HltvId": 4602,
+      "eventHltvId": 4736,
+      "result": "0 - 1",
+      "date": 1571842679000
+    },
+    {
+      "hltvId": 2337120,
+      "team1HltvId": 4991,
+      "team2HltvId": 4494,
+      "eventHltvId": 4932,
+      "result": "2 - 0",
+      "date": 1571842337000
+    },
+    {
+      "hltvId": 2337211,
+      "team1HltvId": 8346,
+      "team2HltvId": 10420,
+      "eventHltvId": 4944,
+      "result": "10 - 16",
+      "date": 1571840161000
+    },
+    {
+      "hltvId": 2337119,
+      "team1HltvId": 7533,
+      "team2HltvId": 9215,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571840100000
+    },
+    {
+      "hltvId": 2337230,
+      "team1HltvId": 10373,
+      "team2HltvId": 10051,
+      "eventHltvId": 4951,
+      "result": "0 - 2",
+      "date": 1571839163000
+    },
+    {
+      "hltvId": 2337231,
+      "team1HltvId": 10375,
+      "team2HltvId": 8536,
+      "eventHltvId": 4738,
+      "result": "10 - 16",
+      "date": 1571832742000
+    },
+    {
+      "hltvId": 2337117,
+      "team1HltvId": 7175,
+      "team2HltvId": 4608,
+      "eventHltvId": 4932,
+      "result": "2 - 0",
+      "date": 1571831606000
+    },
+    {
+      "hltvId": 2337116,
+      "team1HltvId": 7092,
+      "team2HltvId": 8297,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571829513000
+    },
+    {
+      "hltvId": 2337221,
+      "team1HltvId": 10115,
+      "team2HltvId": 8607,
+      "eventHltvId": 4951,
+      "result": "2 - 0",
+      "date": 1571827882000
+    },
+    {
+      "hltvId": 2337217,
+      "team1HltvId": 9747,
+      "team2HltvId": 8668,
+      "eventHltvId": 4738,
+      "result": "16 - 11",
+      "date": 1571824702000
+    },
+    {
+      "hltvId": 2336848,
+      "team1HltvId": 8008,
+      "team2HltvId": 9750,
+      "eventHltvId": 4738,
+      "result": "16 - 8",
+      "date": 1571824344000
+    },
+    {
+      "hltvId": 2337115,
+      "team1HltvId": 7966,
+      "team2HltvId": 4494,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571821991000
+    },
+    {
+      "hltvId": 2337114,
+      "team1HltvId": 9455,
+      "team2HltvId": 9215,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571820793000
+    },
+    {
+      "hltvId": 2337229,
+      "team1HltvId": 9870,
+      "team2HltvId": 8008,
+      "eventHltvId": 4738,
+      "result": "8 - 16",
+      "date": 1571820757000
+    },
+    {
+      "hltvId": 2337220,
+      "team1HltvId": 9100,
+      "team2HltvId": 10051,
+      "eventHltvId": 4951,
+      "result": "1 - 2",
+      "date": 1571816643000
+    },
+    {
+      "hltvId": 2337219,
+      "team1HltvId": 7480,
+      "team2HltvId": 10373,
+      "eventHltvId": 4951,
+      "result": "0 - 2",
+      "date": 1571805019000
+    },
+    {
+      "hltvId": 2337077,
+      "team1HltvId": 6947,
+      "team2HltvId": 10261,
+      "eventHltvId": 4737,
+      "result": "16 - 13",
+      "date": 1571799949000
+    },
+    {
+      "hltvId": 2337223,
+      "team1HltvId": 10302,
+      "team2HltvId": 7841,
+      "eventHltvId": 4737,
+      "result": "10 - 16",
+      "date": 1571796122000
+    },
+    {
+      "hltvId": 2337074,
+      "team1HltvId": 9785,
+      "team2HltvId": 9392,
+      "eventHltvId": 4737,
+      "result": "7 - 16",
+      "date": 1571795759000
+    },
+    {
+      "hltvId": 2337215,
+      "team1HltvId": 5973,
+      "team2HltvId": 6619,
+      "eventHltvId": 4920,
+      "result": "2 - 0",
+      "date": 1571786012000
+    },
+    {
+      "hltvId": 2337108,
+      "team1HltvId": 8120,
+      "team2HltvId": 5995,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571779210000
+    },
+    {
+      "hltvId": 2337202,
+      "team1HltvId": 6665,
+      "team2HltvId": 6667,
+      "eventHltvId": 4924,
+      "result": "2 - 0",
+      "date": 1571774310000
+    },
+    {
+      "hltvId": 2337109,
+      "team1HltvId": 10399,
+      "team2HltvId": 4411,
+      "eventHltvId": 4932,
+      "result": "1 - 2",
+      "date": 1571768239000
+    },
+    {
+      "hltvId": 2337198,
+      "team1HltvId": 8346,
+      "team2HltvId": 4602,
+      "eventHltvId": 4736,
+      "result": "6 - 16",
+      "date": 1571762980000
+    },
+    {
+      "hltvId": 2336428,
+      "team1HltvId": 7020,
+      "team2HltvId": 8698,
+      "eventHltvId": 4736,
+      "result": "16 - 10",
+      "date": 1571761098000
+    },
+    {
+      "hltvId": 2337218,
+      "team1HltvId": 7898,
+      "team2HltvId": 7144,
+      "eventHltvId": 4736,
+      "result": "16 - 7",
+      "date": 1571760193000
+    },
+    {
+      "hltvId": 2337194,
+      "team1HltvId": 8607,
+      "team2HltvId": 9100,
+      "eventHltvId": 4951,
+      "result": "2 - 1",
+      "date": 1571758945000
+    },
+    {
+      "hltvId": 2337093,
+      "team1HltvId": 10020,
+      "team2HltvId": 8513,
+      "eventHltvId": 4492,
+      "result": "2 - 0",
+      "date": 1571757962000
+    },
+    {
+      "hltvId": 2337112,
+      "team1HltvId": 4608,
+      "team2HltvId": 5995,
+      "eventHltvId": 4932,
+      "result": "1 - 2",
+      "date": 1571754100000
+    },
+    {
+      "hltvId": 2336867,
+      "team1HltvId": 7969,
+      "team2HltvId": 7898,
+      "eventHltvId": 4736,
+      "result": "16 - 10",
+      "date": 1571753124000
+    },
+    {
+      "hltvId": 2337193,
+      "team1HltvId": 10115,
+      "team2HltvId": 7480,
+      "eventHltvId": 4951,
+      "result": "2 - 0",
+      "date": 1571748845000
+    },
+    {
+      "hltvId": 2337113,
+      "team1HltvId": 8120,
+      "team2HltvId": 7175,
+      "eventHltvId": 4932,
+      "result": "2 - 0",
+      "date": 1571745313000
+    },
+    {
+      "hltvId": 2337196,
+      "team1HltvId": 10338,
+      "team2HltvId": 10373,
+      "eventHltvId": 4951,
+      "result": "1 - 2",
+      "date": 1571739178000
+    },
+    {
+      "hltvId": 2337110,
+      "team1HltvId": 4411,
+      "team2HltvId": 8297,
+      "eventHltvId": 4932,
+      "result": "2 - 0",
+      "date": 1571736378000
+    },
+    {
+      "hltvId": 2337111,
+      "team1HltvId": 10399,
+      "team2HltvId": 7092,
+      "eventHltvId": 4932,
+      "result": "2 - 0",
+      "date": 1571734934000
+    },
+    {
+      "hltvId": 2337195,
+      "team1HltvId": 10051,
+      "team2HltvId": 9906,
+      "eventHltvId": 4951,
+      "result": "2 - 1",
+      "date": 1571722911000
+    },
+    {
+      "hltvId": 2337171,
+      "team1HltvId": 9943,
+      "team2HltvId": 7106,
+      "eventHltvId": 4920,
+      "result": "2 - 1",
+      "date": 1571716499000
+    },
+    {
+      "hltvId": 2337172,
+      "team1HltvId": 10164,
+      "team2HltvId": 5005,
+      "eventHltvId": 4920,
+      "result": "0 - 2",
+      "date": 1571713967000
+    },
+    {
+      "hltvId": 2337073,
+      "team1HltvId": 7612,
+      "team2HltvId": 9229,
+      "eventHltvId": 4737,
+      "result": "16 - 2",
+      "date": 1571712084000
+    },
+    {
+      "hltvId": 2337072,
+      "team1HltvId": 7612,
+      "team2HltvId": 10392,
+      "eventHltvId": 4737,
+      "result": "16 - 11",
+      "date": 1571709742000
+    },
+    {
+      "hltvId": 2337170,
+      "team1HltvId": 5752,
+      "team2HltvId": 6619,
+      "eventHltvId": 4920,
+      "result": "0 - 2",
+      "date": 1571703261000
+    },
+    {
+      "hltvId": 2337169,
+      "team1HltvId": 5973,
+      "team2HltvId": 10423,
+      "eventHltvId": 4920,
+      "result": "2 - 0",
+      "date": 1571699802000
+    },
+    {
+      "hltvId": 2337106,
+      "team1HltvId": 4991,
+      "team2HltvId": 6211,
+      "eventHltvId": 4932,
+      "result": "0 - 2",
+      "date": 1571692073000
+    },
+    {
+      "hltvId": 2337179,
+      "team1HltvId": 7533,
+      "team2HltvId": 7532,
+      "eventHltvId": 4924,
+      "result": "0 - 2",
+      "date": 1571690703000
+    },
+    {
+      "hltvId": 2337180,
+      "team1HltvId": 8346,
+      "team2HltvId": 4602,
+      "eventHltvId": 4924,
+      "result": "0 - 2",
+      "date": 1571687154000
+    },
+    {
+      "hltvId": 2337107,
+      "team1HltvId": 9565,
+      "team2HltvId": 7533,
+      "eventHltvId": 4932,
+      "result": "2 - 1",
+      "date": 1571683117000
+    },
+    {
+      "hltvId": 2337176,
+      "team1HltvId": 7020,
+      "team2HltvId": 7144,
+      "eventHltvId": 4736,
+      "result": "16 - 14",
+      "date": 1571682978000
+    }
+  ],
+  "events": [
+    {
+      "hltvId": 4944,
+      "name": "United Masters League Season 2 Qualifier 4",
+      "dateStart": 1571824800000,
+      "dateEnd": 1571997600000,
+      "location": "Europe",
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "$6,000"
+        },
+        {
+          "place": "2nd",
+          "prize": "$4,000"
+        },
+        {
+          "place": "3-4th",
+          "prize": "$2,500"
+        },
+        {
+          "place": "3-4th",
+          "prize": "$2,500"
+        },
+        {
+          "place": "5-6th",
+          "teamId": 7718
+        },
+        {
+          "place": "5-6th",
+          "teamId": 10420
+        },
+        {
+          "place": "7-8th",
+          "teamId": 4468
+        },
+        {
+          "place": "7-8th",
+          "teamId": 8346
+        }
+      ]
+    },
+    {
+      "hltvId": 4924,
+      "name": "ECS Season 8 Europe Week 4",
+      "dateStart": 1571652000000,
+      "dateEnd": 1571911200000,
+      "location": "Europe",
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 6665,
+          "prize": "$12,500"
+        },
+        {
+          "place": "2nd",
+          "teamId": 7532,
+          "prize": "$7,500"
+        },
+        {
+          "place": "3-4th",
+          "teamId": 6667,
+          "prize": "$2,500"
+        },
+        {
+          "place": "3-4th",
+          "teamId": 4602,
+          "prize": "$2,500"
+        },
+        {
+          "place": "5-8th",
+          "teamId": 5378
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7376
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7533
+        },
+        {
+          "place": "5-8th",
+          "teamId": 8346
+        }
+      ]
+    },
+    {
+      "hltvId": 4983,
+      "name": "ESL Southeast Europe Championship Season 10",
+      "dateStart": 1571911200000,
+      "dateEnd": 1572260400000,
+      "location": "Europe",
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "$1,668"
+        },
+        {
+          "place": "2nd",
+          "prize": "$667"
+        },
+        {
+          "place": "3rd",
+          "prize": "$444"
+        },
+        {
+          "place": "4th"
+        }
+      ]
+    },
+    {
+      "hltvId": 4736,
+      "name": "ESEA MDL Season 32 Europe",
+      "dateStart": 1568023200000,
+      "dateEnd": 1576407600000,
+      "location": "Europe",
+      "placements": [
+        {
+          "place": "1st"
+        },
+        {
+          "place": "2nd"
+        },
+        {
+          "place": "3rd"
+        },
+        {
+          "place": "4th",
+          "prize": "$2,500"
+        },
+        {
+          "place": "5-8th"
+        },
+        {
+          "place": "5-8th"
+        },
+        {
+          "place": "5-8th"
+        },
+        {
+          "place": "5-8th"
+        },
+        {
+          "place": "9th"
+        },
+        {
+          "place": "10th"
+        },
+        {
+          "place": "11th"
+        },
+        {
+          "place": "12th"
+        },
+        {
+          "place": "13th"
+        },
+        {
+          "place": "14th"
+        },
+        {
+          "place": "15th"
+        },
+        {
+          "place": "16th"
+        },
+        {
+          "place": "17th"
+        },
+        {
+          "place": "18th"
+        }
+      ]
+    },
+    {
+      "hltvId": 4932,
+      "name": "StarSeries i-League Season 8",
+      "dateStart": 1571652000000,
+      "dateEnd": 1572170400000,
+      "location": "Turkey",
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "$250,000"
+        },
+        {
+          "place": "2nd",
+          "prize": "$80,000"
+        },
+        {
+          "place": "3rd",
+          "prize": "$40,000"
+        },
+        {
+          "place": "4th",
+          "prize": "$25,000"
+        },
+        {
+          "place": "5-6th",
+          "prize": "$15,000"
+        },
+        {
+          "place": "5-6th",
+          "prize": "$15,000"
+        },
+        {
+          "place": "7-8th",
+          "prize": "$12,500"
+        },
+        {
+          "place": "7-8th",
+          "prize": "$12,500"
+        },
+        {
+          "place": "9-12th",
+          "teamId": 7175,
+          "prize": "$7,500"
+        },
+        {
+          "place": "9-12th",
+          "teamId": 7533,
+          "prize": "$7,500"
+        },
+        {
+          "place": "9-12th",
+          "teamId": 8120,
+          "prize": "$7,500"
+        },
+        {
+          "place": "9-12th",
+          "teamId": 4494,
+          "prize": "$7,500"
+        },
+        {
+          "place": "13-16th",
+          "teamId": 9455,
+          "prize": "$5,000"
+        },
+        {
+          "place": "13-16th",
+          "teamId": 7092,
+          "prize": "$5,000"
+        },
+        {
+          "place": "13-16th",
+          "teamId": 7966,
+          "prize": "$5,000"
+        },
+        {
+          "place": "13-16th",
+          "teamId": 4608,
+          "prize": "$5,000"
+        }
+      ]
+    },
+    {
+      "hltvId": 4492,
+      "name": "SECTOR: MOSTBET",
+      "dateStart": 1569405600000,
+      "dateEnd": 1572433200000,
+      "location": "Europe",
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "$30,000"
+        },
+        {
+          "place": "2nd",
+          "prize": "$12,000"
+        },
+        {
+          "place": "3rd",
+          "prize": "$5,000"
+        },
+        {
+          "place": "4th",
+          "prize": "$3,000"
+        },
+        {
+          "place": "5-6th"
+        },
+        {
+          "place": "5-6th"
+        },
+        {
+          "place": "7-8th"
+        },
+        {
+          "place": "7-8th"
+        },
+        {
+          "place": "9-12th"
+        },
+        {
+          "place": "9-12th"
+        },
+        {
+          "place": "9-12th"
+        },
+        {
+          "place": "9-12th"
+        },
+        {
+          "place": "13-16th"
+        },
+        {
+          "place": "13-16th",
+          "teamId": 9287
+        },
+        {
+          "place": "13-16th",
+          "teamId": 4602
+        },
+        {
+          "place": "13-16th",
+          "teamId": 8346
+        }
+      ]
+    },
+    {
+      "hltvId": 4738,
+      "name": "ESEA MDL Season 32 Australia",
+      "dateStart": 1568023200000,
+      "dateEnd": 1576407600000,
+      "location": "Australia",
+      "placements": [
+        {
+          "place": "1st"
+        },
+        {
+          "place": "2nd",
+          "prize": "$2,500"
+        },
+        {
+          "place": "3rd",
+          "prize": "$1,000"
+        },
+        {
+          "place": "4th",
+          "prize": "$1,000"
+        },
+        {
+          "place": "5-6th"
+        },
+        {
+          "place": "5-6th"
+        },
+        {
+          "place": "7-8th"
+        },
+        {
+          "place": "7-8th"
+        },
+        {
+          "place": "9th"
+        },
+        {
+          "place": "10th"
+        },
+        {
+          "place": "11th"
+        },
+        {
+          "place": "12th"
+        },
+        {
+          "place": "13th"
+        },
+        {
+          "place": "14th"
+        },
+        {
+          "place": "15th"
+        },
+        {
+          "place": "16th"
+        },
+        {
+          "place": "17th"
+        },
+        {
+          "place": "18th",
+          "teamId": 10244
+        }
+      ]
+    },
+    {
+      "hltvId": 4951,
+      "name": "SEA Summit 2019",
+      "dateStart": 1571652000000,
+      "dateEnd": 1571997600000,
+      "location": "Vietnam",
+      "placements": [
+        {
+          "place": "1st",
+          "teamId": 8607,
+          "prize": "$10,000"
+        },
+        {
+          "place": "2nd",
+          "teamId": 10115,
+          "prize": "$5,000"
+        },
+        {
+          "place": "3rd",
+          "teamId": 10051,
+          "prize": "$3,000"
+        },
+        {
+          "place": "4th",
+          "teamId": 10373,
+          "prize": "$2,000"
+        },
+        {
+          "place": "5-6th",
+          "teamId": 7480
+        },
+        {
+          "place": "5-6th",
+          "teamId": 9100
+        },
+        {
+          "place": "7-8th",
+          "teamId": 10338
+        },
+        {
+          "place": "7-8th",
+          "teamId": 9906
+        }
+      ]
+    },
+    {
+      "hltvId": 4737,
+      "name": "ESEA MDL Season 32 North America",
+      "dateStart": 1567418400000,
+      "dateEnd": 1576407600000,
+      "location": "North America",
+      "placements": [
+        {
+          "place": "1st"
+        },
+        {
+          "place": "2nd"
+        },
+        {
+          "place": "3rd"
+        },
+        {
+          "place": "4th"
+        },
+        {
+          "place": "5-8th"
+        },
+        {
+          "place": "5-8th"
+        },
+        {
+          "place": "5-8th"
+        },
+        {
+          "place": "5-8th"
+        },
+        {
+          "place": "9th"
+        },
+        {
+          "place": "10th"
+        },
+        {
+          "place": "11th"
+        },
+        {
+          "place": "12th"
+        },
+        {
+          "place": "13th"
+        },
+        {
+          "place": "14th"
+        },
+        {
+          "place": "15th"
+        },
+        {
+          "place": "16th"
+        },
+        {
+          "place": "17th"
+        },
+        {
+          "place": "18th"
+        }
+      ]
+    },
+    {
+      "hltvId": 4920,
+      "name": "ECS Season 8 North America Week 4",
+      "dateStart": 1571652000000,
+      "dateEnd": 1571911200000,
+      "location": "North America",
+      "placements": [
+        {
+          "place": "1st",
+          "prize": "$12,500"
+        },
+        {
+          "place": "2nd",
+          "prize": "$7,500"
+        },
+        {
+          "place": "3-4th",
+          "teamId": 5005,
+          "prize": "$2,500"
+        },
+        {
+          "place": "3-4th",
+          "teamId": 6619,
+          "prize": "$2,500"
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10423
+        },
+        {
+          "place": "5-8th",
+          "teamId": 5752
+        },
+        {
+          "place": "5-8th",
+          "teamId": 7106
+        },
+        {
+          "place": "5-8th",
+          "teamId": 10164
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "hltvId": 7865,
+      "name": "HAVU",
+      "logo": "https://static.hltv.org/images/team/logo/7865",
+      "active": true
+    },
+    {
+      "hltvId": 9976,
+      "name": "Gambit Youngsters",
+      "logo": "https://static.hltv.org/images/team/logo/9976",
+      "active": true
+    },
+    {
+      "hltvId": 10420,
+      "name": "Phoenix",
+      "logo": "https://static.hltv.org/images/team/logo/10420",
+      "active": true
+    },
+    {
+      "hltvId": 10386,
+      "name": "SKADE",
+      "logo": "https://static.hltv.org/images/team/logo/10386",
+      "active": true
+    },
+    {
+      "hltvId": 7718,
+      "name": "Movistar Riders",
+      "logo": "https://static.hltv.org/images/team/logo/7718",
+      "active": true
+    },
+    {
+      "hltvId": 7461,
+      "name": "Copenhagen Flames",
+      "logo": "https://static.hltv.org/images/team/logo/7461",
+      "active": true
+    },
+    {
+      "hltvId": 8346,
+      "name": "Heretics",
+      "logo": "https://static.hltv.org/images/team/logo/8346",
+      "active": true
+    },
+    {
+      "hltvId": 4468,
+      "name": "x6tence",
+      "logo": "https://static.hltv.org/images/team/logo/4468",
+      "active": true
+    },
+    {
+      "hltvId": 6665,
+      "name": "Astralis",
+      "logo": "https://static.hltv.org/images/team/logo/6665",
+      "active": true
+    },
+    {
+      "hltvId": 4602,
+      "name": "Tricked",
+      "logo": "https://static.hltv.org/images/team/logo/4602",
+      "active": true
+    },
+    {
+      "hltvId": 7533,
+      "name": "North",
+      "logo": "https://static.hltv.org/images/team/logo/7533",
+      "active": true
+    },
+    {
+      "hltvId": 6667,
+      "name": "FaZe",
+      "logo": "https://static.hltv.org/images/team/logo/6667",
+      "active": true
+    },
+    {
+      "hltvId": 5378,
+      "name": "Virtus.pro",
+      "logo": "https://static.hltv.org/images/team/logo/5378",
+      "active": true
+    },
+    {
+      "hltvId": 7532,
+      "name": "BIG",
+      "logo": "https://static.hltv.org/images/team/logo/7532",
+      "active": true
+    },
+    {
+      "hltvId": 7376,
+      "name": "m1x",
+      "logo": "https://static.hltv.org/images/team/logo/7376",
+      "active": true
+    },
+    {
+      "hltvId": 9863,
+      "name": "FATE",
+      "logo": "https://static.hltv.org/images/team/logo/9863",
+      "active": true
+    },
+    {
+      "hltvId": 9939,
+      "name": "Salamander",
+      "logo": "https://static.hltv.org/images/team/logo/9939",
+      "active": true
+    },
+    {
+      "hltvId": 9496,
+      "name": "Dawn of Stars",
+      "logo": "https://static.hltv.org/images/team/logo/9496",
+      "active": true
+    },
+    {
+      "hltvId": 7187,
+      "name": "Nexus",
+      "logo": "https://static.hltv.org/images/team/logo/7187",
+      "active": true
+    },
+    {
+      "hltvId": 10150,
+      "name": "CR4ZY",
+      "logo": "https://static.hltv.org/images/team/logo/10150",
+      "active": true
+    },
+    {
+      "hltvId": 8120,
+      "name": "AVANGAR",
+      "logo": "https://static.hltv.org/images/team/logo/8120",
+      "active": true
+    },
+    {
+      "hltvId": 8135,
+      "name": "forZe",
+      "logo": "https://static.hltv.org/images/team/logo/8135",
+      "active": true
+    },
+    {
+      "hltvId": 9928,
+      "name": "GamerLegion",
+      "logo": "https://static.hltv.org/images/team/logo/9928",
+      "active": true
+    },
+    {
+      "hltvId": 7020,
+      "name": "Spirit",
+      "logo": "https://static.hltv.org/images/team/logo/7020",
+      "active": true
+    },
+    {
+      "hltvId": 8813,
+      "name": "Illuminar",
+      "logo": "https://static.hltv.org/images/team/logo/8813",
+      "active": true
+    },
+    {
+      "hltvId": 7969,
+      "name": "Nemiga",
+      "logo": "https://static.hltv.org/images/team/logo/7969",
+      "active": true
+    },
+    {
+      "hltvId": 7898,
+      "name": "pro100",
+      "logo": "https://static.hltv.org/images/team/logo/7898",
+      "active": true
+    },
+    {
+      "hltvId": 8248,
+      "name": "PACT",
+      "logo": "https://static.hltv.org/images/team/logo/8248",
+      "active": true
+    },
+    {
+      "hltvId": 8698,
+      "name": "Demise",
+      "logo": "https://static.hltv.org/images/team/logo/8698",
+      "active": true
+    },
+    {
+      "hltvId": 8068,
+      "name": "AGO",
+      "logo": "https://static.hltv.org/images/team/logo/8068",
+      "active": true
+    },
+    {
+      "hltvId": 7144,
+      "name": "Japaleno",
+      "logo": "https://static.hltv.org/images/team/logo/7144",
+      "active": true
+    },
+    {
+      "hltvId": 10399,
+      "name": "Evil Geniuses",
+      "logo": "https://static.hltv.org/images/team/logo/10399",
+      "active": true
+    },
+    {
+      "hltvId": 4991,
+      "name": "fnatic",
+      "logo": "https://static.hltv.org/images/team/logo/4991",
+      "active": true
+    },
+    {
+      "hltvId": 9565,
+      "name": "Vitality",
+      "logo": "https://static.hltv.org/images/team/logo/9565",
+      "active": true
+    },
+    {
+      "hltvId": 4494,
+      "name": "mousesports",
+      "logo": "https://static.hltv.org/images/team/logo/4494",
+      "active": true
+    },
+    {
+      "hltvId": 4608,
+      "name": "Natus Vincere",
+      "logo": "https://static.hltv.org/images/team/logo/4608",
+      "active": true
+    },
+    {
+      "hltvId": 6211,
+      "name": "Renegades",
+      "logo": "https://static.hltv.org/images/team/logo/6211",
+      "active": true
+    },
+    {
+      "hltvId": 4411,
+      "name": "NiP",
+      "logo": "https://static.hltv.org/images/team/logo/4411",
+      "active": true
+    },
+    {
+      "hltvId": 8297,
+      "name": "FURIA",
+      "logo": "https://static.hltv.org/images/team/logo/8297",
+      "active": true
+    },
+    {
+      "hltvId": 9215,
+      "name": "MIBR",
+      "logo": "https://static.hltv.org/images/team/logo/9215",
+      "active": true
+    },
+    {
+      "hltvId": 5995,
+      "name": "G2",
+      "logo": "https://static.hltv.org/images/team/logo/5995",
+      "active": true
+    },
+    {
+      "hltvId": 7175,
+      "name": "Heroic",
+      "logo": "https://static.hltv.org/images/team/logo/7175",
+      "active": true
+    },
+    {
+      "hltvId": 7966,
+      "name": "Invictus",
+      "logo": "https://static.hltv.org/images/team/logo/7966",
+      "active": true
+    },
+    {
+      "hltvId": 9455,
+      "name": "Imperial",
+      "logo": "https://static.hltv.org/images/team/logo/9455",
+      "active": true
+    },
+    {
+      "hltvId": 7092,
+      "name": "5POWER",
+      "logo": "https://static.hltv.org/images/team/logo/7092",
+      "active": true
+    },
+    {
+      "hltvId": 10020,
+      "name": "Aristocracy",
+      "logo": "https://static.hltv.org/images/team/logo/10020",
+      "active": true
+    },
+    {
+      "hltvId": 8772,
+      "name": "Syman",
+      "logo": "https://static.hltv.org/images/team/logo/8772",
+      "active": true
+    },
+    {
+      "hltvId": 8513,
+      "name": "Windigo",
+      "logo": "https://static.hltv.org/images/team/logo/8513",
+      "active": true
+    },
+    {
+      "hltvId": 10315,
+      "name": "SMASH",
+      "logo": "https://static.hltv.org/images/team/logo/10315",
+      "active": true
+    },
+    {
+      "hltvId": 8669,
+      "name": "Espada",
+      "logo": "https://static.hltv.org/images/team/logo/8669",
+      "active": true
+    },
+    {
+      "hltvId": 9287,
+      "name": "Unique",
+      "logo": "https://static.hltv.org/images/team/logo/9287",
+      "active": true
+    },
+    {
+      "hltvId": 5310,
+      "name": "HellRaisers",
+      "logo": "https://static.hltv.org/images/team/logo/5310",
+      "active": true
+    },
+    {
+      "hltvId": 10371,
+      "name": "Natus Vincere Junior",
+      "logo": "https://static.hltv.org/images/team/logo/10371",
+      "active": true
+    },
+    {
+      "hltvId": 9183,
+      "name": "Winstrike",
+      "logo": "https://static.hltv.org/images/team/logo/9183",
+      "active": true
+    },
+    {
+      "hltvId": 8008,
+      "name": "Grayhound",
+      "logo": "https://static.hltv.org/images/team/logo/8008",
+      "active": true
+    },
+    {
+      "hltvId": 6010,
+      "name": "Chiefs",
+      "logo": "https://static.hltv.org/images/team/logo/6010",
+      "active": true
+    },
+    {
+      "hltvId": 8668,
+      "name": "ORDER",
+      "logo": "https://static.hltv.org/images/team/logo/8668",
+      "active": true
+    },
+    {
+      "hltvId": 5607,
+      "name": "SYF",
+      "logo": "https://static.hltv.org/images/team/logo/5607",
+      "active": true
+    },
+    {
+      "hltvId": 9275,
+      "name": "madlikewizards",
+      "logo": "https://static.hltv.org/images/team/logo/9275",
+      "active": true
+    },
+    {
+      "hltvId": 9747,
+      "name": "Genuine",
+      "logo": "https://static.hltv.org/images/team/logo/9747",
+      "active": true
+    },
+    {
+      "hltvId": 10205,
+      "name": "Bizarre",
+      "logo": "https://static.hltv.org/images/team/logo/10205",
+      "active": true
+    },
+    {
+      "hltvId": 7983,
+      "name": "Paradox",
+      "logo": "https://static.hltv.org/images/team/logo/7983",
+      "active": true
+    },
+    {
+      "hltvId": 8536,
+      "name": "Ground Zero",
+      "logo": "https://static.hltv.org/images/team/logo/8536",
+      "active": true
+    },
+    {
+      "hltvId": 9870,
+      "name": "Jade",
+      "logo": "https://static.hltv.org/images/team/logo/9870",
+      "active": true
+    },
+    {
+      "hltvId": 10244,
+      "name": "ex-MC",
+      "logo": "https://static.hltv.org/images/team/logo/10244",
+      "active": true
+    },
+    {
+      "hltvId": 9750,
+      "name": "PC419",
+      "logo": "https://static.hltv.org/images/team/logo/9750",
+      "active": true
+    },
+    {
+      "hltvId": 8738,
+      "name": "MC",
+      "logo": "https://static.hltv.org/images/team/logo/8738",
+      "active": true
+    },
+    {
+      "hltvId": 10325,
+      "name": "Dippers",
+      "logo": "https://static.hltv.org/images/team/logo/10325",
+      "active": true
+    },
+    {
+      "hltvId": 10375,
+      "name": "Buckets",
+      "logo": "https://static.hltv.org/images/team/logo/10375",
+      "active": true
+    },
+    {
+      "hltvId": 10339,
+      "name": "ZOOWEEMAMA",
+      "logo": "https://static.hltv.org/images/team/logo/10339",
+      "active": true
+    },
+    {
+      "hltvId": 10220,
+      "name": "catman",
+      "logo": "https://static.hltv.org/images/team/logo/10220",
+      "active": true
+    },
+    {
+      "hltvId": 10299,
+      "name": "FURY",
+      "logo": "https://static.hltv.org/images/team/logo/10299",
+      "active": true
+    },
+    {
+      "hltvId": 10115,
+      "name": "SHIFT",
+      "logo": "https://static.hltv.org/images/team/logo/10115",
+      "active": true
+    },
+    {
+      "hltvId": 10051,
+      "name": "Mazaalai",
+      "logo": "https://static.hltv.org/images/team/logo/10051",
+      "active": true
+    },
+    {
+      "hltvId": 8607,
+      "name": "D13",
+      "logo": "https://static.hltv.org/images/team/logo/8607",
+      "active": true
+    },
+    {
+      "hltvId": 9100,
+      "name": "2990",
+      "logo": "https://static.hltv.org/images/team/logo/9100",
+      "active": true
+    },
+    {
+      "hltvId": 9906,
+      "name": "8EASY",
+      "logo": "https://static.hltv.org/images/team/logo/9906",
+      "active": true
+    },
+    {
+      "hltvId": 10338,
+      "name": "DivisionX",
+      "logo": "https://static.hltv.org/images/team/logo/10338",
+      "active": true
+    },
+    {
+      "hltvId": 10373,
+      "name": "SBC",
+      "logo": "https://static.hltv.org/images/team/logo/10373",
+      "active": true
+    },
+    {
+      "hltvId": 7480,
+      "name": "rTE",
+      "logo": "https://static.hltv.org/images/team/logo/7480",
+      "active": true
+    },
+    {
+      "hltvId": 6619,
+      "name": "INTZ",
+      "logo": "https://static.hltv.org/images/team/logo/6619",
+      "active": true
+    },
+    {
+      "hltvId": 10164,
+      "name": "Riot Squad",
+      "logo": "https://static.hltv.org/images/team/logo/10164",
+      "active": true
+    },
+    {
+      "hltvId": 6947,
+      "name": "TeamOne",
+      "logo": "https://static.hltv.org/images/team/logo/6947",
+      "active": true
+    },
+    {
+      "hltvId": 10092,
+      "name": "Peeker's Advantage",
+      "logo": "https://static.hltv.org/images/team/logo/10092",
+      "active": true
+    },
+    {
+      "hltvId": 9229,
+      "name": "Big Frames",
+      "logo": "https://static.hltv.org/images/team/logo/9229",
+      "active": true
+    },
+    {
+      "hltvId": 9392,
+      "name": "LiviD",
+      "logo": "https://static.hltv.org/images/team/logo/9392",
+      "active": true
+    },
+    {
+      "hltvId": 9785,
+      "name": "The Quest",
+      "logo": "https://static.hltv.org/images/team/logo/9785",
+      "active": true
+    },
+    {
+      "hltvId": 10261,
+      "name": "Rap Gang",
+      "logo": "https://static.hltv.org/images/team/logo/10261",
+      "active": true
+    },
+    {
+      "hltvId": 10302,
+      "name": "Divine",
+      "logo": "https://static.hltv.org/images/team/logo/10302",
+      "active": true
+    },
+    {
+      "hltvId": 10146,
+      "name": "Just Swing",
+      "logo": "https://static.hltv.org/images/team/logo/10146",
+      "active": true
+    },
+    {
+      "hltvId": 7885,
+      "name": "Bushido Boyz",
+      "logo": "https://static.hltv.org/images/team/logo/7885",
+      "active": true
+    },
+    {
+      "hltvId": 7841,
+      "name": "Monstars",
+      "logo": "https://static.hltv.org/images/team/logo/7841",
+      "active": true
+    },
+    {
+      "hltvId": 7612,
+      "name": "Ben's Anime Team",
+      "logo": "https://static.hltv.org/images/team/logo/7612",
+      "active": true
+    },
+    {
+      "hltvId": 5479,
+      "name": "Mythic",
+      "logo": "https://static.hltv.org/images/team/logo/5479",
+      "active": true
+    },
+    {
+      "hltvId": 10059,
+      "name": "Ascent",
+      "logo": "https://static.hltv.org/images/team/logo/10059",
+      "active": true
+    },
+    {
+      "hltvId": 10392,
+      "name": "MAC-51",
+      "logo": "https://static.hltv.org/images/team/logo/10392",
+      "active": true
+    },
+    {
+      "hltvId": 5973,
+      "name": "Liquid",
+      "logo": "https://static.hltv.org/images/team/logo/5973",
+      "active": true
+    },
+    {
+      "hltvId": 5005,
+      "name": "Complexity",
+      "logo": "https://static.hltv.org/images/team/logo/5005",
+      "active": true
+    },
+    {
+      "hltvId": 9943,
+      "name": "ATK",
+      "logo": "https://static.hltv.org/images/team/logo/9943",
+      "active": true
+    },
+    {
+      "hltvId": 5752,
+      "name": "Cloud9",
+      "logo": "https://static.hltv.org/images/team/logo/5752",
+      "active": true
+    },
+    {
+      "hltvId": 7106,
+      "name": "eUnited",
+      "logo": "https://static.hltv.org/images/team/logo/7106",
+      "active": true
+    },
+    {
+      "hltvId": 10423,
+      "name": "ex-Singularity",
+      "logo": "https://static.hltv.org/images/team/logo/10423",
+      "active": true
+    }
+  ],
+  "players": [
+    {
+      "hltvId": 7821,
+      "name": "Eetu Saha",
+      "nickname": "sAw",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/7821/400.jpeg?v=4",
+      "nationality": "Finland",
+      "active": true,
+      "teamId": 7865
+    },
+    {
+      "hltvId": 8576,
+      "name": "Lasse Uronen",
+      "nickname": "ZOREE",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8576.png",
+      "nationality": "Finland",
+      "active": true,
+      "teamId": 7865
+    },
+    {
+      "hltvId": 9271,
+      "name": "Olli Pitkänen",
+      "nickname": "sLowi",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9271.png",
+      "nationality": "Finland",
+      "active": true,
+      "teamId": 7865
+    },
+    {
+      "hltvId": 9819,
+      "name": "Joonas Forss",
+      "nickname": "doto",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9819.png",
+      "nationality": "Finland",
+      "active": true,
+      "teamId": 7865
+    },
+    {
+      "hltvId": 13396,
+      "name": "Aaro Peltokangas",
+      "nickname": "hoody",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13396.png",
+      "nationality": "Finland",
+      "active": true,
+      "teamId": 7865
+    },
+    {
+      "hltvId": 15071,
+      "name": "Timofey Yakushin",
+      "nickname": "interz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15071.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9976
+    },
+    {
+      "hltvId": 16415,
+      "name": "Anton Tšernobai",
+      "nickname": "supra",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16415.png",
+      "nationality": "Estonia",
+      "active": true,
+      "teamId": 9976
+    },
+    {
+      "hltvId": 16555,
+      "name": "Sergey Rykhtorov",
+      "nickname": "Ax1Le",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16555.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9976
+    },
+    {
+      "hltvId": 16920,
+      "name": "Dmitry Sokolov",
+      "nickname": "sh1ro",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16920.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9976
+    },
+    {
+      "hltvId": 16921,
+      "name": "Vladislav Gorshkov",
+      "nickname": "nafany",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16921.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9976
+    },
+    {
+      "hltvId": 7996,
+      "name": "Joey Steusel",
+      "nickname": "CRUC1AL",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/7996/400.jpeg?v=4",
+      "nationality": "Netherlands",
+      "active": true,
+      "teamId": 10420
+    },
+    {
+      "hltvId": 9019,
+      "name": "Kia Man",
+      "nickname": "Surreal",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9019/400.jpeg?v=4",
+      "nationality": "United Kingdom",
+      "active": true,
+      "teamId": 10420
+    },
+    {
+      "hltvId": 13018,
+      "name": "Thomas Utting",
+      "nickname": "Thomas",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13018.png",
+      "nationality": "United Kingdom",
+      "active": true,
+      "teamId": 10420
+    },
+    {
+      "hltvId": 17147,
+      "name": "Flatron Halimi",
+      "nickname": "juanflatroo",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/17147.png",
+      "nationality": "Albania",
+      "active": true,
+      "teamId": 10420
+    },
+    {
+      "hltvId": 10762,
+      "name": "Ivan Stratiev",
+      "nickname": "Rock1nG",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10762.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 10386
+    },
+    {
+      "hltvId": 13466,
+      "name": "Denislav Dimitrov",
+      "nickname": "dennyslaw",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13466.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 10386
+    },
+    {
+      "hltvId": 13992,
+      "name": "Krasen Minchev",
+      "nickname": "Zix",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13992.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 10386
+    },
+    {
+      "hltvId": 16412,
+      "name": "Kostadin Turbinov",
+      "nickname": "rafftu",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16412.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 10386
+    },
+    {
+      "hltvId": 17145,
+      "name": "Alex Petrov",
+      "nickname": "Rainwaker",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/17145.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 10386
+    },
+    {
+      "hltvId": 3997,
+      "name": "Christian Garcia Antoran",
+      "nickname": "loWel",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/3997.png",
+      "nationality": "Spain",
+      "active": true,
+      "teamId": 7718
+    },
+    {
+      "hltvId": 4373,
+      "name": "Rajohn Linato",
+      "nickname": "EasTor",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/4373.png",
+      "nationality": "Spain",
+      "active": true,
+      "teamId": 7718
+    },
+    {
+      "hltvId": 7382,
+      "name": "Lucas Lopes",
+      "nickname": "steel",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7382.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 7718
+    },
+    {
+      "hltvId": 8371,
+      "name": "Alejandro Masanet",
+      "nickname": "ALEX",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8371.png",
+      "nationality": "Spain",
+      "active": true,
+      "teamId": 7718
+    },
+    {
+      "hltvId": 9254,
+      "name": "Alejandro Fernández-Quejo Cano",
+      "nickname": "mopoz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9254.png",
+      "nationality": "Spain",
+      "active": true,
+      "teamId": 7718
+    },
+    {
+      "hltvId": 12018,
+      "name": "Rene Madsen",
+      "nickname": "TeSeS",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12018/400.jpeg?v=1",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7461
+    },
+    {
+      "hltvId": 8151,
+      "name": "Asger Larsen",
+      "nickname": "AcilioN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8151.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7461
+    },
+    {
+      "hltvId": 8891,
+      "name": "Magnus Olsen",
+      "nickname": "Nodios",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8891.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7461
+    },
+    {
+      "hltvId": 11995,
+      "name": "Thomas Bundsbæk",
+      "nickname": "TMB",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11995.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7461
+    },
+    {
+      "hltvId": 13300,
+      "name": "Asger Jensen",
+      "nickname": "Farlig",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13300.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7461
+    },
+    {
+      "hltvId": 4959,
+      "name": "Fabien Fiey",
+      "nickname": "kioShiMa",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/4959.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 8346
+    },
+    {
+      "hltvId": 8138,
+      "name": "David Prins",
+      "nickname": "Davidp",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8138.png",
+      "nationality": "Belgium",
+      "active": true,
+      "teamId": 8346
+    },
+    {
+      "hltvId": 10569,
+      "name": "David Dobrosavljevic",
+      "nickname": "devoduvek",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10569.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 8346
+    },
+    {
+      "hltvId": 13138,
+      "name": "Bryan Canda",
+      "nickname": "Maka",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13138.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 8346
+    },
+    {
+      "hltvId": 13497,
+      "name": "Lucas Chastang",
+      "nickname": "Lucky",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13497.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 8346
+    },
+    {
+      "hltvId": 10499,
+      "name": "Jonathan Muñoz",
+      "nickname": "JonY BoY",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/10499/400.jpeg?v=6",
+      "nationality": "Argentina",
+      "active": true,
+      "teamId": 4468
+    },
+    {
+      "hltvId": 10504,
+      "name": "Nicolas Miozzi",
+      "nickname": "NikoM",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/10504/400.jpeg?v=2",
+      "nationality": "Argentina",
+      "active": true,
+      "teamId": 4468
+    },
+    {
+      "hltvId": 10506,
+      "name": "Matias Canale",
+      "nickname": "tutehen",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/10506/400.jpeg?v=5",
+      "nationality": "Argentina",
+      "active": true,
+      "teamId": 4468
+    },
+    {
+      "hltvId": 11595,
+      "name": "Tomás Guardia",
+      "nickname": "tomi",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11595/400.jpeg?v=2",
+      "nationality": "Argentina",
+      "active": true,
+      "teamId": 4468
+    },
+    {
+      "hltvId": 17619,
+      "name": "Morís Marquez-Cid",
+      "nickname": "OMG",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/17619/400.jpeg?v=1",
+      "nationality": "Spain",
+      "active": true,
+      "teamId": 4468
+    },
+    {
+      "hltvId": 4954,
+      "name": "Andreas Højsleth",
+      "nickname": "Xyp9x",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/4954.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 6665
+    },
+    {
+      "hltvId": 7398,
+      "name": "Peter Rasmussen",
+      "nickname": "dupreeh",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7398.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 6665
+    },
+    {
+      "hltvId": 7412,
+      "name": "Lukas Rossander",
+      "nickname": "gla1ve",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7412.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 6665
+    },
+    {
+      "hltvId": 7592,
+      "name": "Nicolai Reedtz",
+      "nickname": "device",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7592.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 6665
+    },
+    {
+      "hltvId": 9032,
+      "name": "Emil Reif",
+      "nickname": "Magisk",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9032.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 6665
+    },
+    {
+      "hltvId": 7415,
+      "name": "Nicolai Petersen",
+      "nickname": "HUNDEN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7415.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 4602
+    },
+    {
+      "hltvId": 9612,
+      "name": "Lucas Andersen",
+      "nickname": "Bubzkji",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9612.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 4602
+    },
+    {
+      "hltvId": 10330,
+      "name": "Frederik Gyldstrand",
+      "nickname": "acoR",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10330.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 4602
+    },
+    {
+      "hltvId": 14148,
+      "name": "Rasmus Beck",
+      "nickname": "sjuush",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/14148.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 4602
+    },
+    {
+      "hltvId": 14419,
+      "name": "Fredrik Jørgensen",
+      "nickname": "roeJ",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/14419.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 4602
+    },
+    {
+      "hltvId": 2469,
+      "name": "René Borg",
+      "nickname": "cajunb",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2469.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7533
+    },
+    {
+      "hltvId": 8095,
+      "name": "Philip Aistrup",
+      "nickname": "aizy",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8095.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7533
+    },
+    {
+      "hltvId": 8394,
+      "name": "Markus Kjærbye",
+      "nickname": "Kjaerbye",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8394.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7533
+    },
+    {
+      "hltvId": 8783,
+      "name": "Jakob Hansen",
+      "nickname": "JUGi",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8783.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7533
+    },
+    {
+      "hltvId": 8875,
+      "name": "Nicklas Gade",
+      "nickname": "gade",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8875.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7533
+    },
+    {
+      "hltvId": 18053,
+      "name": "Helvijs Saukants",
+      "nickname": "broky",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/18053/400.jpeg?v=2",
+      "nationality": "Latvia",
+      "active": true,
+      "teamId": 6667
+    },
+    {
+      "hltvId": 885,
+      "name": "Olof Kajbjer",
+      "nickname": "olofmeister",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/885.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 6667
+    },
+    {
+      "hltvId": 3741,
+      "name": "Nikola Kovač",
+      "nickname": "NiKo",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/3741.png",
+      "nationality": "Bosnia and Herzegovina",
+      "active": true,
+      "teamId": 6667
+    },
+    {
+      "hltvId": 8183,
+      "name": "Håvard Nygaard",
+      "nickname": "rain",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8183.png",
+      "nationality": "Norway",
+      "active": true,
+      "teamId": 6667
+    },
+    {
+      "hltvId": 9216,
+      "name": "Marcelo David",
+      "nickname": "coldzera",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9216.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6667
+    },
+    {
+      "hltvId": 2553,
+      "name": "Janusz Pogorzelski",
+      "nickname": "Snax",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2553.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 5378
+    },
+    {
+      "hltvId": 7356,
+      "name": "Michał Müller",
+      "nickname": "MICHU",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7356.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 5378
+    },
+    {
+      "hltvId": 9574,
+      "name": "Michał Rudzki",
+      "nickname": "snatchie",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9574.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 5378
+    },
+    {
+      "hltvId": 11891,
+      "name": "Tomasz Wójcik",
+      "nickname": "phr",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11891.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 5378
+    },
+    {
+      "hltvId": 15204,
+      "name": "Arek Nawojski",
+      "nickname": "Vegi",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15204.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 5378
+    },
+    {
+      "hltvId": 5794,
+      "name": "Johannes Wodarz",
+      "nickname": "tabseN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/5794.png",
+      "nationality": "Germany",
+      "active": true,
+      "teamId": 7532
+    },
+    {
+      "hltvId": 5796,
+      "name": "Tizian Feldbusch",
+      "nickname": "tiziaN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/5796.png",
+      "nationality": "Germany",
+      "active": true,
+      "teamId": 7532
+    },
+    {
+      "hltvId": 7256,
+      "name": "Johannes Maget",
+      "nickname": "nex",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7256.png",
+      "nationality": "Germany",
+      "active": true,
+      "teamId": 7532
+    },
+    {
+      "hltvId": 7938,
+      "name": "Ismailcan Dörtkardeş",
+      "nickname": "XANTARES",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7938.png",
+      "nationality": "Turkey",
+      "active": true,
+      "teamId": 7532
+    },
+    {
+      "hltvId": 11271,
+      "name": "Owen Butterfield",
+      "nickname": "smooya",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11271.png",
+      "nationality": "United Kingdom",
+      "active": true,
+      "teamId": 7532
+    },
+    {
+      "hltvId": 14007,
+      "name": "Filip Tudev",
+      "nickname": "tudsoN",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14007/400.jpeg?v=1",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 7376
+    },
+    {
+      "hltvId": 11815,
+      "name": "Guy Trachtman",
+      "nickname": "anarkez",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11815.png",
+      "nationality": "Israel",
+      "active": true,
+      "teamId": 7376
+    },
+    {
+      "hltvId": 18120,
+      "name": "Dionis Budeci",
+      "nickname": "sinnopsyy",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/18120.png",
+      "nationality": "Albania",
+      "active": true,
+      "teamId": 7376
+    },
+    {
+      "hltvId": 13464,
+      "name": "Martin Kuyumdjiev",
+      "nickname": "mar",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13464.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 9863
+    },
+    {
+      "hltvId": 15384,
+      "name": "Veselin Angelov",
+      "nickname": "doublemagic",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15384.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 9863
+    },
+    {
+      "hltvId": 15385,
+      "name": "Kalin Erenditsov",
+      "nickname": "KalubeR",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15385.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 9863
+    },
+    {
+      "hltvId": 16410,
+      "name": "Viktor Mitev",
+      "nickname": "Duplicate",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16410.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 9863
+    },
+    {
+      "hltvId": 5440,
+      "name": "Viktor Tamás Bea",
+      "nickname": "flash",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/5440/400.jpeg?v=5",
+      "nationality": "Hungary",
+      "active": true,
+      "teamId": 9939
+    },
+    {
+      "hltvId": 8733,
+      "name": "Patrik Boda",
+      "nickname": "bodito",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/8733/400.jpeg?v=4",
+      "nationality": "Hungary",
+      "active": true,
+      "teamId": 9939
+    },
+    {
+      "hltvId": 8935,
+      "name": "Renátó Bárányos",
+      "nickname": "bzt",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/8935/400.jpeg?v=3",
+      "nationality": "Hungary",
+      "active": true,
+      "teamId": 9939
+    },
+    {
+      "hltvId": 13317,
+      "name": "Áron Homoki",
+      "nickname": "Aaron",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13317/400.jpeg?v=3",
+      "nationality": "Hungary",
+      "active": true,
+      "teamId": 9939
+    },
+    {
+      "hltvId": 14202,
+      "name": "András Fercsák",
+      "nickname": "coolio",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14202/400.jpeg?v=1",
+      "nationality": "Hungary",
+      "active": true,
+      "teamId": 9939
+    },
+    {
+      "hltvId": 12776,
+      "name": "Alexandos Kougkoulis",
+      "nickname": "NuggeT",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12776/400.jpeg?v=1",
+      "nationality": "Greece",
+      "active": true,
+      "teamId": 9496
+    },
+    {
+      "hltvId": 1206,
+      "name": "Catalin-Ionut Stanescu",
+      "nickname": "BTN",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/1206/400.jpeg?v=4",
+      "nationality": "Romania",
+      "active": true,
+      "teamId": 7187
+    },
+    {
+      "hltvId": 9626,
+      "name": "Adrian Guta",
+      "nickname": "XELLOW",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9626/400.jpeg?v=6",
+      "nationality": "Romania",
+      "active": true,
+      "teamId": 7187
+    },
+    {
+      "hltvId": 14759,
+      "name": "Ivan Mihai",
+      "nickname": "iM",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14759/400.jpeg?v=2",
+      "nationality": "Romania",
+      "active": true,
+      "teamId": 7187
+    },
+    {
+      "hltvId": 2476,
+      "name": "Luka Vuković",
+      "nickname": "emi",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/2476/400.jpeg?v=4",
+      "nationality": "Serbia",
+      "active": true,
+      "teamId": 10150
+    },
+    {
+      "hltvId": 4216,
+      "name": "Nestor Tanić",
+      "nickname": "LETN1",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/4216.png",
+      "nationality": "Serbia",
+      "active": true,
+      "teamId": 10150
+    },
+    {
+      "hltvId": 11283,
+      "name": "Otto Sihvo",
+      "nickname": "ottoNd",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11283.png",
+      "nationality": "Finland",
+      "active": true,
+      "teamId": 10150
+    },
+    {
+      "hltvId": 11343,
+      "name": "Georgi Grigorov",
+      "nickname": "SHiPZ",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11343.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 10150
+    },
+    {
+      "hltvId": 12030,
+      "name": "Rokas Milasauskas",
+      "nickname": "EspiranTo",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12030.png",
+      "nationality": "Lithuania",
+      "active": true,
+      "teamId": 10150
+    },
+    {
+      "hltvId": 334,
+      "name": "Dauren Kystaubayev",
+      "nickname": "AdreN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/334.png",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 8120
+    },
+    {
+      "hltvId": 11716,
+      "name": "Sanjar Kuliev",
+      "nickname": "SANJI",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11716.png",
+      "nationality": "Uzbekistan",
+      "active": true,
+      "teamId": 8120
+    },
+    {
+      "hltvId": 11942,
+      "name": "Timur Tulepov",
+      "nickname": "buster",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11942.png",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 8120
+    },
+    {
+      "hltvId": 13239,
+      "name": "Alexey Golubev",
+      "nickname": "qikert",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13239.png",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 8120
+    },
+    {
+      "hltvId": 13776,
+      "name": "Dzhami Ali",
+      "nickname": "Jame",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13776.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8120
+    },
+    {
+      "hltvId": 8726,
+      "name": "Dmitriy Alekseyev",
+      "nickname": "facecrack",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8726.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8135
+    },
+    {
+      "hltvId": 11654,
+      "name": "Almaz Asadullin",
+      "nickname": "almazer",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11654.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8135
+    },
+    {
+      "hltvId": 12732,
+      "name": "Jenya Lebedev",
+      "nickname": "FL1T",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12732.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8135
+    },
+    {
+      "hltvId": 12733,
+      "name": "Bogdan Chernikov",
+      "nickname": "xsepower",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12733.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8135
+    },
+    {
+      "hltvId": 13157,
+      "name": "Andrey Mekhryakov",
+      "nickname": "Jerry",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13157.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8135
+    },
+    {
+      "hltvId": 9811,
+      "name": "Niclas Plessen",
+      "nickname": "PlesseN",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9811/400.jpeg?v=1",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 9928
+    },
+    {
+      "hltvId": 1146,
+      "name": "Dennis Edman",
+      "nickname": "dennis",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/1146.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 9928
+    },
+    {
+      "hltvId": 9766,
+      "name": "Hampus Poser",
+      "nickname": "hampus",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9766.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 9928
+    },
+    {
+      "hltvId": 10784,
+      "name": "Alfred Karlsson",
+      "nickname": "RuStY",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10784.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 9928
+    },
+    {
+      "hltvId": 13670,
+      "name": "Tim Jonasson",
+      "nickname": "nawwk",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13670.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 9928
+    },
+    {
+      "hltvId": 18317,
+      "name": "Boris Vorobiev",
+      "nickname": "magixx",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/18317/400.jpeg?v=2",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7020
+    },
+    {
+      "hltvId": 7716,
+      "name": "Leonid Vishnyakov",
+      "nickname": "chopper",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7716.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7020
+    },
+    {
+      "hltvId": 8789,
+      "name": "Nikolay Bityukov",
+      "nickname": "mir",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8789.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7020
+    },
+    {
+      "hltvId": 12731,
+      "name": "Viktor Orudjev",
+      "nickname": "somedieyoung",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12731.png",
+      "nationality": "Ukraine",
+      "active": true,
+      "teamId": 7020
+    },
+    {
+      "hltvId": 14273,
+      "name": "Artem Egorov",
+      "nickname": "iDISBALANCE",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/14273.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7020
+    },
+    {
+      "hltvId": 3669,
+      "name": "Paweł Mocek",
+      "nickname": "innocent",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/3669.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8813
+    },
+    {
+      "hltvId": 8242,
+      "name": "Paweł Jańczak",
+      "nickname": "reatz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8242.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8813
+    },
+    {
+      "hltvId": 8321,
+      "name": "Oskar Stenborowski",
+      "nickname": "oskarish",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8321.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8813
+    },
+    {
+      "hltvId": 9916,
+      "name": "Michał Gabszewicz",
+      "nickname": "mono",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9916.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8813
+    },
+    {
+      "hltvId": 12699,
+      "name": "Daniel Płomiński",
+      "nickname": "STOMP",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12699.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8813
+    },
+    {
+      "hltvId": 3410,
+      "name": "Vladimir Neskey",
+      "nickname": "ROBO",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/3410.png",
+      "nationality": "Belarus",
+      "active": true,
+      "teamId": 7969
+    },
+    {
+      "hltvId": 11926,
+      "name": "Aleksandr Rubets",
+      "nickname": "mds",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11926.png",
+      "nationality": "Belarus",
+      "active": true,
+      "teamId": 7969
+    },
+    {
+      "hltvId": 12269,
+      "name": "Rassim Valijev",
+      "nickname": "Jyo",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12269.png",
+      "nationality": "Estonia",
+      "active": true,
+      "teamId": 7969
+    },
+    {
+      "hltvId": 13976,
+      "name": "Anton Burko",
+      "nickname": "boX",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13976.png",
+      "nationality": "Belarus",
+      "active": true,
+      "teamId": 7969
+    },
+    {
+      "hltvId": 13980,
+      "name": "Igor Solodkov",
+      "nickname": "lollipop21k",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13980.png",
+      "nationality": "Belarus",
+      "active": true,
+      "teamId": 7969
+    },
+    {
+      "hltvId": 7403,
+      "name": "Georgi Yaskin",
+      "nickname": "WorldEdit",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7403.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7898
+    },
+    {
+      "hltvId": 7796,
+      "name": "Jan Rahkonen",
+      "nickname": "wayLander",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7796.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7898
+    },
+    {
+      "hltvId": 11498,
+      "name": "Alexey Trofimov",
+      "nickname": "NickelBack",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11498.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7898
+    },
+    {
+      "hltvId": 13780,
+      "name": "Dmitry Matvienko",
+      "nickname": "dimasick",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13780.png",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 7898
+    },
+    {
+      "hltvId": 13915,
+      "name": "Mareks Gaļinskis",
+      "nickname": "YEKINDAR",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13915.png",
+      "nationality": "Latvia",
+      "active": true,
+      "teamId": 7898
+    },
+    {
+      "hltvId": 9798,
+      "name": "Dawid Cieślak",
+      "nickname": "lunAtic",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9798.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8248
+    },
+    {
+      "hltvId": 11287,
+      "name": "Kacper Ściera",
+      "nickname": "darko",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11287.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8248
+    },
+    {
+      "hltvId": 15428,
+      "name": "Krzysiek Gorski",
+      "nickname": "Goofy",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15428.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8248
+    },
+    {
+      "hltvId": 15900,
+      "name": "Szymon Pluta",
+      "nickname": "Crityourface",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15900.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8248
+    },
+    {
+      "hltvId": 15940,
+      "name": "Kamil Sobolewski",
+      "nickname": "Sobol",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15940.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8248
+    },
+    {
+      "hltvId": 9352,
+      "name": "Muhammed Salman",
+      "nickname": "mini",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9352/400.jpeg?v=5",
+      "nationality": "Turkey",
+      "active": true,
+      "teamId": 8698
+    },
+    {
+      "hltvId": 9353,
+      "name": "Ahmet Karahoca",
+      "nickname": "paz",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9353/400.jpeg?v=5",
+      "nationality": "Turkey",
+      "active": true,
+      "teamId": 8698
+    },
+    {
+      "hltvId": 9857,
+      "name": "Engin Kor",
+      "nickname": "ngiN",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9857/400.jpeg?v=5",
+      "nationality": "Turkey",
+      "active": true,
+      "teamId": 8698
+    },
+    {
+      "hltvId": 15835,
+      "name": "Ömer Karataş",
+      "nickname": "imoRR",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/15835/400.jpeg?v=2",
+      "nationality": "Turkey",
+      "active": true,
+      "teamId": 8698
+    },
+    {
+      "hltvId": 17024,
+      "name": "Beyazıt Körpe",
+      "nickname": "beyAz",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/17024/400.jpeg?v=1",
+      "nationality": "France",
+      "active": true,
+      "teamId": 8698
+    },
+    {
+      "hltvId": 8327,
+      "name": "Damian Kislowski",
+      "nickname": "Furlan",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8327.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8068
+    },
+    {
+      "hltvId": 8539,
+      "name": "Eryk Kocęba",
+      "nickname": "leman",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8539.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8068
+    },
+    {
+      "hltvId": 8570,
+      "name": "Dominik Swiderski",
+      "nickname": "GruBy",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8570.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8068
+    },
+    {
+      "hltvId": 15697,
+      "name": "Patryk Korab",
+      "nickname": "Sidney",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15697.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8068
+    },
+    {
+      "hltvId": 16847,
+      "name": "Miłosz Knasiak",
+      "nickname": "mhL",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16847.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 8068
+    },
+    {
+      "hltvId": 9279,
+      "name": "Joakim Gustafsson",
+      "nickname": "Relaxa",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9279/400.jpeg?v=1",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 7144
+    },
+    {
+      "hltvId": 12572,
+      "name": "Daniel Narancic",
+      "nickname": "djL",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12572/400.jpeg?v=2",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 7144
+    },
+    {
+      "hltvId": 9257,
+      "name": "Fredrik Buö",
+      "nickname": "freddieb",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9257.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 7144
+    },
+    {
+      "hltvId": 8507,
+      "name": "Peter Jarguz",
+      "nickname": "stanislaw",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8507.png",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 10399
+    },
+    {
+      "hltvId": 8523,
+      "name": "Tarik Celik",
+      "nickname": "tarik",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8523.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10399
+    },
+    {
+      "hltvId": 9136,
+      "name": "Vincent Cayonte",
+      "nickname": "Brehze",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9136.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10399
+    },
+    {
+      "hltvId": 10671,
+      "name": "Ethan Arnold",
+      "nickname": "Ethan",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10671.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10399
+    },
+    {
+      "hltvId": 11219,
+      "name": "Tsvetelin Dimitrov",
+      "nickname": "CeRq",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11219.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 10399
+    },
+    {
+      "hltvId": 3055,
+      "name": "Robin Rönnquist",
+      "nickname": "flusha",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/3055.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4991
+    },
+    {
+      "hltvId": 3849,
+      "name": "Jesper Wecksell",
+      "nickname": "JW",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/3849.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4991
+    },
+    {
+      "hltvId": 7528,
+      "name": "Freddy Johansson",
+      "nickname": "KRIMZ",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7528.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4991
+    },
+    {
+      "hltvId": 11110,
+      "name": "Maikil Selim",
+      "nickname": "Golden",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11110.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4991
+    },
+    {
+      "hltvId": 13666,
+      "name": "Ludvig Brolin",
+      "nickname": "Brollan",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13666.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4991
+    },
+    {
+      "hltvId": 1225,
+      "name": "Richard Papillon",
+      "nickname": "shox",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/1225.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 9565
+    },
+    {
+      "hltvId": 7169,
+      "name": "Cédric Guipouy",
+      "nickname": "RpK",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7169.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 9565
+    },
+    {
+      "hltvId": 7322,
+      "name": "Dan Madesclaire",
+      "nickname": "apEX",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7322.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 9565
+    },
+    {
+      "hltvId": 8184,
+      "name": "Alex McMeekin",
+      "nickname": "ALEX",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8184.png",
+      "nationality": "United Kingdom",
+      "active": true,
+      "teamId": 9565
+    },
+    {
+      "hltvId": 11893,
+      "name": "Mathieu Herbaut",
+      "nickname": "ZywOo",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11893.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 9565
+    },
+    {
+      "hltvId": 429,
+      "name": "Finn Andersen",
+      "nickname": "karrigan",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/429.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 4494
+    },
+    {
+      "hltvId": 2730,
+      "name": "Chris de Jong",
+      "nickname": "chrisJ",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2730.png",
+      "nationality": "Netherlands",
+      "active": true,
+      "teamId": 4494
+    },
+    {
+      "hltvId": 8574,
+      "name": "Özgür Eker",
+      "nickname": "woxic",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8574.png",
+      "nationality": "Turkey",
+      "active": true,
+      "teamId": 4494
+    },
+    {
+      "hltvId": 9960,
+      "name": "David Čerňanský",
+      "nickname": "frozen",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9960.png",
+      "nationality": "Slovakia",
+      "active": true,
+      "teamId": 4494
+    },
+    {
+      "hltvId": 11816,
+      "name": "Robin Kool",
+      "nickname": "ropz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11816.png",
+      "nationality": "Estonia",
+      "active": true,
+      "teamId": 4494
+    },
+    {
+      "hltvId": 2757,
+      "name": "Ladislav Kovács",
+      "nickname": "GuardiaN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2757.png",
+      "nationality": "Slovakia",
+      "active": true,
+      "teamId": 4608
+    },
+    {
+      "hltvId": 7594,
+      "name": "Egor Vasilyev",
+      "nickname": "flamie",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7594.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 4608
+    },
+    {
+      "hltvId": 7998,
+      "name": "Aleksandr Kostyliev",
+      "nickname": "s1mple",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7998.png",
+      "nationality": "Ukraine",
+      "active": true,
+      "teamId": 4608
+    },
+    {
+      "hltvId": 8918,
+      "name": "Denis Sharipov",
+      "nickname": "electronic",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8918.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 4608
+    },
+    {
+      "hltvId": 11840,
+      "name": "Kirill Mikhailov",
+      "nickname": "Boombl4",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11840.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 4608
+    },
+    {
+      "hltvId": 4679,
+      "name": "Justin Savage",
+      "nickname": "jks",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/4679.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 6211
+    },
+    {
+      "hltvId": 8082,
+      "name": "Aaron Ward",
+      "nickname": "AZR",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8082.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 6211
+    },
+    {
+      "hltvId": 8248,
+      "name": "Joakim Myrbostad",
+      "nickname": "jkaem",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8248.png",
+      "nationality": "Norway",
+      "active": true,
+      "teamId": 6211
+    },
+    {
+      "hltvId": 9686,
+      "name": "Sean Kaiwai",
+      "nickname": "Gratisfaction",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9686.png",
+      "nationality": "New Zealand",
+      "active": true,
+      "teamId": 6211
+    },
+    {
+      "hltvId": 10588,
+      "name": "Jay Tregillgas",
+      "nickname": "Liazz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10588.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 6211
+    },
+    {
+      "hltvId": 29,
+      "name": "Patrik Lindberg",
+      "nickname": "f0rest",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/29.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4411
+    },
+    {
+      "hltvId": 7443,
+      "name": "Simon Eliasson",
+      "nickname": "twist",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7443.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4411
+    },
+    {
+      "hltvId": 9261,
+      "name": "Jonas Olofsson",
+      "nickname": "Lekr0",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9261.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4411
+    },
+    {
+      "hltvId": 9278,
+      "name": "Fredrik Sterner",
+      "nickname": "REZ",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9278.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4411
+    },
+    {
+      "hltvId": 14218,
+      "name": "Nicolas Gonzalez Zamora",
+      "nickname": "Plopski",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/14218.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 4411
+    },
+    {
+      "hltvId": 8565,
+      "name": "Henrique Teles",
+      "nickname": "HEN1",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8565.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 8297
+    },
+    {
+      "hltvId": 12521,
+      "name": "Andrei Piovezan",
+      "nickname": "arT",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12521.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 8297
+    },
+    {
+      "hltvId": 12553,
+      "name": "Yuri Santos",
+      "nickname": "yuurih",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12553.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 8297
+    },
+    {
+      "hltvId": 12822,
+      "name": "Vinicius Figueiredo",
+      "nickname": "VINI",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12822.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 8297
+    },
+    {
+      "hltvId": 15631,
+      "name": "Kaike Cerato",
+      "nickname": "KSCERATO",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15631.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 8297
+    },
+    {
+      "hltvId": 2023,
+      "name": "Gabriel Toledo",
+      "nickname": "FalleN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2023.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9215
+    },
+    {
+      "hltvId": 5736,
+      "name": "Vito Giuseppe",
+      "nickname": "kNgV-",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/5736.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9215
+    },
+    {
+      "hltvId": 8564,
+      "name": "Fernando Alvarenga",
+      "nickname": "fer",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8564.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9215
+    },
+    {
+      "hltvId": 8566,
+      "name": "Lucas Teles",
+      "nickname": "LUCAS1",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8566.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9215
+    },
+    {
+      "hltvId": 9217,
+      "name": "Epitacio de Melo",
+      "nickname": "TACO",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9217.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9215
+    },
+    {
+      "hltvId": 284,
+      "name": "Audric Jug",
+      "nickname": "JaCkz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/284.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 5995
+    },
+    {
+      "hltvId": 3972,
+      "name": "Nemanja Kovač",
+      "nickname": "huNter-",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/3972.png",
+      "nationality": "Serbia",
+      "active": true,
+      "teamId": 5995
+    },
+    {
+      "hltvId": 7167,
+      "name": "Kenny Schrub",
+      "nickname": "kennyS",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7167.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 5995
+    },
+    {
+      "hltvId": 9616,
+      "name": "François Delaunay",
+      "nickname": "AmaNEk",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9616.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 5995
+    },
+    {
+      "hltvId": 9618,
+      "name": "Nemanja Isaković",
+      "nickname": "nexa",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9618.png",
+      "nationality": "Serbia",
+      "active": true,
+      "teamId": 5995
+    },
+    {
+      "hltvId": 922,
+      "name": "Marco Pfeiffer",
+      "nickname": "Snappi",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/922.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7175
+    },
+    {
+      "hltvId": 7964,
+      "name": "Casper Møller",
+      "nickname": "cadiaN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7964.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7175
+    },
+    {
+      "hltvId": 8611,
+      "name": "Patrick Hansen",
+      "nickname": "es3tag",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8611.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7175
+    },
+    {
+      "hltvId": 9896,
+      "name": "Johannes Borup",
+      "nickname": "b0RUP",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9896.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7175
+    },
+    {
+      "hltvId": 10994,
+      "name": "Martin Lund",
+      "nickname": "stavn",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10994.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 7175
+    },
+    {
+      "hltvId": 11133,
+      "name": "Anton Platko",
+      "nickname": "Koshak",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11133/400.jpeg?v=3",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7966
+    },
+    {
+      "hltvId": 11580,
+      "name": "Vadim Panchuk",
+      "nickname": "V4D1M",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11580/400.jpeg?v=2",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 7966
+    },
+    {
+      "hltvId": 12490,
+      "name": "Heng Yang",
+      "nickname": "expro",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12490/400.jpeg?v=2",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7966
+    },
+    {
+      "hltvId": 14140,
+      "name": "QingHui Kong",
+      "nickname": "FIOURN",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14140/400.jpeg?v=2",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7966
+    },
+    {
+      "hltvId": 16872,
+      "name": "Peiqi Song",
+      "nickname": "flying",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16872.png",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7966
+    },
+    {
+      "hltvId": 10842,
+      "name": "Dener Barchfield",
+      "nickname": "KHTEX",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/10842/400.jpeg?v=3",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9455
+    },
+    {
+      "hltvId": 11213,
+      "name": "Felipe Delboni",
+      "nickname": "delboNi",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11213/400.jpeg?v=3",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9455
+    },
+    {
+      "hltvId": 14780,
+      "name": "Gustavo Motta",
+      "nickname": "tge",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14780/400.jpeg?v=3",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9455
+    },
+    {
+      "hltvId": 15698,
+      "name": "Eduardo Volkmer",
+      "nickname": "dumau",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/15698/400.jpeg?v=1",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9455
+    },
+    {
+      "hltvId": 10818,
+      "name": "Victor Torraca",
+      "nickname": "iDk",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10818.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 9455
+    },
+    {
+      "hltvId": 180,
+      "name": "Bin Liu",
+      "nickname": "Savage",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/180.png",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7092
+    },
+    {
+      "hltvId": 10168,
+      "name": "Lei Mao",
+      "nickname": "bottle",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10168.png",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7092
+    },
+    {
+      "hltvId": 11574,
+      "name": "Peng Song",
+      "nickname": "xiaosaGe",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11574.png",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7092
+    },
+    {
+      "hltvId": 11576,
+      "name": "Wei Wang",
+      "nickname": "shuadapai",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11576.png",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7092
+    },
+    {
+      "hltvId": 15419,
+      "name": "Lifan Ran",
+      "nickname": "Viva",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15419.png",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7092
+    },
+    {
+      "hltvId": 161,
+      "name": "Wiktor Wojtas",
+      "nickname": "TaZ",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/161.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 10020
+    },
+    {
+      "hltvId": 2826,
+      "name": "Jacek Jeziak",
+      "nickname": "MINISE",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2826.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 10020
+    },
+    {
+      "hltvId": 5388,
+      "name": "Karol Rodowicz",
+      "nickname": "rallen",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/5388.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 10020
+    },
+    {
+      "hltvId": 8323,
+      "name": "Mikołaj Karolewski",
+      "nickname": "mouz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8323.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 10020
+    },
+    {
+      "hltvId": 16080,
+      "name": "Paweł Dycha",
+      "nickname": "dycha",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16080.png",
+      "nationality": "Poland",
+      "active": true,
+      "teamId": 10020
+    },
+    {
+      "hltvId": 11842,
+      "name": "Ramazan Bashizov",
+      "nickname": "Ramz1kBO$$",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11842.png",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 8772
+    },
+    {
+      "hltvId": 11940,
+      "name": "Sanzhar Ishkakov",
+      "nickname": "neaLaN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11940.png",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 8772
+    },
+    {
+      "hltvId": 15117,
+      "name": "Nicolas Dgus",
+      "nickname": "Keoz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15117.png",
+      "nationality": "Belgium",
+      "active": true,
+      "teamId": 8772
+    },
+    {
+      "hltvId": 16612,
+      "name": "David Danielyan",
+      "nickname": "n0rb3r7",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16612.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8772
+    },
+    {
+      "hltvId": 16947,
+      "name": "Ilya Zalutskiy",
+      "nickname": "Perfecto",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16947.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8772
+    },
+    {
+      "hltvId": 2799,
+      "name": "Kamen Kostadinov",
+      "nickname": "bubble",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2799.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 8513
+    },
+    {
+      "hltvId": 9656,
+      "name": "Ali Haïnouss",
+      "nickname": "hAdji",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9656.png",
+      "nationality": "France",
+      "active": true,
+      "teamId": 8513
+    },
+    {
+      "hltvId": 10697,
+      "name": "Yanko Panov",
+      "nickname": "blocker",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10697.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 8513
+    },
+    {
+      "hltvId": 11701,
+      "name": "Sabit Coktasar",
+      "nickname": "mirbit",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11701.png",
+      "nationality": "Germany",
+      "active": true,
+      "teamId": 8513
+    },
+    {
+      "hltvId": 12126,
+      "name": "Valentin Vasilev",
+      "nickname": "poizon",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12126.png",
+      "nationality": "Bulgaria",
+      "active": true,
+      "teamId": 8513
+    },
+    {
+      "hltvId": 1045,
+      "name": "Mikail Bill",
+      "nickname": "Maikelele",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/1045.png",
+      "nationality": "Sweden",
+      "active": true,
+      "teamId": 10315
+    },
+    {
+      "hltvId": 1378,
+      "name": "Jesse Linjala",
+      "nickname": "zehN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/1378.png",
+      "nationality": "Finland",
+      "active": true,
+      "teamId": 10315
+    },
+    {
+      "hltvId": 6904,
+      "name": "Martin Styk",
+      "nickname": "STYKO",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/6904.png",
+      "nationality": "Slovakia",
+      "active": true,
+      "teamId": 10315
+    },
+    {
+      "hltvId": 7218,
+      "name": "Kevin Amend",
+      "nickname": "kRYSTAL",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7218.png",
+      "nationality": "Germany",
+      "active": true,
+      "teamId": 10315
+    },
+    {
+      "hltvId": 11777,
+      "name": "Pavle Bošković",
+      "nickname": "Maden",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11777.png",
+      "nationality": "Serbia",
+      "active": true,
+      "teamId": 10315
+    },
+    {
+      "hltvId": 14161,
+      "name": "Artem Gradovich",
+      "nickname": "RAiLWAY",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14161/400.jpeg?v=2",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 8669
+    },
+    {
+      "hltvId": 15374,
+      "name": "Vadim Tanasiuk",
+      "nickname": "h1glaiN",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/15374/400.jpeg?v=4",
+      "nationality": "Ukraine",
+      "active": true,
+      "teamId": 8669
+    },
+    {
+      "hltvId": 10590,
+      "name": "Evgeny Mitsik",
+      "nickname": "fenvicious",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10590.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9287
+    },
+    {
+      "hltvId": 13779,
+      "name": "Pavel Legostaev",
+      "nickname": "PASHANOJ",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13779.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9287
+    },
+    {
+      "hltvId": 14205,
+      "name": "Roberts Čigauskis",
+      "nickname": "R0b3n",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/14205.png",
+      "nationality": "Latvia",
+      "active": true,
+      "teamId": 9287
+    },
+    {
+      "hltvId": 15662,
+      "name": "Alexander Zagodirenko",
+      "nickname": "zorte",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15662.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9287
+    },
+    {
+      "hltvId": 16946,
+      "name": "Vadim Tsyrov",
+      "nickname": "Polt",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16946.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9287
+    },
+    {
+      "hltvId": 339,
+      "name": "Kirill Karasiow",
+      "nickname": "ANGE1",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/339.png",
+      "nationality": "Ukraine",
+      "active": true,
+      "teamId": 5310
+    },
+    {
+      "hltvId": 9348,
+      "name": "Igor Shevchenko",
+      "nickname": "crush",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9348.png",
+      "nationality": "Ukraine",
+      "active": true,
+      "teamId": 5310
+    },
+    {
+      "hltvId": 11250,
+      "name": "Vadim Karetin",
+      "nickname": "Flarich",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11250.png",
+      "nationality": "Latvia",
+      "active": true,
+      "teamId": 5310
+    },
+    {
+      "hltvId": 13679,
+      "name": "Žygimantas Chmieliauskas",
+      "nickname": "nukkye",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13679.png",
+      "nationality": "Lithuania",
+      "active": true,
+      "teamId": 5310
+    },
+    {
+      "hltvId": 15547,
+      "name": "Alexander Marynych",
+      "nickname": "scoobyxie",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15547.png",
+      "nationality": "Ukraine",
+      "active": true,
+      "teamId": 5310
+    },
+    {
+      "hltvId": 14175,
+      "name": "Eugene Karyat",
+      "nickname": "Aunkere",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14175/400.jpeg?v=1",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 10371
+    },
+    {
+      "hltvId": 18225,
+      "name": "Ivan Koplenko",
+      "nickname": "kapacho",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/18225/400.jpeg?v=1",
+      "nationality": "Ukraine",
+      "active": true,
+      "teamId": 10371
+    },
+    {
+      "hltvId": 16871,
+      "name": "Kirill Gospadarov",
+      "nickname": "Gospadarov",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/16871.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 10371
+    },
+    {
+      "hltvId": 13240,
+      "name": "Viktor Boldyrev",
+      "nickname": "Lack1",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13240/400.jpeg?v=1",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 9183
+    },
+    {
+      "hltvId": 2131,
+      "name": "Vladyslav Nechyporchuk",
+      "nickname": "bondik",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2131.png",
+      "nationality": "Ukraine",
+      "active": true,
+      "teamId": 9183
+    },
+    {
+      "hltvId": 8528,
+      "name": "Abay Khasenov",
+      "nickname": "Hobbit",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8528.png",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 9183
+    },
+    {
+      "hltvId": 12161,
+      "name": "Aidyn Turlybekov",
+      "nickname": "KrizzeN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12161.png",
+      "nationality": "Kazakhstan",
+      "active": true,
+      "teamId": 9183
+    },
+    {
+      "hltvId": 13281,
+      "name": "Aleksey Gusev",
+      "nickname": "El1an",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13281.png",
+      "nationality": "Russia",
+      "active": true,
+      "teamId": 9183
+    },
+    {
+      "hltvId": 9102,
+      "name": "Simon Williams",
+      "nickname": "Sico",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9102.png",
+      "nationality": "New Zealand",
+      "active": true,
+      "teamId": 8008
+    },
+    {
+      "hltvId": 9115,
+      "name": "Christopher Nong",
+      "nickname": "dexter",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9115.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8008
+    },
+    {
+      "hltvId": 11140,
+      "name": "Joshua Potter",
+      "nickname": "INS",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11140.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8008
+    },
+    {
+      "hltvId": 11485,
+      "name": "Liam Schembri",
+      "nickname": "malta",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11485.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8008
+    },
+    {
+      "hltvId": 12876,
+      "name": "Ollie Tierney",
+      "nickname": "DickStacy",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12876.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8008
+    },
+    {
+      "hltvId": 12715,
+      "name": "Peter Athanasatos",
+      "nickname": "BL1TZ",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12715/400.jpeg?v=2",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 6010
+    },
+    {
+      "hltvId": 8764,
+      "name": "Ryan Palmer",
+      "nickname": "zewsy",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8764.png",
+      "nationality": "New Zealand",
+      "active": true,
+      "teamId": 6010
+    },
+    {
+      "hltvId": 8767,
+      "name": "Chris Hanley",
+      "nickname": "ofnu",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8767.png",
+      "nationality": "New Zealand",
+      "active": true,
+      "teamId": 6010
+    },
+    {
+      "hltvId": 9108,
+      "name": "Tyler Reilly",
+      "nickname": "tucks",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9108.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 6010
+    },
+    {
+      "hltvId": 11847,
+      "name": "Matthew O'Rourke",
+      "nickname": "Texta",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11847.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 6010
+    },
+    {
+      "hltvId": 16323,
+      "name": "Matthew Hartrick",
+      "nickname": "Valiance",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/16323/400.jpeg?v=1",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8668
+    },
+    {
+      "hltvId": 8744,
+      "name": "Chris Rowlands",
+      "nickname": "emagine",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8744.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8668
+    },
+    {
+      "hltvId": 8771,
+      "name": "Karlo Pivac",
+      "nickname": "USTILO",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8771.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8668
+    },
+    {
+      "hltvId": 11139,
+      "name": "Alistair Johnston",
+      "nickname": "aliStair",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11139.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8668
+    },
+    {
+      "hltvId": 11162,
+      "name": "Jordan Bajic",
+      "nickname": "Hatz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11162.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8668
+    },
+    {
+      "hltvId": 9103,
+      "name": "Daniel Urbani",
+      "nickname": "urbz",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9103/400.jpeg?v=3",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 5607
+    },
+    {
+      "hltvId": 14505,
+      "name": "Luke Blakey",
+      "nickname": "ekul",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14505/400.jpeg?v=1",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 5607
+    },
+    {
+      "hltvId": 11538,
+      "name": "Chris Moseley",
+      "nickname": "Jinxx",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11538/400.jpeg?v=1",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 9747
+    },
+    {
+      "hltvId": 12086,
+      "name": "Hugh Anderson",
+      "nickname": "stat",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12086/400.jpeg?v=3",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 9747
+    },
+    {
+      "hltvId": 12872,
+      "name": "Tom Henry",
+      "nickname": "apocdud",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12872/400.jpeg?v=2",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 9747
+    },
+    {
+      "hltvId": 14290,
+      "name": "Jordan Newland",
+      "nickname": "SkulL",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14290/400.jpeg?v=2",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 9747
+    },
+    {
+      "hltvId": 14957,
+      "name": "Daryl May",
+      "nickname": "Mayker",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14957/400.jpeg?v=1",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 9747
+    },
+    {
+      "hltvId": 13054,
+      "name": "Charlie Dodd",
+      "nickname": "zeph",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13054/400.jpeg?v=3",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8536
+    },
+    {
+      "hltvId": 14954,
+      "name": "Cooper Farrell",
+      "nickname": "void",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14954/400.jpeg?v=5",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8536
+    },
+    {
+      "hltvId": 9636,
+      "name": "Callum Henderson",
+      "nickname": "BURNRUOk",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9636.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8536
+    },
+    {
+      "hltvId": 11800,
+      "name": "Wilson Sugianto",
+      "nickname": "willyKS",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11800/400.jpeg?v=4",
+      "nationality": "Indonesia",
+      "active": true,
+      "teamId": 10244
+    },
+    {
+      "hltvId": 15800,
+      "name": "David Cox",
+      "nickname": "moojuice",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/15800/400.jpeg?v=4",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 10244
+    },
+    {
+      "hltvId": 16025,
+      "name": "Hayden Ventor",
+      "nickname": "Wolfy",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/16025/400.jpeg?v=1",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 9750
+    },
+    {
+      "hltvId": 16026,
+      "name": "Jason Blizzard",
+      "nickname": "DuckyPanic",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/16026/400.jpeg?v=1",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 9750
+    },
+    {
+      "hltvId": 16309,
+      "name": "Dominic Wilson",
+      "nickname": "Doom",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/16309/400.jpeg?v=3",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 9750
+    },
+    {
+      "hltvId": 9308,
+      "name": "Carlo Farinha",
+      "nickname": "pnd",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9308/400.jpeg?v=1",
+      "nationality": "South Africa",
+      "active": true,
+      "teamId": 8738
+    },
+    {
+      "hltvId": 11492,
+      "name": "Alec Gulabovski",
+      "nickname": "Noisia",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11492/400.jpeg?v=6",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8738
+    },
+    {
+      "hltvId": 8770,
+      "name": "Mohammed Tizani",
+      "nickname": "MoeycQ",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8770.png",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 8738
+    },
+    {
+      "hltvId": 8766,
+      "name": "Kyran Crombie",
+      "nickname": "dizzyLife",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/8766/400.jpeg?v=3",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 10220
+    },
+    {
+      "hltvId": 13058,
+      "name": "Matthew Lenard",
+      "nickname": "mattcd",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13058/400.jpeg?v=4",
+      "nationality": "Australia",
+      "active": true,
+      "teamId": 10220
+    },
+    {
+      "hltvId": 12995,
+      "name": "Diinkant Ravichandran",
+      "nickname": "DiinKy",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12995/400.jpeg?v=1",
+      "nationality": "New Zealand",
+      "active": true,
+      "teamId": 10299
+    },
+    {
+      "hltvId": 13490,
+      "name": "Huy Ngo Truong",
+      "nickname": "Kishi-San",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13490/400.jpeg?v=1",
+      "nationality": "Vietnam",
+      "active": true,
+      "teamId": 10115
+    },
+    {
+      "hltvId": 16333,
+      "name": "Toan-Quoc Pham Huynh",
+      "nickname": "Black Dorf",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/16333/400.jpeg?v=1",
+      "nationality": "Vietnam",
+      "active": true,
+      "teamId": 10115
+    },
+    {
+      "hltvId": 19035,
+      "name": "Kiet Nguyen",
+      "nickname": "nTK",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/19035/400.jpeg?v=2",
+      "nationality": "Vietnam",
+      "active": true,
+      "teamId": 10115
+    },
+    {
+      "hltvId": 19036,
+      "name": "Viet Chu",
+      "nickname": "teiv",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/19036/400.jpeg?v=1",
+      "nationality": "Vietnam",
+      "active": true,
+      "teamId": 10115
+    },
+    {
+      "hltvId": 9245,
+      "name": "Tsog Mashbat",
+      "nickname": "Tsogoo",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9245/400.jpeg?v=4",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 10051
+    },
+    {
+      "hltvId": 9247,
+      "name": "Enkhtaivan Lkhagva",
+      "nickname": "Machinegun",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9247/400.jpeg?v=3",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 10051
+    },
+    {
+      "hltvId": 9736,
+      "name": "Bold Batsuh",
+      "nickname": "ncl",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9736/400.jpeg?v=4",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 10051
+    },
+    {
+      "hltvId": 15072,
+      "name": "Yesuntumur Gantulga",
+      "nickname": "nin9",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/15072/400.jpeg?v=1",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 10051
+    },
+    {
+      "hltvId": 13949,
+      "name": "Shinebold Nergui",
+      "nickname": "sKINEE",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13949/400.jpeg?v=1",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 8607
+    },
+    {
+      "hltvId": 9519,
+      "name": "Munkhtamir Ganbaatar",
+      "nickname": "tamir",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9519.png",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 8607
+    },
+    {
+      "hltvId": 15062,
+      "name": "Telmen Batzorig",
+      "nickname": "shinobi",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15062.png",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 8607
+    },
+    {
+      "hltvId": 15861,
+      "name": "Boldbaatar Tengis",
+      "nickname": "rate",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15861.png",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 8607
+    },
+    {
+      "hltvId": 15978,
+      "name": "Enkhmanlai Batbayar",
+      "nickname": "world",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15978.png",
+      "nationality": "Mongolia",
+      "active": true,
+      "teamId": 8607
+    },
+    {
+      "hltvId": 8955,
+      "name": "Hoang Tri Phan",
+      "nickname": "J0hnnyP",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/8955/400.jpeg?v=1",
+      "nationality": "Vietnam",
+      "active": true,
+      "teamId": 10373
+    },
+    {
+      "hltvId": 7027,
+      "name": "Zhenghui Liu",
+      "nickname": "z8z",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/7027/400.jpeg?v=5",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7480
+    },
+    {
+      "hltvId": 12385,
+      "name": "LinXiao Wang",
+      "nickname": "JeXeN",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12385/400.jpeg?v=3",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7480
+    },
+    {
+      "hltvId": 10186,
+      "name": "YangYang Zheng",
+      "nickname": "ayaya",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10186.png",
+      "nationality": "China",
+      "active": true,
+      "teamId": 7480
+    },
+    {
+      "hltvId": 11739,
+      "name": "Bruno Martinelli",
+      "nickname": "shz",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11739/400.jpeg?v=1",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6619
+    },
+    {
+      "hltvId": 9218,
+      "name": "Alexandre Zizi",
+      "nickname": "xand",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9218.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6619
+    },
+    {
+      "hltvId": 9483,
+      "name": "Lucas Bullo",
+      "nickname": "DeStiNy",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9483.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6619
+    },
+    {
+      "hltvId": 10560,
+      "name": "Gustavo Knittel",
+      "nickname": "yel",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10560.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6619
+    },
+    {
+      "hltvId": 10566,
+      "name": "Marcelo Cespedes",
+      "nickname": "chelo",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10566.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6619
+    },
+    {
+      "hltvId": 12113,
+      "name": "Jonathan Carey",
+      "nickname": "Jonji",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12113/400.jpeg?v=8",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 10164
+    },
+    {
+      "hltvId": 13278,
+      "name": "Austin Roberts",
+      "nickname": "crashies",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13278/400.jpeg?v=2",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10164
+    },
+    {
+      "hltvId": 6451,
+      "name": "Pujan Mehta",
+      "nickname": "FNS",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/6451.png",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 10164
+    },
+    {
+      "hltvId": 8707,
+      "name": "Peter Gurney",
+      "nickname": "ptr",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8707.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10164
+    },
+    {
+      "hltvId": 10470,
+      "name": "Mitch Semago",
+      "nickname": "mitch",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10470.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10164
+    },
+    {
+      "hltvId": 2496,
+      "name": "Victor Rocha",
+      "nickname": "bld",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/2496/400.jpeg?v=5",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6947
+    },
+    {
+      "hltvId": 555,
+      "name": "Bruno Lima",
+      "nickname": "bit",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/555.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6947
+    },
+    {
+      "hltvId": 2529,
+      "name": "Pedro Campos",
+      "nickname": "Maluk3",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/2529.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6947
+    },
+    {
+      "hltvId": 11163,
+      "name": "Alencar Rossato",
+      "nickname": "trk",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11163.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6947
+    },
+    {
+      "hltvId": 17585,
+      "name": "Bruno Câmara",
+      "nickname": "b4rtiN",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/17585.png",
+      "nationality": "Brazil",
+      "active": true,
+      "teamId": 6947
+    },
+    {
+      "hltvId": 1915,
+      "name": "Kory Friesen",
+      "nickname": "SEMPHIS",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/1915/400.jpeg?v=4",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 10092
+    },
+    {
+      "hltvId": 8508,
+      "name": "David Stafford",
+      "nickname": "DAVEY",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/8508/400.jpeg?v=4",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 10092
+    },
+    {
+      "hltvId": 16599,
+      "name": "Mike Schmid",
+      "nickname": "Swisher",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/16599/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10092
+    },
+    {
+      "hltvId": 8137,
+      "name": "Stephen Cutler",
+      "nickname": "reltuC",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8137.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10092
+    },
+    {
+      "hltvId": 9130,
+      "name": "Taylor Johnson",
+      "nickname": "Drone",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9130.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10092
+    },
+    {
+      "hltvId": 10388,
+      "name": "Andy Parr",
+      "nickname": "devastation",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/10388/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9229
+    },
+    {
+      "hltvId": 10886,
+      "name": "Jimmy McFadden",
+      "nickname": "Nurfed",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/10886/400.jpeg?v=3",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9229
+    },
+    {
+      "hltvId": 11947,
+      "name": "Abdo Agha",
+      "nickname": "c4lypso",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11947/400.jpeg?v=1",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 9229
+    },
+    {
+      "hltvId": 13691,
+      "name": "Ryan Church",
+      "nickname": "Church",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13691/400.jpeg?v=5",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9229
+    },
+    {
+      "hltvId": 14036,
+      "name": "Liam Newhouse",
+      "nickname": "Welshy",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14036/400.jpeg?v=3",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9229
+    },
+    {
+      "hltvId": 9661,
+      "name": "Loic Sauvageau",
+      "nickname": "effys",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9661/400.jpeg?v=3",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 9392
+    },
+    {
+      "hltvId": 11948,
+      "name": "Mathieu Bergeron",
+      "nickname": "INCRED",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11948/400.jpeg?v=4",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 9392
+    },
+    {
+      "hltvId": 12710,
+      "name": "Anthony Guimond",
+      "nickname": "gMd",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12710/400.jpeg?v=3",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 9392
+    },
+    {
+      "hltvId": 13585,
+      "name": "Danny Huynh",
+      "nickname": "huynh",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13585/400.jpeg?v=3",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 9392
+    },
+    {
+      "hltvId": 17471,
+      "name": "Michael De Luca",
+      "nickname": "MkaeL",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/17471/400.jpeg?v=2",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 9392
+    },
+    {
+      "hltvId": 13182,
+      "name": "Jack Holiman",
+      "nickname": "xCeeD",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13182/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9785
+    },
+    {
+      "hltvId": 13228,
+      "name": "Logan Long",
+      "nickname": "Voltage",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13228/400.jpeg?v=3",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9785
+    },
+    {
+      "hltvId": 13229,
+      "name": "Ryan Amann",
+      "nickname": "Snakes",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13229/400.jpeg?v=3",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9785
+    },
+    {
+      "hltvId": 13578,
+      "name": "Michael Wince",
+      "nickname": "Grim",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13578/400.jpeg?v=3",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9785
+    },
+    {
+      "hltvId": 13589,
+      "name": "Gabe Greiner",
+      "nickname": "Spongey",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13589/400.jpeg?v=2",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9785
+    },
+    {
+      "hltvId": 9152,
+      "name": "Josh Abastado",
+      "nickname": "shinobi",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9152/400.jpeg?v=2",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10261
+    },
+    {
+      "hltvId": 16597,
+      "name": "Kevin Przypasniak",
+      "nickname": "4pack",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/16597/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10261
+    },
+    {
+      "hltvId": 17372,
+      "name": "Justin Coakley",
+      "nickname": "FaNg",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/17372/400.jpeg?v=1",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 10261
+    },
+    {
+      "hltvId": 7935,
+      "name": "Daniel Gustaferri",
+      "nickname": "roca",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/7935/400.jpeg?v=4",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10302
+    },
+    {
+      "hltvId": 10871,
+      "name": "Joel Cruel",
+      "nickname": "jcrueL",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/10871/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10146
+    },
+    {
+      "hltvId": 13176,
+      "name": "Tommy Ryan",
+      "nickname": "Axed",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13176/400.jpeg?v=2",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10146
+    },
+    {
+      "hltvId": 17321,
+      "name": "Adam Milian",
+      "nickname": "Ange",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/17321/400.jpeg?v=3",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 10146
+    },
+    {
+      "hltvId": 17324,
+      "name": "Chris Petersen",
+      "nickname": "Slash",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/17324/400.jpeg?v=2",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10146
+    },
+    {
+      "hltvId": 11441,
+      "name": "Daniel Milazzo",
+      "nickname": "picky",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11441/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7885
+    },
+    {
+      "hltvId": 11445,
+      "name": "Jonah Pulice",
+      "nickname": "JonahP",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11445/400.jpeg?v=1",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 7885
+    },
+    {
+      "hltvId": 12090,
+      "name": "Trevor Bandle",
+      "nickname": "FrostayK",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12090/400.jpeg?v=2",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7885
+    },
+    {
+      "hltvId": 14022,
+      "name": "William Kittrell",
+      "nickname": "shonk",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14022/400.jpeg?v=3",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7885
+    },
+    {
+      "hltvId": 14489,
+      "name": "Nick Kaoud",
+      "nickname": "zeptic",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14489/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7885
+    },
+    {
+      "hltvId": 9259,
+      "name": "Shawn Taylor",
+      "nickname": "witmer",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/9259/400.jpeg?v=5",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7841
+    },
+    {
+      "hltvId": 11230,
+      "name": "Alex Protopapas",
+      "nickname": "aproto",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11230/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7841
+    },
+    {
+      "hltvId": 11737,
+      "name": "Dylan Sabin-Arnce",
+      "nickname": "RIKO",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11737/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7841
+    },
+    {
+      "hltvId": 13391,
+      "name": "Ian Botsch",
+      "nickname": "tex",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13391/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7841
+    },
+    {
+      "hltvId": 13250,
+      "name": "Ben Smith",
+      "nickname": "ben1337",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13250/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7612
+    },
+    {
+      "hltvId": 7253,
+      "name": "Joshua Nissan",
+      "nickname": "steel",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7253.png",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 7612
+    },
+    {
+      "hltvId": 13186,
+      "name": "Cameron Kern",
+      "nickname": "cam",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13186.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7612
+    },
+    {
+      "hltvId": 14619,
+      "name": "Gage Green",
+      "nickname": "Infinite",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/14619.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7612
+    },
+    {
+      "hltvId": 8347,
+      "name": "James Cobb",
+      "nickname": "hazed",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/8347/400.jpeg?v=7",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5479
+    },
+    {
+      "hltvId": 8503,
+      "name": "Erik Flom",
+      "nickname": "fl0m",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/8503/400.jpeg?v=3",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5479
+    },
+    {
+      "hltvId": 8752,
+      "name": "Samuel Portillo",
+      "nickname": "SileNt",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8752.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5479
+    },
+    {
+      "hltvId": 12102,
+      "name": "Jonathan Dallal",
+      "nickname": "djay",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/12102/400.jpeg?v=3",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 10059
+    },
+    {
+      "hltvId": 16318,
+      "name": "Brandon Roberts",
+      "nickname": "BOOBIE",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/16318/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10059
+    },
+    {
+      "hltvId": 13177,
+      "name": "Brenden McGrath",
+      "nickname": "stellar",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/13177/400.jpeg?v=2",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10392
+    },
+    {
+      "hltvId": 14827,
+      "name": "Chris Piasecki",
+      "nickname": "riku",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14827/400.jpeg?v=2",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10392
+    },
+    {
+      "hltvId": 14933,
+      "name": "Robert Brown",
+      "nickname": "robby",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/14933/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10392
+    },
+    {
+      "hltvId": 17368,
+      "name": "Rahul Nemani",
+      "nickname": "curry",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/17368/400.jpeg?v=1",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 10392
+    },
+    {
+      "hltvId": 7687,
+      "name": "Nick Cannella",
+      "nickname": "nitr0",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7687.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5973
+    },
+    {
+      "hltvId": 8520,
+      "name": "Keith Markovic",
+      "nickname": "NAF",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8520.png",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 5973
+    },
+    {
+      "hltvId": 8738,
+      "name": "Jonathan Jablonowski",
+      "nickname": "EliGE",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8738.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5973
+    },
+    {
+      "hltvId": 8797,
+      "name": "Jake Yip",
+      "nickname": "Stewie2K",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8797.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5973
+    },
+    {
+      "hltvId": 10394,
+      "name": "Russel Van Dulken",
+      "nickname": "Twistzz",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10394.png",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 5973
+    },
+    {
+      "hltvId": 7805,
+      "name": "William Wierzba",
+      "nickname": "RUSH",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7805.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5005
+    },
+    {
+      "hltvId": 7810,
+      "name": "Shahzeb Khan",
+      "nickname": "ShahZaM",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7810.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5005
+    },
+    {
+      "hltvId": 7873,
+      "name": "Rory Jackson",
+      "nickname": "dephh",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7873.png",
+      "nationality": "United Kingdom",
+      "active": true,
+      "teamId": 5005
+    },
+    {
+      "hltvId": 14614,
+      "name": "Owen Schlatter",
+      "nickname": "oBo",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/14614.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5005
+    },
+    {
+      "hltvId": 15165,
+      "name": "Benjamin Bremer",
+      "nickname": "blameF",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15165.png",
+      "nationality": "Denmark",
+      "active": true,
+      "teamId": 5005
+    },
+    {
+      "hltvId": 8711,
+      "name": "Aran Groesbeek",
+      "nickname": "Sonic",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/8711/400.jpeg?v=5",
+      "nationality": "South Africa",
+      "active": true,
+      "teamId": 9943
+    },
+    {
+      "hltvId": 11630,
+      "name": "Johnny Theodosiou",
+      "nickname": "JT",
+      "photo": "https://static.hltv.org/images/playerprofile/thumb/11630/400.jpeg?v=3",
+      "nationality": "South Africa",
+      "active": true,
+      "teamId": 9943
+    },
+    {
+      "hltvId": 12713,
+      "name": "Ricky Kemery",
+      "nickname": "floppy",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12713.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9943
+    },
+    {
+      "hltvId": 13230,
+      "name": "Ian Hardy",
+      "nickname": "motm",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13230.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9943
+    },
+    {
+      "hltvId": 13249,
+      "name": "Josh Ohm",
+      "nickname": "oSee",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/13249.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 9943
+    },
+    {
+      "hltvId": 8370,
+      "name": "Oscar Cañellas",
+      "nickname": "mixwell",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8370.png",
+      "nationality": "Spain",
+      "active": true,
+      "teamId": 5752
+    },
+    {
+      "hltvId": 8521,
+      "name": "Damian Steele",
+      "nickname": "daps",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8521.png",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 5752
+    },
+    {
+      "hltvId": 8735,
+      "name": "Timothy Ta",
+      "nickname": "autimatic",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/8735.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5752
+    },
+    {
+      "hltvId": 9056,
+      "name": "Kenneth Suen",
+      "nickname": "koosta",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9056.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 5752
+    },
+    {
+      "hltvId": 11231,
+      "name": "Yassine Taoufik",
+      "nickname": "Subroza",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/11231.png",
+      "nationality": "Canada",
+      "active": true,
+      "teamId": 5752
+    },
+    {
+      "hltvId": 7808,
+      "name": "Ryan Abadir",
+      "nickname": "freakazoid",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/7808.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7106
+    },
+    {
+      "hltvId": 9875,
+      "name": "Victor Wong",
+      "nickname": "food",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/9875.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7106
+    },
+    {
+      "hltvId": 10892,
+      "name": "Edgar Maldonado",
+      "nickname": "MarKE",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/10892.png",
+      "nationality": "Mexico",
+      "active": true,
+      "teamId": 7106
+    },
+    {
+      "hltvId": 12089,
+      "name": "Anthony Malaspina",
+      "nickname": "vanity",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/12089.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7106
+    },
+    {
+      "hltvId": 15007,
+      "name": "Austin Abadir",
+      "nickname": "Cooper-",
+      "photo": "https://static.hltv.org//images/playerprofile/bodyshot/compressed/15007.png",
+      "nationality": "United States",
+      "active": true,
+      "teamId": 7106
+    }
+  ]
+}

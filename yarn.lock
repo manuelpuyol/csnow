@@ -3937,6 +3937,11 @@ cosmiconfig@5.2.1, cosmiconfig@^5.0.0, cosmiconfig@^5.0.6, cosmiconfig@^5.2.0:
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
+country-list@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/country-list/-/country-list-2.2.0.tgz#e248338cafb97b2d86cf0784a25dceb4d52054d1"
+  integrity sha512-AS21pllCp72LmUztqXPVKXK3TRyap1XlohGLqN04cXH2rFB9vo7SnH5sMnqltZPnu9ie/x1se3UuCZJbGXErfw==
+
 create-ecdh@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/create-ecdh/-/create-ecdh-4.0.3.tgz#c9111b6f33045c4697f144787f9254cdc77c45ff"
@@ -9988,6 +9993,11 @@ react-context-toolbox@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/react-context-toolbox/-/react-context-toolbox-2.0.2.tgz#35637287cb23f801e6ed802c2bb7a97e1f04e3fb"
   integrity sha512-tY4j0imkYC3n5ZlYSgFkaw7fmlCp3IoQQ6DxpqeNHzcD0hf+6V+/HeJxviLUZ1Rv1Yn3N3xyO2EhkkZwHn0m1A==
+
+react-country-flags@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/react-country-flags/-/react-country-flags-2.2.3.tgz#a86cdf39ae992c9bdab03adfc4934bf87196cff1"
+  integrity sha512-cErU1GBDQ4sErCgY3XGrR2ahIJtLmRf3MysMR7Ytb6MbA2IUB6Q/rwGTUEhhej8+Pqchb5+DgUECWbvD8FnD3g==
 
 react-dom@^16.10.2:
   version "16.10.2"
