@@ -1,9 +1,11 @@
 import 'antd/dist/antd.css';
+import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import React from 'react';
+import Container from 'react-bootstrap/Container';
 import { Layout, Menu, Icon } from 'antd';
 import Navbar, { NavigationKey } from '@csnow/components/core/Navbar/Navbar';
 import Provider from '@csnow/components/core/Provider/Provider';
-import { AppContainer, AppContentContainer } from './App.style';
+import { AppContainer } from './App.style';
 
 interface IAppProps {
   selectedKey: NavigationKey;
@@ -16,7 +18,7 @@ const App: React.FC<IAppProps> = ({ selectedKey, children }) => {
     <Provider>
       <AppContainer>
         <Navbar selectedKey={selectedKey} />
-        <AppContentContainer>{children}</AppContentContainer>
+        <Container>{children}</Container>
       </AppContainer>
     </Provider>
   );
