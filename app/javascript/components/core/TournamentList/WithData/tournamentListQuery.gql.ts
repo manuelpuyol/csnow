@@ -1,5 +1,5 @@
 import gql from 'graphql-tag';
-import tournamentFragment from './tournament.fragment.gql';
+import tournamentFragment from './tournamentFragment.gql';
 
 const tournamentListQuery = gql`
   query TournamentListQuery {

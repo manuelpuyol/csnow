@@ -13,4 +13,5 @@ export interface TournamentFragment {
   location: string | null;
   startAt: any;
   endAt: any;
+  teamsCount: number | null;
 }

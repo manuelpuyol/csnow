@@ -11,11 +11,16 @@ module Core
       field :start_at, ::Types::DateTimeType, null: false
       field :end_at, ::Types::DateTimeType, null: false
       field :finished, Boolean, null: false
+      field :teams_count, Int, null: true, preload: :teams
 
       # Relations
       field :champions, TeamType, null: true
       field :rosters, [RosterType], null: false, preload: :rosters
       field :teams, [TeamType], null: false, preload: :teams
+
+      def teams_count
+        object.teams.size
+      end
     end
   end
 end

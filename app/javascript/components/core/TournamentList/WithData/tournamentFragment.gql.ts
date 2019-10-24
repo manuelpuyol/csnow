@@ -7,6 +7,7 @@ const tournamentFragment = gql`
     location
     startAt
     endAt
+    teamsCount
   }
 `;
 

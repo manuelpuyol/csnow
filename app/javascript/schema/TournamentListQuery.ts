@@ -13,6 +13,7 @@ export interface TournamentListQuery_tournaments {
   location: string | null;
   startAt: any;
   endAt: any;
+  teamsCount: number | null;
 }
 
 export interface TournamentListQuery {

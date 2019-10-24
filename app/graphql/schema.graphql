@@ -66,4 +66,5 @@ type Tournament {
   rosters: [Roster!]!
   startAt: DateTime!
   teams: [Team!]!
+  teamsCount: Int
 }
