@@ -2,11 +2,7 @@ import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import Logo from '@csnow/assets/images/logo.png';
 import UserPanel from '@csnow/components/ui/UserPanel/UserPanel';
-import {
-  NavbarUserPanelContainer,
-  NavbarLogo,
-  NavbarContainer,
-} from './Navbar.style';
+import { NavbarLogo, NavbarContainer } from './Navbar.style';
 
 export const NAVIGATION_KEYS = {
   matches: 'matches' as 'matches',

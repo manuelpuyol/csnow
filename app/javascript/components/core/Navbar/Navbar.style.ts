@@ -1,9 +1,4 @@
 import styled from 'styled-components';
-import Avatar from '../../ui/Avatar/Avatar';
-
-export const NavbarUserPanelContainer = styled.div`
-  padding: 20px;
-`;
 
 export const NavbarContainer = styled.div`
   display: flex;

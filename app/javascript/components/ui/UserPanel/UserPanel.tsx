@@ -16,7 +16,7 @@ const UserPanel: React.FC<IUserPanelProps> = ({ userName, bold }) => (
     <UserPanelAvatarContainer>
       <Avatar userName={userName} />
     </UserPanelAvatarContainer>
-    <UserPanelUserName bold>{userName}</UserPanelUserName>
+    <UserPanelUserName bold={bold}>{userName}</UserPanelUserName>
   </UserPanelContainer>
 );
 
