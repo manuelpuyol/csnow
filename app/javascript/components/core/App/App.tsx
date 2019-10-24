@@ -4,10 +4,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar, { NavigationKey } from '@csnow/components/core/Navbar/Navbar';
 import Provider from '@csnow/components/core/Provider/Provider';
-import { AppContainer } from './App.style';
+import { AppContainer, AppContent } from './App.style';
 
 interface IAppProps {
-  selectedKey: NavigationKey;
+  selectedKey?: NavigationKey;
   children: React.ReactNode;
 }
 
@@ -15,7 +15,9 @@ const App: React.FC<IAppProps> = ({ selectedKey, children }) => (
   <Provider>
     <AppContainer>
       <Navbar selectedKey={selectedKey} />
-      <Container>{children}</Container>
+      <AppContent>
+        <Container>{children}</Container>
+      </AppContent>
     </AppContainer>
   </Provider>
 );

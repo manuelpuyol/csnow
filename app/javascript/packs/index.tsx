@@ -1,5 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import TournamentsPage from '@csnow/pages/TournamentsPage/TournamentsPage';
+import HomePage from '@csnow/pages/HomePage/HomePage';
 
-render(<TournamentsPage />, document.querySelector('#root'));
+render(<HomePage />, document.querySelector('#root'));
