@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Menu, Icon } from 'antd';
 import Logo from '@csnow/assets/images/logo.png';
 import UserPanel from '@csnow/components/ui/UserPanel/UserPanel';
@@ -8,6 +7,7 @@ import {
   NavbarHeader,
   NavbarLogo,
   NavbarContainer,
+  NavbarLink,
 } from './Navbar.style';
 
 export const NAVIGATION_KEYS = {
@@ -25,15 +25,15 @@ interface INavbarProps {
 const Navbar: React.FC<INavbarProps> = ({ selectedKey }) => (
   <NavbarHeader>
     <NavbarContainer>
-      <Link to="/">
+      <NavbarLink to="/">
         <NavbarLogo src={Logo} />
-      </Link>
+      </NavbarLink>
       <NavbarMenu theme="dark" mode="horizontal" selectedKeys={[selectedKey]}>
         <Menu.Item key={NAVIGATION_KEYS.tournaments}>
-          <Link to="/tournaments">
+          <NavbarLink to="/tournaments">
             <Icon type="user" />
             <span>Tournaments</span>
-          </Link>
+          </NavbarLink>
         </Menu.Item>
         <Menu.Item key={NAVIGATION_KEYS.matches}>
           <Icon type="user" />

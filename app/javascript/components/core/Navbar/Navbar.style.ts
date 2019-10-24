@@ -1,4 +1,5 @@
 import { Layout, Menu } from 'antd';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const { Header } = Layout;
@@ -25,4 +26,8 @@ export const NavbarHeader = styled(Header)`
 export const NavbarMenu = styled(Menu)`
   line-height: 64px !important;
   flex: 1;
+`;
+
+export const NavbarLink = styled(Link)`
+  cursor: pointer;
 `;
