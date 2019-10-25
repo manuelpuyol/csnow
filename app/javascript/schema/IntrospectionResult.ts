@@ -13,7 +13,20 @@
 
       const result: IntrospectionResultData = {
   "__schema": {
-    "types": []
+    "types": [
+      {
+        "kind": "UNION",
+        "name": "Likeable",
+        "possibleTypes": [
+          {
+            "name": "Player"
+          },
+          {
+            "name": "Team"
+          }
+        ]
+      }
+    ]
   }
 };
 

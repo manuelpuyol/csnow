@@ -1,4 +1,30 @@
+type Bet {
+  id: ID!
+  match: Match!
+  placedAt: DateTime!
+  user: User!
+  winner: Roster!
+}
+
 scalar DateTime
+
+type Like {
+  id: ID!
+  likeable: Likeable!
+  user: User!
+}
+
+union Likeable = Player | Team
+
+type Match {
+  bets: [Bet!]!
+  endAt: DateTime
+  id: ID!
+  rosters: [Roster!]!
+  startAt: DateTime!
+  tournament: Tournament!
+  winner: Roster
+}
 
 type Mutation {
   """
@@ -27,6 +53,7 @@ type PlayerRanking {
 }
 
 type Query {
+  matches: [Match!]!
   tournaments: [Tournament!]!
 }
 
@@ -67,4 +94,18 @@ type Tournament {
   startAt: DateTime!
   teams: [Team!]!
   teamsCount: Int
+}
+
+type User {
+  active: Boolean
+  bets: [Bet!]!
+  email: String!
+  friends: [User!]!
+  id: ID!
+  likedPlayers: [Player!]!
+  likedTeams: [Team!]!
+  likes: [Like!]!
+  name: String!
+  nationality: String!
+  nickname: String!
 }

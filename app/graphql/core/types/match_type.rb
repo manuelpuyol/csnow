@@ -6,7 +6,6 @@ module Core
       graphql_name 'Match'
 
       field :id, ID, null: false
-      field :stage, MatchStagesEnumType, null: false
       field :start_at, ::Types::DateTimeType, null: false
       field :end_at, ::Types::DateTimeType, null: true
 
