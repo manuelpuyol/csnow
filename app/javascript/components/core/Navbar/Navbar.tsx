@@ -31,13 +31,15 @@ const Navbar: React.FC<INavbarProps> = ({ selectedKey }) => (
       <NavbarMenu theme="dark" mode="horizontal" selectedKeys={[selectedKey]}>
         <Menu.Item key={NAVIGATION_KEYS.tournaments}>
           <NavbarLink to="/tournaments">
-            <Icon type="user" />
+            <Icon type="trophy" />
             <span>Tournaments</span>
           </NavbarLink>
         </Menu.Item>
         <Menu.Item key={NAVIGATION_KEYS.matches}>
-          <Icon type="user" />
-          <span>Matches</span>
+          <NavbarLink to="/matches">
+            <Icon type="calendar" />
+            <span>Matches</span>
+          </NavbarLink>
         </Menu.Item>
       </NavbarMenu>
       <UserPanel userName="Manuel Puyol" bold />

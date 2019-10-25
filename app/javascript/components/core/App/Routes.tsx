@@ -4,8 +4,9 @@ import {
   NavigationKey,
   NAVIGATION_KEYS,
 } from '@csnow/components/core/Navbar/Navbar';
-import TournamentsPage from '@csnow/pages/TournamentsPage/TournamentsPage';
 import HomePage from '@csnow/pages/HomePage/HomePage';
+import TournamentsPage from '@csnow/pages/TournamentsPage/TournamentsPage';
+import MatchesPage from '@csnow/pages/MatchesPage/MatchesPage';
 
 interface IRoutesProps {
   onRouteChange: (key: NavigationKey) => void;
@@ -27,6 +28,14 @@ const Routes: React.FC<IRoutesProps> = ({ onRouteChange }) => (
       render={() => {
         onRouteChange(NAVIGATION_KEYS.tournaments);
         return <TournamentsPage />;
+      }}
+    />
+    <Route
+      path="/matches"
+      exact
+      render={() => {
+        onRouteChange(NAVIGATION_KEYS.matches);
+        return <MatchesPage />;
       }}
     />
   </Switch>
