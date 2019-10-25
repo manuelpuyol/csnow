@@ -12,7 +12,7 @@ class Match < ApplicationRecord
   validate :winner_must_be_in_match
 
   def rosters
-    [upper_roster, lower_roster]
+    [upper_roster, lower_roster].compact
   end
 
   private

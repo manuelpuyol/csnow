@@ -60,6 +60,8 @@ type Query {
 type Roster {
   endAt: DateTime
   id: ID!
+  logo: String
+  name: String
   players: [Player!]!
   startAt: DateTime!
   team: Team!

@@ -10,11 +10,11 @@ import {
   TournamentTeamCountContainer,
 } from './Tournament.style';
 
-interface ITournamentListProps {
+interface ITournamentProps {
   tournament: TournamentFragment;
 }
 
-const TournamentList: React.FC<ITournamentListProps> = ({ tournament }) => {
+const Tournament: React.FC<ITournamentProps> = ({ tournament }) => {
   const { Title } = Typography;
   return (
     <Card key={tournament.id}>
@@ -43,4 +43,4 @@ const TournamentList: React.FC<ITournamentListProps> = ({ tournament }) => {
   );
 };
 
-export default TournamentList;
+export default Tournament;
