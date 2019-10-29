@@ -99,7 +99,7 @@ INNER JOIN
 GROUP BY
   teams.name;
 
---
+-- All friens from user --
 
 WITH friends(id) AS (
   SELECT
