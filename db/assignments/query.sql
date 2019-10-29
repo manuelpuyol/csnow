@@ -98,27 +98,3 @@ INNER JOIN
   teams ON rosters.team_id = teams.id
 GROUP BY
   teams.name;
-
--- All friens from user --
-
-WITH friends(id) AS (
-  SELECT
-    requester_id AS id
-  FROM
-    friendships
-  WHERE
-    receiver_id = 1
-  UNION
-  SELECT
-    receiver_id AS id
-  FROM
-    friendships
-  WHERE
-    requester_id = 1
-)
-SELECT
-  name
-FROM
-  users
-INNER JOIN
-  friends ON users.id = friends.id;
