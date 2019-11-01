@@ -1,4 +1,5 @@
 import gql from 'graphql-tag';
+import matchRosterFragment from './matchRosterFragment.gql';
 
 const matchFragment = gql`
   fragment MatchFragment on Match {
@@ -6,9 +7,7 @@ const matchFragment = gql`
     startAt
     endAt
     rosters {
-      id
-      name
-      logo
+      ...MatchRosterFragment
     }
     winner {
       id
@@ -17,6 +16,7 @@ const matchFragment = gql`
       name
     }
   }
+  ${matchRosterFragment}
 `;
 
 export default matchFragment;

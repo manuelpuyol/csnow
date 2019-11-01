@@ -1,10 +1,10 @@
 import React from 'react';
-import { MatchFragment_rosters } from '@csnow/schema/MatchFragment';
+import { MatchRosterFragment } from '@csnow/schema/MatchRosterFragment';
 import { Text } from '@csnow/components/ui/Typography/Typography';
 import { RosterImage, RosterContainer } from './Roster.style';
 
 interface IRosterProps {
-  roster?: MatchFragment_rosters;
+  roster?: MatchRosterFragment;
   winner: boolean;
 }
 
