@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { MatchFragment_rosters } from '@csnow/schema/MatchFragment';
 import { Text } from '@csnow/components/ui/Typography/Typography';
 import { RosterImage, RosterContainer } from './Roster.style';

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import moment from 'moment';
 import { MatchFragment } from '@csnow/schema/MatchFragment';
 import { Text } from '@csnow/components/ui/Typography/Typography';
@@ -36,9 +36,11 @@ const Match: React.FC<IMatchProps> = ({ match }) => {
           />
         </div>
       </RostersContainer>
-      <div>{`${match.tournament.name} - ${moment(match.startAt).format(
-        'MMM Do YYYY',
-      )}`}</div>
+      <div>
+        {`${match.tournament.name} - ${moment(match.startAt).format(
+          'MMM Do YYYY',
+        )}`}
+      </div>
     </Card>
   );
 };
