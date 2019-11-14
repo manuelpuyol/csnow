@@ -40,6 +40,7 @@ end
 # Indexes
 #
 #  index_bets_on_match_id   (match_id)
+#  index_bets_on_placed_at  (placed_at)
 #  index_bets_on_user_id    (user_id)
 #  index_bets_on_winner_id  (winner_id)
 #

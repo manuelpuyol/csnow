@@ -698,6 +698,13 @@ CREATE INDEX index_bets_on_match_id ON public.bets USING btree (match_id);
 
 
 --
+-- Name: index_bets_on_placed_at; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE INDEX index_bets_on_placed_at ON public.bets USING btree (placed_at);
+
+
+--
 -- Name: index_bets_on_user_id; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -986,6 +993,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191017021426'),
 ('20191017024856'),
 ('20191017025800'),
-('20191017030456');
+('20191017030456'),
+('20191114224604');
 
 
