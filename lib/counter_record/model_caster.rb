@@ -2,24 +2,26 @@
 
 module CounterRecord
   module ModelCaster
-    def cast_sql_results(results)
-      if results.count == 1
-        cast_to_model(self, table_name, results[0])
-      else
-        cast_multiple_results(results)
+    def cast_sql_results(results, *includes)
+      models = primary_model_results(results).map do |result|
+        cast_to_model(self, table_name, result)
       end
+
+      models.each do |model|
+        cache_relations(model, includes.compact, results)
+      end
+
+      models
     end
 
     private
 
-    def cast_to_model(klass, table_name, result)
-      klass.new(model_params(klass, table_name, result))
+    def primary_model_results(results)
+      results.uniq { |result| result["#{table_name}_id"] }
     end
 
-    def cast_multiple_results(results)
-      results.map do |result|
-        cast_to_model(self, table_name, result)
-      end
+    def cast_to_model(klass, table_name, result)
+      klass.new(model_params(klass, table_name, result))
     end
 
     def model_params(klass, table_name, result)

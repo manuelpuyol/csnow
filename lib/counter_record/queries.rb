@@ -7,6 +7,7 @@ module CounterRecord
         extend ClassMethods
         extend ::CounterRecord::QueryBuilder
         extend ::CounterRecord::ModelCaster
+        extend ::CounterRecord::RelationsCacher
       end
     end
 
@@ -15,30 +16,28 @@ module CounterRecord
         query = generate_query(includes)
         sql_result = connection.execute(query)
 
-        cache_included_reflections(includes)
-
-        cast_sql_results(sql_result)
+        cast_sql_results(sql_result.to_a, includes)
       end
 
       def find(id, includes: nil)
         query = "#{generate_query(includes)} #{first_statement(id)}"
         sql_result = connection.execute(query)
 
-        cast_sql_results(sql_result)
+        cast_sql_results(sql_result.to_a, includes)
       end
 
       def first(includes: nil)
         query = "#{generate_query(includes)} #{first_statement}"
         sql_result = connection.execute(query)
 
-        cast_sql_results(sql_result)
+        cast_sql_results(sql_result.to_a, includes)
       end
 
       def where(args, includes: nil)
         query = "#{generate_query(includes)} WHERE #{where_statement(args)}"
         sql_result = connection.execute(query)
 
-        cast_sql_results(sql_result)
+        cast_sql_results(sql_result.to_a, includes)
       end
     end
   end
