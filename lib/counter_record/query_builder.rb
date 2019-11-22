@@ -4,7 +4,7 @@ module CounterRecord
   module QueryBuilder
     def generate_query(*includes)
       include_sql_hash = generate_includes(includes.compact)
-      select_fields = include_sql_hash[:select] << "#{table_name}.*"
+      select_fields = include_sql_hash[:select] << select_columns_from_model(self)
 
       select_statement = "SELECT #{select_fields.join(', ')} FROM #{table_name}"
       join_statements = include_sql_hash[:join].join(' ')
@@ -58,25 +58,33 @@ module CounterRecord
     end
 
     def build_has_many_join(relation)
+      relation_model = relation[:klass]
       table_alias = relation[:table_alias]
       relation_table = relation[:table_name]
       column_name = relation[:column_name]
 
       {
-        select: ["#{table_alias}.*"],
+        select: select_columns_from_model(relation_model, table_alias),
         join: ["INNER JOIN #{relation_table} AS #{table_alias} ON #{table_alias}.#{column_name} = #{table_name}.id"]
       }
     end
 
     def build_belongs_to_join(relation)
+      relation_model = relation[:klass]
       table_alias = relation[:table_alias]
       relation_table = relation[:table_name]
       column_name = relation[:column_name]
 
       {
-        select: ["#{table_alias}.*"],
+        select: select_columns_from_model(relation_model, table_alias),
         join: ["INNER JOIN #{relation_table} AS #{table_alias} ON #{table_alias}.id = #{table_name}.#{column_name}"]
       }
+    end
+
+    def select_columns_from_model(klass, table_alias = nil)
+      table = table_alias || klass.table_name
+
+      klass.column_names.map { |col| "#{table}.#{col} AS #{table}_#{col}" }.join(', ')
     end
 
     def hash_where_statement(kwargs)
