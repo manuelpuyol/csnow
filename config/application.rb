@@ -40,6 +40,9 @@ module Csnow
       g.helper          false
       g.channel         assets: false
     end
+
+    config.autoload_paths += %W[#{config.root}/lib]
+
     config.active_record.schema_format = :sql
   end
 end

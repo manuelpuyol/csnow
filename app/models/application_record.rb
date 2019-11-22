@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 class ApplicationRecord < ActiveRecord::Base
-  extend SqlQuerying
+  extend SqlExtensions
   self.abstract_class = true
 end
