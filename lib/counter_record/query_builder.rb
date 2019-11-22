@@ -2,8 +2,8 @@
 
 module CounterRecord
   module QueryBuilder
-    def generate_query(*includes)
-      include_sql_hash = generate_includes(includes.compact)
+    def generate_query(includes)
+      include_sql_hash = generate_includes(includes)
       select_fields = include_sql_hash[:select] << select_columns_from_model(self)
 
       select_statement = "SELECT #{select_fields.join(', ')} FROM #{table_name}"
@@ -35,7 +35,10 @@ module CounterRecord
 
     def generate_includes(includes)
       base_hash = { select: [], join: [] }
-      return base_hash if includes.blank?
+
+      return base_hash if includes.nil?
+
+      includes = [includes] unless includes.is_a?(Array)
 
       includes.each_with_object(base_hash) do |include, obj|
         single_include = generate_single_include(include)

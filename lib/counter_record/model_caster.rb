@@ -2,13 +2,15 @@
 
 module CounterRecord
   module ModelCaster
-    def cast_sql_results(results, *includes)
+    def cast_sql_results(results, includes)
       models = primary_model_results(results).map do |result|
         cast_to_model(self, table_name, result)
       end
 
+      includes = [includes] unless includes.is_a?(Array)
+
       models.each do |model|
-        cache_relations(model, includes.compact, results)
+        cache_relations(model, includes, results)
       end
 
       models
