@@ -54,6 +54,7 @@ module CounterRecord
           type: RELATION_TYPES[type],
           klass: relation_klass,
           table_name: relation_klass&.table_name,
+          table_alias: name.to_s.pluralize,
           column_name: foreign_key || "#{name}_id",
           variable_name: "@#{name}",
           polymorphic: polymorphic
