@@ -2,11 +2,11 @@
 
 module CounterRecord
   module Queries
-    extend ::CounterRecord::Queries
-
     def self.included(base)
       base.class_eval do
         extend ClassMethods
+        extend ::CounterRecord::QueryBuilder
+        extend ::CounterRecord::ModelCaster
       end
     end
 
@@ -17,32 +17,28 @@ module CounterRecord
 
         cache_included_reflections(includes)
 
-        sql_result.map do |result|
-          cast_sql_result(result)
-        end
+        cast_sql_results(sql_result)
       end
 
       def find(id, includes: nil)
         query = "#{generate_query(includes)} #{first_statement(id)}"
-        sql_result = connection.execute(query)[0]
+        sql_result = connection.execute(query)
 
-        cast_sql_result(sql_result)
+        cast_sql_results(sql_result)
       end
 
       def first(includes: nil)
-        query = "#{generate_query(includes)} #{order_statement}"
-        sql_result = connection.execute(query)[0]
+        query = "#{generate_query(includes)} #{first_statement}"
+        sql_result = connection.execute(query)
 
-        cast_sql_result(sql_result)
+        cast_sql_results(sql_result)
       end
 
       def where(args, includes: nil)
         query = "#{generate_query(includes)} WHERE #{where_statement(args)}"
         sql_result = connection.execute(query)
 
-        sql_result.map do |result|
-          cast_sql_result(result)
-        end
+        cast_sql_results(sql_result)
       end
     end
   end

@@ -2,7 +2,11 @@
 
 module CounterRecord
   module Base
-    extend ::CounterRecord::Relations
-    extend ::CounterRecord::Queries
+    def self.included(base)
+      base.class_eval do
+        include ::CounterRecord::Relations
+        include ::CounterRecord::Queries
+      end
+    end
   end
 end

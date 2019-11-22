@@ -3,7 +3,7 @@
 module CounterRecord
   module QueryBuilder
     def generate_query(*includes)
-      include_sql_hash = generate_includes(includes)
+      include_sql_hash = generate_includes(includes.compact)
       select_fields = include_sql_hash[:select] << "#{table_name}.*"
 
       select_statement = "SELECT #{select_fields.join(', ')} FROM #{table_name}"
