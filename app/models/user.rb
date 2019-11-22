@@ -23,8 +23,8 @@ class User < ApplicationRecord
   has_many :player_likes
   has_many :team_likes
 
-  has_many :liked_teams, through: :team_likes, source: :likeable, source_type: 'Team'
-  has_many :liked_players, through: :player_likes, source: :likeable, source_type: 'Player'
+  # has_many :liked_teams, through: :team_likes, source: :likeable, source_type: 'Team'
+  # has_many :liked_players, through: :player_likes, source: :likeable, source_type: 'Player'
 
   validates :name, presence: true
   validates :email, presence: true, uniqueness: true

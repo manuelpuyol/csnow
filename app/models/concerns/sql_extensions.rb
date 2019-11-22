@@ -37,34 +37,6 @@ module SqlExtensions
     end
   end
 
-  def belongs_to(name, scope = nil, **options)
-    super
-
-    define_method(name) do
-      return instance_variable_get("@#{name}") if instance_variable_get("@#{name}")
-
-      column_name = "#{name}_id"
-      klass = ::ClassInferrer.infer(name, options)
-
-      instance_variable_set("@#{name}", klass.find(send(column_name)))
-    end
-  end
-
-  # rubocop:disable Naming/PredicateName
-  def has_many(name, scope = nil, **options, &extension)
-    super
-
-    define_method(name) do
-      return instance_variable_get("@#{name}") if instance_variable_get("@#{name}")
-
-      klass = ::ClassInferrer.infer(name, options)
-      column_name = "#{self.class.table_name.singularize}_id"
-
-      instance_variable_set("@#{name}", klass.where(column_name => id))
-    end
-  end
-  # rubocop:enable Naming/PredicateName
-
   private
 
   def cast_sql_result(result)
@@ -81,6 +53,15 @@ module SqlExtensions
       cache_reflections([includes])
     else
       raise ArgumentError, "Unexpected argument type #{includes.class}"
+    end
+  end
+
+  def cache_reflections(includes)
+    includes.each do |reflection|
+      klass = ::ClassInferrer.infer(name, reflections[reflection.to_s].options)
+
+      reflections = klass.cast_sql_result
+      instance_variable_set("@#{reflection}", klass.where(column_name => id))
     end
   end
 
