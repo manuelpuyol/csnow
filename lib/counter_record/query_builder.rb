@@ -95,6 +95,8 @@ module CounterRecord
         case value
         when Array
           "#{table_name}.#{key} IN (#{value.join(', ')})"
+        when NilClass
+          "#{table_name}.#{key} IS NULL"
         else
           "#{table_name}.#{key} = #{value}"
         end

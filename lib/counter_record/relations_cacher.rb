@@ -3,7 +3,9 @@
 module CounterRecord
   module RelationsCacher
     def cache_relations(model, includes, results)
-      return if includes.blank?
+      return if includes.nil?
+
+      includes = [includes] unless includes.is_a?(Array)
 
       includes.each do |include|
         relation = model.relations[include]

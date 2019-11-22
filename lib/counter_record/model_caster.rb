@@ -7,8 +7,6 @@ module CounterRecord
         cast_to_model(self, table_name, result)
       end
 
-      includes = [includes] unless includes.is_a?(Array)
-
       models.each do |model|
         cache_relations(model, includes, results)
       end
