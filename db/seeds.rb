@@ -49,7 +49,7 @@ players = players_json['players'].map do |player|
 
   PlayerRoster.create!(
     player: x,
-    roster: rosters.find { |x| x.team.hltv_id == player['teamId'] }
+    roster: rosters.find { |r| r.team.hltv_id == player['teamId'] }
   )
 
   x
@@ -58,8 +58,8 @@ end
 matches = matches_json['matches'].map do |match|
   next if match['eventHltvId'].nil?
 
-  roster_1 = rosters.find { |x| x.team.hltv_id == match['team1HltvId'] }
-  roster_2 = rosters.find { |x| x.team.hltv_id == match['team2HltvId'] }
+  roster1 = rosters.find { |x| x.team.hltv_id == match['team1HltvId'] }
+  roster2 = rosters.find { |x| x.team.hltv_id == match['team2HltvId'] }
   event = events.find { |x| x.hltv_id == match['eventHltvId'] }
 
   score = match['result'].split(' - ').map(&:to_i)
@@ -68,8 +68,8 @@ matches = matches_json['matches'].map do |match|
 
   Match.create!(
     hltv_id: match['hltvId'],
-    upper_roster: roster_1,
-    lower_roster: roster_2,
+    upper_roster: roster1,
+    lower_roster: roster2,
     tournament: event,
     start_at: Time.at(match['date'] / 1000),
     winner: winner
