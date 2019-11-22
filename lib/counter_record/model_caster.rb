@@ -21,7 +21,7 @@ module CounterRecord
     end
 
     def cast_to_model(klass, table_name, result)
-      klass.new(model_params(klass, table_name, result))
+      instantiate_instance_of(klass, model_params(klass, table_name, result))
     end
 
     def model_params(klass, table_name, result)
