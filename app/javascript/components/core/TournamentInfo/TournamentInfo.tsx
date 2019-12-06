@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { Col, Row } from 'antd';
+import React, { Fragment, useState } from 'react';
+import { Col, Row, Button } from 'antd';
 import { TournamentInfoFragment } from '@csnow/schema/TournamentInfoFragment';
 import { MatchFragment } from '@csnow/schema/MatchFragment';
 import PageHeader from '@csnow/components/ui/PageHeader/PageHeader';
@@ -8,6 +8,7 @@ import Card from '@csnow/components/ui/Card/Card';
 import Roster from '../Match/Roster/Roster';
 import Match from '../Match/Match';
 import { MatchContainer } from './TournamentInfo.style';
+import AddMatchModal from './Modal/AddMatchModal';
 
 interface ITournamentInfoProps {
   tournament: TournamentInfoFragment;
@@ -51,6 +52,20 @@ const buildPlacement = (id, tournament): React.ReactNode => {
 const TournamentInfo: React.FC<ITournamentInfoProps> = ({ tournament }) => {
   const title = tournament.name;
 
+  const [visible, setVisible] = useState<boolean>(false);
+
+  const openModal = (): void => {
+    setVisible(true);
+  };
+
+  const handleCancel = (): void => {
+    setVisible(false);
+  };
+
+  const handleOk = (): void => {
+    setVisible(false);
+  };
+
   return (
     <Fragment>
       <PageHeader ghost={false} title={title} />
@@ -67,7 +82,14 @@ const TournamentInfo: React.FC<ITournamentInfoProps> = ({ tournament }) => {
             </Card>
           </Col>
           <Col span={12}>
-            <Card title="Matches">
+            <Card
+              title="Matches"
+              extra={
+                <Button type="primary" onClick={openModal}>
+                  Add Match
+                </Button>
+              }
+            >
               {tournament.matches.map(match => (
                 <Match key={match.id} match={buildMatch(tournament, match)} />
               ))}
@@ -75,6 +97,13 @@ const TournamentInfo: React.FC<ITournamentInfoProps> = ({ tournament }) => {
           </Col>
         </Row>
       </PageContent>
+      <AddMatchModal
+        tournamentId={tournament.id}
+        rosters={tournament.rosters}
+        visible={visible}
+        onOk={handleOk}
+        onCancel={handleCancel}
+      />
     </Fragment>
   );
 };
