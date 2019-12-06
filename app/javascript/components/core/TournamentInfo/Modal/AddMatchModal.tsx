@@ -77,7 +77,7 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
 
   return (
     <Modal
-      title="Update Tournament"
+      title="Add Match"
       visible={visible}
       onOk={handleSubmit}
       onCancel={onCancel}

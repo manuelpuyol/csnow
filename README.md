@@ -110,6 +110,7 @@ Click on `Add match` to add a new match in the tournament (can only add matches 
 - (6) a link to create a new record that could appear in the search result.
 
 Click on `Create Tournament`, that should open a modal with a small form to create a brand new tournament!
+You must search again to see the nrew record in this case.
 
 ### Credits
 
