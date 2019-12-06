@@ -25,7 +25,9 @@ const buildMatch = (tournament, match): MatchFragment => ({
   id: match.id,
   startAt: match.startAt,
   endAt: match.endAt,
-  winner: findRoster(match.winnerId, tournament),
+  winnerId: match.winnerId,
+  upperRosterId: match.upperRosterId,
+  lowerRosterId: match.lowerRosterId,
   rosters: [
     findRoster(match.upperRosterId, tournament),
     findRoster(match.lowerRosterId, tournament),
@@ -62,7 +64,9 @@ const TournamentInfo: React.FC<ITournamentInfoProps> = ({ tournament }) => {
     setVisible(false);
   };
 
-  const handleOk = (): void => {
+  const handleOk = (match): void => {
+    debugger;
+    tournament.matches.unshift(match);
     setVisible(false);
   };
 

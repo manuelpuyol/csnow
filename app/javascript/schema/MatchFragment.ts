@@ -13,11 +13,6 @@ export interface MatchFragment_rosters {
   logo: string | null;
 }
 
-export interface MatchFragment_winner {
-  __typename: "Roster";
-  id: string;
-}
-
 export interface MatchFragment_tournament {
   __typename: "Tournament";
   name: string;
@@ -28,7 +23,9 @@ export interface MatchFragment {
   id: string;
   startAt: any;
   endAt: any | null;
+  upperRosterId: string;
+  lowerRosterId: string;
   rosters: MatchFragment_rosters[];
-  winner: MatchFragment_winner | null;
+  winnerId: string | null;
   tournament: MatchFragment_tournament;
 }

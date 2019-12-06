@@ -14,7 +14,7 @@ module Core
           tournaments
         else
           filters = build_filters(args)
-          Tournament.where(filters, includes: relations)
+          Tournament.where(filters, includes: relations, limit: 50)
         end
       end
 

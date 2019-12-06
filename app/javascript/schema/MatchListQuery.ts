@@ -13,11 +13,6 @@ export interface MatchListQuery_matches_rosters {
   logo: string | null;
 }
 
-export interface MatchListQuery_matches_winner {
-  __typename: "Roster";
-  id: string;
-}
-
 export interface MatchListQuery_matches_tournament {
   __typename: "Tournament";
   name: string;
@@ -28,8 +23,10 @@ export interface MatchListQuery_matches {
   id: string;
   startAt: any;
   endAt: any | null;
+  upperRosterId: string;
+  lowerRosterId: string;
   rosters: MatchListQuery_matches_rosters[];
-  winner: MatchListQuery_matches_winner | null;
+  winnerId: string | null;
   tournament: MatchListQuery_matches_tournament;
 }
 

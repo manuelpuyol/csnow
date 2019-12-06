@@ -15,7 +15,7 @@ interface IAddMatchModalProms {
   rosters: MatchRosterFragment[];
   form: any;
   visible: boolean;
-  onOk: () => void;
+  onOk: (match) => void;
   onCancel: () => void;
 }
 const { Option } = Select;
@@ -45,11 +45,11 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
               lowerRosterId: values.lowerRosterId,
               winnerId: values.winnerId,
               startAt: values.startAt.utc().toISOString(),
-              endAt: values.endAt.utc().toISOString(),
+              endAt: values.endAt && values.endAt.utc().toISOString(),
             },
           },
-        }).then(() => {
-          onOk();
+        }).then(match => {
+          onOk(match.data.createMatch.match);
         });
       }
     });

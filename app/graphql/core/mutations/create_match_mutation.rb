@@ -13,9 +13,8 @@ module Core
       field :match, Core::Types::MatchType, null: false
 
       def resolve(attrs)
-        match = Match.create(attrs.merge(hltv_id: 0))
+        match = Match.create(attrs.merge(hltv_id: 0), includes: %i[tournament upper_roster lower_roster winner])
 
-        binding.pry
         { match: match }
       end
     end

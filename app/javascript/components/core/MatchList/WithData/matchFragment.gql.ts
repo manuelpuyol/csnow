@@ -6,12 +6,12 @@ const matchFragment = gql`
     id
     startAt
     endAt
+    upperRosterId
+    lowerRosterId
     rosters {
       ...MatchRosterFragment
     }
-    winner {
-      id
-    }
+    winnerId
     tournament {
       name
     }

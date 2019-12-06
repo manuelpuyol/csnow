@@ -13,7 +13,7 @@ interface IMatchProps {
 const Match: React.FC<IMatchProps> = ({ match }) => {
   const leftRoster = match.rosters[0];
   const rightRoster = match.rosters[1];
-  const winnerId = match.winner && match.winner.id;
+  const winnerId = match.winnerId;
 
   return (
     <Card key={match.id}>

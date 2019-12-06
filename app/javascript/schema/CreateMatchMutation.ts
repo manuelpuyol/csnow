@@ -15,11 +15,6 @@ export interface CreateMatchMutation_createMatch_match_rosters {
   logo: string | null;
 }
 
-export interface CreateMatchMutation_createMatch_match_winner {
-  __typename: "Roster";
-  id: string;
-}
-
 export interface CreateMatchMutation_createMatch_match_tournament {
   __typename: "Tournament";
   name: string;
@@ -30,8 +25,10 @@ export interface CreateMatchMutation_createMatch_match {
   id: string;
   startAt: any;
   endAt: any | null;
+  upperRosterId: string;
+  lowerRosterId: string;
   rosters: CreateMatchMutation_createMatch_match_rosters[];
-  winner: CreateMatchMutation_createMatch_match_winner | null;
+  winnerId: string | null;
   tournament: CreateMatchMutation_createMatch_match_tournament;
 }
 

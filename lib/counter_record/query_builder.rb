@@ -52,7 +52,7 @@ module CounterRecord
         end
       end.join(', ')
 
-      "INSERT INTO #{table_name} (#{columns}) VALUES (#{column_values}) RETURNING ID"
+      "INSERT INTO #{table_name} (#{columns}) VALUES (#{column_values}) RETURNING id"
     end
 
     private
@@ -108,7 +108,7 @@ module CounterRecord
 
       {
         select: select_columns_from_model(relation_model, table_alias),
-        join: ["INNER JOIN #{relation_table} AS #{table_alias} ON #{table_alias}.#{column_name} = #{table_name}.id"]
+        join: ["LEFT JOIN #{relation_table} AS #{table_alias} ON #{table_alias}.#{column_name} = #{table_name}.id"]
       }
     end
 
@@ -122,7 +122,7 @@ module CounterRecord
 
       {
         select: select_columns_from_model(relation_model, table_alias),
-        join: ["INNER JOIN #{relation_table} AS #{table_alias} ON #{through_table}.#{column_name} = #{table_alias}.id"]
+        join: ["LEFT JOIN #{relation_table} AS #{table_alias} ON #{through_table}.#{column_name} = #{table_alias}.id"]
       }
     end
 
@@ -134,7 +134,7 @@ module CounterRecord
 
       {
         select: select_columns_from_model(relation_model, table_alias),
-        join: ["INNER JOIN #{relation_table} AS #{table_alias} ON #{table_alias}.id = #{table_name}.#{column_name}"]
+        join: ["LEFT JOIN #{relation_table} AS #{table_alias} ON #{table_alias}.id = #{table_name}.#{column_name}"]
       }
     end
 
