@@ -5,6 +5,7 @@ const createTournamentMutation = gql`
     createTournament(input: $input) {
       tournament {
         id
+        name
       }
     }
   }

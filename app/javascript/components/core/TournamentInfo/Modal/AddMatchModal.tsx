@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import { useMutation } from 'react-apollo';
-import { Modal, Form, Input, DatePicker, Select } from 'antd';
+import { Modal, Form, Input, DatePicker, Select, message } from 'antd';
 import locations from '@csnow/utils/locations';
 import { MatchRosterFragment } from '@csnow/schema/MatchRosterFragment';
 import {
@@ -48,9 +48,14 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
               endAt: values.endAt && values.endAt.utc().toISOString(),
             },
           },
-        }).then(match => {
-          onOk(match.data.createMatch.match);
-        });
+        })
+          .then(response => {
+            message.success('Tournament updated successfully!');
+            onOk(response.data.createMatch.match);
+          })
+          .catch(e => {
+            message.error('Uh oh, some unexpected error happened', e);
+          });
       }
     });
   };

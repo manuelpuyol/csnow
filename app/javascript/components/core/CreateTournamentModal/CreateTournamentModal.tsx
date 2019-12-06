@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMutation } from 'react-apollo';
-import { Modal, Form, Input, DatePicker, Select } from 'antd';
+import { Modal, Form, Input, DatePicker, Select, message } from 'antd';
 import locations from '@csnow/utils/locations';
 import {
   CreateTournamentMutation,
@@ -40,9 +40,15 @@ const CreateTournamentModal: React.FC<ICreateTournamentModalProms> = ({
               endAt: values.endAt.utc().toISOString(),
             },
           },
-        }).then(match => {
-          onOk(match.data.createTournament.tournament);
-        });
+        })
+          .then(response => {
+            const tournament = response.data.createTournament.tournament;
+            message.success(`Tournament ${tournament.name} created!`);
+            onOk(tournament);
+          })
+          .catch(e => {
+            message.error('Uh oh, some unexpected error happened', e);
+          });
       }
     });
   };

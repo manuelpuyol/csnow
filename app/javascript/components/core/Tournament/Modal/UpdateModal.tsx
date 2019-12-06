@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import { useMutation } from 'react-apollo';
-import { Modal, Form, Input, DatePicker, Select } from 'antd';
+import { Modal, Form, Input, DatePicker, Select, message } from 'antd';
 import locations from '@csnow/utils/locations';
 import { TournamentFragment } from '@csnow/schema/TournamentFragment';
 import {
@@ -45,9 +45,14 @@ const UpdateTournamentForm: React.FC<IUpdateTournamentFormProms> = ({
               endAt: values.endAt.utc().toISOString(),
             },
           },
-        }).then(() => {
-          onOk();
-        });
+        })
+          .then(() => {
+            message.success('Tournament updated successfully!');
+            onOk();
+          })
+          .catch(e => {
+            message.error('Uh oh, some unexpected error happened', e);
+          });
       }
     });
   };
