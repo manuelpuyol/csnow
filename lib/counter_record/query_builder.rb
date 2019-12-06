@@ -2,7 +2,7 @@
 
 module CounterRecord
   module QueryBuilder
-    def generate_query(includes:, limit:)
+    def generate_query(includes:, limit: nil)
       include_sql_hash = generate_includes(includes)
       select_fields = include_sql_hash[:select] << select_columns_from_model(self)
 
@@ -52,7 +52,11 @@ module CounterRecord
 
       case relation[:type]
       when CounterRecord::Relations::RELATION_TYPES[:has_many]
-        build_has_many_join(relation)
+        if relation[:through].blank?
+          build_has_many_join(relation)
+        else
+          build_has_many_through_join(relation)
+        end
       when CounterRecord::Relations::RELATION_TYPES[:belongs_to]
         build_belongs_to_join(relation)
       else
@@ -69,6 +73,20 @@ module CounterRecord
       {
         select: select_columns_from_model(relation_model, table_alias),
         join: ["INNER JOIN #{relation_table} AS #{table_alias} ON #{table_alias}.#{column_name} = #{table_name}.id"]
+      }
+    end
+
+    def build_has_many_through_join(relation)
+      relation_model = relation[:klass]
+      table_alias = relation[:table_alias]
+      relation_table = relation[:table_name]
+      column_name = relation[:column_name]
+      through_relation = relations[relation[:through]]
+      through_table = through_relation[:table_alias]
+
+      {
+        select: select_columns_from_model(relation_model, table_alias),
+        join: ["INNER JOIN #{relation_table} AS #{table_alias} ON #{through_table}.#{column_name} = #{table_alias}.id"]
       }
     end
 
