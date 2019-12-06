@@ -12,7 +12,7 @@ module Core
       private
 
       def matches
-        @matches ||= Match.all(includes: [:tournament, :upper_roster, :lower_roster])
+        @matches ||= Match.all(includes: [:tournament, :upper_roster, :lower_roster, :winner])
       end
     end
   end

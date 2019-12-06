@@ -274,7 +274,9 @@ CREATE TABLE public.rosters (
     end_at timestamp without time zone,
     team_id bigint NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
-    updated_at timestamp(6) without time zone NOT NULL
+    updated_at timestamp(6) without time zone NOT NULL,
+    name character varying,
+    logo character varying
 );
 
 
@@ -994,6 +996,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20191017024856'),
 ('20191017025800'),
 ('20191017030456'),
-('20191114224604');
+('20191114224604'),
+('20191206153819');
 
 

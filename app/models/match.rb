@@ -12,7 +12,7 @@ class Match < ApplicationRecord
   validate :winner_must_be_in_match
 
   def rosters
-    Roster.where(id: [upper_roster_id, lower_roster_id])
+    [upper_roster, lower_roster]
   end
 
   private

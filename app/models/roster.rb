@@ -3,8 +3,6 @@
 class Roster < ApplicationRecord
   alias_attribute :rankings, :team_rankings
 
-  delegate :name, :logo, to: :team
-
   belongs_to :team
   has_many :player_rosters, dependent: :destroy
   has_many :players, through: :player_rosters
@@ -28,6 +26,8 @@ end
 #  team_id    :integer          not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  name       :string
+#  logo       :string
 #
 # Indexes
 #
