@@ -5,14 +5,24 @@ module Core
     class TournamentsResolver < ::BaseResolver
       type [Core::Types::TournamentType], null: false
 
-      def resolve
-        tournaments
+      argument :search, String, required: false
+
+      def resolve(search: nil)
+        if search.nil?
+          tournaments
+        else
+          Tournament.where(['name ILIKE ?', "%#{search}%"], includes: relations)
+        end
       end
 
       private
 
       def tournaments
-        @tournaments ||= Tournament.all(includes: %i[tournament_placements rosters teams])
+        @tournaments ||= Tournament.all(includes: relations)
+      end
+
+      def relations
+        %i[tournament_placements rosters teams]
       end
     end
   end

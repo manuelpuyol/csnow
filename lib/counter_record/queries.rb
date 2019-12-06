@@ -38,7 +38,7 @@ module CounterRecord
       end
 
       def where(args, includes: nil, limit: nil)
-        query = "#{generate_query(includes: includes, limit: limit)} WHERE #{where_statement(args)}"
+        query = "#{generate_query(includes: includes)} WHERE #{where_statement(args)} #{limit_statement(limit)}"
         sql_result = connection.execute(query)
 
         cast_sql_results(sql_result.to_a, includes)

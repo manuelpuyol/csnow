@@ -24,11 +24,17 @@ module CounterRecord
       case args
       when Hash
         sanitize_sql_for_conditions(hash_where_statement(args))
-      when String
+      when String, Array
         sanitize_sql_for_conditions(args)
       else
         raise ArgumentError, "Unexpected argument type #{args.class}"
       end
+    end
+
+    def limit_statement(limit)
+      return '' if limit.blank?
+
+      "LIMIT #{limit.to_i}"
     end
 
     private
@@ -112,19 +118,13 @@ module CounterRecord
       kwargs.map do |key, value|
         case value
         when Array
-          "#{table_name}.#{key} IN (#{value.join(', ')})"
+          "#{table_name}.#{key} #{sanitize_sql_for_conditions(value)}"
         when NilClass
           "#{table_name}.#{key} IS NULL"
         else
-          "#{table_name}.#{key} = #{value}"
+          sanitize_sql_for_conditions(["#{table_name}.#{key} = ?", value])
         end
       end.join(' AND ')
-    end
-
-    def limit_statement(limit)
-      return '' if limit.blank?
-
-      "LIMIT #{limit}"
     end
   end
 end
