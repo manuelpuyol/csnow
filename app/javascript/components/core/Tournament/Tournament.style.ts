@@ -15,3 +15,8 @@ export const TournamentTeamCountContainer = styled.div`
   align-items: center;
   flex-direction: column;
 `;
+
+export const TournamentActionsContainer = styled.div`
+  text-align: right;
+  margin-top: 8px;
+`;
