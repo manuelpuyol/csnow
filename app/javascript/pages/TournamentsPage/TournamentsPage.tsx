@@ -100,7 +100,8 @@ const TournamentsPage: React.FC = () => {
                   placeholder="Tournaments starting after date"
                   style={{ width: '100%' }}
                   onChange={d => {
-                    selectedDate = d.utc().toISOString();
+                    if (d) selectedDate = d.utc().toISOString();
+                    else selectedDate = null;
                   }}
                 />
               </Col>
