@@ -1,4 +1,5 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
+import TournamentInfoWithData from '@csnow/components/core/TournamentInfo/WithData/TournamentInfoWithData';
 
 interface ITournamentPageProps {
   tournamentId: string;
@@ -7,7 +8,7 @@ interface ITournamentPageProps {
 const TournamentPage: React.FC<ITournamentPageProps> = ({ tournamentId }) => {
   return (
     <Fragment>
-      <div>{tournamentId}</div>
+      <TournamentInfoWithData id={tournamentId} />
     </Fragment>
   );
 };

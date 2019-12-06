@@ -13,10 +13,10 @@ module Core
       field :end_at, ::Types::DateTimeType, null: true
 
       # Relations
-      field :rosters, [RosterType], null: false, preload: %i[upper_roster lower_roster]
-      field :winner, RosterType, null: true, preload: :winner
-      field :tournament, TournamentType, null: false, preload: :tournament
-      field :bets, [BetType], null: false, preload: :bets
+      field :rosters, [RosterType], null: false
+      field :winner, RosterType, null: true
+      field :tournament, TournamentType, null: false
+      field :bets, [BetType], null: false
     end
   end
 end
