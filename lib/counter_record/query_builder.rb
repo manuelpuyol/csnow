@@ -104,6 +104,8 @@ module CounterRecord
     end
 
     def limit_statement(limit)
+      return '' if limit.blank?
+
       "LIMIT #{limit}"
     end
   end
