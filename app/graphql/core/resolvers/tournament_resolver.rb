@@ -14,7 +14,7 @@ module Core
       private
 
       def relations
-        %i[tournament_placements rosters matches players]
+        %i[tournament_placements rosters matches]
       end
     end
   end

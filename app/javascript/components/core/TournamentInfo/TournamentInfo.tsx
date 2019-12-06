@@ -7,6 +7,7 @@ import PageContent from '@csnow/components/ui/PageContent/PageContent';
 import Card from '@csnow/components/ui/Card/Card';
 import Roster from '../Match/Roster/Roster';
 import Match from '../Match/Match';
+import { MatchContainer } from './TournamentInfo.style';
 
 interface ITournamentInfoProps {
   tournament: TournamentInfoFragment;
@@ -31,6 +32,22 @@ const buildMatch = (tournament, match): MatchFragment => ({
   tournament,
 });
 
+const findPlacement = (id, tournament) => {
+  return tournament.tournamentPlacements.find(
+    placement => placement.rosterId === id,
+  );
+};
+
+const buildPlacement = (id, tournament): React.ReactNode => {
+  const placement = findPlacement(id, tournament);
+
+  if (!placement) return <div />;
+
+  return (
+    <div>{`Placement: ${placement.place} - Prize: \$${placement.prize}`}</div>
+  );
+};
+
 const TournamentInfo: React.FC<ITournamentInfoProps> = ({ tournament }) => {
   const title = tournament.name;
 
@@ -42,7 +59,10 @@ const TournamentInfo: React.FC<ITournamentInfoProps> = ({ tournament }) => {
           <Col span={12}>
             <Card title="Participating rosters">
               {tournament.rosters.map(roster => (
-                <Roster key={roster.id} roster={roster} winner />
+                <MatchContainer key={roster.id}>
+                  <Roster roster={roster} winner />
+                  {buildPlacement(roster.id, tournament)}
+                </MatchContainer>
               ))}
             </Card>
           </Col>
