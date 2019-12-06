@@ -20,10 +20,13 @@ type Match {
   bets: [Bet!]!
   endAt: DateTime
   id: ID!
+  lowerRosterId: ID!
   rosters: [Roster!]!
   startAt: DateTime!
   tournament: Tournament!
+  upperRosterId: ID!
   winner: Roster
+  winnerId: ID
 }
 
 type Mutation {
@@ -54,6 +57,7 @@ type PlayerRanking {
 
 type Query {
   matches: [Match!]!
+  tournament(id: ID!): Tournament!
   tournaments(location: String, search: String, startDate: Time): [Tournament!]!
 }
 
@@ -96,6 +100,7 @@ type Tournament {
   finished: Boolean!
   id: ID!
   location: String
+  matches: [Match!]!
   name: String!
   rosters: [Roster!]!
   startAt: DateTime!

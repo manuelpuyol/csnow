@@ -17,6 +17,7 @@ module Core
       field :champions, TeamType, null: true
       field :rosters, [RosterType], null: false, preload: :rosters
       field :teams, [TeamType], null: false, preload: :teams
+      field :matches, [MatchType], null: false, preload: :matches
 
       def teams_count
         object.teams.size

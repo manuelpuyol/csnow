@@ -6,6 +6,9 @@ module Core
       graphql_name 'Match'
 
       field :id, ID, null: false
+      field :upper_roster_id, ID, null: false
+      field :lower_roster_id, ID, null: false
+      field :winner_id, ID, null: true
       field :start_at, ::Types::DateTimeType, null: false
       field :end_at, ::Types::DateTimeType, null: true
 
