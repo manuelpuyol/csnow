@@ -1,8 +1,6 @@
 import React from 'react';
-import moment from 'moment';
 import { useMutation } from 'react-apollo';
-import { Modal, Form, Input, DatePicker, Select, message } from 'antd';
-import locations from '@csnow/utils/locations';
+import { Modal, Form, DatePicker, Select, message } from 'antd';
 import { MatchRosterFragment } from '@csnow/schema/MatchRosterFragment';
 import {
   CreateMatchMutation,

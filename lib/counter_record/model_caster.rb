@@ -21,7 +21,10 @@ module CounterRecord
     end
 
     def cast_to_model(klass, table_name, result)
-      instantiate_instance_of(klass, model_params(klass, table_name, result))
+      params = model_params(klass, table_name, result)
+      return if params['id'].nil?
+
+      instantiate_instance_of(klass, params)
     end
 
     def model_params(klass, table_name, result)

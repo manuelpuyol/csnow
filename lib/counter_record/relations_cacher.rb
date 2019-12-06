@@ -12,7 +12,7 @@ module CounterRecord
 
         cached_relations = model_relation_results(model.id, relation, results).map do |result|
           cast_to_model(relation[:klass], relation[:table_alias], result)
-        end
+        end.compact
 
         cache_relation_by_type(model, relation, cached_relations)
       end
