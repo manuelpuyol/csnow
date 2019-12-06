@@ -51,6 +51,12 @@ Run:
 2. `rails db:migrate`
 3. `rails db:seed` to insert some data into the DB
 
+**CREATE A `.env` file with:**
+
+```
+CSNOW_DATABASE_PASSWORD=db-password-here
+```
+
 ### Running the app
 
 Start redis:
