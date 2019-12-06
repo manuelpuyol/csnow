@@ -44,7 +44,7 @@ const buildPlacement = (id, tournament): React.ReactNode => {
   if (!placement) return <div />;
 
   return (
-    <div>{`Placement: ${placement.place} - Prize: \$${placement.prize}`}</div>
+    <div>{`Placement: ${placement.place} - Prize: $${placement.prize}`}</div>
   );
 };
 

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Button } from 'antd';
 
 export const TournamentFlagContainer = styled.div`
   display: inline-block;
@@ -19,4 +20,8 @@ export const TournamentTeamCountContainer = styled.div`
 export const TournamentActionsContainer = styled.div`
   text-align: right;
   margin-top: 8px;
+`;
+
+export const ActionButton = styled(Button)`
+  margin-left: 8px;
 `;

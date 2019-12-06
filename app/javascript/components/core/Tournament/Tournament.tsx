@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { Button } from 'antd';
 import moment from 'moment';
 import { TournamentFragment } from '@csnow/schema/TournamentFragment';
 import Card from '@csnow/components/ui/Card/Card';
@@ -10,6 +9,7 @@ import {
   TournamentFlagContainer,
   TournamentTeamCountContainer,
   TournamentActionsContainer,
+  ActionButton,
 } from './Tournament.style';
 
 interface ITournamentProps {
@@ -42,10 +42,10 @@ const Tournament: React.FC<ITournamentProps> = ({ tournament }) => (
       </TournamentTeamCountContainer>
     </TournamentContainer>
     <TournamentActionsContainer>
-      <Button type="primary" href={`/tournament/${tournament.id}`}>
+      <ActionButton type="primary" href={`/tournament/${tournament.id}`}>
         View
-      </Button>
-      <Button type="danger">Delete</Button>
+      </ActionButton>
+      <ActionButton type="danger">Delete</ActionButton>
     </TournamentActionsContainer>
   </Card>
 );
