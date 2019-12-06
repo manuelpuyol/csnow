@@ -11,6 +11,7 @@ import { CreateTournamentMutationInput } from "./globalTypes";
 export interface CreateTournamentMutation_createTournament_tournament {
   __typename: "Tournament";
   id: string;
+  name: string;
 }
 
 export interface CreateTournamentMutation_createTournament {

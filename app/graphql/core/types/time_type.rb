@@ -3,7 +3,6 @@
 module Core
   module Types
     class TimeType < ::Types::BaseScalar
-
       graphql_name 'Time'
       description 'Time represented in ISO 8601'
 

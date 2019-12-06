@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 module SqlExtensions
-
   private
 
   def cast_sql_result(result)
