@@ -12,6 +12,15 @@ export interface TournamentInfoFragment_matches {
   upperRosterId: string;
   lowerRosterId: string;
   winnerId: string | null;
+  startAt: any;
+  endAt: any | null;
+}
+
+export interface TournamentInfoFragment_tournamentPlacements {
+  __typename: "TournamentPlacement";
+  rosterId: string;
+  prize: number | null;
+  place: number;
 }
 
 export interface TournamentInfoFragment_rosters {
@@ -29,5 +38,6 @@ export interface TournamentInfoFragment {
   startAt: any;
   endAt: any;
   matches: TournamentInfoFragment_matches[];
+  tournamentPlacements: TournamentInfoFragment_tournamentPlacements[];
   rosters: TournamentInfoFragment_rosters[];
 }

@@ -106,6 +106,17 @@ type Tournament {
   startAt: DateTime!
   teams: [Team!]!
   teamsCount: Int
+  tournamentPlacements: [TournamentPlacement!]!
+}
+
+type TournamentPlacement {
+  id: ID!
+  place: Int!
+  prize: Float
+  roster: Roster!
+  rosterId: ID!
+  team: Team!
+  tournament: Tournament
 }
 
 type User {

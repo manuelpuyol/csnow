@@ -6,6 +6,7 @@ module Core
       graphql_name 'TournamentPlacement'
 
       field :id, ID, null: false
+      field :roster_id, ID, null: false
       field :place, Int, null: false
       field :prize, Float, null: true
 

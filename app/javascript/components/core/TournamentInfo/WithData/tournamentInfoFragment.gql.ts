@@ -12,6 +12,13 @@ const tournamentInfoFragment = gql`
       upperRosterId
       lowerRosterId
       winnerId
+      startAt
+      endAt
+    }
+    tournamentPlacements {
+      rosterId
+      prize
+      place
     }
     rosters {
       id

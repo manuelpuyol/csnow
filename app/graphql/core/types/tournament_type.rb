@@ -18,6 +18,7 @@ module Core
       field :rosters, [RosterType], null: false
       field :teams, [TeamType], null: false
       field :matches, [MatchType], null: false
+      field :tournament_placements, [TournamentPlacementType], null: false
 
       def teams_count
         object.teams.size
