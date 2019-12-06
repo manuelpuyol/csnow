@@ -11,7 +11,7 @@ module Core
       field :tournament, Core::Types::TournamentType, null: false
 
       def resolve(attrs)
-        tournament = Tournament.create(attrs.merge(hltv_id: 0), includes: %i[tournament upper_roster lower_roster winner])
+        tournament = Tournament.create(attrs.merge(hltv_id: 0))
 
         { tournament: tournament }
       end
