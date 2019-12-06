@@ -12,7 +12,7 @@ module Core
       private
 
       def tournaments
-        @tournaments ||= Tournament.all
+        @tournaments ||= Tournament.all(includes: %i[tournament_placements rosters teams])
       end
     end
   end

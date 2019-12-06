@@ -41,6 +41,15 @@ module CounterRecord
 
           instance_variable_set(relation[:variable_name], relation[:klass].where(relation[:column_name] => id))
         end
+
+        define_method("#{name}_count") do
+          relation = relations[name]
+          count_variable = "#{relation[:variable_name]}_count"
+
+          return instance_variable_get(count_variable) if instance_variable_get(count_variable)
+
+          send(name).size
+        end
       end
       # rubocop:enable Naming/PredicateName
 
