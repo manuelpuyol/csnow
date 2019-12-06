@@ -86,7 +86,7 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
       <Form>
         <Form.Item>
           {getFieldDecorator('upperRosterId')(
-            <Select allowClear placeholder="Roster 1">
+            <Select allowClear showSearch placeholder="Roster 1">
               {rosters.map(roster => (
                 <Option value={roster.id} key={roster.id}>
                   {roster.name}
@@ -103,7 +103,7 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
               },
             ],
           })(
-            <Select allowClear placeholder="Roster 2">
+            <Select allowClear showSearch placeholder="Roster 2">
               {rosters.map(roster => (
                 <Option value={roster.id} key={roster.id}>
                   {roster.name}
@@ -120,7 +120,7 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
               },
             ],
           })(
-            <Select allowClear placeholder="Winner">
+            <Select allowClear showSearch placeholder="Winner">
               {rosters.map(roster => (
                 <Option value={roster.id} key={roster.id}>
                   {roster.name}

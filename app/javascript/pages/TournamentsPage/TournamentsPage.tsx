@@ -4,6 +4,7 @@ import locations from '@csnow/utils/locations';
 import PageHeader from '@csnow/components/ui/PageHeader/PageHeader';
 import PageContent from '@csnow/components/ui/PageContent/PageContent';
 import TournamentListWithData from '@csnow/components/core/TournamentList/WithData/TournamentListWithData';
+import CreateTournamentModal from '@csnow/components/core/CreateTournamentModal/CreateTournamentModal';
 import {
   FiltersContainer,
   FiltersButtonContainer,
@@ -16,6 +17,7 @@ const TournamentsPage: React.FC = () => {
   const [name, setName] = useState<string | null>(null);
   const [location, setLocation] = useState<string | null>(null);
   const [date, setDate] = useState<string | null>(null);
+  const [visible, setVisible] = useState<boolean>(false);
 
   let searchText: string | null = name;
   let selectedLocation: string | null = location;
@@ -27,9 +29,29 @@ const TournamentsPage: React.FC = () => {
     setDate(selectedDate);
   };
 
+  const openModal = (): void => {
+    setVisible(true);
+  };
+
+  const handleCancel = (): void => {
+    setVisible(false);
+  };
+
+  const handleOk = (): void => {
+    setVisible(false);
+  };
+
   return (
     <Fragment>
-      <PageHeader ghost={false} title="Tournaments" />
+      <PageHeader
+        ghost={false}
+        title="Tournaments"
+        extra={[
+          <Button type="primary" onClick={openModal}>
+            Create Tournament
+          </Button>,
+        ]}
+      />
       <PageContent>
         <FiltersContainer>
           <InputGroup>
@@ -86,6 +108,11 @@ const TournamentsPage: React.FC = () => {
           startDate={date}
         />
       </PageContent>
+      <CreateTournamentModal
+        visible={visible}
+        onOk={handleOk}
+        onCancel={handleCancel}
+      />
     </Fragment>
   );
 };

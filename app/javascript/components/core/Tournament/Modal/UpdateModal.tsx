@@ -71,7 +71,7 @@ const UpdateTournamentForm: React.FC<IUpdateTournamentFormProms> = ({
           {getFieldDecorator('location', {
             initialValue: tournament.location,
           })(
-            <Select allowClear placeholder="Tournament location">
+            <Select allowClear showSearch placeholder="Tournament location">
               {locations.map(loc => (
                 <Option value={loc} key={loc}>
                   {loc}

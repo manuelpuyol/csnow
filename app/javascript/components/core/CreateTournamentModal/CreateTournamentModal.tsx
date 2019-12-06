@@ -63,7 +63,7 @@ const CreateTournamentModal: React.FC<ICreateTournamentModalProms> = ({
         </Form.Item>
         <Form.Item>
           {getFieldDecorator('location')(
-            <Select allowClear placeholder="Tournament location">
+            <Select allowClear showSearch placeholder="Tournament location">
               {locations.map(loc => (
                 <Option value={loc} key={loc}>
                   {loc}
