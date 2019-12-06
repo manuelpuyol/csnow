@@ -76,6 +76,41 @@ Frontend:
 
 1. `yarn lint`
 
+### Opening the web page
+
+Access `localhost:8080`. This should trigger the webpack compilation if you are not using `webpack-dev-server`, so it will take some time to open in the first build.
+
+### Project requirements
+
+- (0) have a form that allows you to search for a record by at least 3 different attributes. One of these attributes must be a string that searches for like matches. This entity or relation, must have a key that is a foreign key for at least one other table.
+
+The home page lists Tournaments, where you can search by name (ILIKE), location (select one from dropdown) or start date after the selected.
+
+- (1) short description (eg a title or name, something to distinguish the record)
+
+Each tournament is showing their name, location, start and end dates. It also shows the number of participating teams. The list is also capped at 50 records using `LIMIT`.
+
+- (2) a link to view and/or update the record
+
+Click on the `View` button to get more info. Clicking on `Update` should open a modal with a small form of attributes to update.
+
+- (3) a button or link to delete the record
+
+Click on the `Delete` button and the tournament should be destroyed.
+
+- (4) a link to view a list or table of all records from a foreign key relationship (this list does not have to give all attributes from the other relation, but must show at least 4 attributes)
+
+When clicking on the `View` button on a tournament, you'll be redirected to a page which lists all the participating rosters, including their names, logos, placement and prize won at the tournament.
+There is also a list of matches, which shows the two teams that played that match, the winner (in bold), the start and end dates of the match.
+
+- (5) a link to create a new record that would appear in the list from the previous element.
+
+Click on `Add match` to add a new match in the tournament (can only add matches between participating rosters). A match may be in the future, with one of the rosters TBD.
+
+- (6) a link to create a new record that could appear in the search result.
+
+Click on `Create Tournament`, that should open a modal with a small form to create a brand new tournament!
+
 ### Credits
 
 This project is designed and implemented by `Manuel Puyol` exclusively for `MPCS 53001 - Databases` class from `UChicago`.
