@@ -30,9 +30,9 @@ module CounterRecord
       end
 
       # rubocop:disable Naming/PredicateName
-      def has_many(name, class_name: nil, foreign_key: "#{table_name.singularize}_id", through: nil, **_options)
+      def has_many(name, class_name: nil, foreign_key: "#{table_name.singularize}_id", through: nil, dependent: nil, **_options)
         super
-        add_relation(name, type: :has_many, class_name: class_name, foreign_key: foreign_key, through: through)
+        add_relation(name, type: :has_many, class_name: class_name, foreign_key: foreign_key, through: through, dependent: dependent)
 
         define_method(name) do
           relation = relations[name]
@@ -55,7 +55,7 @@ module CounterRecord
 
       private
 
-      def add_relation(name, type:, class_name:, foreign_key: nil, polymorphic: false, through: nil)
+      def add_relation(name, type:, class_name:, foreign_key: nil, polymorphic: false, through: nil, dependent: nil)
         relation_klass = ::ClassInferrer.infer(name, class_name, polymorphic)
 
         self.relations = relations.dup
@@ -67,7 +67,8 @@ module CounterRecord
           column_name: foreign_key || "#{name}_id",
           variable_name: "@#{name}",
           polymorphic: polymorphic,
-          through: through
+          through: through,
+          dependent: dependent
         }
       end
     end
