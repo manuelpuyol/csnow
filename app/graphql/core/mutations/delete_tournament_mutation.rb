@@ -2,8 +2,7 @@
 
 module Core
   module Mutations
-    class DeleteTournamentMutation < ::BaseRelayMutation
-
+    class DeleteTournamentMutation < ::BaseMutation
       argument :id, ID, required: true
 
       def resolve(id:)

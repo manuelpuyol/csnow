@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import { Col, Row, Input, DatePicker, Select, Button } from 'antd';
+import locations from '@csnow/utils/locations';
 import PageHeader from '@csnow/components/ui/PageHeader/PageHeader';
 import PageContent from '@csnow/components/ui/PageContent/PageContent';
 import TournamentListWithData from '@csnow/components/core/TournamentList/WithData/TournamentListWithData';
@@ -10,40 +11,6 @@ import {
 
 const InputGroup = Input.Group;
 const { Option } = Select;
-
-const locations = [
-  'Argentina',
-  'Australia',
-  'Belgium',
-  'Brazil',
-  'China',
-  'Czech Republic',
-  'Denmark',
-  'Europe',
-  'Finland',
-  'Hungary',
-  'India',
-  'Indonesia',
-  'Japan',
-  'Korea',
-  'Mongolia',
-  'Netherlands',
-  'North America',
-  'Oceania',
-  'Other',
-  'Philippines',
-  'Poland',
-  'Singapore',
-  'South Africa',
-  'South America',
-  'Sweden',
-  'Thailand',
-  'Turkey',
-  'United Arab Emirates',
-  'United Kingdom',
-  'United States',
-  'Vietnam',
-];
 
 const TournamentsPage: React.FC = () => {
   const [name, setName] = useState<string | null>(null);
@@ -109,7 +76,7 @@ const TournamentsPage: React.FC = () => {
           </InputGroup>
           <FiltersButtonContainer>
             <Button type="primary" htmlType="submit" onClick={handleClick}>
-              Filter
+              Search
             </Button>
           </FiltersButtonContainer>
         </FiltersContainer>

@@ -24,4 +24,5 @@ export const TournamentActionsContainer = styled.div`
 
 export const ActionButton = styled(Button)`
   margin-left: 8px;
+  cursor: pointer;
 `;

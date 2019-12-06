@@ -51,7 +51,6 @@ module CounterRecord
       end
 
       def update(id, attrs)
-        binding.pry
         query = generate_update_query(id, attrs)
 
         connection.execute(query)

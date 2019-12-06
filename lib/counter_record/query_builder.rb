@@ -45,7 +45,11 @@ module CounterRecord
 
     def set_statement(attrs)
       update_attrs = attrs.map do |key, value|
-        sanitize_sql_for_conditions(["#{key} = ?", value])
+        if value.nil?
+          "#{key} = NULL"
+        else
+          sanitize_sql_for_conditions(["#{key} = ?", value])
+        end
       end.join(', ')
 
       "#{update_attrs}, updated_at = NOW()"
