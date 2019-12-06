@@ -2,14 +2,14 @@
 
 module CounterRecord
   module QueryBuilder
-    def generate_query(includes)
+    def generate_query(includes:, limit:)
       include_sql_hash = generate_includes(includes)
       select_fields = include_sql_hash[:select] << select_columns_from_model(self)
 
       select_statement = "SELECT #{select_fields.join(', ')} FROM #{table_name}"
       join_statements = include_sql_hash[:join].join(' ')
 
-      "#{select_statement} #{join_statements}"
+      "#{select_statement} #{join_statements} #{limit_statement(limit)}"
     end
 
     def find_statement(id)
@@ -101,6 +101,10 @@ module CounterRecord
           "#{table_name}.#{key} = #{value}"
         end
       end.join(' AND ')
+    end
+
+    def limit_statement(limit)
+      "LIMIT #{limit}"
     end
   end
 end

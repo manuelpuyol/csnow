@@ -16,29 +16,29 @@ module CounterRecord
     end
 
     module ClassMethods
-      def all(includes: nil)
-        query = generate_query(includes)
+      def all(includes: nil, limit: nil)
+        query = generate_query(includes: includes, limit: limit)
         sql_result = connection.execute(query)
 
         cast_sql_results(sql_result.to_a, includes)
       end
 
       def find(id, includes: nil)
-        query = "#{generate_query(includes)} #{find_statement(id)}"
+        query = "#{generate_query(includes: includes)} #{find_statement(id)}"
         sql_result = connection.execute(query)
 
         cast_sql_results(sql_result.to_a, includes).first
       end
 
       def first(includes: nil)
-        query = "#{generate_query(includes)} #{first_statement}"
+        query = "#{generate_query(includes: includes)} #{first_statement}"
         sql_result = connection.execute(query)
 
         cast_sql_results(sql_result.to_a, includes).first
       end
 
-      def where(args, includes: nil)
-        query = "#{generate_query(includes)} WHERE #{where_statement(args)}"
+      def where(args, includes: nil, limit: nil)
+        query = "#{generate_query(includes: includes, limit: limit)} WHERE #{where_statement(args)}"
         sql_result = connection.execute(query)
 
         cast_sql_results(sql_result.to_a, includes)
