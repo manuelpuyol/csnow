@@ -54,7 +54,7 @@ type PlayerRanking {
 
 type Query {
   matches: [Match!]!
-  tournaments: [Tournament!]!
+  tournaments(location: String, search: String, startDate: Time): [Tournament!]!
 }
 
 type Roster {
@@ -84,6 +84,11 @@ type TeamRanking {
   rankedAt: DateTime!
   team: Team
 }
+
+"""
+Time represented in ISO 8601
+"""
+scalar Time
 
 type Tournament {
   champions: Team

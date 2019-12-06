@@ -19,3 +19,9 @@ export interface TournamentListQuery_tournaments {
 export interface TournamentListQuery {
   tournaments: TournamentListQuery_tournaments[];
 }
+
+export interface TournamentListQueryVariables {
+  search?: string | null;
+  location?: string | null;
+  startDate?: any | null;
+}

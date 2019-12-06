@@ -1,14 +1,34 @@
 import React, { Fragment } from 'react';
 import useQuery from '@csnow/services/hooks/useQuery';
-import { TournamentListQuery } from '@csnow/schema/TournamentListQuery';
+import {
+  TournamentListQuery,
+  TournamentListQueryVariables,
+} from '@csnow/schema/TournamentListQuery';
 import tournamentListQuery from './tournamentListQuery.gql';
 import TournamentListLoading from '../TournamentListLoading';
 import TournamentList from '../TournamentList';
 
-const TournamentListWithData: React.FC = () => {
-  const { data, loading } = useQuery<TournamentListQuery, {}>(
-    tournamentListQuery,
-  );
+interface ITournamentListWithDataProps {
+  name: string | null;
+  location: string | null;
+  startDate: string | null;
+}
+
+const TournamentListWithData: React.FC<ITournamentListWithDataProps> = ({
+  name,
+  location,
+  startDate,
+}) => {
+  const { data, loading } = useQuery<
+    TournamentListQuery,
+    TournamentListQueryVariables
+  >(tournamentListQuery, {
+    variables: {
+      search: name,
+      location,
+      startDate,
+    },
+  });
   return (
     <Fragment>
       {loading ? (
