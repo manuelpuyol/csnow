@@ -5,10 +5,10 @@ import { Modal, Form, Input, DatePicker, Select } from 'antd';
 import locations from '@csnow/utils/locations';
 import { MatchRosterFragment } from '@csnow/schema/MatchRosterFragment';
 import {
-  UpdateTournamentMutation,
-  UpdateTournamentMutationVariables,
-} from '@csnow/schema/UpdateTournamentMutation';
-import updateTournamentMutation from './updateTournamentMutation.gql';
+  CreateMatchMutation,
+  CreateMatchMutationVariables,
+} from '@csnow/schema/CreateMatchMutation';
+import createMatchMutation from './createMatchMutation.gql';
 
 interface IAddMatchModalProms {
   tournamentId: string;
@@ -29,36 +29,47 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
 }) => {
   const { getFieldDecorator } = form;
 
-  const [updateTournament] = useMutation<
-    UpdateTournamentMutation,
-    UpdateTournamentMutationVariables
-  >(updateTournamentMutation);
+  const [createMatch] = useMutation<
+    CreateMatchMutation,
+    CreateMatchMutationVariables
+  >(createMatchMutation);
 
   const handleSubmit = (): void => {
     form.validateFields((err, values) => {
       if (!err) {
-        // updateTournament({
-        //   variables: {
-        //     input: {
-        //       id: tournament.id,
-        //       name: values.name,
-        //       location: values.location,
-        //       startAt: values.startAt.utc().toISOString(),
-        //       endAt: values.endAt.utc().toISOString(),
-        //     },
-        //   },
-        // }).then(() => {
-        //   onOk();
-        // });
-        console.log(values);
+        createMatch({
+          variables: {
+            input: {
+              tournamentId,
+              upperRosterId: values.upperRosterId,
+              lowerRosterId: values.lowerRosterId,
+              winnerId: values.winnerId,
+              startAt: values.startAt.utc().toISOString(),
+              endAt: values.endAt.utc().toISOString(),
+            },
+          },
+        }).then(() => {
+          onOk();
+        });
       }
     });
-    // onOk();
   };
 
   const compareToFirstRoster = (rule, value, callback) => {
     if (value && value === form.getFieldValue('upperRosterId')) {
       callback("A team can't play itself");
+    } else {
+      callback();
+    }
+  };
+
+  const winnerMustBeInMatch = (rule, value, callback) => {
+    if (
+      value &&
+      value !== form.getFieldValue('upperRosterId') &&
+      value !== form.getFieldValue('lowerRosterId')
+    ) {
+      callback('Winner must be in match');
     } else {
       callback();
     }
@@ -102,14 +113,31 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
           )}
         </Form.Item>
         <Form.Item>
+          {getFieldDecorator('winnerId', {
+            rules: [
+              {
+                validator: winnerMustBeInMatch,
+              },
+            ],
+          })(
+            <Select allowClear placeholder="Winner">
+              {rosters.map(roster => (
+                <Option value={roster.id} key={roster.id}>
+                  {roster.name}
+                </Option>
+              ))}
+            </Select>,
+          )}
+        </Form.Item>
+        <Form.Item>
           {getFieldDecorator('startAt', {
             rules: [{ required: true, message: 'Date missing' }],
           })(<DatePicker placeholder="Match start date" />)}
         </Form.Item>
         <Form.Item>
-          {getFieldDecorator('endAt', {
-            rules: [{ required: true, message: 'Date missing' }],
-          })(<DatePicker placeholder="Match end date" />)}
+          {getFieldDecorator('endAt')(
+            <DatePicker placeholder="Match end date" />,
+          )}
         </Form.Item>
       </Form>
     </Modal>

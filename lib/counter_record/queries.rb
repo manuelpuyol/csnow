@@ -55,6 +55,15 @@ module CounterRecord
 
         connection.execute(query)
       end
+
+      def create(attrs, includes: nil)
+        query = generate_create_query(attrs.with_indifferent_access)
+
+        sql_result = connection.execute(query)
+
+        id = sql_result.to_a.first['id']
+        find(id, includes: includes)
+      end
     end
   end
 end

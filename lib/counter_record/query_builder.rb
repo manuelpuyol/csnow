@@ -41,6 +41,20 @@ module CounterRecord
       "UPDATE #{table_name} SET #{set_statement(attrs)} WHERE #{table_name}.id = #{id.to_i}"
     end
 
+    def generate_create_query(attrs)
+      sorted_columns = column_names.sort - ['id']
+      columns = sorted_columns.join(', ')
+      column_values = sorted_columns.map do |col|
+        if col == 'created_at' || col == 'updated_at'
+          'NOW()'
+        else
+          sanitize_sql_for_assignment(['?', attrs[col]])
+        end
+      end.join(', ')
+
+      "INSERT INTO #{table_name} (#{columns}) VALUES (#{column_values}) RETURNING ID"
+    end
+
     private
 
     def set_statement(attrs)

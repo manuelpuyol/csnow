@@ -4,5 +4,6 @@ module Types
   class MutationType < Types::BaseObject
     field :delete_tournament, mutation: Core::Mutations::DeleteTournamentMutation
     field :update_tournament, mutation: Core::Mutations::UpdateTournamentMutation
+    field :create_match, mutation: Core::Mutations::CreateMatchMutation
   end
 end
