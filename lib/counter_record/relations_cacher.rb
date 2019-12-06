@@ -34,7 +34,7 @@ module CounterRecord
     def model_relation_results(id, relation, results)
       table_alias = relation[:table_alias]
 
-      results.select { |result| result["#{table_name}_id"] = id }
+      results.select { |result| result["#{table_name}_id"] == id }
              .uniq { |result| result["#{table_alias}_id"] }
     end
   end
