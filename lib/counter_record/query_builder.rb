@@ -37,7 +37,19 @@ module CounterRecord
       "LIMIT #{limit.to_i}"
     end
 
+    def generate_update_query(id, attrs)
+      "UPDATE #{table_name} SET #{set_statement(attrs)} WHERE #{table_name}.id = #{id.to_i}"
+    end
+
     private
+
+    def set_statement(attrs)
+      update_attrs = attrs.map do |key, value|
+        sanitize_sql_for_conditions(["#{key} = ?", value])
+      end.join(', ')
+
+      "#{update_attrs}, updated_at = NOW()"
+    end
 
     def generate_includes(includes)
       base_hash = { select: [], join: [] }

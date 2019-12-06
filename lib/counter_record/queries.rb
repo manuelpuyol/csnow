@@ -15,6 +15,12 @@ module CounterRecord
       self.class.find(id, includes: includes)
     end
 
+    def update(attrs)
+      self.class.update(id, attrs)
+      assign_attributes(attrs)
+      self
+    end
+
     module ClassMethods
       def all(includes: nil, limit: nil)
         query = generate_query(includes: includes, limit: limit)
@@ -42,6 +48,13 @@ module CounterRecord
         sql_result = connection.execute(query)
 
         cast_sql_results(sql_result.to_a, includes)
+      end
+
+      def update(id, attrs)
+        binding.pry
+        query = generate_update_query(id, attrs)
+
+        connection.execute(query)
       end
     end
   end
