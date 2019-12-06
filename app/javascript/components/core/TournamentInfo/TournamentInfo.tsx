@@ -5,8 +5,10 @@ import { MatchFragment } from '@csnow/schema/MatchFragment';
 import Card from '@csnow/components/ui/Card/Card';
 import Roster from '../Match/Roster/Roster';
 import Match from '../Match/Match';
+import MatchListEmpty from '../MatchList/MatchListEmpty';
 import { MatchContainer } from './TournamentInfo.style';
 import AddMatchModal from './Modal/AddMatchModal';
+import TournamentInfoEmptyRosters from './TournamentInfoEmptyRosters';
 
 interface ITournamentInfoProps {
   tournament: TournamentInfoFragment;
@@ -76,6 +78,7 @@ const TournamentInfo: React.FC<ITournamentInfoProps> = ({ tournament }) => {
                 {buildPlacement(roster.id, tournament)}
               </MatchContainer>
             ))}
+            {tournament.rosters.length === 0 && <TournamentInfoEmptyRosters />}
           </Card>
         </Col>
         <Col span={12}>
@@ -90,6 +93,7 @@ const TournamentInfo: React.FC<ITournamentInfoProps> = ({ tournament }) => {
             {tournament.matches.map(match => (
               <Match key={match.id} match={buildMatch(tournament, match)} />
             ))}
+            {tournament.matches.length === 0 && <MatchListEmpty />}
           </Card>
         </Col>
       </Row>
