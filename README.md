@@ -88,6 +88,8 @@ Access `localhost:8080`. This should trigger the webpack compilation if you are 
 
 ### Project requirements
 
+- `create_db.sql` and `populate_db.sql` are on the `db/` folder
+
 - (0) have a form that allows you to search for a record by at least 3 different attributes. One of these attributes must be a string that searches for like matches. This entity or relation, must have a key that is a foreign key for at least one other table.
 
 The home page lists Tournaments, where you can search by name (ILIKE), location (select one from dropdown) or start date after the selected.
