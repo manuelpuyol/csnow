@@ -1,7 +1,7 @@
 import gql from 'graphql-tag';
 import tournamentFragment from '../../TournamentList/WithData/tournamentFragment.gql';
 
-const tournamentQuery = gql`
+const updateTournamentMutation = gql`
   mutation UpdateTournamentMutation($input: UpdateTournamentMutationInput!) {
     updateTournament(input: $input) {
       tournament {
@@ -12,4 +12,4 @@ const tournamentQuery = gql`
   ${tournamentFragment}
 `;
 
-export default tournamentQuery;
+export default updateTournamentMutation;

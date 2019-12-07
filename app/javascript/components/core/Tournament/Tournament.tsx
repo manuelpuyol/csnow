@@ -1,9 +1,15 @@
 import React, { Fragment, useState } from 'react';
 import moment from 'moment';
+import { useMutation } from 'react-apollo';
+import { message } from 'antd';
 import { TournamentFragment } from '@csnow/schema/TournamentFragment';
 import Card from '@csnow/components/ui/Card/Card';
 import { Text } from '@csnow/components/ui/Typography/Typography';
 import CountryFlag from '@csnow/components/ui/CountryFlag/CountryFlag';
+import {
+  DeleteTournamentMutation,
+  DeleteTournamentMutationVariables,
+} from '@csnow/schema/DeleteTournamentMutation';
 import {
   TournamentContainer,
   TournamentFlagContainer,
@@ -12,13 +18,20 @@ import {
   ActionButton,
 } from './Tournament.style';
 import TournamentUpdateModal from './Modal/UpdateModal';
+import deleteTournamentMutation from './deleteTournamentMutation.gql';
 
 interface ITournamentProps {
   tournament: TournamentFragment;
+  onDelete: (id: string) => void;
 }
 
-const Tournament: React.FC<ITournamentProps> = ({ tournament }) => {
+const Tournament: React.FC<ITournamentProps> = ({ tournament, onDelete }) => {
   const [visible, setVisible] = useState<boolean>(false);
+
+  const [deleteTournament] = useMutation<
+    DeleteTournamentMutation,
+    DeleteTournamentMutationVariables
+  >(deleteTournamentMutation);
 
   const openModal = (): void => {
     setVisible(true);
@@ -30,6 +43,29 @@ const Tournament: React.FC<ITournamentProps> = ({ tournament }) => {
 
   const handleOk = (): void => {
     setVisible(false);
+  };
+
+  const handleDelete = (): void => {
+    deleteTournament({
+      variables: {
+        input: {
+          id: tournament.id,
+        },
+      },
+    })
+      .then(response => {
+        if (response.data.deleteTournament.errors) {
+          message.error(
+            'Oh no, something went wrong while deleting the tournament',
+          );
+        } else {
+          onDelete(tournament.id);
+          message.success(`${tournament.name} has been deleted successfully`);
+        }
+      })
+      .catch(e => {
+        message.error('Uh oh, some unexpected error happened', e);
+      });
   };
 
   return (
@@ -64,7 +100,9 @@ const Tournament: React.FC<ITournamentProps> = ({ tournament }) => {
           View
         </ActionButton>
         <ActionButton onClick={openModal}>Update</ActionButton>
-        <ActionButton type="danger">Delete</ActionButton>
+        <ActionButton type="danger" onClick={handleDelete}>
+          Delete
+        </ActionButton>
       </TournamentActionsContainer>
       <TournamentUpdateModal
         tournament={tournament}

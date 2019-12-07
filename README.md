@@ -103,6 +103,7 @@ Click on the `View` button to get more info. Clicking on `Update` should open a 
 - (3) a button or link to delete the record
 
 Click on the `Delete` button and the tournament should be destroyed.
+It also destroys the tournament matches, the bets placed on those matches and the tournament_placemenets of the tournament
 
 - (4) a link to view a list or table of all records from a foreign key relationship (this list does not have to give all attributes from the other relation, but must show at least 4 attributes)
 
