@@ -55,6 +55,10 @@ module CounterRecord
       "INSERT INTO #{table_name} (#{columns}) VALUES (#{column_values}) RETURNING id"
     end
 
+    def generate_destroy_query(id)
+      "DELETE FROM #{table_name} WHERE id = #{id.to_i}"
+    end
+
     private
 
     def set_statement(attrs)

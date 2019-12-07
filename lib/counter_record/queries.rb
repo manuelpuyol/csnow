@@ -21,6 +21,16 @@ module CounterRecord
       self
     end
 
+    def destroy
+      ActiveRecord::Base.transaction do
+        destroy_dependents
+        self.class.destroy(id)
+      end
+      true
+    rescue StandardError
+      false
+    end
+
     module ClassMethods
       def all(includes: nil, limit: nil)
         query = generate_query(includes: includes, limit: limit)
@@ -63,6 +73,27 @@ module CounterRecord
 
         id = sql_result.to_a.first['id']
         find(id, includes: includes)
+      end
+
+      def destroy(id)
+        query = generate_destroy_query(id)
+
+        connection.execute(query)
+      end
+    end
+
+    private
+
+    def destroy_dependents
+      dependent_relations.each do |name, relation|
+        instances = send(name)
+        instances&.each(&:destroy)
+      end
+    end
+
+    def dependent_relations
+      relations.select do |_name, relation|
+        relation[:dependent] == :destroy
       end
     end
   end
