@@ -14,7 +14,7 @@ interface IUpdateTournamentFormProms {
   tournament: TournamentFragment;
   form: any;
   visible: boolean;
-  onOk: () => void;
+  onOk: (tournament: TournamentFragment) => void;
   onCancel: () => void;
 }
 const { Option } = Select;
@@ -46,9 +46,9 @@ const UpdateTournamentForm: React.FC<IUpdateTournamentFormProms> = ({
             },
           },
         })
-          .then(() => {
+          .then(response => {
             message.success('Tournament updated successfully!');
-            onOk();
+            onOk(response.data.updateTournament.tournament);
           })
           .catch(e => {
             message.error('Uh oh, some unexpected error happened', e);

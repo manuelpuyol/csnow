@@ -25,8 +25,12 @@ interface ITournamentProps {
   onDelete: (id: string) => void;
 }
 
-const Tournament: React.FC<ITournamentProps> = ({ tournament, onDelete }) => {
+const Tournament: React.FC<ITournamentProps> = ({
+  tournament: t,
+  onDelete,
+}) => {
   const [visible, setVisible] = useState<boolean>(false);
+  const [tournament, setTournament] = useState<TournamentFragment>(t);
 
   const [deleteTournament] = useMutation<
     DeleteTournamentMutation,
@@ -41,7 +45,8 @@ const Tournament: React.FC<ITournamentProps> = ({ tournament, onDelete }) => {
     setVisible(false);
   };
 
-  const handleOk = (): void => {
+  const handleOk = (tournament: TournamentFragment): void => {
+    setTournament(tournament);
     setVisible(false);
   };
 
