@@ -1,5 +1,3 @@
-import 'antd/dist/antd.css';
-import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import React, { useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
