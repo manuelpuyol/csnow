@@ -28,6 +28,14 @@ const CreateTournamentModal: React.FC<ICreateTournamentModalProms> = ({
     CreateTournamentMutationVariables
   >(createTournamentMutation);
 
+  const endAtMustBeAfterStartAt = (rule, value, callback) => {
+    if (value && value < form.getFieldValue('startAt')) {
+      callback('Tournament must end at after it starts');
+    } else {
+      callback();
+    }
+  };
+
   const handleSubmit = (): void => {
     form.validateFields((err, values) => {
       if (!err) {
@@ -90,7 +98,10 @@ const CreateTournamentModal: React.FC<ICreateTournamentModalProms> = ({
         </Form.Item>
         <Form.Item>
           {getFieldDecorator('endAt', {
-            rules: [{ required: true, message: 'Date missing' }],
+            rules: [
+              { required: true, message: 'Date missing' },
+              { validator: endAtMustBeAfterStartAt },
+            ],
           })(<DatePicker placeholder="Tournament end date" />)}
         </Form.Item>
       </Form>

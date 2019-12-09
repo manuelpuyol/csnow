@@ -84,6 +84,14 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
     }
   };
 
+  const endAtMustBeAfterStartAt = (rule, value, callback) => {
+    if (value && value < form.getFieldValue('startAt')) {
+      callback('Tournament must end at after it starts');
+    } else {
+      callback();
+    }
+  };
+
   return (
     <Modal
       title="Add Match"
@@ -144,9 +152,13 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
           })(<DatePicker placeholder="Match start date" />)}
         </Form.Item>
         <Form.Item>
-          {getFieldDecorator('endAt')(
-            <DatePicker placeholder="Match end date" />,
-          )}
+          {getFieldDecorator('endAt', {
+            rules: [
+              {
+                validator: endAtMustBeAfterStartAt,
+              },
+            ],
+          })(<DatePicker placeholder="Match end date" />)}
         </Form.Item>
       </Form>
     </Modal>

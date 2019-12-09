@@ -32,6 +32,14 @@ const UpdateTournamentForm: React.FC<IUpdateTournamentFormProms> = ({
     UpdateTournamentMutationVariables
   >(updateTournamentMutation);
 
+  const endAtMustBeAfterStartAt = (rule, value, callback) => {
+    if (value && value < form.getFieldValue('startAt')) {
+      callback('Tournament must end at after it starts');
+    } else {
+      callback();
+    }
+  };
+
   const handleSubmit = (): void => {
     form.validateFields((err, values) => {
       if (!err) {
@@ -99,7 +107,10 @@ const UpdateTournamentForm: React.FC<IUpdateTournamentFormProms> = ({
         </Form.Item>
         <Form.Item>
           {getFieldDecorator('endAt', {
-            rules: [{ required: true, message: 'Date missing' }],
+            rules: [
+              { required: true, message: 'Date missing' },
+              { validator: endAtMustBeAfterStartAt },
+            ],
             initialValue: moment(tournament.endAt),
           })(<DatePicker placeholder="Tournament end date" />)}
         </Form.Item>
