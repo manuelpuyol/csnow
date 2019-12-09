@@ -1,6 +1,7 @@
 # CSNow
 
 CSNow is a web application implemented using Ruby on Rails + React + GraphQL to follow CSGO matches, tournaments, teams and players.
+See a production running app [here](https://csnow-mpcs.herokuapp.com/)
 
 ### Data
 
