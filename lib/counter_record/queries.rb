@@ -85,7 +85,7 @@ module CounterRecord
     private
 
     def destroy_dependents
-      dependent_relations.each do |name, relation|
+      dependent_relations.each do |name, _relation|
         instances = send(name)
         instances&.each(&:destroy)
       end
