@@ -13,7 +13,7 @@ module Core
       field :errors, [String], null: true
 
       def resolve(id:, location: nil, **attrs)
-        tournament = Tournament.find(id,  includes: %i[tournament_placements rosters teams])
+        tournament = Tournament.find(id, includes: %i[tournament_placements rosters teams])
 
         res = tournament.update(attrs.merge(location: location))
 

@@ -70,7 +70,7 @@ module CounterRecord
 
       def create(attrs, includes: nil)
         model = new(attrs)
-        return false unless model.valid?
+        return model unless model.valid?
 
         query = generate_create_query(attrs.with_indifferent_access)
 

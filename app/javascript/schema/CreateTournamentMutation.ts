@@ -16,7 +16,8 @@ export interface CreateTournamentMutation_createTournament_tournament {
 
 export interface CreateTournamentMutation_createTournament {
   __typename: "CreateTournamentMutationPayload";
-  tournament: CreateTournamentMutation_createTournament_tournament;
+  tournament: CreateTournamentMutation_createTournament_tournament | null;
+  errors: string[] | null;
 }
 
 export interface CreateTournamentMutation {

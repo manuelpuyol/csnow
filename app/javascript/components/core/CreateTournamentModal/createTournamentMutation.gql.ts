@@ -7,6 +7,7 @@ const createTournamentMutation = gql`
         id
         name
       }
+      errors
     }
   }
 `;

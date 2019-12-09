@@ -42,9 +42,14 @@ const CreateTournamentModal: React.FC<ICreateTournamentModalProms> = ({
           },
         })
           .then(response => {
-            const tournament = response.data.createTournament.tournament;
-            message.success(`Tournament ${tournament.name} created!`);
-            onOk(tournament);
+            const e = response.data.createTournament.errors;
+            if (e) {
+              message.error(e.join('\n'));
+            } else {
+              const t = response.data.createTournament.tournament;
+              message.success(`Tournament ${t.name} created!`);
+              onOk(t);
+            }
           })
           .catch(e => {
             message.error('Uh oh, some unexpected error happened', e);
