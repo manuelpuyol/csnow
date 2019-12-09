@@ -45,17 +45,35 @@ Finally, install [redis](https://redis.io)
 
 You must have [PostgreSQL](https://www.postgresql.org) installed.
 
+There are two types of databases you may use:
+
+#### Local DB
+
+Change the file `config/database.yml`, on `development` env change to:
+
+```
+development:
+  <<: *default
+  database: csnow_development
+```
+
 Run:
 
 1. `rails db:create`
 2. `rails db:migrate`
 3. `rails db:seed` to insert some data into the DB
 
-**CREATE A `.env` file with:**
+#### Remove DB - USE THIS FOR GRADING
+
+**CREATE A `.env` file in the project root with:**
 
 ```
 CSNOW_DATABASE_PASSWORD=db-password-here
 ```
+
+The remote database should be set up, but if it isn't, you can run the script on `db/create_db.sql` to create a correct schema.
+Then, run `rails db:migrate` to make sure everything is correct.
+Finally, you may run the script on `db/populate_db.sql` to add some data.
 
 ### Running the app
 

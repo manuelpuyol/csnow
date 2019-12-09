@@ -18,6 +18,7 @@ gem 'webpacker'
 
 group :development, :test do
   gem 'annotate'
+  gem 'dotenv-rails'
   gem 'factory_bot_rails'
   gem 'pry-rails'
   gem 'rspec-rails', '= 4.0.0.beta2'
