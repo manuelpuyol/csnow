@@ -11,7 +11,7 @@ module Core
       field :start_at, ::Types::DateTimeType, null: false
       field :end_at, ::Types::DateTimeType, null: false
       field :finished, Boolean, null: false
-      field :teams_count, Int, null: true, preload: :teams
+      field :teams_count, Int, null: true
 
       # Relations
       field :champions, TeamType, null: true

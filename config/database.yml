@@ -37,4 +37,5 @@ production:
   database: manuelpuyol
   username: manuelpuyol
   password: <%= ENV['CSNOW_DATABASE_PASSWORD'] %>
+  url: postgres://manuelpuyol:<%= ENV['CSNOW_DATABASE_PASSWORD'] %>@mpcs53001-3-pub.cs.uchicago.edu
   host: mpcs53001-3-pub.cs.uchicago.edu
