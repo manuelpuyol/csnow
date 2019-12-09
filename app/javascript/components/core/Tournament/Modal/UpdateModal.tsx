@@ -47,8 +47,14 @@ const UpdateTournamentForm: React.FC<IUpdateTournamentFormProms> = ({
           },
         })
           .then(response => {
-            message.success('Tournament updated successfully!');
-            onOk(response.data.updateTournament.tournament);
+            const e = response.data.updateTournament.errors;
+
+            if (e) {
+              message.error(e.join('\n'));
+            } else {
+              message.success('Tournament updated successfully!');
+              onOk(response.data.updateTournament.tournament);
+            }
           })
           .catch(e => {
             message.error('Uh oh, some unexpected error happened', e);

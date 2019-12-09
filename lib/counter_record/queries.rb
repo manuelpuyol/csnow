@@ -69,8 +69,8 @@ module CounterRecord
       end
 
       def create(attrs, includes: nil)
-        model = self.new(attrs)
-        return false unless mode.valid?
+        model = new(attrs)
+        return false unless model.valid?
 
         query = generate_create_query(attrs.with_indifferent_access)
 

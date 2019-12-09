@@ -9,14 +9,19 @@ module Core
       argument :start_at, Core::Types::TimeType, required: true
       argument :end_at, Core::Types::TimeType, required: true
 
-      field :tournament, Core::Types::TournamentType, null: false
+      field :tournament, Core::Types::TournamentType, null: true
+      field :errors, [String], null: true
 
       def resolve(id:, location: nil, **attrs)
-        tournament = Tournament.find(id)
+        tournament = Tournament.find(id,  includes: %i[tournament_placements rosters teams])
 
-        tournament.update(attrs.merge(location: location))
+        res = tournament.update(attrs.merge(location: location))
 
-        { tournament: Tournament.find(id, includes: %i[tournament_placements rosters teams]) }
+        if res
+          { tournament: tournament }
+        else
+          { errors: tournament.errors.full_messages }
+        end
       end
     end
   end

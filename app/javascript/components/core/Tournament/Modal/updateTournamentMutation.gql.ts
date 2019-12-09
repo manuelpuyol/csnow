@@ -7,6 +7,7 @@ const updateTournamentMutation = gql`
       tournament {
         ...TournamentFragment
       }
+      errors
     }
   }
   ${tournamentFragment}

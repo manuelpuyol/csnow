@@ -20,7 +20,8 @@ export interface UpdateTournamentMutation_updateTournament_tournament {
 
 export interface UpdateTournamentMutation_updateTournament {
   __typename: "UpdateTournamentMutationPayload";
-  tournament: UpdateTournamentMutation_updateTournament_tournament;
+  tournament: UpdateTournamentMutation_updateTournament_tournament | null;
+  errors: string[] | null;
 }
 
 export interface UpdateTournamentMutation {
