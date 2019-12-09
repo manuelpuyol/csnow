@@ -16,9 +16,11 @@ module CounterRecord
     end
 
     def update(attrs)
-      self.class.update(id, attrs)
       assign_attributes(attrs)
-      self
+      return false unless valid?
+
+      self.class.update(id, attrs)
+      true
     end
 
     def destroy
@@ -67,6 +69,9 @@ module CounterRecord
       end
 
       def create(attrs, includes: nil)
+        model = self.new(attrs)
+        return false unless mode.valid?
+
         query = generate_create_query(attrs.with_indifferent_access)
 
         sql_result = connection.execute(query)

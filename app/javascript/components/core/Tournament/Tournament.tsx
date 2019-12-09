@@ -45,8 +45,8 @@ const Tournament: React.FC<ITournamentProps> = ({
     setVisible(false);
   };
 
-  const handleOk = (tournament: TournamentFragment): void => {
-    setTournament(tournament);
+  const handleOk = (updatedTournament: TournamentFragment): void => {
+    setTournament(updatedTournament);
     setVisible(false);
   };
 
