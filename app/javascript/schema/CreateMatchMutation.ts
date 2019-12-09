@@ -34,7 +34,8 @@ export interface CreateMatchMutation_createMatch_match {
 
 export interface CreateMatchMutation_createMatch {
   __typename: "CreateMatchMutationPayload";
-  match: CreateMatchMutation_createMatch_match;
+  match: CreateMatchMutation_createMatch_match | null;
+  errors: string[] | null;
 }
 
 export interface CreateMatchMutation {

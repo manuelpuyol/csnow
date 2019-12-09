@@ -48,8 +48,14 @@ const AddMatchModal: React.FC<IAddMatchModalProms> = ({
           },
         })
           .then(response => {
-            message.success('Tournament updated successfully!');
-            onOk(response.data.createMatch.match);
+            const e = response.data.createMatch.errors;
+
+            if (e) {
+              message.error(e.join('\n'));
+            } else {
+              message.success('Tournament updated successfully!');
+              onOk(response.data.createMatch.match);
+            }
           })
           .catch(e => {
             message.error('Uh oh, some unexpected error happened', e);

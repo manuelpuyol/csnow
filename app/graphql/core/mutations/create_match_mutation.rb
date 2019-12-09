@@ -10,12 +10,17 @@ module Core
       argument :start_at, Core::Types::TimeType, required: true
       argument :end_at, Core::Types::TimeType, required: false
 
-      field :match, Core::Types::MatchType, null: false
+      field :match, Core::Types::MatchType, null: true
+      field :errors, [String], null: true
 
       def resolve(attrs)
         match = Match.create(attrs.merge(hltv_id: 0), includes: %i[tournament upper_roster lower_roster winner])
 
-        { match: match }
+        if match.errors.present?
+          { errors: match.errors.full_messages }
+        else
+          { match: match }
+        end
       end
     end
   end

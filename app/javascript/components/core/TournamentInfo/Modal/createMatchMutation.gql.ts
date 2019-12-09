@@ -7,6 +7,7 @@ const createMatchMutation = gql`
       match {
         ...MatchFragment
       }
+      errors
     }
   }
   ${matchFragment}
