@@ -64,7 +64,7 @@ Run:
 2. `rails db:migrate`
 3. `rails db:seed` to insert some data into the DB
 
-#### Remove DB - USE THIS FOR GRADING
+#### Remote DB - USE THIS FOR GRADING
 
 **CREATE A `.env` file in the project root with:**
 
